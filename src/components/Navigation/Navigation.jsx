@@ -7,14 +7,16 @@ export default function Navigation({ onNavigate }) {
   const getNavLinkByClass = ({ isActive }) => {
     return clsx(css.link, isActive && css.active);
   };
-
-  const handleLinkClick = (event) => {
+  const handleCloseClick = () => {
+    onNavigate();
+  };
+  const handleLinkClick = () => {
     onNavigate();
   };
 
   return (
-    <div>
-      <IoMdClose />
+    <div className={css.menuContainer}>
+      <IoMdClose onClick={handleCloseClick} className={css.closeIcon} />
       <nav className={css.navigation}>
         <NavLink
           to="/about-us"

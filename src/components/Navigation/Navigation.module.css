@@ -28,3 +28,9 @@ flex-direction: column;
 .navVision {
     display: none;
 }
+.menuContainer{
+    position: fixed;
+        top: 0;
+        background-color: white;
+        z-index: 20;
+}
