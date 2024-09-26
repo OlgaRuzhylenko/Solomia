@@ -1,4 +1,17 @@
 /* тут будуть глобальні стилі */
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('./fonts/Proxima\ Nova\ Semibold\ Italic.otf') format('otf');
+    font-weight: 600;
+    font-style:italic;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('./fonts/proximanova-bold_1.otf') format('otf');
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
     font-family: sans-serif;
     line-height: 1.5;

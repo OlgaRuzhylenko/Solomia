@@ -2,6 +2,7 @@ import { Suspense, useState } from "react";
 import Navigation from "../Navigation/Navigation";
 import css from "./Layout.module.css";
 import BackDrop from "../BackDrop/BackDrop";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Layout({ children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,10 +18,10 @@ export default function Layout({ children }) {
     <div>
       {/* {isOpen && <BackDrop handleMenu={handleMenu} />} */}
 
-      {isOpen ? (
-        <button onClick={handleMenu}>Close</button>
-      ) : (
-        <button onClick={handleMenu}>Open</button>
+      {isOpen ? null : (
+        <button onClick={handleMenu}>
+          <GiHamburgerMenu />
+        </button>
       )}
 
       {isOpen && <Navigation onNavigate={handleNavigationClick} />}
