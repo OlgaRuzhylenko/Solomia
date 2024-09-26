@@ -17,6 +17,10 @@ body {
     line-height: 1.5;
 }
 
+* {
+  outline: 1px solid red;
+}
+
 h1,
 h2,
 h3,

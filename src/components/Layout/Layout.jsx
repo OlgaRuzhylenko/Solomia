@@ -4,7 +4,7 @@ import css from "./Layout.module.css";
 import BackDrop from "../BackDrop/BackDrop";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-export default function Layout({ children }) {
+export default function Layout({ children, className }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleMenu = () => {
@@ -15,7 +15,7 @@ export default function Layout({ children }) {
   };
 
   return (
-    <div>
+    <div className={className}>
       {isOpen && <BackDrop handleMenu={handleMenu} />}{" "}
       {!isOpen && (
         <button onClick={handleMenu}>

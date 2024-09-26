@@ -10,7 +10,7 @@ import { Route, Routes } from "react-router-dom";
 
 export default function App() {
   return (
-    <Layout>
+    <Layout className="container">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about-us" element={<AboutUs />} />
