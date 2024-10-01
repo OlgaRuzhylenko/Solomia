@@ -16,13 +16,15 @@ export default function Layout({ children, className }) {
 
   return (
     <div className={className}>
-      {isOpen && <BackDrop handleMenu={handleMenu} />}{" "}
-      {!isOpen && (
-        <button onClick={handleMenu}>
-          <GiHamburgerMenu />
-        </button>
-      )}
-      {isOpen && <Navigation onNavigate={handleNavigationClick} />}
+      <div className={css.navSection}>
+        {isOpen && <BackDrop handleMenu={handleMenu} />}{" "}
+        {!isOpen && (
+          <button onClick={handleMenu} className={css.navigationBtn}>
+            <GiHamburgerMenu className={css.iconMenu} />
+          </button>
+        )}
+        {isOpen && <Navigation onNavigate={handleNavigationClick} />}
+      </div>
       <Suspense fallback={<div>Please wait loading page...</div>}>
         {children}
       </Suspense>
