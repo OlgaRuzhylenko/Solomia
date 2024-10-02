@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import mainLogo from "../../images/main-logo.png";
 import css from "./HomePage.module.css";
+import AboutUs from "../AboutUs/AboutUs";
 
 export default function HomePage() {
   return (
@@ -19,6 +20,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      {<AboutUs />}
     </div>
   );
 }
