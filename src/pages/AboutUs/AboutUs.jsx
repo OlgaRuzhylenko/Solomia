@@ -5,13 +5,13 @@ export default function AboutUs() {
     <div>
       <section className={css.aboutSection}>
         <div className="container">
-          <h1>Компанія SOLOMIA</h1>
-          <p>
+          <h1 className={css.titleAbout}>Компанія SOLOMIA</h1>
+          <p className={css.textMainAbout}>
             Бути стандартом українського ринку бакалійних продуктів. Доставляти
             енергію та користь природних продуктів харчування до кожної
             української родини.
           </p>
-          <p>
+          <p className={css.textAbout}>
             Компанія SOLOMIA є національним виробником і дистриб’ютором
             високоякісних продуктів харчування. Дистриб’юторський портфель
             компанії представлено як власними брендами ТМ ASKOLD, ТМ BATIK, ТМ

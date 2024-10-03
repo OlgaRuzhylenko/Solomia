@@ -1,3 +1,29 @@
 .aboutSection {
-    padding-top: 30px;
+    /* padding-top: 60px; */
+}
+.titleAbout {
+    font-size: 28px;
+    color: #474249;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 0.5px;   
+
+    margin-bottom: 30px;
+}
+.textMainAbout{
+    font-size: 16px;
+    line-height: 1.4;
+    color: #474249;
+    text-align: justify;
+    hyphens: auto;
+
+    margin-bottom: 20px;
+}
+
+.textAbout{
+    font-size: 17px;
+    color: #888888;
+    line-height: 1.5;
+    text-align: justify;
+    hyphens: auto;
 }

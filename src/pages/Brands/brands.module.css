@@ -1,0 +1,12 @@
+.brandsSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    font-weight: 400;
+    color: #474249;
+    font-size: 44px;
+    text-align: center;
+}
