@@ -11,7 +11,7 @@ export default function Brands() {
     <div>
       <section className={css.brandsSection}>
         <div className="container">
-          <h1 className={css.title}>Наші бренди</h1>
+          <h2 className={css.title}>Наші бренди</h2>
           <ul>
             <li>
               <NavLink to="/batik">
