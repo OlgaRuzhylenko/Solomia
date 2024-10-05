@@ -1,0 +1,7 @@
+.footerSection{
+    background-image: url(../../images/footer.jpg);
+        background-color: #2a2a2a;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}

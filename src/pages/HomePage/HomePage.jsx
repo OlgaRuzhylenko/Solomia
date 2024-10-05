@@ -6,6 +6,7 @@ import css from "./HomePage.module.css";
 import AboutUs from "../AboutUs/AboutUs";
 import Brands from "../Brands/Brands";
 import News from "../News/News";
+import Footer from "../../components/Footer/Footer";
 
 export default function HomePage() {
   return (
@@ -51,6 +52,7 @@ export default function HomePage() {
         </NavLink>
       </section>
       <div>{<News />}</div>
+      <div>{<Footer />}</div>
     </div>
   );
 }
