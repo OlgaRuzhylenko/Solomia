@@ -10,7 +10,7 @@ export default function News() {
         <h2 className={css.title}>Новини</h2>
         <ul className={css.list}>
           <li className={css.item}>
-            <NavLink to="/blog/:atb" className={css.link}>
+            <NavLink to="/blog/batik-in-atb" className={css.link}>
               <img
                 src={batikAtb}
                 alt="забраження двох пачок чаю Батік із емблемобю магазину АТБ"
@@ -36,7 +36,7 @@ export default function News() {
             </div>
           </li>
           <li className={css.item}>
-            <NavLink to="/blog/:coffee-arden" className={css.link}>
+            <NavLink to="/blog/coffee-arden" className={css.link}>
               <img
                 src={coffe}
                 alt="забраження двох пачок чаю Батік із емблемобю магазину АТБ"

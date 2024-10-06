@@ -14,8 +14,9 @@ import ArdenPage from "../../pages/ArdenPage/ArdenPage";
 import DomashniyPages from "../../pages/DomashniyPages/DomashniyPages";
 import { Route, Routes } from "react-router-dom";
 import Mission from "../../pages/Mission/Mission";
-import New231123 from "../../pages/News/new231123/new231123";
-import New081123 from "../../pages/News/new081123/new081123";
+// import New231123 from "../../pages/News/new231123/new231123";
+// import New081123 from "../../pages/News/new081123/new081123";
+import NewsDetails from "../NewsDetails/NewsDetails";
 
 export default function App() {
   return (
@@ -28,8 +29,7 @@ export default function App() {
         <Route path="/our-achievements" element={<OurAchievements />} />
         <Route path="/useful-to-know" element={<UsefulToKnow />} />
         <Route path="/blog" element={<News />} />
-        <Route path="/blog/:batik-in-atb" element={<New231123 />} />
-        <Route path="/blog/:coffee-arden" element={<New081123 />} />
+        <Route path="/blog/:slug" element={<NewsDetails />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/history" element={<History />} />
         <Route path="/batik" element={<BatikPage />} />
