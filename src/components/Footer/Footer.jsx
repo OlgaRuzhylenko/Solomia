@@ -74,30 +74,33 @@ export default function Footer({ onNavigate }) {
           м.Київ, вул. Берковецька, 6-A
           <br />
           <a href="tel:+380664540330" className={css.footerLink}>
-            +38 (066) 454 03 30
+            тел:+38 (066) 454 03 30
           </a>
+          <br />
           <a href="mailto:info@solomia.com.ua" className={css.footerLink}>
             e-mail: info@solomia.com.ua
           </a>
         </address>
         <p className={css.footerSocialMedia}>Ми в соцмережах:</p>
-        <ul>
-          <li>
+        <ul className={css.socialMediaList}>
+          <li className={css.socialMediaItem}>
             <a
               href="https://www.facebook.com/solomia.ukraine/"
               target="_blank"
               rel="noopener noreferrer"
+              className={css.socialMediaLink}
             >
-              {<BsFacebook />}
+              {<BsFacebook className={css.socialMediaSvg} />}
             </a>
           </li>
-          <li>
+          <li className={css.socialMediaItem}>
             <a
               href="https://www.instagram.com/solomia.com.ua/"
               target="_blank"
               rel="noopener noreferrer"
+              className={css.socialMediaLink}
             >
-              {<BsInstagram />}
+              {<BsInstagram className={css.socialMediaSvg} />}
             </a>
           </li>
         </ul>

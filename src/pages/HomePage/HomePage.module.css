@@ -1,3 +1,15 @@
+.pageContainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    flex-grow: 1;
+}
+.box{
+    height: 60px;
+    width: 100%;
+}
 .hero {
     background-image: url(../../images/mainBg.jpg);
     background-color: #2a2a2a;

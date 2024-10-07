@@ -21,9 +21,9 @@ justify-content: center;
     margin-bottom: 30px;
 }
 .footerLogo{
-    width: 100px;
-    height: 65px;
-    margin-bottom: 30px;
+    width: 118px;
+    height: 118px;
+    margin-bottom: 10px;
 }
 .footerNavigation {
 margin-bottom: 30px;
@@ -77,4 +77,25 @@ margin-bottom: 30px;
     font-style: italic;
     text-align: center;
     color: #FFFFFF
+}
+.socialMediaItem {
+    width: 41px;
+    height: 41px;
+}
+.socialMediaLink{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.socialMediaSvg{
+    width: 23px;
+    height: 23px;
+    fill: #ffff;
+}
+.socialMediaList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
