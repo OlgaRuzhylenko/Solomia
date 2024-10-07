@@ -1,0 +1,26 @@
+  .navigation {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 5px;
+      column-gap: 15px;
+      justify-content: center;
+      margin-bottom: 20px;    
+  }
+  .navigationItem {
+    font-size: 16px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    line-height: 1.6;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .navigationSvg {
+    width: 18px;
+    height: 15px;
+    fill: #FFFFFF;
+  }
+  .navWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

@@ -23,18 +23,15 @@
     padding-left: 30px;
 
     position: fixed;
-        /* Закріплює секцію на екрані */
-        top: 0;
-        /* Фіксація до верхнього краю */
-        left: 0;
-        /* Вирівнювання по лівому краю */
-        width: 100%;
-        /* Робить ширину секції по всій сторінці */
-        z-index: 1000;
-        /* Забезпечує, що секція буде над іншими елементами */
-        background-color: white;
-        /* Це додатково, щоб секція мала фон */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        /* До
-/* } */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+@media only screen and (min-width: 768px) {
+    .navSection {
+        display: none;
+    }
 }

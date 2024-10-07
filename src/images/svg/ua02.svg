@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14.89mm" height="10.33mm" viewBox="0 0 42.21 29.29">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+      }
+
+      .b {
+        clip-path: url(#a);
+      }
+
+      .c {
+        fill: #005baa;
+      }
+
+      .d {
+        fill: #fd0;
+      }
+    </style>
+    <clipPath id="a">
+      <rect class="a" y="0.09" width="42.21" height="29.08" rx="4.13" ry="4.13"/>
+    </clipPath>
+  </defs>
+  <title>ua</title>
+  <g class="b">
+    <g>
+      <rect class="c" width="42.21" height="14.64"/>
+      <rect class="d" y="14.64" width="42.21" height="14.64"/>
+    </g>
+  </g>
+</svg>

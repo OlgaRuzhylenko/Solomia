@@ -10,6 +10,11 @@
     height: 60px;
     width: 100%;
 }
+@media only screen and (min-width: 768px) {
+    .box {
+        display: none;
+    }
+}
 .hero {
     background-image: url(../../images/mainBg.jpg);
     background-color: #2a2a2a;
@@ -31,7 +36,11 @@
     justify-content: center;
     height: 100%;
 }
-
+@media only screen and (min-width: 768px) {
+    .heroInformation {
+        padding-top: 0;
+    }
+}
 .heroBtn{
     font-size: 16px;
     font-weight: 300;
@@ -55,6 +64,11 @@
 .aboutLink {
     padding-top: 60px;
     margin-bottom: 17px;
+}
+@media only screen and (min-width: 768px) {
+    .aboutLink {
+        padding-top: 0;
+    }
 }
 .historyBox {
 padding: 11px 20px;
@@ -120,3 +134,9 @@ color: #474249;
     max-width: 174px;
     margin-bottom: 60px;
 }
+@media only screen and (max-width: 767px) {
+    .navigation {
+        display: none;
+    }
+}
+

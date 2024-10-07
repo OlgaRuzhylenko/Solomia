@@ -7,15 +7,22 @@ import AboutUs from "../AboutUs/AboutUs";
 import Brands from "../Brands/Brands";
 import News from "../News/News";
 import Footer from "../../components/Footer/Footer";
+import NavigationList from "../../components/NavigationList/NavigationList";
+import { useMediaQuery } from "react-responsive";
 
-export default function HomePage() {
+export default function HomePage({ onNavigate }) {
+  const isTabletOrLarger = useMediaQuery({ query: "(min-width: 768px)" });
+
   return (
     <div className={css.pageContainer}>
       <div className={css.main}>
+        {/* тільки для моб версії */}
         <div className={css.box}></div>
         <section className={css.hero}>
           <div className="container">
             <div className={css.heroInformation}>
+              {/* починаючи із планшетної версії */}
+              {isTabletOrLarger && <NavigationList />}
               <img
                 src={mainLogo}
                 alt="логотип компанії та лозунг смакуй кожну мить"

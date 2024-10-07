@@ -3,6 +3,7 @@ import css from "./News.module.css";
 import batikAtb from "../../images/news/batik-atb.jpg";
 import coffe from "../../images/news/arden.jpg";
 import madeInUkraine from "../../images/news/made-ua.jpg";
+import uaSvg from "../../images/svg/ua02.svg";
 
 export default function News() {
   return (
@@ -21,10 +22,17 @@ export default function News() {
                 <p className={css.subTitle}>новини</p>
               </div>
               <div className={css.descriptionWrap}>
+                {/* <div className={css.svgAndText}> */}
+                {/* <img
+                    src={uaSvg}
+                    alt="зображення прапора України"
+                    className={css.flagSvg}
+                  /> */}
                 <h3 className={css.description}>
-                  🇺🇦Чайні бренди Batik та Askold приєднались до проєкту
-                  “Зроблено в Україні” та програми “Національний кешбек”.
+                  Чайні бренди Batik та Askold приєднались до проєкту “Зроблено
+                  в Україні” та програми “Національний кешбек”.
                 </h3>
+                {/* </div> */}
                 <p className={css.text}>
                   Усі в плюсі, коли купуєш і продаєш українське!🇺🇦
                 </p>
