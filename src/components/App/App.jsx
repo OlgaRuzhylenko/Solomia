@@ -17,6 +17,9 @@ import Mission from "../../pages/Mission/Mission";
 // import New231123 from "../../pages/News/new231123/new231123";
 // import New081123 from "../../pages/News/new081123/new081123";
 import NewsDetails from "../NewsDetails/NewsDetails";
+import Quality from "../../pages/Quality/Quality";
+import FinancialReporting from "../../pages/FinancialReporting/FinancialReporting";
+import Stores from "../../pages/Stores/Stores";
 
 export default function App() {
   return (
@@ -38,6 +41,9 @@ export default function App() {
         <Route path="/arden" element={<ArdenPage />} />
         <Route path="/domashnij-chaj" element={<DomashniyPages />} />
         <Route path="/mission-and-values" element={<Mission />} />
+        <Route path="/quality" element={<Quality />} />
+        <Route path="/financial-reporting" element={<FinancialReporting />} />
+        <Route path="/stores-and-online-shopping" element={<Stores />} />
       </Routes>
     </Layout>
   );

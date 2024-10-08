@@ -1,0 +1,12 @@
+.subtitleList {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.subtitleLink {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+}

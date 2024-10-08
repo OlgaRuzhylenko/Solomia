@@ -17,7 +17,7 @@ export default function Layout({ children, className }) {
   return (
     <div className={className}>
       <div className={css.navSection}>
-        {isOpen && <BackDrop handleMenu={handleMenu} />}{" "}
+        {isOpen && <BackDrop handleMenu={handleMenu} />}
         {!isOpen && (
           <button onClick={handleMenu} className={css.navigationBtn}>
             <GiHamburgerMenu className={css.iconMenu} />

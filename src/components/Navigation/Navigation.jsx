@@ -1,9 +1,14 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import css from "./Navigation.module.css";
 import clsx from "clsx";
 import { IoMdClose } from "react-icons/io";
+import { useState } from "react";
+import SubMenuAboutUs from "../SubMenuAboutUs/SubMenuAboutUs";
+import SubMenuBrands from "../SubMenuBrands/SubMenuBrands";
 
 export default function Navigation({ onNavigate }) {
+  const navigate = useNavigate();
+
   const getNavLinkByClass = ({ isActive }) => {
     return clsx(css.link, isActive && css.active);
   };
@@ -12,6 +17,31 @@ export default function Navigation({ onNavigate }) {
   };
   const handleLinkClick = () => {
     onNavigate();
+  };
+
+  const [isAboutUsMenuOpen, setIsAboutUsMenuOpen] = useState(false);
+  const [isBrandsMenuOpen, setIsBrandsMenuOpen] = useState(false);
+
+  const toggleAboutUsMenu = (evt) => {
+    evt.preventDefault();
+    if (isAboutUsMenuOpen) {
+      // Якщо підменю вже відкрите, здійснюємо перехід на сторінку
+      navigate("/about-us");
+      onNavigate();
+    } else {
+      setIsAboutUsMenuOpen(true); // Інакше відкриваємо підменю
+    }
+  };
+
+  const toggleBrandsMenu = (evt) => {
+    evt.preventDefault();
+    if (isBrandsMenuOpen) {
+      // Якщо підменю вже відкрите, здійснюємо перехід на сторінку
+      navigate("/brands");
+      onNavigate();
+    } else {
+      setIsBrandsMenuOpen(true); // Інакше відкриваємо підменю
+    }
   };
 
   return (
@@ -23,17 +53,32 @@ export default function Navigation({ onNavigate }) {
           <NavLink
             to="/about-us"
             className={getNavLinkByClass}
-            onClick={handleLinkClick}
+            onClick={toggleAboutUsMenu}
           >
             про нас
           </NavLink>
+
+          {isAboutUsMenuOpen && (
+            <SubMenuAboutUs
+              onNavigate={handleLinkClick}
+              getNavLinkByClass={toggleAboutUsMenu}
+            />
+          )}
+
           <NavLink
             to="/brands"
             className={getNavLinkByClass}
-            onClick={handleLinkClick}
+            onClick={toggleBrandsMenu}
           >
             бренди
           </NavLink>
+          {isBrandsMenuOpen && (
+            <SubMenuBrands
+              onNavigate={handleLinkClick}
+              getNavLinkByClass={getNavLinkByClass}
+            />
+          )}
+
           <NavLink
             to="/our-achievements"
             className={getNavLinkByClass}
