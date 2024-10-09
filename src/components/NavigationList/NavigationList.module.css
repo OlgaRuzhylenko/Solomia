@@ -24,3 +24,14 @@
     align-items: center;
     justify-content: center;
   }
+  .navButton {
+    background-color: transparent;
+    border: none;
+  }
+    .navigationSvg {
+      transition: transform 0.3s ease;
+    }
+  
+    .navigationSvg.open {
+      transform: rotate(180deg);
+    }

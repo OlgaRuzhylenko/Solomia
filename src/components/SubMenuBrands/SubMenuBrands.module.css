@@ -21,8 +21,9 @@
 
         position: absolute;
         top: 70px;
-        left: 130px;
+        left: 200px;
         max-width: 180px;
+        z-index: 2;
     }
 }
 

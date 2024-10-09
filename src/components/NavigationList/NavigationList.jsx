@@ -2,22 +2,31 @@ import { NavLink } from "react-router-dom";
 import css from "./NavigationList.module.css";
 import { IoIosArrowDown } from "react-icons/io";
 import { useState } from "react";
-import Navigation from "../Navigation/Navigation";
 import SubMenuAboutUs from "../SubMenuAboutUs/SubMenuAboutUs";
 import BackDrop from "../BackDrop/BackDrop";
 import SubMenuBrands from "../SubMenuBrands/SubMenuBrands";
 
 export default function NavigationList({ onNavigate }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isAboutUsOpen, setIsAboutUsOpen] = useState(false);
+  const [isBrandsOpen, setIsBrandsOpen] = useState(false);
 
   const handleLinkClick = () => {
     onNavigate();
+    setIsAboutUsOpen(false);
+    setIsBrandsOpen(false);
   };
-  const handleMenu = () => {
-    setIsOpen((prev) => !prev);
+  const handleAboutUsMenu = () => {
+    setIsAboutUsOpen((prev) => !prev);
+    setIsBrandsOpen(false); // Закриваємо інше меню
+  };
+
+  const handleBrandsMenu = () => {
+    setIsBrandsOpen((prev) => !prev);
+    setIsAboutUsOpen(false); // Закриваємо інше меню
   };
   const handleCloseMenu = () => {
-    setIsOpen(false); // Закриття меню при кліку на BackDrop
+    setIsAboutUsOpen(false);
+    setIsBrandsOpen(false);
   };
 
   return (
@@ -27,28 +36,28 @@ export default function NavigationList({ onNavigate }) {
           <NavLink to="/about-us" className={css.navigationItem}>
             про нас
           </NavLink>
-          {!isOpen && (
-            <button onClick={handleMenu}>
-              <IoIosArrowDown className={css.navigationSvg} />
-            </button>
-          )}
-          {isOpen && <SubMenuAboutUs onNavigate={handleLinkClick} />}
+          <button onClick={handleAboutUsMenu} className={css.navButton}>
+            <IoIosArrowDown
+              className={`${css.navigationSvg} ${
+                isAboutUsOpen ? css.open : ""
+              }`}
+            />
+          </button>
+          {isAboutUsOpen && <SubMenuAboutUs onNavigate={handleLinkClick} />}
         </div>
-        <div className={css.navWrap}>
-          <div className={css.navWrap}>
-            <NavLink to="/brands" className={css.navigationItem}>
-              бренди
-            </NavLink>
-            {!isOpen && (
-              <button onClick={handleMenu}>
-                <IoIosArrowDown className={css.navigationSvg} />
-              </button>
-            )}
-            {isOpen && <SubMenuBrands onNavigate={handleLinkClick} />}
-          </div>
 
-          <IoIosArrowDown className={css.navigationSvg} />
+        <div className={css.navWrap}>
+          <NavLink to="/brands" className={css.navigationItem}>
+            бренди
+          </NavLink>
+          <button onClick={handleBrandsMenu} className={css.navButton}>
+            <IoIosArrowDown
+              className={`${css.navigationSvg} ${isBrandsOpen ? css.open : ""}`}
+            />
+          </button>
+          {isBrandsOpen && <SubMenuBrands onNavigate={handleLinkClick} />}
         </div>
+
         <NavLink to="/our-achievements" className={css.navigationItem}>
           наші досягнення
         </NavLink>
@@ -62,7 +71,9 @@ export default function NavigationList({ onNavigate }) {
           контакти
         </NavLink>
       </nav>
-      {isOpen && <BackDrop handleMenu={handleCloseMenu} />}
+      {(isAboutUsOpen || isBrandsOpen) && (
+        <BackDrop handleMenu={handleCloseMenu} />
+      )}
     </div>
   );
 }
