@@ -10,7 +10,7 @@ import Footer from "../../components/Footer/Footer";
 import NavigationList from "../../components/NavigationList/NavigationList";
 import { useMediaQuery } from "react-responsive";
 
-export default function HomePage({ onNavigate }) {
+export default function HomePage() {
   const isTabletOrLarger = useMediaQuery({ query: "(min-width: 768px)" });
 
   return (

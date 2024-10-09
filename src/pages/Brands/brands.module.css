@@ -10,3 +10,14 @@
     font-size: 44px;
     text-align: center;
 }
+@media only screen and (min-width: 768px) {
+.brandsList {
+    display: flex;
+}
+}
+@media only screen and (min-width: 768px) {
+    .brandsImg {
+        display: block;
+        width: 1200px;
+    }
+}

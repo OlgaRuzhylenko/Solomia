@@ -68,6 +68,7 @@
 @media only screen and (min-width: 768px) {
     .aboutLink {
         padding-top: 0;
+        margin-bottom: 0;
     }
 }
 .historyBox {
@@ -84,6 +85,11 @@ justify-content: center;
 
 margin-bottom: 60px;
 }
+@media only screen and (min-width: 768px) {
+    .historyBox {
+        margin-bottom: 20px;
+    }
+}
 .historyLink{
 font-size: 16px;
 font-weight: 300;
@@ -98,24 +104,37 @@ color: #474249;
 .achiev{
     margin-bottom: 65px;
 }
+@media only screen and (min-width: 768px) {
+    .achiev {
+        margin-bottom: 5px;
+    }
+}
 .mission{
     background-image: url(../../images/mission.jpg);
     background-color: #2a2a2a;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-.missionImg {
-    width: 255px;
-}
-.mission {
     padding: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    
     margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+    .mission {
+margin-bottom: 0px;
+    }
+}
+.missionImg {
+    width: 255px;
+}
+@media only screen and (min-width: 768px) {
+    .missionImg {
+        margin-bottom: 20px;
+    }
 }
 .missionBtn {
     font-size: 16px;

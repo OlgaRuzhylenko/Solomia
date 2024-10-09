@@ -17,6 +17,14 @@ margin-bottom: 50px;
     align-items: center;
     justify-content: center;
     gap: 40px;
+    align-items: stretch;
+}
+@media only screen and (min-width: 768px) {
+    .list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
 }
 .subTitleWrap{
     width: 80px;
@@ -40,6 +48,12 @@ margin-bottom: 50px;
     bottom: 610px;
     right: 15px;
 }
+@media only screen and (min-width: 768px) {
+    .subTitleWrap {
+        bottom: 510px;
+        right: 15px;
+    }
+}
 }
 .subTitle{
 
@@ -48,9 +62,20 @@ margin-bottom: 50px;
 position: relative;
 box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
 }
+@media only screen and (min-width: 375px) {
+    .item {
+        width: 352px;
+    }
+}
+
 .img {
     margin-bottom: 40px;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, .35), transparent 75%);
+}
+@media only screen and (min-width: 375px) {
+    .img {
+        margin-bottom: 20px;
+    }
 }
 .description{    
     font-size: 21px;
@@ -60,6 +85,11 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
     text-align: inherit;
     color: #423930;
     margin-bottom: 25px;
+}
+@media only screen and (min-width: 375px) {
+    .description {
+        font-size: 20px;
+    }
 }
 .link{
 text-decoration: none;
@@ -71,7 +101,14 @@ justify-content: center;
 max-width: 220px;
 margin: 0 auto;
 }
-
+@media only screen and (min-width: 375px) {
+    .descriptionWrap {
+        padding-left: 20px;
+        padding-right: 20px; 
+        max-width: 353px;
+        text-align: justify;
+    }
+}
 .text{
     font-size: 14px;
     color: #777;

@@ -55,8 +55,8 @@ export default function News() {
               </div>
               <div className={css.descriptionWrap}>
                 <h3 className={css.description}>
-                  Купуйте у магазинах мережі АТБ ” Batik”З Чорною Смородиною” та
-                  “Batik” Ерл Грей” у зручних пакетиках для заварювання!
+                  Купуйте у магазинах мережі АТБ ”Batik” з Чорною Смородиною” та
+                  “Batik” Ерл Грей у зручних пакетиках для заварювання!
                 </h3>
                 <p className={css.text}>
                   Відчуйте всю палітру смаків та отримайте насолоду від
