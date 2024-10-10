@@ -86,9 +86,18 @@ justify-content: center;
 
 margin-bottom: 60px;
 }
+
 @media only screen and (min-width: 768px) {
     .historyBox {
         margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .historyBox {
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        margin-bottom: 0px;
     }
 }
 .historyLink{
@@ -129,6 +138,11 @@ color: #474249;
 margin-bottom: 0px;
     }
 }
+@media only screen and (min-width: 768px) {
+    .mission {
+        padding: 30px;
+    }
+}
 .missionImg {
     width: 255px;
 }
@@ -154,9 +168,17 @@ margin-bottom: 0px;
     max-width: 174px;
     margin-bottom: 60px;
 }
+
 @media only screen and (max-width: 767px) {
     .navigation {
         display: none;
     }
 }
-
+@media only screen and (max-width: 1024px) {
+.historyBoxWrapper {
+    position: relative;
+    top: 50%;
+    left: 50%;      
+    transform: translate(-10%, -50%);
+}
+}

@@ -35,11 +35,13 @@ export default function HomePage() {
           </div>
         </section>
         <div className={css.aboutLink}>{<AboutUs />}</div>
-        <div className="container">
-          <div className={css.historyBox}>
-            <NavLink to="/history" className={css.historyLink}>
-              наша історія
-            </NavLink>
+        <div className={css.historyBoxWrapper}>
+          <div className="container">
+            <div className={css.historyBox}>
+              <NavLink to="/history" className={css.historyLink}>
+                наша історія
+              </NavLink>
+            </div>
           </div>
         </div>
         <div className={css.achiev}>

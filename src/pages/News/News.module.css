@@ -11,6 +11,11 @@ margin-bottom: 50px;
 
     margin-bottom: 20px;
 }
+@media only screen and (min-width: 1024px) {
+    .title {
+        margin-bottom: 50px;
+    }
+}
 .list{
     display: flex;
     flex-direction: column;
@@ -55,6 +60,11 @@ margin-bottom: 50px;
     }
 }
 }
+@media only screen and (min-width: 1024px) {
+    .subTitleWrap {
+            bottom: 580px;
+        }
+}
 .subTitle{
 
 }
@@ -67,6 +77,11 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
         width: 352px;
     }
 }
+@media only screen and (min-width: 1024px) {
+.item {
+    width: 480px;
+}
+}
 
 .img {
     margin-bottom: 40px;
@@ -75,6 +90,11 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
 @media only screen and (min-width: 375px) {
     .img {
         margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .img {
+        width: 100%;
     }
 }
 .description{    
@@ -89,6 +109,11 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
 @media only screen and (min-width: 375px) {
     .description {
         font-size: 20px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .description {
+        margin-bottom: 35px;
     }
 }
 .link{
@@ -109,12 +134,25 @@ margin: 0 auto;
         text-align: justify;
     }
 }
+@media only screen and (min-width: 1024px) {
+    .descriptionWrap {
+        max-width: 420px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
 .text{
     font-size: 14px;
     color: #777;
     line-height: 1.5;
 
     margin-bottom: 25px;
+    
+}
+@media only screen and (min-width: 1024px) {
+    .text {
+        height: 45px;
+    }
 }
 .linkText{
     text-transform: uppercase;
@@ -141,4 +179,10 @@ margin: 0 auto;
 .svgAndText {
     display: inline-flex;
     align-items: flex-start;
+}
+@media only screen and (min-width: 1024px) {
+.newsWrapper {
+display: flex;
+flex-direction: column;
+}
 }
