@@ -39,6 +39,7 @@
 @media only screen and (min-width: 768px) {
     .textMainAbout {
         hyphens: none;
+    
     }
 }
 @media only screen and (min-width: 768px) {
@@ -55,21 +56,17 @@
     text-align: justify;
     hyphens: auto;
 }
-@media only screen and (min-width: 1024px) {
-    .textAbout {
-        color: #474249;
-    }
-}
+
 @media only screen and (min-width: 768px) {
     .textAbout {
         font-size: 20px;
         hyphens: none;
+        margin-bottom: 30px;
+         }
+}
+@media only screen and (min-width: 1024px) {
+    .textAbout {
+        color: #474249;
+
     }
-}
-@media only screen and (min-width: 768px) {
-.AboutUsAndHistiryWrapper {
-    background-image: url(../../images/hands.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 }
