@@ -1,10 +1,4 @@
-@media only screen and (min-width: 1024px) {
-.aboutSection {
-       background-image: url(../../images/hands.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-}
+
 @media only screen and (min-width: 768px) {
 .aboutWrapper {
     padding-left: 10px;
@@ -32,11 +26,7 @@
         text-align: center;
     }
 }
-@media only screen and (min-width: 768px) {
-    .titleAbout {
-        padding-left: 250px;
-    }
-}
+
 .textMainAbout{
     font-size: 16px;
     line-height: 1.4;
@@ -75,4 +65,11 @@
         font-size: 20px;
         hyphens: none;
     }
+}
+@media only screen and (min-width: 768px) {
+.AboutUsAndHistiryWrapper {
+    background-image: url(../../images/hands.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }

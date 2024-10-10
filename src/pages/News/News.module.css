@@ -1,5 +1,5 @@
 .newsSection {
-    padding-top: 30px;
+padding-top: 30px;
 margin-bottom: 50px;
 }
 .title {
@@ -45,7 +45,7 @@ margin-bottom: 50px;
     text-transform: uppercase;
 
     position: absolute;
-    bottom: 570px;
+    bottom: 560px;
     right: 20px;
 }
 @media only screen and (min-width: 375px) {
@@ -74,7 +74,7 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
 }
 @media only screen and (min-width: 375px) {
     .item {
-        width: 352px;
+        max-width: 352px;
     }
 }
 @media only screen and (min-width: 1024px) {
