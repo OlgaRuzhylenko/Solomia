@@ -22,6 +22,8 @@ justify-content: center;
     .footerInformation {
         flex-direction: row;
         justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
     }
 }
 .footerInformation::after{
@@ -30,11 +32,7 @@ justify-content: center;
     border: 1px solid white;
     margin-bottom: 30px;
 }
-@media only screen and (min-width: 768px) {
-    .footerInformation::after {
-display: none;
-    }
-}
+
 .footerLogo{
     width: 118px;
     height: 118px;
@@ -82,11 +80,23 @@ margin-bottom: 30px;
 
     margin-bottom: 30px;
 }
+@media only screen and (min-width: 768px) {
+    .footerCopy {
+        text-align: left;
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+}
 .footerName{
     font-size: 14px;
     color: #FFFFFF;
     font-style: italic;
     text-align: center;
+}
+@media only screen and (min-width: 768px) {
+    .footerName {
+        text-align: left;
+    }
 }
 .address{
     font-size: 14px;
@@ -95,6 +105,12 @@ margin-bottom: 30px;
     text-align: center;
 
     margin-bottom: 30px;
+}
+@media only screen and (min-width: 768px) {
+    .address {
+        text-align: left;
+        margin-bottom: 0px;
+    }
 }
 .footerLink{
     font-size: 14px;
@@ -129,4 +145,39 @@ margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+.nameAddressSocialMediaWrapper {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+}
+@media only screen and (max-width: 767px) {
+.bntUp {
+    display: none;
+}
+}
+.bntUp {
+    width: 46px;
+    height: 37px;
+    border-radius: 50px;
+    background-color: #423930;
+   
+    transition: color 0.3s, background-color 0.3s;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.bntUpSvg {
+    fill: #FFFFFF;
+    width: 25px;
+    height: 25px;
 }
