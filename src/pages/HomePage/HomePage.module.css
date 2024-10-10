@@ -93,14 +93,7 @@ margin-bottom: 60px;
         margin-bottom: 20px;
     }
 }
-@media only screen and (min-width: 1024px) {
-    .historyBox {
-        position: absolute;
-        bottom: 30px;
-        left: 0;
-        margin-bottom: 0px;
-    }
-}
+
 .historyLink{
 font-size: 16px;
 font-weight: 300;
@@ -175,14 +168,7 @@ margin-bottom: 0px;
         display: none;
     }
 }
-/* @media only screen and (max-width: 1024px) {
-.historyBoxWrapper {
-    position: relative;
-    top: 50%;
-    left: 50%;      
-    transform: translate(-10%, -50%);
-}
-} */
+
 @media only screen and (min-width: 768px) {
     .AboutUsAndHistiryWrapper {
         background-image: url(../../images/hands.jpg);
@@ -190,6 +176,5 @@ margin-bottom: 0px;
         background-size: contain;
         background-position: right;
         background-attachment: fixed;
-        /* min-height: 500px; */
-    }
+     }
 }

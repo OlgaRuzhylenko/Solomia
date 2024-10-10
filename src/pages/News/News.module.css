@@ -79,7 +79,7 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
 }
 @media only screen and (min-width: 1024px) {
 .item {
-    width: 480px;
+    max-width: 480px;
 }
 }
 
@@ -126,6 +126,7 @@ justify-content: center;
 max-width: 220px;
 margin: 0 auto;
 }
+
 @media only screen and (min-width: 375px) {
     .descriptionWrap {
         padding-left: 20px;
@@ -134,13 +135,11 @@ margin: 0 auto;
         text-align: justify;
     }
 }
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
     .descriptionWrap {
         max-width: 420px;
-        padding-left: 0px;
-        padding-right: 0px;
     }
-}
+} */
 .text{
     font-size: 14px;
     color: #777;

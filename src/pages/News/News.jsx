@@ -1,8 +1,11 @@
 import { NavLink } from "react-router-dom";
 import css from "./News.module.css";
-import batikAtb from "../../images/news/batik-atb.jpg";
-import coffe from "../../images/news/arden.jpg";
-import madeInUkraine from "../../images/news/made-ua.jpg";
+import batikAtb375 from "../../images/news/batik-atb375.jpg";
+import batikAtb1054 from "../../images/news/batik-atb1054.jpg";
+import coffe375 from "../../images/news/arden375.jpg";
+import coffe1054 from "../../images/news/batik-atb1054.jpg";
+import madeInUkraine375 from "../../images/news/made-ua375.jpg";
+import madeInUkraine1054 from "../../images/news/news-ua1054.jpg";
 import uaSvg from "../../images/svg/ua02.svg";
 
 export default function News() {
@@ -14,11 +17,25 @@ export default function News() {
           <ul className={css.list}>
             <li className={css.item}>
               <NavLink to="/made-in-ukraine" className={css.link}>
-                <img
-                  src={madeInUkraine}
-                  alt="забраження пачок чаю Батік, Аскольд та Аскольд Нобл і штрихкоду зроблено в Україні"
-                  className={css.img}
-                ></img>
+                <picture>
+                  <source
+                    srcSet={`${madeInUkraine1054} 1x`}
+                    media="(min-width: 1440px)"
+                    type="image/jpeg"
+                  />
+                  <source
+                    srcSet={`${madeInUkraine375} 1x`}
+                    media="(min-width: 768px)"
+                    type="image/jpeg"
+                  />
+                  <source srcSet={`${madeInUkraine375} 1x`} type="image/jpeg" />
+                  <img
+                    src={madeInUkraine375}
+                    alt="забраження пачок чаю Батік, Аскольд та Аскольд Нобл і штрихкоду зроблено в Україні"
+                    className={css.img}
+                  ></img>
+                </picture>
+
                 <div className={css.subTitleWrap}>
                   <p className={css.subTitle}>новини</p>
                 </div>
@@ -46,11 +63,25 @@ export default function News() {
             </li>
             <li className={css.item}>
               <NavLink to="/blog/batik-in-atb" className={css.link}>
-                <img
-                  src={batikAtb}
-                  alt="забраження двох пачок чаю Батік із емблемобю магазину АТБ"
-                  className={css.img}
-                ></img>
+                <picture>
+                  <source
+                    srcSet={`${batikAtb1054} 1x`}
+                    media="(min-width: 1440px)"
+                    type="image/jpeg"
+                  />
+                  <source
+                    srcSet={`${batikAtb375} 1x`}
+                    media="(min-width: 768px)"
+                    type="image/jpeg"
+                  />
+                  <source srcSet={`${batikAtb375} 1x`} type="image/jpeg" />
+                  <img
+                    src={batikAtb375}
+                    alt="забраження двох пачок чаю Батік із емблемобю магазину АТБ"
+                    className={css.img}
+                  ></img>
+                </picture>
+
                 <div className={css.subTitleWrap}>
                   <p className={css.subTitle}>новини</p>
                 </div>
@@ -72,11 +103,65 @@ export default function News() {
             </li>
             <li className={css.item}>
               <NavLink to="/blog/coffee-arden" className={css.link}>
-                <img
-                  src={coffe}
-                  alt="забраження двох пачок чаю Батік із емблемобю магазину АТБ"
-                  className={css.img}
-                ></img>
+                <picture>
+                  <source
+                    srcSet={`${coffe1054} 1x`}
+                    media="(min-width: 1440px)"
+                    type="image/jpeg"
+                  />
+                  <source
+                    srcSet={`${coffe1054} 1x`}
+                    media="(min-width: 768px)"
+                    type="image/jpeg"
+                  />
+                  <source srcSet={`${coffe375} 1x`} type="image/jpeg" />
+                  <img
+                    src={coffe375}
+                    alt="забраження двох пачок чаю Батік із емблемобю магазину АТБ"
+                    className={css.img}
+                  ></img>
+                </picture>
+
+                <div className={css.subTitleWrap}>
+                  <p className={css.subTitle}>новини</p>
+                </div>
+                <div className={css.descriptionWrap}>
+                  <h3 className={css.description}>
+                    Насолоджуйся улюбленими кавовими блендами разом з нашою
+                    палітрою меленої кави ARDEN!
+                  </h3>
+                  <p className={css.text}>
+                    Спробуйте мелену каву ARDEN та розкрийте для себе нові
+                    відтінки смаку!
+                  </p>
+                  <p className={css.linkText}>Читати далі </p>
+                </div>
+              </NavLink>
+              <div className={css.date}>
+                <time datetime="2023-11-08">8 Листопада, 2023</time>
+              </div>
+            </li>
+            <li className={css.item}>
+              <NavLink to="/blog/coffee-arden" className={css.link}>
+                <picture>
+                  <source
+                    srcSet={`${coffe1054} 1x`}
+                    media="(min-width: 1440px)"
+                    type="image/jpeg"
+                  />
+                  <source
+                    srcSet={`${coffe1054} 1x`}
+                    media="(min-width: 768px)"
+                    type="image/jpeg"
+                  />
+                  <source srcSet={`${coffe375} 1x`} type="image/jpeg" />
+                  <img
+                    src={coffe375}
+                    alt="забраження двох пачок чаю Батік із емблемобю магазину АТБ"
+                    className={css.img}
+                  ></img>
+                </picture>
+
                 <div className={css.subTitleWrap}>
                   <p className={css.subTitle}>новини</p>
                 </div>
