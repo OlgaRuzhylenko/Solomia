@@ -5,6 +5,18 @@
     justify-content: center;
 }
 @media only screen and (min-width: 1024px) {
+    .brandsSection {
+        background-image: url(../../images/brandsBG.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        background-attachment: fixed;
+
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+@media only screen and (min-width: 1024px) {
     .brandsSectionWrapper {
         display: flex;
         flex-direction: column;

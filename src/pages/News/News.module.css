@@ -135,11 +135,11 @@ margin: 0 auto;
         text-align: justify;
     }
 }
-/* @media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     .descriptionWrap {
-        max-width: 420px;
+        max-width: 480px;
     }
-} */
+}
 .text{
     font-size: 14px;
     color: #777;

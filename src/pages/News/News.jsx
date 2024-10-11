@@ -141,46 +141,6 @@ export default function News() {
                 <time datetime="2023-11-08">8 Листопада, 2023</time>
               </div>
             </li>
-            <li className={css.item}>
-              <NavLink to="/blog/coffee-arden" className={css.link}>
-                <picture>
-                  <source
-                    srcSet={`${coffe1054} 1x`}
-                    media="(min-width: 1440px)"
-                    type="image/jpeg"
-                  />
-                  <source
-                    srcSet={`${coffe1054} 1x`}
-                    media="(min-width: 768px)"
-                    type="image/jpeg"
-                  />
-                  <source srcSet={`${coffe375} 1x`} type="image/jpeg" />
-                  <img
-                    src={coffe375}
-                    alt="забраження двох пачок чаю Батік із емблемобю магазину АТБ"
-                    className={css.img}
-                  ></img>
-                </picture>
-
-                <div className={css.subTitleWrap}>
-                  <p className={css.subTitle}>новини</p>
-                </div>
-                <div className={css.descriptionWrap}>
-                  <h3 className={css.description}>
-                    Насолоджуйся улюбленими кавовими блендами разом з нашою
-                    палітрою меленої кави ARDEN!
-                  </h3>
-                  <p className={css.text}>
-                    Спробуйте мелену каву ARDEN та розкрийте для себе нові
-                    відтінки смаку!
-                  </p>
-                  <p className={css.linkText}>Читати далі </p>
-                </div>
-              </NavLink>
-              <div className={css.date}>
-                <time datetime="2023-11-08">8 Листопада, 2023</time>
-              </div>
-            </li>
           </ul>
         </div>
       </div>
