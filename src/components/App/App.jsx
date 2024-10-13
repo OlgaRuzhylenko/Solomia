@@ -20,6 +20,7 @@ import NewsDetails from "../NewsDetails/NewsDetails";
 import Quality from "../../pages/Quality/Quality";
 import FinancialReporting from "../../pages/FinancialReporting/FinancialReporting";
 import Stores from "../../pages/Stores/Stores";
+import NationalCashback from "../../pages/NationalCashback/NationalCashback";
 
 export default function App() {
   return (
@@ -44,6 +45,7 @@ export default function App() {
         <Route path="/quality" element={<Quality />} />
         <Route path="/financial-reporting" element={<FinancialReporting />} />
         <Route path="/stores-and-online-shopping" element={<Stores />} />
+        <Route path="/national-cashback" element={<NationalCashback />} />
       </Routes>
     </Layout>
   );
