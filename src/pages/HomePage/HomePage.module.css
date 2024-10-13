@@ -43,6 +43,12 @@
         padding-top: 0;
     }
 }
+@media only screen and (min-width: 1440px) {
+    .heroInformation {
+        padding-bottom: 250px;
+        padding-top: 10px;
+    }
+}
 .heroBtn{
     font-size: 16px;
     font-weight: 300;
@@ -59,9 +65,20 @@
 
     max-width: 143px;
 }
+@media only screen and (min-width: 1440px) {
+    .heroBtn {
+    font-size: 18px;
+    max-width: 200px;
+    }
+}
 .mainImg{
     width: 241px;
     margin-bottom: 40px;
+}
+@media only screen and (min-width: 1440px) {
+.mainImg {
+    width: 482px;
+}
 }
 .aboutLink {
     padding-top: 30px;
@@ -71,6 +88,11 @@
     .aboutLink {
         padding-top: 0;
         margin-bottom: 0;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .aboutLink {
+        padding-top: 150px;
     }
 }
 .historyBox {
@@ -93,7 +115,12 @@ margin-bottom: 60px;
         margin-bottom: 20px;
     }
 }
-
+@media only screen and (min-width: 1440px) {
+    .historyBox {
+        padding: 13px 21px;
+        margin-bottom: 100px;
+    }
+}
 .historyLink{
 font-size: 16px;
 font-weight: 300;
@@ -131,13 +158,21 @@ color: #474249;
 @media only screen and (min-width: 768px) {
     .mission {
     margin-bottom: 0px;
-    padding: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 70px;
     }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     .mission {
-        padding-top: 80px;
-        padding-bottom: 80px;
+    padding-top: 40px;    
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .mission {
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 }
 .missionImg {
@@ -146,6 +181,12 @@ color: #474249;
 @media only screen and (min-width: 768px) {
     .missionImg {
         margin-bottom: 20px;
+        width: 273px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .missionImg {
+        width: 355px;
     }
 }
 .missionBtn {
@@ -165,7 +206,11 @@ color: #474249;
     max-width: 174px;
     margin-bottom: 60px;
 }
-
+@media only screen and (min-width: 768px) {
+    .missionBtn {
+        margin-bottom: 0px;
+    }
+}
 @media only screen and (max-width: 767px) {
     .navigation {
         display: none;
@@ -176,7 +221,8 @@ color: #474249;
     .AboutUsAndHistiryWrapper {
         background-image: url(../../images/hands.jpg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 140%;
+        /* background-size: contain; */
         background-position: right;
         background-attachment: fixed;
      }

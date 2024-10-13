@@ -3,9 +3,15 @@
 .aboutWrapper {
     padding-left: 10px;
     padding-right: 10px;
+    max-width: 400px;
 }
 }
 @media only screen and (min-width: 1024px) {
+.aboutWrapper {
+    max-width: 550px;
+}
+}
+@media only screen and (min-width: 1440px) {
 .aboutWrapper {
     max-width: 750px;
 }
@@ -25,7 +31,11 @@
         text-align: center;
     }
 }
-
+@media only screen and (min-width: 1440px) {
+    .titleAbout {
+        font-size: 48px;
+    }
+}
 .textMainAbout{
     font-size: 16px;
     line-height: 1.4;
@@ -35,18 +45,19 @@
 
     margin-bottom: 20px;
 }
+
 @media only screen and (min-width: 768px) {
     .textMainAbout {
         hyphens: none;
-    
-    }
-}
-@media only screen and (min-width: 768px) {
-    .textMainAbout {
         font-size: 18px;
         font-weight: 400;
         line-height: 1.6;
     }
+}
+@media only screen and (min-width: 1440px) {
+.textMainAbout {
+        font-size: 21px;
+}
 }
 .textAbout{
     font-size: 17px;
@@ -66,5 +77,10 @@
 @media only screen and (min-width: 1024px) {
     .textAbout {
         margin-bottom: 0px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .textAbout {
+        font-size: 21px;
     }
 }

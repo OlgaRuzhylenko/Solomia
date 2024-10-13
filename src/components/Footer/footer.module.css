@@ -52,6 +52,11 @@ margin-bottom: 30px;
         margin-bottom: 0;
     }
 }
+@media only screen and (min-width: 768px) {
+    .footerNavigation {
+        max-width: 730px;
+    }
+}
 .footerNavItem{
     display: flex;
     flex-wrap: wrap;

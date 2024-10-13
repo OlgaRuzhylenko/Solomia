@@ -21,17 +21,34 @@
 
         position: absolute;
         top: 70px;
-        left: 200px;
+        left: 150px;
         max-width: 180px;
         z-index: 2;
     }
 }
-
+@media only screen and (min-width: 1024px) {
+    .subtitleList {
+        left: 215px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .subtitleList {
+        padding: 40px 30px;
+        max-width: 220px;
+        top: 90px;
+        left: 410px;
+    }
+}
 @media only screen and (min-width: 768px) {
     .subtitleLink {
         text-decoration: none;
         color: black;
         text-transform: uppercase;
         font-size: 14px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .subtitleLink {
+        font-size: 16px;
     }
 }

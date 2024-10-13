@@ -6,6 +6,11 @@
       justify-content: center;
       margin-bottom: 20px;    
   }
+    @media only screen and (min-width: 1440px) {
+      .navigation {
+        column-gap: 25px;
+      }
+    }
   .navigationItem {
     font-size: 16px;
     letter-spacing: 2.5px;

@@ -63,19 +63,19 @@ export default function HomePage() {
               static={true}
             >
               <div className="carousel-cell">
-                <NavLink to="/our-achievements">
+                <NavLink to="/national-cashback">
                   <img
-                    src={achievImg}
-                    alt="пачки чаю Батік"
+                    src={nationalCashbackImg}
+                    alt="пачки чаю Батік та Аскольд та жовто-синій штрихкод зроблено в Україні"
                     className={css.acievImg}
                   />
                 </NavLink>
               </div>
               <div className="carousel-cell">
-                <NavLink to="/national-cashback">
+                <NavLink to="/our-achievements">
                   <img
-                    src={nationalCashbackImg}
-                    alt="пачки чаю Батік та Аскольд та жовто-синій штрихкод зроблено в Україні"
+                    src={achievImg}
+                    alt="пачки чаю Батік"
                     className={css.acievImg}
                   />
                 </NavLink>

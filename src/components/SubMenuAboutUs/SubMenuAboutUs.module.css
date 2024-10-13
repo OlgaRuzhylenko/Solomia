@@ -20,10 +20,23 @@ font-size: 14px;
 
             position: absolute;
             top: 70px;
-            left: 65px;
+            left: 15px;
             max-width: 180px;
             z-index: 2;
         }
+}
+@media only screen and (min-width: 1024px) {
+    .subtitleList {       
+        left: 85px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .subtitleList {
+        padding: 40px 30px;
+        max-width: 220px;
+        top: 90px;
+        left: 265px;
+    }
 }
 @media only screen and (min-width: 768px) {
 .subtitleLink {
@@ -33,4 +46,8 @@ font-size: 14px;
         font-size: 14px;
     }
 }
-
+@media only screen and (min-width: 1440px) {
+    .subtitleLink {
+        font-size: 16px;
+    }
+}

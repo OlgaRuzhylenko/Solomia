@@ -50,7 +50,7 @@ margin-bottom: 50px;
 }
 @media only screen and (min-width: 375px) {
     .subTitleWrap {
-    bottom: 610px;
+    bottom: 510px;
     right: 15px;
 }
 @media only screen and (min-width: 768px) {
