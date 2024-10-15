@@ -35,11 +35,15 @@ export default function Footer({ onNavigate }) {
       <div className="container">
         <div className={css.footerSectionBox}>
           <div className={css.footerInformation}>
-            <img
-              src={mainLittleLogo}
-              alt="логотип Соломія"
-              className={css.footerLogo}
-            />
+            <NavLink to="/">
+              <button onClick={scrollToTop} className={css.logoBtn}>
+                <img
+                  src={mainLittleLogo}
+                  alt="логотип Соломія"
+                  className={css.footerLogo}
+                />
+              </button>
+            </NavLink>
 
             <div className={css.footerNavigation}>
               <nav className={css.footerNavItem}>

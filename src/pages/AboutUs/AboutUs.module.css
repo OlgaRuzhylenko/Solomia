@@ -1,4 +1,7 @@
 
+.aboutSection {
+    margin-top: 40px;
+}
 @media only screen and (min-width: 768px) {
 .aboutWrapper {
     padding-left: 10px;
@@ -83,4 +86,8 @@
     .textAbout {
         font-size: 21px;
     }
+}
+
+.aboutUsImg {
+    margin-bottom: 30px;
 }

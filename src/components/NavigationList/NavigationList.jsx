@@ -17,12 +17,12 @@ export default function NavigationList({ onNavigate }) {
   };
   const handleAboutUsMenu = () => {
     setIsAboutUsOpen((prev) => !prev);
-    setIsBrandsOpen(false); // Закриваємо інше меню
+    setIsBrandsOpen(false);
   };
 
   const handleBrandsMenu = () => {
     setIsBrandsOpen((prev) => !prev);
-    setIsAboutUsOpen(false); // Закриваємо інше меню
+    setIsAboutUsOpen(false);
   };
   const handleCloseMenu = () => {
     setIsAboutUsOpen(false);

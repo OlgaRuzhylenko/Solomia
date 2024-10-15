@@ -25,6 +25,7 @@ justify-content: center;
         justify-content: space-between;
         flex-wrap: wrap;
         margin-bottom: 20px;
+        align-items: flex-end;
     }
 }
 .footerInformation::after{
@@ -226,4 +227,8 @@ margin-bottom: 30px;
     align-items: center;
     justify-content: center;
 }
+}
+.logoBtn {
+    border: none;
+    background-color: transparent;
 }

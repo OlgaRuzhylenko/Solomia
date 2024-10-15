@@ -10,12 +10,12 @@
 }
 
 .link:hover {
-    color: orangered;
+    font-size: 18px;
     text-decoration: underline;
 }
 
 .active {
-    color: red;
+    color: black;
 }
 
 .navigation {

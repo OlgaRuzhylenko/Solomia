@@ -1,9 +1,17 @@
+import Header from "../../components/Header/Header";
 import css from "./AboutUs.module.css";
+import aboutUsImg from "../../images/aboutUs/aboutUs.jpg";
 
 export default function AboutUs() {
   return (
     <div>
+      <div>{<Header />}</div>
       <section className={css.aboutSection}>
+        <img
+          src={aboutUsImg}
+          alt="чашка із чаєм та чашка із кавою"
+          className={css.aboutUsImg}
+        />
         <div className="container">
           <div className={css.aboutWrapper}>
             <h1 className={css.titleAbout}>Компанія SOLOMIA</h1>

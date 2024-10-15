@@ -1,0 +1,9 @@
+.headerLogo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.headerSection {
+    background-color: #888888;
+    padding-top: 60px;
+}

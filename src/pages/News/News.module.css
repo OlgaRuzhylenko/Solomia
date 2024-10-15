@@ -6,9 +6,11 @@ margin-bottom: 50px;
     .newsSection {
         background-image: url(../../images/brandsBG.jpg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: right;
         background-attachment: fixed;
+
+        margin-bottom: 0px;
     }
 }
 .title {
