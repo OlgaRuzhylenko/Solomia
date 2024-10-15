@@ -7,9 +7,10 @@
 
     padding-top: 20px;
 }
-@media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 1440px) {
     .footerSection {
-        padding-top: 0;
+        padding-bottom: 20px;
     }
 }
 .footerInformation{
@@ -52,11 +53,18 @@ margin-bottom: 30px;
         margin-bottom: 0;
     }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     .footerNavigation {
         max-width: 730px;
     }
 }
+@media only screen and (min-width: 1440px) {
+    .footerNavigation {
+        max-width: 814px;
+        margin-bottom: 50px;
+    }
+}
+
 .footerNavItem{
     display: flex;
     flex-wrap: wrap;
@@ -92,6 +100,12 @@ margin-bottom: 30px;
         margin-bottom: 40px;
     }
 }
+@media only screen and (min-width: 1440px) {
+.footerCopy {
+    font-size: 16px;
+    
+}
+}
 .footerName{
     font-size: 14px;
     color: #FFFFFF;
@@ -117,6 +131,12 @@ margin-bottom: 30px;
         margin-bottom: 0px;
     }
 }
+@media only screen and (min-width: 1440px) {
+    .address {
+        font-size: 15px;
+    }
+}
+
 .footerLink{
     font-size: 14px;
     color: #FFFFFF;
@@ -129,6 +149,11 @@ margin-bottom: 30px;
     font-style: italic;
     text-align: center;
     color: #FFFFFF
+}
+@media only screen and (min-width: 1440px) {
+    .footerSocialMedia {
+        font-size: 15px;
+    }
 }
 .socialMediaItem {
     width: 41px;
@@ -151,6 +176,7 @@ margin-bottom: 30px;
     align-items: center;
     justify-content: center;
 }
+
 @media only screen and (min-width: 768px) {
 .nameAddressSocialMediaWrapper {
     display: flex;
@@ -158,6 +184,7 @@ margin-bottom: 30px;
     align-items: flex-start;
 }
 }
+
 @media only screen and (max-width: 767px) {
 .bntUp {
     display: none;
@@ -185,4 +212,18 @@ margin-bottom: 30px;
     fill: #FFFFFF;
     width: 25px;
     height: 25px;
+}
+@media only screen and (max-width: 1440px) {
+.footerSectionBox {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+}
+
+@media only screen and (max-width: 1440px) {
+.socialMediaWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 }

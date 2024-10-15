@@ -3,7 +3,7 @@ import css from "./News.module.css";
 import batikAtb375 from "../../images/news/batik-atb375.jpg";
 import batikAtb1054 from "../../images/news/batik-atb1054.jpg";
 import coffe375 from "../../images/news/arden375.jpg";
-import coffe1054 from "../../images/news/batik-atb1054.jpg";
+import coffe1054 from "../../images/news/arden1054.jpg";
 import madeInUkraine375 from "../../images/news/made-ua375.jpg";
 import madeInUkraine1054 from "../../images/news/news-ua1054.jpg";
 import uaSvg from "../../images/svg/ua02.svg";
