@@ -14,7 +14,7 @@ export default function Brands() {
           <div className={css.brandsSectionWrapper}>
             <h2 className={css.title}>Наші бренди</h2>
             <ul className={css.brandsList}>
-              <li>
+              <li className={css.brandsItem}>
                 <NavLink to="/batik">
                   <img
                     src={batikLogo}
@@ -23,7 +23,7 @@ export default function Brands() {
                   />
                 </NavLink>
               </li>
-              <li>
+              <li className={css.brandsItem}>
                 <NavLink to="/askold-emotion-collection">
                   <img
                     src={askoldLogo}
@@ -32,7 +32,7 @@ export default function Brands() {
                   />
                 </NavLink>
               </li>
-              <li>
+              <li className={css.brandsItem}>
                 <NavLink to="/askold-noble-tea">
                   <img
                     src={askoldNobleLogo}
@@ -41,7 +41,7 @@ export default function Brands() {
                   />
                 </NavLink>
               </li>
-              <li>
+              <li className={css.brandsItem}>
                 <NavLink to="/arden">
                   <img
                     src={ardenLogo}
@@ -50,7 +50,7 @@ export default function Brands() {
                   />
                 </NavLink>
               </li>
-              <li>
+              <li className={css.brandsItem}>
                 <NavLink to="/domashnij-chaj">
                   <img
                     src={domLogo}

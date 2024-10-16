@@ -13,6 +13,7 @@ import FlickityComponent from "react-flickity-component";
 import { useMediaQuery } from "react-responsive";
 import "./flickity.css";
 import "flickity/css/flickity.css";
+import AboutUsInformation from "../../components/AboutUsInformation/AboutUsInformation";
 
 export default function HomePage() {
   const isTabletOrLarger = useMediaQuery({ query: "(min-width: 768px)" });
@@ -41,28 +42,7 @@ export default function HomePage() {
           </div>
         </section>
         <div className={css.AboutUsAndHistiryWrapper}>
-          {/* <div className={css.aboutLink}>{<AboutUs />}</div> */}
-          <div className={css.aboutLink}>
-            <div className="container">
-              <div className={css.aboutWrapper}>
-                <h1 className={css.titleAbout}>Компанія SOLOMIA</h1>
-                <p className={css.textMainAbout}>
-                  Бути стандартом українського ринку бакалійних продуктів.
-                  Доставляти енергію та користь природних продуктів харчування
-                  до кожної української родини.
-                </p>
-                <p className={css.textAbout}>
-                  Компанія SOLOMIA є національним виробником і дистриб’ютором
-                  високоякісних продуктів харчування. Дистриб’юторський портфель
-                  компанії представлено як власними брендами ТМ ASKOLD, ТМ
-                  BATIK, ТМ Домашній чай, так і брендами, що ексклюзивно
-                  імпортуються з різних країн світу. Наявність власної системи
-                  дистриб’юції та представництв в усіх регіонах України сприяють
-                  успішному розвитку компанії в каналах збуту.
-                </p>
-              </div>
-            </div>
-          </div>
+          <div className={css.aboutLink}>{<AboutUsInformation />}</div>
           <div className={css.historyBoxWrapper}>
             <div className="container">
               <div className={css.historyBox}>

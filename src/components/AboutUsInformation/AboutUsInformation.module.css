@@ -1,0 +1,104 @@
+.aboutSection {
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .aboutWrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .aboutWrapper {
+        max-width: 550px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .aboutWrapper {
+        max-width: 750px;
+    }
+}
+
+.titleAbout {
+    font-size: 28px;
+    color: #474249;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .titleAbout {
+        font-size: 40px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .titleAbout {
+        font-size: 48px;
+    }
+}
+
+.textMainAbout {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #474249;
+    text-align: justify;
+    hyphens: auto;
+
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .textMainAbout {
+        hyphens: none;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.6;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .textMainAbout {
+        font-size: 21px;
+    }
+}
+
+.textAbout {
+    font-size: 17px;
+    color: #888888;
+    line-height: 1.5;
+    text-align: justify;
+    hyphens: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .textAbout {
+        font-size: 20px;
+        hyphens: none;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .textAbout {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .textAbout {
+        font-size: 21px;
+    }
+}
+
+.aboutUsImg {
+    margin-bottom: 30px;
+}
