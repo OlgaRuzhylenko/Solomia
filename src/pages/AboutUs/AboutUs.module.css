@@ -3,9 +3,63 @@
     margin-top: 40px;
     margin-bottom: 70px;
 }
+@media only screen and (min-width: 768px) {
+    .aboutSection {
+        display: flex;
+        padding-top: 170px;
+        gap: 20px;
+        align-items: center;
 
+        margin-bottom: 15px;
+    }
+}
 
 .aboutUsImg {
     margin-bottom: 30px;
 }
+@media only screen and (min-width: 768px) {
+    .aboutUsImg {
+        width: 385px;
+        object-fit: contain;
+    }
+}
+/************** стилі для AboutUsInformation ***********/
+@media only screen and (min-width: 768px) {
+    .titleAbout {
+        font-size: 38px;
+        font-weight: 400;
+        line-height: 1;
+        color: #423930;
 
+        margin-bottom: 15px;
+    }
+    .textMainAbout{
+        font-size: 15px;
+        color: #222222;
+        font-weight: 400;
+        text-align: justify;
+
+        margin-bottom: 20px;
+    }
+    .textAbout{
+        font-size: 15px;
+        text-align: justify;
+        color: #888888;
+    }
+    .aboutWrapper {
+        max-width: 325px;
+        }
+}
+/* ********************************************************* */
+@media only screen and (min-width: 768px) {
+.brandsSection {
+        background-image: url(../../images/brandsBG.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: right;
+        background-attachment: fixed;
+
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}

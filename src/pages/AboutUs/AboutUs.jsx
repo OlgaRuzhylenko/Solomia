@@ -6,8 +6,11 @@ import Brands from "../Brands/Brands";
 import missionLogo from "../../images/missionLogo.png";
 import Mission from "../Mission/Mission";
 import Footer from "../../components/Footer/Footer";
+import { useMediaQuery } from "react-responsive";
 
 export default function AboutUs() {
+  const isMobileOrLess = useMediaQuery({ query: "(max-width: 767px)" });
+  const isTabletOrLarger = useMediaQuery({ query: "(min-width: 768px)" });
   return (
     <div>
       <div>{<Header />}</div>
@@ -17,9 +20,28 @@ export default function AboutUs() {
           alt="чашка із чаєм та чашка із кавою"
           className={css.aboutUsImg}
         />
-        {<AboutUsInformation />}
+        {isMobileOrLess && <AboutUsInformation />}
+        {isTabletOrLarger && (
+          <div className={css.aboutWrapper}>
+            <h1 className={css.titleAbout}>Компанія SOLOMIA</h1>
+            <p className={css.textMainAbout}>
+              Бути стандартом українського ринку бакалійних продуктів.
+              Доставляти енергію та користь природних продуктів харчування до
+              кожної української родини.
+            </p>
+            <p className={css.textAbout}>
+              Компанія SOLOMIA є національним виробником і дистриб’ютором
+              високоякісних продуктів харчування. Дистриб’юторський портфель
+              компанії представлено як власними брендами ТМ ASKOLD, ТМ BATIK, ТМ
+              Домашній чай, так і брендами, що ексклюзивно імпортуються з різних
+              країн світу. Наявність власної системи дистриб’юції та
+              представництв в усіх регіонах України сприяють успішному розвитку
+              компанії в каналах збуту.
+            </p>
+          </div>
+        )}
       </section>
-      {<Brands />}
+      <div className={css.brandsSection}>{<Brands />}</div>
       {<Mission />}
       <div>{<Footer />}</div>
     </div>

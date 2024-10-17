@@ -15,56 +15,61 @@ export default function Mission() {
           />
         </div>
         <div className="container">
-          <h2 className={css.title}>Наше Бачення</h2>
-          <p className={css.description}>
-            Стати еталоном галузі продуктів харчування, компанією, яка задає
-            стандарти і є орієнтиром для виробників продуктів у всьому світі, що
-            дозволить:
-          </p>
+          <div className={css.firstMissionListWrap}>
+            <div className={css.firstMissionList}>
+              <h2 className={css.title}>Наше Бачення</h2>
+              <p className={css.description}>
+                Стати еталоном галузі продуктів харчування, компанією, яка задає
+                стандарти і є орієнтиром для виробників продуктів у всьому
+                світі, що дозволить:
+              </p>
+              <ul className={css.missionlist}>
+                <li className={css.missionItem}>
+                  <h3 className={css.subTitle}>Товариству</h3>
+                  <p className={css.text}>
+                    міняти якість життя людей на краще, задаючи стандарти
+                    культури виробництва, торгівлі та соціальної
+                    відповідальності бізнесу
+                  </p>
+                </li>
+                <li className={css.missionItem}>
+                  <h3 className={css.subTitle}>Споживачам</h3>
+                  <p className={css.text}>
+                    отримувати задоволення від кожної покупки та бути впевненими
+                    у незмінній високій якості нашої продукції
+                  </p>
+                </li>
+                <li className={css.missionItem}>
+                  <h3 className={css.subTitle}>Персоналу</h3>
+                  <p className={css.text}>
+                    створити такі умови роботи, завдяки яким співробітники
+                    розвиваються разом з Компанією і прагнуть до максимальної
+                    віддачі, отримуючи гідну оцінку особистого внеску в розвиток
+                    і процвітання компанії
+                  </p>
+                </li>
+                <li className={css.missionItem}>
+                  <h3 className={css.subTitle}>Акціонерам</h3>
+                  <p className={css.text}>
+                    забезпечувати зростання прибутку Компанії в довгостроковій
+                    перспективі, надаючи можливість мати матеріальні та
+                    соціальні дивіденди від участі в одній з найбільш динамічно
+                    розвиненої соціально-орієнтованої компанії в світі
+                  </p>
+                </li>
+                <li className={css.missionItem}>
+                  <h3 className={css.subTitle}>Партнерам</h3>
+                  <p className={css.text}>
+                    з впевненістю вибудовувати довгострокові відносини, що
+                    базуються на відкритій та взаємовигідній співпраці
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
 
-          <ul className={css.missionlist}>
-            <li className={css.missionItem}>
-              <h3 className={css.subTitle}>Товариству</h3>
-              <p className={css.text}>
-                міняти якість життя людей на краще, задаючи стандарти культури
-                виробництва, торгівлі та соціальної відповідальності бізнесу
-              </p>
-            </li>
-            <li className={css.missionItem}>
-              <h3 className={css.subTitle}>Споживачам</h3>
-              <p className={css.text}>
-                отримувати задоволення від кожної покупки та бути впевненими у
-                незмінній високій якості нашої продукції
-              </p>
-            </li>
-            <li className={css.missionItem}>
-              <h3 className={css.subTitle}>Персоналу</h3>
-              <p className={css.text}>
-                створити такі умови роботи, завдяки яким співробітники
-                розвиваються разом з Компанією і прагнуть до максимальної
-                віддачі, отримуючи гідну оцінку особистого внеску в розвиток і
-                процвітання компанії
-              </p>
-            </li>
-            <li className={css.missionItem}>
-              <h3 className={css.subTitle}>Акціонерам</h3>
-              <p className={css.text}>
-                забезпечувати зростання прибутку Компанії в довгостроковій
-                перспективі, надаючи можливість мати матеріальні та соціальні
-                дивіденди від участі в одній з найбільш динамічно розвиненої
-                соціально-орієнтованої компанії в світі
-              </p>
-            </li>
-            <li className={css.missionItem}>
-              <h3 className={css.subTitle}>Партнерам</h3>
-              <p className={css.text}>
-                з впевненістю вибудовувати довгострокові відносини, що базуються
-                на відкритій та взаємовигідній співпраці
-              </p>
-            </li>
-          </ul>
           <h2 className={css.title}>Наші Цінності</h2>
-          <ul>
+          <ul className={css.missionlist}>
             <li className={css.missionItem}>
               <h3 className={css.subTitle}>Амбіції</h3>
               <p className={css.text}>Бути кращими серед кращих</p>
