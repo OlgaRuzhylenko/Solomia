@@ -1,9 +1,92 @@
 .headerLogo {
     width: 100px;
-    height: 100px;
     margin: 0 auto;
+    object-fit: contain;
+}
+@media only screen and (min-width: 768px) {
+    .headerLogo {
+        width: 120px;
+    }
 }
 .headerSection {
-    background-color: #888888;
+    background-color: #3e3934;
     padding-top: 60px;
 }
+@media only screen and (min-width: 768px) {
+.headerSection {
+    padding-top: 0px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+}
+@media only screen and (min-width: 768px) {
+    .headerSectionBox {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+}
+/******************* стилі для NavigationList *****************/
+  .navigation {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 5px;
+      column-gap: 15px;
+      justify-content: center;
+      margin-bottom: 20px;
+  }
+@media only screen and (min-width: 768px) {
+    .navigationBox {
+        max-width: 600px;
+    }
+}
+  @media only screen and (min-width: 1440px) {
+      .navigation {
+          column-gap: 25px;
+      }
+  }
+
+  .navigationItem {
+      font-size: 15px;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      line-height: 1.6;
+      color: #FFFFFF;
+      text-decoration: none;
+  }
+
+  @media only screen and (min-width: 1440px) {
+      .navigationItem {
+          font-size: 20px;
+      }
+  }
+
+  .navigationSvg {
+      width: 18px;
+      height: 15px;
+      fill: #FFFFFF;
+  }
+
+  .navWrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .navButton {
+      background-color: transparent;
+      border: none;
+      padding: 0;
+  }
+
+  .navigationSvg {
+      transition: transform 0.3s ease;
+  }
+
+  .navigationSvg.open {
+      transform: rotate(180deg);
+  }
