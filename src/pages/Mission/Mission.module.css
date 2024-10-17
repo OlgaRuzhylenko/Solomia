@@ -1,3 +1,6 @@
+.missionSection {
+    margin-bottom: 76px;
+}
 .mainTitle {
     display: none;
 }
@@ -68,7 +71,7 @@
     font-size: 18px;
     line-height: 1.2;
     color: #000000CF;
-    hyphens: auto;
+    /* hyphens: auto; */
     text-align: justify;
 
     margin-bottom: 30px;
@@ -85,4 +88,12 @@
     font-size: 16px;
     line-height: 1.4;
     color: #888888;
+    /* hyphens: auto; */
+    text-align: justify;
+}
+.missionItem {
+    margin-bottom: 36px;
+}
+.missionItem:last-child {
+    margin-bottom: 0;
 }
