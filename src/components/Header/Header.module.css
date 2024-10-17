@@ -30,6 +30,12 @@
         justify-content: space-between;
     }
 }
+@media only screen and (min-width: 1024px) {
+.headerSectionBox {
+    align-items: center;
+    justify-content: space-around;
+}
+}
 /******************* стилі для NavigationList *****************/
   .navigation {
       display: flex;
@@ -43,6 +49,11 @@
     .navigationBox {
         max-width: 600px;
     }
+}
+@media only screen and (min-width: 1024px) {
+    .navigationBox {
+            max-width: 900px;
+        }
 }
   @media only screen and (min-width: 1440px) {
       .navigation {

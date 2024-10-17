@@ -68,56 +68,62 @@ export default function Mission() {
             </div>
           </div>
 
-          <h2 className={css.title}>Наші Цінності</h2>
-          <ul className={css.missionlist}>
-            <li className={css.missionItem}>
-              <h3 className={css.subTitle}>Амбіції</h3>
-              <p className={css.text}>Бути кращими серед кращих</p>
-            </li>
-            <li className={css.missionItem}>
-              <h3 className={css.subTitle}>Лідерство</h3>
-              <p className={css.text}>
-                Сміливо створювати краще майбутнє для себе і для України
-              </p>
-            </li>
-            <li className={css.missionItem}>
-              <h3 className={css.subTitle}>Повна віддача</h3>
-              <p className={css.text}>Бути вірними справі розумом та серцем</p>
-            </li>
-            <li className={css.missionItem}>
-              <h3 className={css.subTitle}>Відповідальність</h3>
-              <p className={css.text}>
-                Нести повну відповідальність за все, що ми виготовляємо і
-                продаємо
-              </p>
-            </li>
-            <li className={css.missionItem}>
-              <h3 className={css.subTitle}>Співпраця</h3>
-              <p className={css.text}>
-                Створювати такі умови роботи, щоб кожен в колективі міг
-                проявляти себе
-              </p>
-            </li>
-            <li className={css.missionItem}>
-              <h3 className={css.subTitle}>Інновації</h3>
-              <p className={css.text}>
-                Шукати, мріяти, створювати і відчувати радість творчості
-              </p>
-            </li>
-            <li className={css.missionItem}>
-              <h3 className={css.subTitle}>Якість</h3>
-              <p className={css.text}>
-                Все, що ми робимо, ми робимо на “відмінно”
-              </p>
-            </li>
-            <li className={css.missionItem}>
-              <h3 className={css.subTitle}>Піклування про майбутнє</h3>
-              <p className={css.text}>
-                Ми виготовляємо і продаємо те, що з задоволенням будуть пити
-                наші діти
-              </p>
-            </li>
-          </ul>
+          <div className={css.secondMissionListWrap}>
+            <div className={css.secondMissionList}>
+              <h2 className={css.title}>Наші Цінності</h2>
+              <ul className={css.missionlist}>
+                <li className={css.missionItem}>
+                  <h3 className={css.subTitle}>Амбіції</h3>
+                  <p className={css.text}>Бути кращими серед кращих</p>
+                </li>
+                <li className={css.missionItem}>
+                  <h3 className={css.subTitle}>Лідерство</h3>
+                  <p className={css.text}>
+                    Сміливо створювати краще майбутнє для себе і для України
+                  </p>
+                </li>
+                <li className={css.missionItem}>
+                  <h3 className={css.subTitle}>Повна віддача</h3>
+                  <p className={css.text}>
+                    Бути вірними справі розумом та серцем
+                  </p>
+                </li>
+                <li className={css.missionItem}>
+                  <h3 className={css.subTitle}>Відповідальність</h3>
+                  <p className={css.text}>
+                    Нести повну відповідальність за все, що ми виготовляємо і
+                    продаємо
+                  </p>
+                </li>
+                <li className={css.missionItem}>
+                  <h3 className={css.subTitle}>Співпраця</h3>
+                  <p className={css.text}>
+                    Створювати такі умови роботи, щоб кожен в колективі міг
+                    проявляти себе
+                  </p>
+                </li>
+                <li className={css.missionItem}>
+                  <h3 className={css.subTitle}>Інновації</h3>
+                  <p className={css.text}>
+                    Шукати, мріяти, створювати і відчувати радість творчості
+                  </p>
+                </li>
+                <li className={css.missionItem}>
+                  <h3 className={css.subTitle}>Якість</h3>
+                  <p className={css.text}>
+                    Все, що ми робимо, ми робимо на “відмінно”
+                  </p>
+                </li>
+                <li className={css.missionItem}>
+                  <h3 className={css.subTitle}>Піклування про майбутнє</h3>
+                  <p className={css.text}>
+                    Ми виготовляємо і продаємо те, що з задоволенням будуть пити
+                    наші діти
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </section>
     </div>
