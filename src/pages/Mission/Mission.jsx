@@ -22,7 +22,7 @@ export default function Mission() {
             дозволить:
           </p>
 
-          <ul>
+          <ul className={css.missionlist}>
             <li className={css.missionItem}>
               <h3 className={css.subTitle}>Товариству</h3>
               <p className={css.text}>

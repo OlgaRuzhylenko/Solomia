@@ -45,7 +45,11 @@
 .missionImg {
     width: 200px;
 }
-
+@media only screen and (min-width: 375px) {
+    .missionImg {
+            width: 235px;
+        }
+}
 @media only screen and (min-width: 768px) {
     .missionImg {
         margin-bottom: 20px;
@@ -96,4 +100,7 @@
 }
 .missionItem:last-child {
     margin-bottom: 0;
+}
+.missionlist {
+    margin-bottom: 50px;
 }
