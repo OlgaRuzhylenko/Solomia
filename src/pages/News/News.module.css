@@ -6,7 +6,7 @@ margin-bottom: 50px;
     .newsSection {
         background-image: url(../../images/brandsBG.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100%;
         background-position: right;
         background-attachment: fixed;
 
