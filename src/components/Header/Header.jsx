@@ -60,7 +60,9 @@ export default function Header({ onNavigate }) {
                     />
                   </button>
                   {isAboutUsOpen && (
-                    <SubMenuAboutUs onNavigate={handleLinkClick} />
+                    <div className={css.aboutUsFirstSubmenu}>
+                      <SubMenuAboutUs onNavigate={handleLinkClick} />
+                    </div>
                   )}
                 </div>
 
@@ -76,7 +78,9 @@ export default function Header({ onNavigate }) {
                     />
                   </button>
                   {isBrandsOpen && (
-                    <SubMenuBrands onNavigate={handleLinkClick} />
+                    <div className={css.aboutUsSecondSubmenu}>
+                      <SubMenuBrands onNavigate={handleLinkClick} />
+                    </div>
                   )}
                 </div>
 

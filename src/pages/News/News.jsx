@@ -36,9 +36,9 @@ export default function News() {
                   ></img>
                 </picture>
 
-                <div className={css.subTitleWrap}>
+                {/* <div className={css.subTitleWrap}>
                   <p className={css.subTitle}>новини</p>
-                </div>
+                </div> */}
                 <div className={css.descriptionWrap}>
                   {/* <div className={css.svgAndText}> */}
                   {/* <img
@@ -82,9 +82,9 @@ export default function News() {
                   ></img>
                 </picture>
 
-                <div className={css.subTitleWrap}>
+                {/* <div className={css.subTitleWrap}>
                   <p className={css.subTitle}>новини</p>
-                </div>
+                </div> */}
                 <div className={css.descriptionWrap}>
                   <h3 className={css.description}>
                     Купуйте у магазинах мережі АТБ ”Batik” з Чорною Смородиною”
@@ -122,9 +122,9 @@ export default function News() {
                   ></img>
                 </picture>
 
-                <div className={css.subTitleWrap}>
+                {/* <div className={css.subTitleWrap}>
                   <p className={css.subTitle}>новини</p>
-                </div>
+                </div> */}
                 <div className={css.descriptionWrap}>
                   <h3 className={css.description}>
                     Насолоджуйся улюбленими кавовими блендами разом з нашою
