@@ -111,10 +111,22 @@
     z-index: 2;
     width: 100%;
 }
+@media only screen and (min-width: 1024px) {
+    .aboutUsFirstSubmenu {
+        bottom: 80px;
+        right: 85px;
+    }
+}
 .aboutUsSecondSubmenu {
     position: absolute;
     bottom: 110px;
     right: 27px;
     z-index: 2;
     width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+    .aboutUsSecondSubmenu {
+        bottom: 80px;
+        right: 95px;
+    }
 }
