@@ -1,3 +1,6 @@
 .historySection {
     padding-top: 30px;
 }
+.historymainTitle {
+    display: none;
+}
