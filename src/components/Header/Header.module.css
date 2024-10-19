@@ -56,6 +56,11 @@
             max-width: 900px;
         }
 }
+@media only screen and (min-width: 1440px) {
+.navigationBox {
+    max-width: 1200px;
+}
+}
   @media only screen and (min-width: 1440px) {
       .navigation {
           column-gap: 25px;
@@ -117,6 +122,12 @@
         right: 85px;
     }
 }
+@media only screen and (min-width: 1440px) {
+    .aboutUsFirstSubmenu {
+        bottom: 100px;
+        right: 425px;
+    }
+}
 .aboutUsSecondSubmenu {
     position: absolute;
     bottom: 110px;
@@ -129,4 +140,10 @@
         bottom: 80px;
         right: 95px;
     }
+}
+@media only screen and (min-width: 1440px) {
+    .aboutUsSecondSubmenu {
+            bottom: 100px;
+            right: 435px;
+        }
 }

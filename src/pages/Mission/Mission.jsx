@@ -14,8 +14,9 @@ export default function Mission() {
             className={css.missionImg}
           />
         </div>
-        <div className="container">
-          <div className={css.firstMissionListWrap}>
+
+        <div className={css.firstMissionListWrap}>
+          <div className="container">
             <div className={css.firstMissionList}>
               <h2 className={css.title}>Наше Бачення</h2>
               <p className={css.description}>
@@ -67,8 +68,10 @@ export default function Mission() {
               </ul>
             </div>
           </div>
+        </div>
 
-          <div className={css.secondMissionListWrap}>
+        <div className={css.secondMissionListWrap}>
+          <div className="container">
             <div className={css.secondMissionList}>
               <h2 className={css.title}>Наші Цінності</h2>
               <ul className={css.missionlist}>
