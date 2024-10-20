@@ -1,0 +1,26 @@
+.mainBatikSection {
+    background-image: url(../../images/batik/batik-main-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+
+    margin-top: 30px;
+    padding-top: 31px;
+}
+.batikMainTitle {
+    display: none;
+}
+.batikBtn {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 2.56px;
+    text-transform: uppercase;
+    
+    text-decoration: none;
+    border: 1px solid #ffff;
+    box-shadow: 3px 3px 0px 0px #FFFFFF;
+    padding: 14px 25px;
+     
+    max-width: 143px;
+}

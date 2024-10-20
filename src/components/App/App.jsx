@@ -21,6 +21,8 @@ import Quality from "../../pages/Quality/Quality";
 import FinancialReporting from "../../pages/FinancialReporting/FinancialReporting";
 import Stores from "../../pages/Stores/Stores";
 import NationalCashback from "../../pages/NationalCashback/NationalCashback";
+import BatikCollection from "../../pages/BatikCollection/BatikCollection";
+import BatikGoldCollection from "../../pages/BatikGoldCollection/BatikGoldCollection";
 
 export default function App() {
   return (
@@ -46,6 +48,11 @@ export default function App() {
         <Route path="/financial-reporting" element={<FinancialReporting />} />
         <Route path="/stores-and-online-shopping" element={<Stores />} />
         <Route path="/national-cashback" element={<NationalCashback />} />
+        <Route path="/batik-classic-collection" element={<BatikCollection />} />
+        <Route
+          path="/batik-gold-collection"
+          element={<BatikGoldCollection />}
+        />
       </Routes>
     </Layout>
   );
