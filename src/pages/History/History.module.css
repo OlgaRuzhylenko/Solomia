@@ -1,6 +1,45 @@
 .historySection {
-    padding-top: 30px;
+    padding-top: 23px;
+    margin-bottom: 23px;
 }
 .historymainTitle {
     display: none;
+}
+.historyImg {
+    margin-bottom: 15px;
+}
+.title {
+    font-size: 15px;
+    line-height: 2;
+    text-align: justify;
+    color: #888888;
+
+    padding-bottom: 15px;
+}
+.historyTextBox {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.text {
+    font-size: 15px;
+    line-height: 2;
+    text-align: justify;
+    color: #888888;
+
+    padding-bottom: 15px;
+}
+.description {
+    font-size: 15px;
+    line-height: 2;
+    text-align: justify;
+    color: #888888;
+}
+.list {
+    padding-bottom: 15px;
+    list-style-type: disc;
+    padding-left: 20px;
+    padding-right: 16px;
+}
+.list li::marker {
+    color: #888888;
 }
