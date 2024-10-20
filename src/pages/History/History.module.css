@@ -2,11 +2,27 @@
     padding-top: 23px;
     margin-bottom: 23px;
 }
+@media only screen and (min-width: 768px) {
+    .historySection {
+        padding-top: 170px;
+    }
+}
+
 .historymainTitle {
     display: none;
 }
 .historyImg {
     margin-bottom: 15px;
+}
+@media only screen and (min-width: 768px) {
+    .historyImg {
+        margin-bottom: 25px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .historyImg {
+            margin-bottom: 40px;
+        }
 }
 .title {
     font-size: 15px;
@@ -16,9 +32,34 @@
 
     padding-bottom: 15px;
 }
+
+@media only screen and (min-width: 768px) {
+    .title {
+        font-size: 18px;
+        padding-bottom: 18px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .title {
+            font-size: 19px;
+            padding-bottom: 19px;
+        }
+}
 .historyTextBox {
     padding-left: 15px;
     padding-right: 15px;
+}
+@media only screen and (min-width: 768px) {
+.historyTextBox {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .historyTextBox {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
 }
 .text {
     font-size: 15px;
@@ -28,11 +69,33 @@
 
     padding-bottom: 15px;
 }
+@media only screen and (min-width: 768px) {
+    .text {
+        font-size: 18px;
+        padding-bottom: 18px;
+    }
+} 
+@media only screen and (min-width: 1440px) {
+    .text {
+            font-size: 19px;
+            padding-bottom: 19px;
+        }
+}
 .description {
     font-size: 15px;
     line-height: 2;
     text-align: justify;
     color: #888888;
+}
+@media only screen and (min-width: 768px) {
+    .description {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .description {
+            font-size: 19px;
+        }
 }
 .list {
     padding-bottom: 15px;
@@ -40,6 +103,13 @@
     padding-left: 20px;
     padding-right: 16px;
 }
+
 .list li::marker {
     color: #888888;
+}
+@media only screen and (min-width: 768px) {
+    .list {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
 }
