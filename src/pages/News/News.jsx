@@ -40,20 +40,25 @@ export default function News() {
                   <p className={css.subTitle}>новини</p>
                 </div> */}
                 <div className={css.descriptionWrap}>
-                  {/* <div className={css.svgAndText}> */}
-                  {/* <img
-                    src={uaSvg}
-                    alt="зображення прапора України"
-                    className={css.flagSvg}
-                  /> */}
                   <h3 className={css.description}>
+                    <img
+                      src={uaSvg}
+                      alt="жовто-блакитний прапор"
+                      className={css.uaTitleSvg}
+                    />
                     Чайні бренди Batik та Askold приєднались до проєкту
                     “Зроблено в Україні” та програми “Національний кешбек”.
                   </h3>
-                  {/* </div> */}
+
                   <p className={css.text}>
-                    Усі в плюсі, коли купуєш і продаєш українське!🇺🇦
+                    Усі в плюсі, коли купуєш і продаєш українське!
+                    <img
+                      src={uaSvg}
+                      alt="жовто-блакитний прапор"
+                      className={css.uaSvg}
+                    />
                   </p>
+
                   <p className={css.linkText}>Читати далі </p>
                 </div>
               </NavLink>

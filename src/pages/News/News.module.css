@@ -125,6 +125,8 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
     text-align: inherit;
     color: #423930;
     margin-bottom: 25px;
+
+    display: ruby;
 }
 @media only screen and (min-width: 375px) {
     .description {
@@ -166,7 +168,7 @@ margin: 0 auto;
     line-height: 1.5;
 
     margin-bottom: 25px;
-    
+    display: ruby;
 }
 @media only screen and (min-width: 1024px) {
     .text {
@@ -204,4 +206,11 @@ margin: 0 auto;
 display: flex;
 flex-direction: column;
 }
+}
+
+.uaSvg {
+    width: 14px;
+}
+.uaTitleSvg {
+    width: 21px;
 }
