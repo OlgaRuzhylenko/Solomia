@@ -10,7 +10,7 @@ export default function BatikPage() {
   return (
     <div>
       <div>{<Header />}</div>
-      <section>
+      <section className={css.batikSection}>
         <div className={css.mainBatikSection}>
           <div className="container">
             <h1 className={css.batikMainTitle}>
