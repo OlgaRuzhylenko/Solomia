@@ -14,7 +14,7 @@
 }
 @media only screen and (min-width: 1024px) {
     .aboutSection {
-        padding-top: 165px;
+        padding-top: 185px;
         align-items: flex-start;
         margin-bottom: 0px;
     }
@@ -22,7 +22,7 @@
 @media only screen and (min-width: 1440px) {
 .aboutSection {
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding-right: 20px;
 }
 }
@@ -52,11 +52,12 @@
     .aboutUsImg {
         width: 513px;
         margin-bottom: 0px;
+        margin-right: 50px;
     }
 }
 @media only screen and (min-width: 1440px) {
     .aboutUsImg {
-        width: 723px;
+        width: 100%;
     }
 }
 /************** стилі для AboutUsInformation ***********/
