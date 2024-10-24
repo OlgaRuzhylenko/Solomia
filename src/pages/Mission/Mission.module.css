@@ -168,9 +168,8 @@
     .firstMissionListWrap {
     background-image: url(../../images/hands.jpg);
     background-repeat: no-repeat;
-    background-size: 120%;
+    background-size: cover;
     background-position: right;
-    background-attachment: fixed;
 
     padding-left: 10px;
       }
