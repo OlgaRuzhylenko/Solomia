@@ -191,7 +191,8 @@
 }
 @media only screen and (min-width: 1440px) {
     .secondMissionList {
-        max-width: 700px;
+        max-width: 710px;
+        margin-left: 495px;
     }
 }
 @media only screen and (min-width: 1024px) {
