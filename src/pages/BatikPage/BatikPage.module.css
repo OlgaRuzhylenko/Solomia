@@ -1,3 +1,24 @@
+@media only screen and (min-width: 768px) {
+    .batikSection {
+        margin-top: 190px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .batikSection {
+        margin-top: 220px;
+    }
+}
+@media only screen and (min-width: 768px) {
+.batikLogoImg {
+    width: 230px;
+}
+}
+@media only screen and (min-width: 1024px) {
+    .batikLogoImg {
+        width: 338px;
+        margin-right: 50px;
+    }
+}
 .mainBatikSection {
     background-image: url(../../images/batik/batik-main-background.jpg);
     background-repeat: no-repeat;
@@ -7,6 +28,18 @@
     margin-top: 30px;
     padding-bottom: 92px;
     margin-bottom: 40px;
+ }
+ @media only screen and (min-width: 768px) {
+    .mainBatikSection {
+        padding-bottom: 0px;
+        margin-bottom: 60px;
+    }
+ }
+ @media only screen and (min-width: 1024px) {
+    .mainBatikSection {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
  }
 .batikMainTitle {
     display: none;
@@ -36,6 +69,12 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+@media only screen and (min-width: 1024px) {
+    .batikText {
+        font-size: 21px;
+        line-height: 1.4;
+    }
+}
 .batikSlogan {
     max-width: 100%;
     box-sizing: border-box;
@@ -48,8 +87,27 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+@media only screen and (min-width: 1024px) {
+    .batikSlogan {
+        font-size: 21px;
+        line-height: 1.4;
+    }
+}
 .batikCollectionImg {
     margin-bottom: 50px;
+}
+@media only screen and (min-width: 768px) {
+    .batikCollectionImg {
+        width: 384px;
+        object-fit: cover;
+        object-position: top;
+        margin-bottom: 0px;
+        }
+}
+@media only screen and (min-width: 1024px) {
+    .batikCollectionImg {
+        width: 512px;
+    }
 }
 .batikTitle {
     text-align: center;
@@ -60,6 +118,19 @@
 
     margin-bottom: 35px;
 }
+
+@media only screen and (min-width: 768px) {
+    .batikTitle {
+        font-size: 35px;
+        line-height: 1.26;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .batikTitle {
+        font-size: 36px;
+    }
+}
 .batikDescription {
     font-size: 15px;
     text-align: justify;
@@ -69,7 +140,18 @@
 
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+    .batikDescription {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .batikDescription {
+            font-size: 21px;
+            margin-bottom: 31px;
+        }
 }
 .batikBtn {
     font-size: 16px;
@@ -95,21 +177,68 @@
 .batikCollectionSection {
     margin-bottom: 73px;
 }
+@media only screen and (min-width: 768px) {
+    .batikCollectionSection {
+        display: flex;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .batikCollectionSection {
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+}
 .batikCollectionSectionWrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .batikGoldSection {
     margin-bottom: 73px;
 }
+@media only screen and (min-width: 768px) {
+    .batikGoldSection {
+        margin-bottom: 54px;
+    }
+}
 .batikGoldImg {
 margin-bottom: 50px;
+}
+@media only screen and (min-width: 768px) {
+    .batikGoldImg {
+        width: 384px;
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .batikGoldSection {
+        display: flex;
+    }
 }
 .batikGoldSectionWrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+.batikLogoTextWrap {
+        display: flex;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+.batikLogoTextWrap {
+    padding-left: 85px;
+}
+}
+@media only screen and (min-width: 1024px) {
+    .batikArticle {
+        max-width: 850px;
+    }
 }
