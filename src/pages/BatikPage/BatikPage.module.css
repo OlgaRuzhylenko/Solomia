@@ -106,7 +106,13 @@
 }
 @media only screen and (min-width: 1024px) {
     .batikCollectionImg {
-        width: 512px;
+        /* width: 512px; */
+        flex: 1 1 50%;
+            /* Картинка займає 50% простору */
+            object-fit: cover;
+            /* Забезпечуємо коректне відображення зображення */
+            object-position: top;
+            margin-bottom: 0;
     }
 }
 .batikTitle {
@@ -187,6 +193,7 @@
     .batikCollectionSection {
         flex-direction: row-reverse;
         align-items: center;
+        justify-content: space-between;
         margin-bottom: 0px;
     }
 }
@@ -196,7 +203,15 @@
     align-items: center;
     justify-content: center;
 }
-
+@media only screen and (min-width: 1024px) {
+    .batikCollectionSectionWrapper {
+        flex: 1 1 50%;
+            /* Секція з текстом займає також 50% простору */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+    }
+}
 .batikGoldSection {
     margin-bottom: 73px;
 }
@@ -210,6 +225,7 @@
     .batikGoldSection {
         align-items: center;
         margin-bottom: 80px;
+        justify-content: space-between;
     }
 }
 .batikGoldImg {
@@ -223,7 +239,13 @@ margin-bottom: 50px;
 }
 @media only screen and (min-width: 1024px) {
     .batikGoldImg {
-        width: 512px;
+        /* width: 512px; */
+        flex: 1 1 50%;
+            /* Картинка займає 50% простору */
+            object-fit: cover;
+            /* Забезпечуємо коректне відображення зображення */
+            object-position: top;
+            margin-bottom: 0;
     }
 }
 
@@ -232,6 +254,15 @@ margin-bottom: 50px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+@media only screen and (min-width: 1024px) {
+    .batikGoldSectionWrapper {
+        flex: 1 1 50%;
+            /* Секція з текстом займає також 50% простору */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+    }
 }
 @media only screen and (min-width: 768px) {
 .batikLogoTextWrap {
