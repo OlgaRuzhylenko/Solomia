@@ -5,7 +5,7 @@
 }
 @media only screen and (min-width: 1024px) {
     .batikSection {
-        margin-top: 220px;
+        margin-top: 240px;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -187,6 +187,7 @@
     .batikCollectionSection {
         flex-direction: row-reverse;
         align-items: center;
+        margin-bottom: 0px;
     }
 }
 .batikCollectionSectionWrapper {
@@ -202,6 +203,13 @@
 @media only screen and (min-width: 768px) {
     .batikGoldSection {
         margin-bottom: 54px;
+        display: flex;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .batikGoldSection {
+        align-items: center;
+        margin-bottom: 80px;
     }
 }
 .batikGoldImg {
@@ -213,11 +221,12 @@ margin-bottom: 50px;
         margin-bottom: 0px;
     }
 }
-@media only screen and (min-width: 768px) {
-    .batikGoldSection {
-        display: flex;
+@media only screen and (min-width: 1024px) {
+    .batikGoldImg {
+        width: 512px;
     }
 }
+
 .batikGoldSectionWrapper {
     display: flex;
     flex-direction: column;
