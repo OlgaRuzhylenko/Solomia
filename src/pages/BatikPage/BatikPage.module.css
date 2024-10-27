@@ -93,6 +93,8 @@
         line-height: 1.4;
     }
 }
+
+
 .batikCollectionImg {
     margin-bottom: 50px;
 }
@@ -106,14 +108,8 @@
 }
 @media only screen and (min-width: 1024px) {
     .batikCollectionImg {
-        /* width: 512px; */
-        flex: 1 1 50%;
-            /* Картинка займає 50% простору */
-            object-fit: cover;
-            /* Забезпечуємо коректне відображення зображення */
-            object-position: top;
-            margin-bottom: 0;
-    }
+        width: calc((100% - 0px) / 2);
+       }
 }
 .batikTitle {
     text-align: center;
@@ -177,7 +173,6 @@
     max-width: 250px;
 
     transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
-
 }
 
 .batikCollectionSection {
@@ -193,8 +188,8 @@
     .batikCollectionSection {
         flex-direction: row-reverse;
         align-items: center;
-        justify-content: space-between;
         margin-bottom: 0px;
+        gap: 0;       
     }
 }
 .batikCollectionSectionWrapper {
@@ -205,13 +200,11 @@
 }
 @media only screen and (min-width: 1024px) {
     .batikCollectionSectionWrapper {
-        flex: 1 1 50%;
-            /* Секція з текстом займає також 50% простору */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+        /* width: calc((100% - 0px) / 2); */
     }
 }
+
+
 .batikGoldSection {
     margin-bottom: 73px;
 }
@@ -225,7 +218,7 @@
     .batikGoldSection {
         align-items: center;
         margin-bottom: 80px;
-        justify-content: space-between;
+        gap: 0;
     }
 }
 .batikGoldImg {
@@ -239,13 +232,7 @@ margin-bottom: 50px;
 }
 @media only screen and (min-width: 1024px) {
     .batikGoldImg {
-        /* width: 512px; */
-        flex: 1 1 50%;
-            /* Картинка займає 50% простору */
-            object-fit: cover;
-            /* Забезпечуємо коректне відображення зображення */
-            object-position: top;
-            margin-bottom: 0;
+        width: calc((100% - 0px) / 2);
     }
 }
 
@@ -257,11 +244,7 @@ margin-bottom: 50px;
 }
 @media only screen and (min-width: 1024px) {
     .batikGoldSectionWrapper {
-        flex: 1 1 50%;
-            /* Секція з текстом займає також 50% простору */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+
     }
 }
 @media only screen and (min-width: 768px) {
