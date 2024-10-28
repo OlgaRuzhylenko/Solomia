@@ -24,10 +24,12 @@
 @media only screen and (min-width: 768px) {
     .historyImg {
         margin-bottom: 25px;
+        padding: 70px;
     }
 }
 @media only screen and (min-width: 1024px) {
     .historyImg {
+        padding: 100px;
         }
 }
 @media only screen and (min-width: 1440px) {
