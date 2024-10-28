@@ -1,8 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import batikLogo from "../../images/batik/batik_logo.png";
-import batikCollectionImg from "../../images/batik/batik-collections-background.jpg";
-import batikGoldImg from "../../images/batik/batik-gold-background.jpg";
 import { useMediaQuery } from "react-responsive";
 import css from "./BatikPage.module.css";
 import Footer from "../../components/Footer/Footer";
@@ -43,21 +41,6 @@ export default function BatikPage() {
         </div>
 
         <div className={css.batikCollectionSection}>
-          {/* {isLargeScreen ? (
-            <div className="container">
-              <img
-                src={batikCollectionImg}
-                alt="Batik Collection"
-                className={css.batikCollectionImg}
-              />
-            </div>
-          ) : (
-            <img
-              src={batikCollectionImg}
-              alt="Batik Collection"
-              className={css.batikCollectionImg}
-            />
-          )} */}
           <div className={css.batikCollectionImgBack}></div>
           {isLargeScreen ? (
             <div className={css.batikCollectionSectionWrapper}>
@@ -98,22 +81,6 @@ export default function BatikPage() {
         </div>
 
         <div className={css.batikGoldSection}>
-          {/* {isLargeScreen ? (
-            <div className="container">
-              {" "}
-              <img
-                src={batikGoldImg}
-                alt="Batik Gold Collection"
-                className={css.batikGoldImg}
-              />
-            </div>
-          ) : (
-            <img
-              src={batikGoldImg}
-              alt="Batik Gold Collection"
-              className={css.batikGoldImg}
-            />
-          )} */}
           <div className={css.batikGoldImgBack}></div>
           {isLargeScreen ? (
             <div className={css.batikGoldSectionWrapper}>

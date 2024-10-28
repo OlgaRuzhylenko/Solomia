@@ -102,28 +102,6 @@
     }
 }
 
-
-/* .batikCollectionImg {
-    margin-bottom: 50px;
-}
-@media only screen and (min-width: 768px) {
-    .batikCollectionImg {
-        width: 384px;
-        object-fit: cover;
-        object-position: top;
-        margin-bottom: 0px;
-        }
-}
-@media only screen and (min-width: 1024px) {
-    .batikCollectionImg {
-        width: calc((100% - 0px) / 2);
-       }
-}
-@media only screen and (min-width: 1440px) {
-    .batikCollectionImg {
-            width: 77%;
-        }
-} */
 .batikTitle {
     text-align: center;
     color: #423930;
@@ -243,25 +221,7 @@
         gap: 0;
     }
 }
-/* .batikGoldImg {
-margin-bottom: 50px;
-}
-@media only screen and (min-width: 768px) {
-    .batikGoldImg {
-        width: 384px;
-        margin-bottom: 0px;
-    }
-}
-@media only screen and (min-width: 1024px) {
-    .batikGoldImg {
-        width: calc((100% - 0px) / 2);
-    }
-}
-@media only screen and (min-width: 1440px) {
-    .batikGoldImg {
-            width: 77%;
-        }
-} */
+
 .batikGoldSectionWrapper {
     display: flex;
     flex-direction: column;
@@ -272,9 +232,7 @@ margin-bottom: 50px;
     .batikGoldSectionWrapper {
         align-items: center;
         width: 1024px;
-        padding-top: 100px;
-        padding-bottom: 100px;
-        padding-left: 20px;
+        padding: 100px 40px 100px 40px;
     }
 }
 @media only screen and (min-width: 1440px) {
@@ -305,9 +263,6 @@ margin-bottom: 50px;
             max-width: 730px;
         }
 }
-
-
-
 
 .batikCollectionImgBack {
     background-image: url(../../images/batik/batik-collections-background.jpg);

@@ -10,11 +10,7 @@ export default function History() {
       <article>
         <section className={css.historySection}>
           <div className="container">
-            <img
-              src={historyImg}
-              alt="людські руки, що торкаються до чайного листа та кавової грони зерен"
-              className={css.historyImg}
-            />
+            <div className={css.historyImg}></div>
             <h1 className={css.historymainTitle}>Історія компанії Соломія</h1>
             <div className={css.historyTextBox}>
               <p className={css.title}>
