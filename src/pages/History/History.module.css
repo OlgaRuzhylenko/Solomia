@@ -7,7 +7,11 @@
         padding-top: 170px;
     }
 }
-
+@media only screen and (min-width: 768px) {
+    .historySection {
+        padding-top: 250px;
+    }
+}
 .historymainTitle {
     display: none;
 }
@@ -34,6 +38,7 @@
 }
 @media only screen and (min-width: 1440px) {
     .historyImg {
+        padding: 150px;
         margin-bottom: 40px;
         }
 }
