@@ -166,6 +166,7 @@
     .batikDescription {
             font-size: 21px;
             margin-bottom: 31px;
+            max-width: 453px;
         }
 }
 
@@ -219,6 +220,7 @@
     width: 1024px;
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-right: 20px;
     }
 }
 @media only screen and (min-width: 1440px) {
@@ -274,6 +276,7 @@ margin-bottom: 50px;
         width: 1024px;
         padding-top: 100px;
         padding-bottom: 100px;
+        padding-left: 20px;
     }
 }
 @media only screen and (min-width: 1440px) {
