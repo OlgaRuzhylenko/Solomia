@@ -9,8 +9,8 @@ export default function History() {
       <div>{<Header />}</div>
       <article>
         <section className={css.historySection}>
+          <div className={css.historyImg}></div>
           <div className="container">
-            <div className={css.historyImg}></div>
             <h1 className={css.historymainTitle}>Історія компанії Соломія</h1>
             <div className={css.historyTextBox}>
               <p className={css.title}>

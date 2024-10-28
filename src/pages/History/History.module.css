@@ -16,25 +16,23 @@
     background-color: #2a2a2a;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45px;
-
+    background-position: center;
+    padding: 25px;
+    
     margin-bottom: 15px;
 }
 @media only screen and (min-width: 768px) {
     .historyImg {
         margin-bottom: 25px;
-        height: 115px;
     }
 }
 @media only screen and (min-width: 1024px) {
     .historyImg {
-           height: 155px;
         }
 }
 @media only screen and (min-width: 1440px) {
     .historyImg {
         margin-bottom: 40px;
-        height: 224px;
         }
 }
 .title {
