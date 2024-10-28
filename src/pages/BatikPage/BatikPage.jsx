@@ -3,10 +3,13 @@ import Header from "../../components/Header/Header";
 import batikLogo from "../../images/batik/batik_logo.png";
 import batikCollectionImg from "../../images/batik/batik-collections-background.jpg";
 import batikGoldImg from "../../images/batik/batik-gold-background.jpg";
+import { useMediaQuery } from "react-responsive";
 import css from "./BatikPage.module.css";
 import Footer from "../../components/Footer/Footer";
 
 export default function BatikPage() {
+  const isLargeScreen = useMediaQuery({ minWidth: 1024 });
+
   return (
     <div>
       <div>{<Header />}</div>
@@ -40,12 +43,23 @@ export default function BatikPage() {
         </div>
 
         <div className={css.batikCollectionSection}>
-          <img
-            src={batikCollectionImg}
-            alt="Batik Collection"
-            className={css.batikCollectionImg}
-          />
-          <div className="container">
+          {/* {isLargeScreen ? (
+            <div className="container">
+              <img
+                src={batikCollectionImg}
+                alt="Batik Collection"
+                className={css.batikCollectionImg}
+              />
+            </div>
+          ) : (
+            <img
+              src={batikCollectionImg}
+              alt="Batik Collection"
+              className={css.batikCollectionImg}
+            />
+          )} */}
+          <div className={css.batikCollectionImgBack}></div>
+          {isLargeScreen ? (
             <div className={css.batikCollectionSectionWrapper}>
               <h2 className={css.batikTitle}>Batik Collection</h2>
               <p className={css.batikDescription}>
@@ -60,16 +74,48 @@ export default function BatikPage() {
                 Ознайомитись
               </NavLink>
             </div>
-          </div>
+          ) : (
+            <div className="container">
+              <div className={css.batikCollectionSectionWrapper}>
+                <h2 className={css.batikTitle}>Batik Collection</h2>
+                <p className={css.batikDescription}>
+                  У Batik Collection зібрані як класичні стандарти добірних
+                  цейлонських чаїв для поціновувачів міцності та терпкості, так
+                  і вишукані купажовані композиції з різних чайних плантацій
+                  світу та яскраві ягідно-фруктові з вибуховими смаками.
+                  Знайдіть час на чаювання з «Batik»! Переведіть подих, вгамуйте
+                  напругу та відчуйте себе!
+                </p>
+                <NavLink
+                  to="/batik-classic-collection"
+                  className={css.batikBtn}
+                >
+                  Ознайомитись
+                </NavLink>
+              </div>
+            </div>
+          )}
         </div>
 
         <div className={css.batikGoldSection}>
-          <img
-            src={batikGoldImg}
-            alt="Batik Gold Collection"
-            className={css.batikGoldImg}
-          />
-          <div className="container">
+          {/* {isLargeScreen ? (
+            <div className="container">
+              {" "}
+              <img
+                src={batikGoldImg}
+                alt="Batik Gold Collection"
+                className={css.batikGoldImg}
+              />
+            </div>
+          ) : (
+            <img
+              src={batikGoldImg}
+              alt="Batik Gold Collection"
+              className={css.batikGoldImg}
+            />
+          )} */}
+          <div className={css.batikGoldImgBack}></div>
+          {isLargeScreen ? (
             <div className={css.batikGoldSectionWrapper}>
               <h2 className={css.batikTitle}>Batik Gold Collection</h2>
               <p className={css.batikDescription}>
@@ -84,7 +130,24 @@ export default function BatikPage() {
                 Ознайомитись
               </NavLink>
             </div>
-          </div>
+          ) : (
+            <div className="container">
+              <div className={css.batikGoldSectionWrapper}>
+                <h2 className={css.batikTitle}>Batik Gold Collection</h2>
+                <p className={css.batikDescription}>
+                  Gold Collection – це справжнє чайне золото. Відбірні
+                  преміальні стандарти улюбленого насиченого смаку, міцності,
+                  терпкості та сонячної енергії Цейлону у Вашій чашці, що
+                  дарують тепло і затишок з кожним ковтком ароматного чаю.
+                  Знайдіть час на чаювання з «Batik»! Переведіть подих, вгамуйте
+                  напругу та відчуйте себе!
+                </p>
+                <NavLink to="/batik-gold-collection" className={css.batikBtn}>
+                  Ознайомитись
+                </NavLink>
+              </div>
+            </div>
+          )}
         </div>
       </section>
       <div>{<Footer />}</div>

@@ -19,6 +19,7 @@
         margin-right: 50px;
     }
 }
+
 .mainBatikSection {
     background-image: url(../../images/batik/batik-main-background.jpg);
     background-repeat: no-repeat;
@@ -33,6 +34,7 @@
     .mainBatikSection {
         padding-bottom: 0px;
         margin-bottom: 60px;
+        margin-top: 0;
     }
  }
  @media only screen and (min-width: 1024px) {
@@ -40,6 +42,12 @@
         padding-top: 120px;
         padding-bottom: 120px;
     }
+ }
+ @media only screen and (min-width: 1440px) {
+    .mainBatikSection {
+            padding-top: 150px;
+            padding-bottom: 150px;
+        }
  }
 .batikMainTitle {
     display: none;
@@ -95,7 +103,7 @@
 }
 
 
-.batikCollectionImg {
+/* .batikCollectionImg {
     margin-bottom: 50px;
 }
 @media only screen and (min-width: 768px) {
@@ -111,6 +119,11 @@
         width: calc((100% - 0px) / 2);
        }
 }
+@media only screen and (min-width: 1440px) {
+    .batikCollectionImg {
+            width: 77%;
+        }
+} */
 .batikTitle {
     text-align: center;
     color: #423930;
@@ -155,6 +168,7 @@
             margin-bottom: 31px;
         }
 }
+
 .batikBtn {
     font-size: 16px;
     font-weight: 300;
@@ -192,6 +206,7 @@
         gap: 0;       
     }
 }
+
 .batikCollectionSectionWrapper {
     display: flex;
     flex-direction: column;
@@ -200,10 +215,18 @@
 }
 @media only screen and (min-width: 1024px) {
     .batikCollectionSectionWrapper {
-        /* width: calc((100% - 0px) / 2); */
+    align-items: center;
+    width: 1024px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     }
 }
-
+@media only screen and (min-width: 1440px) {
+    .batikCollectionSectionWrapper {
+        padding-left: 150px;
+        padding-right: 10px;
+    }
+}
 
 .batikGoldSection {
     margin-bottom: 73px;
@@ -216,12 +239,11 @@
 }
 @media only screen and (min-width: 1024px) {
     .batikGoldSection {
-        align-items: center;
         margin-bottom: 80px;
         gap: 0;
     }
 }
-.batikGoldImg {
+/* .batikGoldImg {
 margin-bottom: 50px;
 }
 @media only screen and (min-width: 768px) {
@@ -235,7 +257,11 @@ margin-bottom: 50px;
         width: calc((100% - 0px) / 2);
     }
 }
-
+@media only screen and (min-width: 1440px) {
+    .batikGoldImg {
+            width: 77%;
+        }
+} */
 .batikGoldSectionWrapper {
     display: flex;
     flex-direction: column;
@@ -244,7 +270,15 @@ margin-bottom: 50px;
 }
 @media only screen and (min-width: 1024px) {
     .batikGoldSectionWrapper {
-
+        align-items: center;
+        width: 1024px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .batikGoldSectionWrapper {
+            padding-right: 150px;
     }
 }
 @media only screen and (min-width: 768px) {
@@ -263,5 +297,57 @@ margin-bottom: 50px;
 @media only screen and (min-width: 1024px) {
     .batikArticle {
         max-width: 850px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .batikArticle {
+            max-width: 730px;
+        }
+}
+
+
+
+
+.batikCollectionImgBack {
+    background-image: url(../../images/batik/batik-collections-background.jpg);
+    background-color: #2a2a2a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 405px;
+    margin-bottom: 50px;
+}
+@media only screen and (min-width: 768px) {
+    .batikCollectionImgBack {
+        width: 100%;
+        margin-bottom: 0;
+        background-size: cover;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .batikCollectionImgBack {
+        height: 705px;
+    }
+}
+.batikGoldImgBack {
+    background-image: url(../../images/batik/batik-gold-background.jpg);
+    background-color: #2a2a2a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 405px;
+    margin-bottom: 50px;
+}
+@media only screen and (min-width: 768px) {
+    .batikGoldImgBack {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .batikGoldImgBack {
+        height: 705px;
     }
 }
