@@ -1,4 +1,4 @@
-import mainLittleLogo from "../../images/mainLittleLogo.png";
+import mainLittleLogo from "../../images/svg/solomia_logo_1_color.svg";
 import { NavLink } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import css from "./Header.module.css";
