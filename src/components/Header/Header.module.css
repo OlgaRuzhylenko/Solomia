@@ -2,10 +2,15 @@
     width: 100px;
     margin: 0 auto;
     object-fit: contain;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 @media only screen and (min-width: 768px) {
     .headerLogo {
         width: 120px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 }
 .headerSection {

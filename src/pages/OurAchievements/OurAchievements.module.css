@@ -1,0 +1,77 @@
+.ourAchievementsSection {
+    padding-top: 50px;
+    margin-bottom: 42px;   
+}
+.ourAchievementsBGI {
+    background-image: url(../../images/achievments/vybir_krainy.jpg);
+    background-color: #2a2a2a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+
+    margin-bottom: 30px;
+}
+@media only screen and (min-width: 375px) {
+    .ourAchievementsBGI {
+        padding: 125px;
+    }
+}
+.ourAchievementsTitle {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1;
+    color: #423930;
+
+    margin-bottom: 27px;
+}
+.ourAchievementsText {
+    font-size: 15px;
+    text-align: justify;
+    color: #888888;
+    font-weight: 400;
+
+    margin-bottom: 15px;
+}
+.ourAchievementsText2 {
+    font-size: 15px;
+    text-align: justify;
+    color: #888888;
+    font-weight: 400;
+
+    margin-bottom: 46px;
+}
+.ourAchievementsBox {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.ourAchievementsSubTitle {
+    font-size: 16px;
+    text-align: justify;
+    color: #888888;
+    font-weight: 400;
+
+    margin-bottom: 16px;
+}
+.ourAchievementsListtext {
+    font-size: 16px;
+    text-align: justify;
+    color: #888888;
+    font-weight: 400;
+    
+}
+.ourAchievementsList {
+    margin-bottom: 16px;
+}
+.ourAchievementsDescription {
+    font-size: 16px;
+    text-align: justify;
+    color: #888888;
+    font-weight: 400;
+
+    margin-bottom: 46px;
+}
+.ourAchievementsImgListItem:not(:last-child) {
+    margin-bottom: 20px;
+}

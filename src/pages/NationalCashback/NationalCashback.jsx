@@ -1,6 +1,6 @@
 import Header from "../../components/Header/Header";
 import uaSvg from "../../images/svg/ua02.svg";
-import cashbackImg from "../../images/achievments/знімокЕкрана.png";
+import cashbackImg from "../../images/cashback/news_2023_600_400_made_ua.jpg";
 import css from "./NationalCashback.module.css";
 import Footer from "../../components/Footer/Footer";
 
