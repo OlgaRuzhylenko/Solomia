@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import mainLittleLogo from "../../images/mainLittleLogo.png";
+import mainLittleLogo from "../../images/svg/solomia_logo_1_color.svg";
 import { NavLink } from "react-router-dom";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";

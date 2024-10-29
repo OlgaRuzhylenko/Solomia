@@ -33,8 +33,12 @@
 @media only screen and (min-width: 1024px) {
 .headerSectionBox {
     align-items: center;
-    justify-content: space-around;
 }
+}
+@media only screen and (min-width: 1440px) {
+    .headerSectionBox {
+        justify-content: space-around;
+    }
 }
 /******************* стилі для NavigationList *****************/
   .navigation {
