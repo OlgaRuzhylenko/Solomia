@@ -61,7 +61,7 @@ margin-bottom: 30px;
 }
 @media only screen and (min-width: 1024px) {
     .footerNavigation {
-        max-width: 730px;
+        max-width: 100%;
     }
 }
 @media only screen and (min-width: 1440px) {
