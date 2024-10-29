@@ -37,7 +37,6 @@
 }
 @media only screen and (min-width: 1440px) {
     .headerSectionBox {
-        justify-content: space-around;
     }
 }
 /******************* стилі для NavigationList *****************/

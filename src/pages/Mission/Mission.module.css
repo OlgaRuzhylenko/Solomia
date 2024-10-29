@@ -163,6 +163,7 @@
 @media only screen and (min-width: 1440px) {
 .firstMissionList {
     max-width: 850px;
+    padding-left: 107px;
 }
 }
 @media only screen and (min-width: 1024px) {
