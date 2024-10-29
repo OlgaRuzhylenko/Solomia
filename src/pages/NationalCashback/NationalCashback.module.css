@@ -25,7 +25,11 @@
 
     margin-bottom: 20px;
 }
-
+@media only screen and (min-width: 1024px) {
+    .cashbackTitle {
+        margin-bottom: 40px;
+    }
+}
 .cashbackSvg {
     width: 28px;
 }
@@ -52,6 +56,11 @@
 @media only screen and (min-width: 768px) {
     .cashbackList {
         margin-bottom: 100px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .cashbackArticle {
+        padding-left: 10px;
     }
 }
 
