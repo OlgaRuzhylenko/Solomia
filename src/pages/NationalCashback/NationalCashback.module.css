@@ -2,18 +2,19 @@
     padding-top: 30px;
     margin-bottom: 40px;
 }
+
 @media only screen and (min-width: 768px) {
     .cashbackSection {
         padding-top: 170px;
-        margin-bottom: 80px;
     }
 }
+
 @media only screen and (min-width: 1024px) {
-.cashbackSection {
+    .cashbackSection {
         padding-top: 190px;
-        margin-bottom: 100px;
     }
 }
+
 .cashbackTitle {
     color: #474249;
     font-size: 28px;
@@ -24,31 +25,64 @@
 
     margin-bottom: 20px;
 }
+
 .cashbackSvg {
     width: 28px;
 }
+
 .cashbackImg {
     margin-bottom: 20px;
 }
+
 @media only screen and (min-width: 768px) {
     .cashbackImg {
-            margin-bottom: 50px;
-        }
+        margin-bottom: 50px;
+    }
 }
+
 .textSvg {
     width: 18px;
 }
+
 .cashbackList {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+@media only screen and (min-width: 768px) {
+    .cashbackList {
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .cashbackArticle::after {
+        content: "";
+        width: 100%;
+        border: 1px solid #ebeced;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .cashbackArticle::after {
+        margin-bottom: 100px;
+    }
+}
+
 .cashbackText {
     text-align: justify;
-    align-items: center;        
+    align-items: center;
     font-size: 18px;
     line-height: 1.2;
     color: #888888;
-  }
+}
+
 .cashbackItem {
     margin-bottom: 18px;
+}
+
+.cashbackItem:last-child {
+    margin-bottom: 0;
 }
