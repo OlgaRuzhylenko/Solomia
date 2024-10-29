@@ -75,7 +75,7 @@
 }
 @media only screen and (min-width: 1024px) {
     .historyTextBox {
-        padding-left: 0;
+        padding-left: 10px;
     }
 }
 @media only screen and (min-width: 1440px) {
