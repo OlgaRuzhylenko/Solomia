@@ -152,18 +152,13 @@
     .firstMissionList {
         padding-top: 40px;
         max-width: 520px;
-        /* padding-left: 35px; */
         }
 }
-@media only screen and (min-width: 1440px) {
-    .firstMissionList {
-        padding-left: 80px;
-    }
-}
+
 @media only screen and (min-width: 1440px) {
 .firstMissionList {
     max-width: 850px;
-    padding-left: 107px;
+    padding-left: 5px;
 }
 }
 @media only screen and (min-width: 1024px) {
