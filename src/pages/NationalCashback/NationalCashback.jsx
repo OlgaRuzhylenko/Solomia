@@ -28,11 +28,11 @@ export default function NationalCashback() {
             <ul className={css.cashbackList}>
               <li className={css.cashbackItem}>
                 <p className={css.cashbackText}>
-                  <img
+                  {/* <img
                     src={uaSvg}
                     alt="жовто-блакитний прапор"
                     className={css.textSvg}
-                  />
+                  /> */}
                   Чайні бренди Batik та Askold приєднались до проєкту “Зроблено
                   в Україні” та програми “Національний кешбек”. Відтепер,
                   купуючи улюблені чаї Batik, Askold Emotion та Askold. Noble
@@ -62,11 +62,11 @@ export default function NationalCashback() {
               <li className={css.cashbackItem}>
                 <p className={css.cashbackText}>
                   Усі в плюсі, коли купуєш і продаєш українське!
-                  <img
+                  {/* <img
                     src={uaSvg}
                     alt="жовто-блакитний прапор"
                     className={css.textSvg}
-                  />
+                  /> */}
                 </p>
               </li>
             </ul>

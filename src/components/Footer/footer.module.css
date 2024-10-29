@@ -88,6 +88,11 @@ margin-bottom: 30px;
         column-gap: 15px;
     }
 }
+@media only screen and (min-width: 1440px) {
+    .footerNavItem {
+        column-gap: 25px;
+    }
+}
 .footerNavLink{
     text-decoration: none;
     text-transform: uppercase;
