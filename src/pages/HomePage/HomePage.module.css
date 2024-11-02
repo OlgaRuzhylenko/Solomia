@@ -294,7 +294,7 @@ top: 130px !important;
             font-size: 55px;
         }
         :global(.swiper-pagination){
-            top: 417px !important;
+            top: 517px !important;
         }
         :global(.swiper-pagination-bullet) {
             width: 16px !important;
