@@ -2,21 +2,9 @@
     padding-top: 50px;
     margin-bottom: 42px;   
 }
-.ourAchievementsBGI {
-    background-image: url(../../images/achievments/vybir_krainy.jpg);
-    background-color: #2a2a2a;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 100px;
-
+.ourAchievementsMainImg {
     margin-bottom: 30px;
-}
-@media only screen and (min-width: 375px) {
-    .ourAchievementsBGI {
-        padding: 125px;
-    }
-}
+}  
 .ourAchievementsTitle {
     font-size: 32px;
     font-weight: 400;

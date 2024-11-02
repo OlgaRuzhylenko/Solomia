@@ -3,23 +3,26 @@ import mainLogo from "../../images/mainLogo.png";
 import achievImg from "../../images/vybirKrainy.jpg";
 import nationalCashbackImg from "../../images/nationalCashBack.jpg";
 import missionLogo from "../../images/missionLogo.png";
-import css from "./HomePage.module.css";
 import AboutUs from "../AboutUs/AboutUs";
 import Brands from "../Brands/Brands";
 import News from "../News/News";
 import Footer from "../../components/Footer/Footer";
 import NavigationList from "../../components/NavigationList/NavigationList";
-import FlickityComponent from "react-flickity-component";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, A11y, EffectFlip } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/effect-flip";
 import { useMediaQuery } from "react-responsive";
 import "./flickity.css";
 import "flickity/css/flickity.css";
 import AboutUsInformation from "../../components/AboutUsInformation/AboutUsInformation";
+import css from "./HomePage.module.css";
 
 export default function HomePage() {
   const isTabletOrLarger = useMediaQuery({ query: "(min-width: 768px)" });
-  const flickityOptions = {
-    initialIndex: 2,
-  };
+
   return (
     <div className={css.pageContainer}>
       <div className={css.main}>
@@ -56,14 +59,15 @@ export default function HomePage() {
 
         <div className={css.achiev}>
           <div className="App">
-            <FlickityComponent
-              className={"carousel"}
-              elementType={"div"}
-              options={flickityOptions}
-              reloadOnUpdate={true}
-              static={true}
+            <Swiper
+              modules={[Navigation, Pagination, A11y, EffectFlip]}
+              spaceBetween={10}
+              slidesPerView={1}
+              navigation
+              pagination={{ clickable: true }}
+              effect="flip"
             >
-              <div className="carousel-cell">
+              <SwiperSlide>
                 <NavLink to="/national-cashback">
                   <img
                     src={nationalCashbackImg}
@@ -71,8 +75,8 @@ export default function HomePage() {
                     className={css.acievImg}
                   />
                 </NavLink>
-              </div>
-              <div className="carousel-cell">
+              </SwiperSlide>
+              <SwiperSlide>
                 <NavLink to="/our-achievements">
                   <img
                     src={achievImg}
@@ -80,8 +84,8 @@ export default function HomePage() {
                     className={css.acievImg}
                   />
                 </NavLink>
-              </div>
-            </FlickityComponent>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
 

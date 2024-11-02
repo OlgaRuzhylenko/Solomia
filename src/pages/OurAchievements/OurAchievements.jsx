@@ -6,14 +6,23 @@ import img3 from "../../images/achievments/achievements_view_3.jpg";
 import img4 from "../../images/achievments/achievements_view_4.jpg";
 import img5 from "../../images/achievments/achievements_view_5.jpg";
 import img6 from "../../images/achievments/achievements_view_6.jpg";
+import vybirImg from "../../images/achievments/vybir_krainy.jpg";
+import { useMediaQuery } from "react-responsive";
 import css from "./OurAchievements.module.css";
 
 export default function OurAchievements() {
+  const isMobile = useMediaQuery({ query: "(max-width: 767px)" });
+  const isTabletOrLarger = useMediaQuery({ query: "(min-width: 768px)" });
+
   return (
     <div>
       <div>{<Header />}</div>
       <section className={css.ourAchievementsSection}>
-        <div className={css.ourAchievementsBGI}></div>
+        <img
+          src={vybirImg}
+          alt="пачки чаю Батік із відзнакою переможець у номінації Чай Року"
+          className={css.ourAchievementsMainImg}
+        ></img>
         <div className="container">
           <div className={css.ourAchievementsBox}>
             <h1 className={css.ourAchievementsTitle}>Batik-Чай року 2023</h1>
