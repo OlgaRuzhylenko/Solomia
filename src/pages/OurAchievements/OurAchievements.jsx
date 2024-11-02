@@ -91,34 +91,36 @@ export default function OurAchievements() {
                 alt="напис Батік та пунки визначення  кращих компаній: аналіз відкритих джерел, оцінка якості товару або послуги, оцінка якості обслуговування, визначення загального балу"
               />
             </li>
-            <li className={css.ourAchievementsImgListItem}>
-              <img
-                src={img3}
-                alt="сертифікат експертної оцінки Вибір Країни"
-                className={css.ourAchievementsImage}
-              />
-            </li>
-            <li className={css.ourAchievementsImgListItem}>
-              <img
-                src={img4}
-                alt="диплом Вибір Країни"
-                className={css.ourAchievementsImage}
-              />
-            </li>
-            <li className={css.ourAchievementsImgListItem}>
-              <img
-                src={img5}
-                alt="фото директора компанії із дипломом"
-                className={css.ourAchievementsImage}
-              />
-            </li>
-            <li className={css.ourAchievementsImgListItem}>
-              <img
-                src={img6}
-                alt="фото працівників компанії із дипломом"
-                className={css.ourAchievementsImage}
-              />
-            </li>
+            <div className={css.ourAchImgListItemBox}>
+              <li className={css.ourAchievementsImgListItem}>
+                <img
+                  src={img3}
+                  alt="сертифікат експертної оцінки Вибір Країни"
+                  className={css.ourAchievementsImage}
+                />
+              </li>
+              <li className={css.ourAchievementsImgListItem}>
+                <img
+                  src={img4}
+                  alt="диплом Вибір Країни"
+                  className={css.ourAchievementsImage}
+                />
+              </li>
+              <li className={css.ourAchievementsImgListItem}>
+                <img
+                  src={img5}
+                  alt="фото директора компанії із дипломом"
+                  className={css.ourAchievementsImage}
+                />
+              </li>
+              <li className={css.ourAchievementsImgListItem}>
+                <img
+                  src={img6}
+                  alt="фото працівників компанії із дипломом"
+                  className={css.ourAchievementsImage}
+                />
+              </li>
+            </div>
           </ul>
         </div>
       </section>

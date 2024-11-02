@@ -105,3 +105,9 @@
 .ourAchievementsImgListItem:not(:last-child) {
     margin-bottom: 20px;
 }
+@media only screen and (min-width: 768px) {
+    .ourAchImgListItemBox {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
