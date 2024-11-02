@@ -301,3 +301,23 @@ top: 130px !important;
             height: 16px !important;
             }
 }
+@media only screen and (min-width: 1440px){
+        :global(.swiper-pagination) {
+            top: 790px !important;
+        }
+        :global(.swiper-pagination-bullet) {
+            width: 20px !important;
+            height: 20px !important;
+        }
+        :global(.swiper-button-prev) {
+            left: 12px;
+        }
+        
+        :global(.swiper-button-next) {
+            right: 12px;
+        }        
+        :global(.swiper-button-next:after),
+        :global(.swiper-button-prev:after) {
+            font-size: 70px;
+        }
+}
