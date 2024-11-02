@@ -2,9 +2,15 @@
     padding-top: 50px;
     margin-bottom: 42px;   
 }
+@media only screen and (min-width: 768px) {
+    .ourAchievementsSection {
+        padding-top: 170px;
+    }
+}
 .ourAchievementsMainImg {
     margin-bottom: 30px;
 }  
+
 .ourAchievementsTitle {
     font-size: 32px;
     font-weight: 400;
@@ -13,21 +19,40 @@
 
     margin-bottom: 27px;
 }
+@media only screen and (min-width: 768px) {
+    .ourAchievementsTitle {
+        font-size: 38px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
 .ourAchievementsText {
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.5;
     text-align: justify;
     color: #888888;
     font-weight: 400;
 
     margin-bottom: 15px;
 }
+@media only screen and (min-width: 768px) {
+    .ourAchievementsText {
+        font-size: 18px;
+    }
+}
 .ourAchievementsText2 {
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 1.5;
     text-align: justify;
     color: #888888;
     font-weight: 400;
 
     margin-bottom: 46px;
+}
+@media only screen and (min-width: 768px) {
+    .ourAchievementsText2 {
+        font-size: 18px;
+    }
 }
 .ourAchievementsBox {
     padding-left: 16px;
@@ -35,30 +60,47 @@
 }
 
 .ourAchievementsSubTitle {
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.5;
     text-align: justify;
     color: #888888;
     font-weight: 400;
 
     margin-bottom: 16px;
 }
+@media only screen and (min-width: 768px) {
+    .ourAchievementsSubTitle {
+        font-size: 18px;
+    }
+}
 .ourAchievementsListtext {
     font-size: 16px;
+    line-height: 1.5;
     text-align: justify;
     color: #888888;
-    font-weight: 400;
-    
+    font-weight: 400;    
+}
+@media only screen and (min-width: 768px) {
+    .ourAchievementsListtext {
+        font-size: 18px;
+    }
 }
 .ourAchievementsList {
     margin-bottom: 16px;
 }
 .ourAchievementsDescription {
     font-size: 16px;
+    line-height: 1.5;
     text-align: justify;
     color: #888888;
     font-weight: 400;
 
     margin-bottom: 46px;
+}
+@media only screen and (min-width: 768px) {
+    .ourAchievementsDescription {
+        font-size: 18px;
+    }
 }
 .ourAchievementsImgListItem:not(:last-child) {
     margin-bottom: 20px;

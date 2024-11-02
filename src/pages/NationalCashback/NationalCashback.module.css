@@ -98,11 +98,15 @@
 .cashbackText {
     text-align: justify;
     align-items: center;
-    font-size: 18px;
-    line-height: 1.2;
+    font-size: 16px;
+    line-height: 1.5;
     color: #888888;
 }
-
+@media only screen and (min-width: 768px){
+    .cashbackText {
+        font-size: 18px;
+    }
+}
 .cashbackItem {
     margin-bottom: 18px;
 }

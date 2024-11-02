@@ -18,12 +18,12 @@ export default function OurAchievements() {
     <div>
       <div>{<Header />}</div>
       <section className={css.ourAchievementsSection}>
-        <img
-          src={vybirImg}
-          alt="пачки чаю Батік із відзнакою переможець у номінації Чай Року"
-          className={css.ourAchievementsMainImg}
-        ></img>
         <div className="container">
+          <img
+            src={vybirImg}
+            alt="пачки чаю Батік із відзнакою переможець у номінації Чай Року"
+            className={css.ourAchievementsMainImg}
+          ></img>
           <div className={css.ourAchievementsBox}>
             <h1 className={css.ourAchievementsTitle}>Batik-Чай року 2023</h1>
             <p className={css.ourAchievementsText}>
