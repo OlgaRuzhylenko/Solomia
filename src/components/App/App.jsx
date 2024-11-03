@@ -43,7 +43,7 @@ export default function App() {
         <Route path="/askold-noble-tea" element={<AskoldNoblePage />} />
         <Route path="/arden" element={<ArdenPage />} />
         <Route path="/domashnij-chaj" element={<DomashniyPages />} />
-        <Route path="/mission-and-values" element={<Mission />} />
+        <Route path="/mission-and-values" element={<AboutUs />} />
         <Route path="/quality" element={<Quality />} />
         <Route path="/financial-reporting" element={<FinancialReporting />} />
         <Route path="/stores-and-online-shopping" element={<Stores />} />

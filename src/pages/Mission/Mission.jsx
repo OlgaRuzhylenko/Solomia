@@ -7,9 +7,6 @@ import AboutUs from "../AboutUs/AboutUs";
 export default function Mission() {
   return (
     <div>
-      <div>{<Header />}</div>
-      <div>{<AboutUs />}</div>
-
       <section className={css.missionSection}>
         <div className={css.mission}>
           <h1 className={css.mainTitle}>Наша місія, бачення та цінності</h1>
