@@ -2,6 +2,16 @@
     padding-top: 23px;
     margin-bottom: 55px;
 }
+@media only screen and (min-width: 768px) {
+    .qualitySection {
+        padding-top: 170px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .qualitySection {
+        padding-top: 230px;
+    }
+}
 .qualityImg {
     background-image: url(../../images/quality/quality.jpg);
     background-color: #2a2a2a;
@@ -12,14 +22,46 @@
     
     margin-bottom: 15px;
 }
+@media only screen and (min-width: 768px) {
+    .qualityImg {
+        margin-bottom: 25px;
+        padding: 70px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .qualityImg {
+        padding: 100px;
+    }
+}
 .qualitymainTitle {
     display: none;
+}
+.qualityList {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media only screen and (min-width: 768px) {
+    .qualityList {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .qualityList {
+        padding-left: 10px;
+        padding-right: 0;
+    }
 }
 .qualityListText{
     font-size: 15px;
     line-height: 2;
     text-align: justify;
     color: #888888;
+}
+@media only screen and (min-width: 768px) {
+    .qualityListText {
+        font-size: 18px;
+    }
 }
 .qualityListItem:not(:last-child) {
     margin-bottom: 15px;
