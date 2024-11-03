@@ -19,109 +19,122 @@ export default function OurAchievements() {
       <div>{<Header />}</div>
       <section className={css.ourAchievementsSection}>
         <div className="container">
-          <img
-            src={vybirImg}
-            alt="пачки чаю Батік із відзнакою переможець у номінації Чай Року"
-            className={css.ourAchievementsMainImg}
-          ></img>
-          <div className={css.ourAchievementsBox}>
-            <h1 className={css.ourAchievementsTitle}>Batik-Чай року 2023</h1>
-            <p className={css.ourAchievementsText}>
-              Чай Batik здобув перемогу у загальнонаціональному рейтингу
-              найкращих товарів та послуг у номінації «Чай року 2023», за що
-              отримав почесну відзнаку «Вибір Країни». Ми вдячні нашим
-              споживачам за довіру і вибір нашої продукції. Ми й надалі будемо
-              продовжувати випускати чаї найвищої якості з турботою про
-              українців.
-            </p>
-            <p className={css.ourAchievementsText2}>
-              Діяльність компанії проаналізована експертами Аналітичного центру
-              «Вибір Країни» за авторською технологією «Людських уподобань».
-            </p>
-            <h2 className={css.ourAchievementsSubTitle}>
-              Аналіз включає оцінку основних показників, які є важливими для
-              споживачів:
-            </h2>
-            <ul className={css.ourAchievementsList}>
-              <li className={css.ourAchievementsListItem}>
-                <p className={css.ourAchievementsListtext}>
-                  -асортимент продукції,
-                </p>
-              </li>
-              <li className={css.ourAchievementsListItem}>
-                <p className={css.ourAchievementsListtext}>
-                  -репутація бренду,
-                </p>
-              </li>
-              <li className={css.ourAchievementsListItem}>
-                <p className={css.ourAchievementsListtext}>-популярність,</p>
-              </li>
-              <li className={css.ourAchievementsListItem}>
-                <p className={css.ourAchievementsListtext}>
-                  -якість обслуговування,
-                </p>
-              </li>
-              <li className={css.ourAchievementsListItem}>
-                <p className={css.ourAchievementsListtext}>
-                  -оцінка онлайн-ресурсів.
-                </p>
-              </li>
-            </ul>
-            <p className={css.ourAchievementsDescription}>
-              Отримання відзнаки «Вибір країни» — велика відповідальність для
-              нас! Хочемо подякувати за вибір та довіру кожному українцю. Бо
-              саме визнання тих, хто обирає чай Batik, мотивує нас на розвиток
-              та створення нових продуктів. Увесь колектив компанії відчуває
-              гордість та розуміє цінність данної нагороди. І прагне й надалі
-              наполегливо працювати заради розвитку нашого бренду і на користь
-              українському споживачу!
-            </p>
-          </div>
-          <ul className={css.ourAchievementsImgList}>
-            <li className={css.ourAchievementsImgListItem}>
-              <img
-                src={img1}
-                alt="методика визначення кращих компаній на основі якості товарів та послуг"
-              />
-            </li>
-            <li className={css.ourAchievementsImgListItem}>
-              <img
-                className={css.ourAchievementsImage}
-                src={img2}
-                alt="напис Батік та пунки визначення  кращих компаній: аналіз відкритих джерел, оцінка якості товару або послуги, оцінка якості обслуговування, визначення загального балу"
-              />
-            </li>
-            <div className={css.ourAchImgListItemBox}>
-              <li className={css.ourAchievementsImgListItem}>
-                <img
-                  src={img3}
-                  alt="сертифікат експертної оцінки Вибір Країни"
-                  className={css.ourAchievementsImage}
-                />
-              </li>
-              <li className={css.ourAchievementsImgListItem}>
-                <img
-                  src={img4}
-                  alt="диплом Вибір Країни"
-                  className={css.ourAchievementsImage}
-                />
-              </li>
-              <li className={css.ourAchievementsImgListItem}>
-                <img
-                  src={img5}
-                  alt="фото директора компанії із дипломом"
-                  className={css.ourAchievementsImage}
-                />
-              </li>
-              <li className={css.ourAchievementsImgListItem}>
-                <img
-                  src={img6}
-                  alt="фото працівників компанії із дипломом"
-                  className={css.ourAchievementsImage}
-                />
-              </li>
+          <article className={css.ourAchievementsArticle}>
+            <img
+              src={vybirImg}
+              alt="пачки чаю Батік із відзнакою переможець у номінації Чай Року"
+              className={css.ourAchievementsMainImg}
+            ></img>
+            <div className={css.ourAchievementsBox}>
+              <h1 className={css.ourAchievementsTitle}>Batik-Чай року 2023</h1>
+              <p className={css.ourAchievementsText}>
+                Чай Batik здобув перемогу у загальнонаціональному рейтингу
+                найкращих товарів та послуг у номінації «Чай року 2023», за що
+                отримав почесну відзнаку «Вибір Країни». Ми вдячні нашим
+                споживачам за довіру і вибір нашої продукції. Ми й надалі будемо
+                продовжувати випускати чаї найвищої якості з турботою про
+                українців.
+              </p>
+              <p className={css.ourAchievementsText2}>
+                Діяльність компанії проаналізована експертами Аналітичного
+                центру «Вибір Країни» за авторською технологією «Людських
+                уподобань».
+              </p>
+              <h2 className={css.ourAchievementsSubTitle}>
+                Аналіз включає оцінку основних показників, які є важливими для
+                споживачів:
+              </h2>
+              <ul className={css.ourAchievementsList}>
+                <li className={css.ourAchievementsListItem}>
+                  <p className={css.ourAchievementsListtext}>
+                    -асортимент продукції,
+                  </p>
+                </li>
+                <li className={css.ourAchievementsListItem}>
+                  <p className={css.ourAchievementsListtext}>
+                    -репутація бренду,
+                  </p>
+                </li>
+                <li className={css.ourAchievementsListItem}>
+                  <p className={css.ourAchievementsListtext}>-популярність,</p>
+                </li>
+                <li className={css.ourAchievementsListItem}>
+                  <p className={css.ourAchievementsListtext}>
+                    -якість обслуговування,
+                  </p>
+                </li>
+                <li className={css.ourAchievementsListItem}>
+                  <p className={css.ourAchievementsListtext}>
+                    -оцінка онлайн-ресурсів.
+                  </p>
+                </li>
+              </ul>
+              <p className={css.ourAchievementsDescription}>
+                Отримання відзнаки «Вибір країни» — велика відповідальність для
+                нас! Хочемо подякувати за вибір та довіру кожному українцю. Бо
+                саме визнання тих, хто обирає чай Batik, мотивує нас на розвиток
+                та створення нових продуктів. Увесь колектив компанії відчуває
+                гордість та розуміє цінність данної нагороди. І прагне й надалі
+                наполегливо працювати заради розвитку нашого бренду і на користь
+                українському споживачу!
+              </p>
             </div>
-          </ul>
+            <ul className={css.ourAchievementsImgList}>
+              <li className={css.ourAchievementsImgListItem}>
+                <img
+                  src={img1}
+                  alt="методика визначення кращих компаній на основі якості товарів та послуг"
+                />
+              </li>
+              <li className={css.ourAchievementsImgListItem}>
+                <img
+                  className={css.ourAchievementsImage}
+                  src={img2}
+                  alt="напис Батік та пунки визначення  кращих компаній: аналіз відкритих джерел, оцінка якості товару або послуги, оцінка якості обслуговування, визначення загального балу"
+                />
+              </li>
+              <div className={css.ourAchImgListItemBox1}>
+                <li
+                  className={`${css.ourAchievementsImgListItem} ${css.firstItemClass}`}
+                >
+                  <img
+                    src={img3}
+                    alt="сертифікат експертної оцінки Вибір Країни"
+                    className={css.ourAchievementsImage}
+                  />
+                </li>
+                <li
+                  className={`${css.ourAchievementsImgListItem} ${css.secondItemClass}`}
+                >
+                  <img
+                    src={img4}
+                    alt="диплом Вибір Країни"
+                    className={css.ourAchievementsImage}
+                  />
+                </li>
+              </div>
+              <div className={css.ourAchImgListItemBox2}>
+                <li
+                  className={`${css.ourAchievementsImgListItem} ${css.thirdItemClass}`}
+                >
+                  <img
+                    src={img5}
+                    alt="фото директора компанії із дипломом"
+                    className={css.ourAchievementsImage}
+                  />
+                </li>
+                <li
+                  className={`${css.ourAchievementsImgListItem} ${css.fourthItemClass}`}
+                >
+                  <img
+                    src={img6}
+                    alt="фото працівників компанії із дипломом"
+                    className={css.ourAchievementsImage}
+                  />
+                </li>
+              </div>
+            </ul>
+          </article>
         </div>
       </section>
       <div>{<Footer />}</div>

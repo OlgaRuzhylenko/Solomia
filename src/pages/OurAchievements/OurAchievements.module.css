@@ -106,8 +106,61 @@
     margin-bottom: 20px;
 }
 @media only screen and (min-width: 768px) {
-    .ourAchImgListItemBox {
+    .ourAchievementsImgList {
+        margin-bottom: 100px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .ourAchImgListItemBox1 {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+
+        column-gap:20px;
+    }    
+}
+@media only screen and (min-width: 768px) {
+    .firstItemClass {
+        width: calc(65% - 13px);
+        flex-shrink: 0;
+    }
+    .secondItemClass {
+        width: calc(35% - 7px);
+        flex-shrink: 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .ourAchImgListItemBox2 {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: flex-start;
+    
+            column-gap: 20px;
+        }
+}
+@media only screen and (min-width: 768px) {
+    .thirdItemClass {
+        width: calc(30% - 13px);
+        flex-shrink: 0;
+    }
+
+    .fourthItemClass {
+        width: calc(70% - 7px);
+        flex-shrink: 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .ourAchievementsArticle::after {
+        content: "";
+        width: 100%;
+        border: 1px solid #ebeced;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .ourAchievementsArticle::after {
+        margin-bottom: 100px;
     }
 }
