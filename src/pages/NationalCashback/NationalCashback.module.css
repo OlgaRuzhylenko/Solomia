@@ -17,17 +17,24 @@
 
 .cashbackTitle {
     color: #474249;
-    font-size: 28px;
+    font-size: 33px;
     font-weight: 400;
-    line-height: 1;
+    line-height: 1.2;
     /* display: ruby; */
     text-align: center;
 
     margin-bottom: 20px;
 }
+@media only screen and (min-width: 768px) {
+    .cashbackTitle {
+        font-size: 40px;
+        text-align: left;
+    }
+}
 @media only screen and (min-width: 1024px) {
     .cashbackTitle {
         margin-bottom: 40px;
+        font-size: 48px;
     }
 }
 .cashbackSvg {
@@ -68,7 +75,7 @@
     }
 }
 .cashbackArticle {
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
