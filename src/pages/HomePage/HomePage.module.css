@@ -157,12 +157,12 @@ color: #474249;
     align-items: center;
     justify-content: center;
     
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 @media only screen and (min-width: 768px) {
     .mission {
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     padding-top: 30px;
     padding-right: 30px;
     padding-left: 30px;
@@ -240,8 +240,28 @@ color: #474249;
         padding-bottom: 60px;
     }
 }
+.newsTitle {
+    color: #474249;
+    font-size: 35px;
+    line-height: 1;
+    font-weight: 400;
+    text-align: center;
+    
+    margin-bottom: 50px;
+}
+@media only screen and (min-width: 768px) {
+    .newsTitle {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+}
 
-
+@media only screen and (min-width: 1024px) {
+    .newsTitle {
+        font-size: 48px;
+        margin-bottom: 50px;
+    }
+}
 
 /**************** swipper **************/
 :global(.swiper-button-prev),

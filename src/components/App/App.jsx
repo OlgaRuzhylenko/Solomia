@@ -23,6 +23,7 @@ import Stores from "../../pages/Stores/Stores";
 import NationalCashback from "../../pages/NationalCashback/NationalCashback";
 import BatikCollection from "../../pages/BatikCollection/BatikCollection";
 import BatikGoldCollection from "../../pages/BatikGoldCollection/BatikGoldCollection";
+import NewsSection from "../../pages/News/NewsSection";
 
 export default function App() {
   return (
@@ -34,7 +35,7 @@ export default function App() {
         <Route path="/brands" element={<Brands />} />
         <Route path="/our-achievements" element={<OurAchievements />} />
         <Route path="/useful-to-know" element={<UsefulToKnow />} />
-        <Route path="/blog" element={<News />} />
+        <Route path="/blog" element={<NewsSection />} />
         <Route path="/blog/:slug" element={<NewsDetails />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/history" element={<History />} />
