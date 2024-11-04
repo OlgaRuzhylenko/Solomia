@@ -7,7 +7,11 @@ export default function NewsSection() {
   return (
     <div>
       <div>{<Header />}</div>
-      <div>{<News />}</div>
+
+      <section className={css.mainNewsSection}>
+        <div>{<News />}</div>
+      </section>
+
       <div>{<Footer />}</div>
     </div>
   );
