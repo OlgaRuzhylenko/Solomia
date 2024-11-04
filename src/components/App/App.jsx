@@ -53,6 +53,7 @@ export default function App() {
           path="/batik-gold-collection"
           element={<BatikGoldCollection />}
         />
+        <Route path="/made-in-ukraine" element={<NationalCashback />} />
       </Routes>
     </Layout>
   );
