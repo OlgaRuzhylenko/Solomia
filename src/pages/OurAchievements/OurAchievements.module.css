@@ -15,6 +15,11 @@
     width: 98%;
 }
 }
+@media only screen and (min-width: 1440px) {
+    .ourAchievementsMainImg {
+            width: 100%;
+        }
+}
 .ourAchievementsTitle {
     font-size: 33px;
     font-weight: 400;
