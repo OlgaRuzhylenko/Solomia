@@ -147,7 +147,8 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
     }
 }
 .link{
-text-decoration: none;
+    text-decoration: none;
+    margin-bottom: 20px;
 }
 .descriptionWrap{
 display: flex;
@@ -188,8 +189,9 @@ margin: 0 auto;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
-    color: #000000;    
-    margin-bottom: 20px;
+    color: #000000;
+
+    cursor: pointer;
 }
 .linkText::after {
     content: '\00BB';
