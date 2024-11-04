@@ -10,7 +10,11 @@
 .ourAchievementsMainImg {
     margin-bottom: 30px;
 }  
-
+@media only screen and (min-width: 1024px) {
+.ourAchievementsMainImg {
+    width: 98%;
+}
+}
 .ourAchievementsTitle {
     font-size: 33px;
     font-weight: 400;
