@@ -162,6 +162,11 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
     
     max-width: 155px;
 }
+@media only screen and (min-width: 768px) {
+    .link {
+        max-width: 200px;
+    }
+}
 .descriptionWrap{
 display: flex;
 flex-direction: column;
@@ -204,6 +209,12 @@ margin: 0 auto;
     color: #000000;
 
     cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+    .linkText {
+    font-size: 16px;
+    font-weight: 400;
+    }
 }
 /* .linkText::after {
     content: '\00BB';
