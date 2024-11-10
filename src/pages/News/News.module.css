@@ -50,6 +50,11 @@ margin-bottom: 50px;
         gap: 25px;
     }
 }
+@media only screen and (min-width: 1024px) {
+    .list {
+        justify-content: space-between;
+    }
+}
 .subTitleWrap{
     width: 80px;
     background: #69727d;
@@ -101,7 +106,7 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
 }
 @media only screen and (min-width: 1024px) {
 .item {
-    max-width: 480px;
+    max-width: 470px;
 }
 }
 @media only screen and (min-width: 1440px) {
