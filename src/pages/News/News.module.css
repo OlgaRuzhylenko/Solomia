@@ -147,8 +147,20 @@ box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
     }
 }
 .link{
-    text-decoration: none;
     margin-bottom: 20px;
+    
+    line-height: 1;
+    letter-spacing: 2.56px;
+    text-transform: uppercase;
+    
+    text-decoration: none;
+    border: 1px solid;
+    box-shadow: 1px 2px 0 0 #474249;
+    padding: 14px 25px;
+    
+    color: #474249;
+    
+    max-width: 155px;
 }
 .descriptionWrap{
 display: flex;
@@ -193,11 +205,11 @@ margin: 0 auto;
 
     cursor: pointer;
 }
-.linkText::after {
+/* .linkText::after {
     content: '\00BB';
     font-size: inherit;
     vertical-align: text-bottom;
-}
+} */
 .date{
     padding: 15px 30px;
     border-top: 1px solid #eaeaea;

@@ -53,7 +53,7 @@ export default function News() {
                   />
                 </p>
                 <NavLink to="/made-in-ukraine" className={css.link}>
-                  <p className={css.linkText}>Читати далі </p>
+                  <p className={css.linkText}>Детальніше</p>
                 </NavLink>
               </div>
               <div className={css.date}>
@@ -91,7 +91,7 @@ export default function News() {
                   улюблених чайних композицій!
                 </p>
                 <NavLink to="/blog/batik-in-atb" className={css.link}>
-                  <p className={css.linkText}>Читати далі </p>
+                  <p className={css.linkText}>Детальніше</p>
                 </NavLink>
               </div>
               <div className={css.date}>
@@ -129,7 +129,7 @@ export default function News() {
                   відтінки смаку!
                 </p>
                 <NavLink to="/blog/coffee-arden" className={css.link}>
-                  <p className={css.linkText}>Читати далі </p>
+                  <p className={css.linkText}>Детальніше</p>
                 </NavLink>
               </div>
               <div className={css.date}>
