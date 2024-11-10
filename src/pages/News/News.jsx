@@ -90,7 +90,7 @@ export default function News() {
                   Відчуйте всю палітру смаків та отримайте насолоду від
                   улюблених чайних композицій!
                 </p>
-                <NavLink to="/blog/batik-in-atb" className={css.link}>
+                <NavLink to="/batik-in-atb" className={css.link}>
                   <p className={css.linkText}>Детальніше</p>
                 </NavLink>
               </div>

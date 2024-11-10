@@ -14,8 +14,6 @@ import ArdenPage from "../../pages/ArdenPage/ArdenPage";
 import DomashniyPages from "../../pages/DomashniyPages/DomashniyPages";
 import { Route, Routes } from "react-router-dom";
 import Mission from "../../pages/Mission/Mission";
-// import New231123 from "../../pages/News/new231123/new231123";
-// import New081123 from "../../pages/News/new081123/new081123";
 import NewsDetails from "../NewsDetails/NewsDetails";
 import Quality from "../../pages/Quality/Quality";
 import FinancialReporting from "../../pages/FinancialReporting/FinancialReporting";
@@ -24,6 +22,8 @@ import NationalCashback from "../../pages/NationalCashback/NationalCashback";
 import BatikCollection from "../../pages/BatikCollection/BatikCollection";
 import BatikGoldCollection from "../../pages/BatikGoldCollection/BatikGoldCollection";
 import NewsSection from "../../pages/News/NewsSection";
+import NewBatikInAtb from "../../pages/News/newBatikInAtb/newBatikInAtb";
+import NewCoffeArden from "../../pages/News/NewCoffeArden/NewCoffeArden";
 
 export default function App() {
   return (
@@ -49,6 +49,8 @@ export default function App() {
         <Route path="/financial-reporting" element={<FinancialReporting />} />
         <Route path="/stores-and-online-shopping" element={<Stores />} />
         <Route path="/national-cashback" element={<NationalCashback />} />
+        <Route path="/batik-in-atb" element={<NewBatikInAtb />} />
+        <Route path="/coffee-arden" element={<NewCoffeArden />} />
         <Route path="/batik-classic-collection" element={<BatikCollection />} />
         <Route
           path="/batik-gold-collection"

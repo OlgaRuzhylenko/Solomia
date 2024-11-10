@@ -1,0 +1,127 @@
+.batikInAtbSection {
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+@media only screen and (min-width: 768px) {
+    .batikInAtbSection {
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .batikInAtbSection {
+        padding-top: 190px;
+    }
+}
+.batikInAtbMainTitle {
+    color: #474249;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .batikInAtbMainTitle {
+        font-size: 40px;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .batikInAtbMainTitle {
+        margin-bottom: 40px;
+        font-size: 48px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .batikInAtbArticle {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .batikInAtbArticle::after {
+        content: "";
+        width: 100%;
+        border: 1px solid #ebeced;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .batikInAtbArticle::after {
+        margin-bottom: 100px;
+    }
+}
+.batikInAtbImg {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .batikInAtbImg {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .batikInAtbImg {
+        width: 115%;
+    }
+}
+.batikInAtbList {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .batikInAtbList {
+        margin-bottom: 100px;
+    }
+}
+.batikInAtbItem {
+    margin-bottom: 18px;
+}
+
+.batikInAtbItem:last-child {
+    margin-bottom: 0;
+}
+.batikInAtbTitle {
+    /* text-align: justify; */
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #888888;
+
+    margin-bottom: 18px;
+}
+
+.batikInAtbSubTitle {
+    text-align: justify;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #888888;
+
+    margin-bottom: 18px;
+}
+.batikInAtbText1 {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+
+    margin-bottom: 18px;
+}
+.batikInAtbText2 {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+}
