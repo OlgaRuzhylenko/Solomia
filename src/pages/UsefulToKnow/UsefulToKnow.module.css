@@ -34,8 +34,15 @@
         width: 329px;
     }
 }
-.usefulToKnowItem:not(:last-child) {
-    margin-bottom: 20px;
+@media only screen and (min-width: 1024px) {
+.usefulToKnowItem {
+        width: 457px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+.usefulToKnowItem {
+        width: 440px;
+    }
 }
 .usefulToKnowImageWrapper {
     position: relative;
@@ -65,6 +72,18 @@
     color: #423930;
 
     margin-bottom: 25px;
+
+    overflow: hidden;
+}
+@media only screen and (min-width: 768px) {
+    .usefulToKnowTitle {
+        min-height: 60px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .usefulToKnowTitle {
+            min-height: 35px;
+        }
 }
 .usefulToKnowText {
     line-height: 1.5em;
@@ -72,6 +91,18 @@
     color: #777;
 
     margin-bottom: 25px;
+}
+@media only screen and (min-width: 768px) {
+    .usefulToKnowText {
+        min-height: 125px;
+        overflow: scroll;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .usefulToKnowText {
+        min-height: 90px;
+        overflow: scroll;
+    }
 }
 .usefulToKnowlink {
     text-transform: uppercase;
@@ -92,7 +123,5 @@
 }
 .usefulToKnowTextBox {
     padding-left: 30px;
-    padding-right: 30px;
-
-    
+    padding-right: 30px;    
 }
