@@ -262,7 +262,22 @@ color: #474249;
         margin-bottom: 50px;
     }
 }
+.newsSection {
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
 
+@media only screen and (min-width: 1440px) {
+    .newsSection {
+        background-image: url(../../images/brandsBG.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: right;
+        background-attachment: fixed;
+
+        margin-bottom: 0px;
+    }
+}
 /**************** swipper **************/
 :global(.swiper-button-prev),
 :global(.swiper-button-next) {

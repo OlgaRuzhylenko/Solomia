@@ -103,7 +103,7 @@ export default function HomePage() {
           </NavLink>
         </section>
         <h2 className={css.newsTitle}>Новини</h2>
-        <div>{<News />}</div>
+        <div className={css.newsSection}>{<News />}</div>
       </div>
       <div>{<Footer />}</div>
     </div>
