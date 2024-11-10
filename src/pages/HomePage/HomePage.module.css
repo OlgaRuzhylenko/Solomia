@@ -178,6 +178,7 @@ color: #474249;
     .mission {
         padding-top: 100px;
         padding-bottom: 100px;
+        margin-bottom: 0px;
     }
 }
 .missionImg {
