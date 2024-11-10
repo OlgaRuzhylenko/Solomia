@@ -95,13 +95,12 @@
 @media only screen and (min-width: 768px) {
     .usefulToKnowText {
         min-height: 125px;
-        overflow: scroll;
+        overflow: hidden;
     }
 }
 @media only screen and (min-width: 1024px) {
     .usefulToKnowText {
         min-height: 100px;
-        overflow: scroll;
     }
 }
 .usefulToKnowlink {
