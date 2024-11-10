@@ -22,12 +22,16 @@
         justify-content: center;
     }
 }
-
+@media only screen and (min-width: 1440px) {
+    .usefulToKnowList {
+        padding-right: 0px;
+        padding-left: 0px;
+        justify-content: space-between;
+    }
+}
 .usefulToKnowItem {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
-    padding-bottom: 20px;
-
-    
+    padding-bottom: 20px;    
 }
 @media only screen and (min-width: 768px) {
     .usefulToKnowItem {
@@ -41,7 +45,7 @@
 }
 @media only screen and (min-width: 1440px) {
 .usefulToKnowItem {
-        width: 440px;
+        width: 456px;
     }
 }
 .usefulToKnowImageWrapper {
