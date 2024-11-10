@@ -128,7 +128,7 @@ export default function News() {
                   Спробуйте мелену каву ARDEN та розкрийте для себе нові
                   відтінки смаку!
                 </p>
-                <NavLink to="/blog/coffee-arden" className={css.link}>
+                <NavLink to="/coffee-arden" className={css.link}>
                   <p className={css.linkText}>Детальніше</p>
                 </NavLink>
               </div>

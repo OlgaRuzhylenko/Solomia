@@ -99,7 +99,11 @@
 
     margin-bottom: 18px;
 }
-
+@media only screen and (min-width: 1024px) {
+    .batikInAtbTitle {
+        font-size: 22px;
+    }
+}
 .batikInAtbSubTitle {
     text-align: justify;
     align-items: center;
@@ -108,6 +112,11 @@
     color: #888888;
 
     margin-bottom: 18px;
+}
+@media only screen and (min-width: 1024px) {
+    .batikInAtbSubTitle {
+        font-size: 20px;
+    }
 }
 .batikInAtbText1 {
     text-align: justify;
@@ -124,4 +133,12 @@
     font-size: 16px;
     line-height: 1.5;
     color: #888888;
+}
+@media only screen and (min-width: 1024px) {
+    .batikInAtbText1 {
+        font-size: 18px;
+    }
+        .batikInAtbText2 {
+            font-size: 18px;
+        }
 }
