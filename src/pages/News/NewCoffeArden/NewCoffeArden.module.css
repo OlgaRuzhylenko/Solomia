@@ -1,0 +1,117 @@
+.coffeArdenSection {
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .coffeArdenSection {
+        padding-top: 170px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .coffeArdenSection {
+        padding-top: 190px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .coffeArdenArticle {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .coffeArdenArticle::after {
+        content: "";
+        width: 100%;
+        border: 1px solid #ebeced;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .coffeArdenArticle::after {
+        margin-bottom: 100px;
+    }
+}
+.coffeArdenMainTitle {
+    color: #474249;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .coffeArdenMainTitle {
+        font-size: 40px;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .coffeArdenMainTitle {
+        margin-bottom: 40px;
+        font-size: 48px;
+    }
+}
+.coffeArdenImg {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .coffeArdenImg {
+        margin-bottom: 50px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .coffeArdenImg {
+        width: 115%;
+    }
+}
+.coffeArdenText {
+    text-align: justify;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #888888;
+
+    margin-bottom: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.coffeArdenSubTitle {
+    color: #888888;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.coffeArdendescription {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+}
+@media only screen and (min-width: 768px) {
+    .coffeArdendescription {
+        font-size: 18px;
+    }
+}
+.coffeArdenItem:not(:last-child) {
+    margin-bottom: 18px;
+}
+.coffeArdenList {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .coffeArdenList {
+        margin-bottom: 100px;
+    }
+}

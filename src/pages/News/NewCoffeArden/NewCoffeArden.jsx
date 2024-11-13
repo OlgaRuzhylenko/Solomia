@@ -1,3 +1,4 @@
+import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
 import coffeArdenImg from "../../../images/news/coffee-arden.jpg";
 import css from "./NewCoffeArden.module.css";
@@ -18,11 +19,11 @@ export default function NewCoffeArden() {
               alt="пачки 5 видів кави Арден"
               className={css.coffeArdenImg}
             />
-            <p>
+            <p className={css.coffeArdenText}>
               Спробуйте палітру смаків меленої кави ARDEN та розкрийте для себе
               нові відтінки смаку!
             </p>
-            <p>
+            <p className={css.coffeArdenText}>
               Кава «ARDEN» – це ексклюзивні кавові бленди для найвибагливіших
               поціновувачів кави. Для їх виготовлення використовують виключно
               якісні кавові зерна сортів Арабіки та Робусти з найкращих кавових
@@ -88,6 +89,7 @@ export default function NewCoffeArden() {
           </article>
         </div>
       </section>
+      <div>{<Footer />}</div>
     </div>
   );
 }
