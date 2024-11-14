@@ -34,7 +34,7 @@ export default function UsefulToKnow() {
                   справжня насолода, що розкриває свої таємниці та дива перед
                   нами.
                 </p>
-                <NavLink to="/" className={css.link}>
+                <NavLink to="/facts-about-coffee" className={css.link}>
                   <p className={css.usefulToKnowlink}>Читати далі </p>
                 </NavLink>
               </div>
@@ -55,7 +55,7 @@ export default function UsefulToKnow() {
                   зерен. Давайте поглянемо на два найпопулярніших види кавових
                   зерен – Арабіка і Робуста та розкриємо їхні таємниці.
                 </p>
-                <NavLink to="/" className={css.link}>
+                <NavLink to="/arabica-or-robusta" className={css.link}>
                   <p className={css.usefulToKnowlink}>Читати далі </p>
                 </NavLink>
               </div>
@@ -78,7 +78,7 @@ export default function UsefulToKnow() {
                   напій. Чаювання – традиція: сімейна, дружня, ділова. Чаювання
                   – час і привід зібратися разом.
                 </p>
-                <NavLink to="/" className={css.link}>
+                <NavLink to="/why-is-tea-called-tea" className={css.link}>
                   <p className={css.usefulToKnowlink}>Читати далі </p>
                 </NavLink>
               </div>
@@ -100,7 +100,7 @@ export default function UsefulToKnow() {
                   Як визначити якість чаю? Маємо кілька підказок щодо оцінки
                   чаю, який ви купуєте. Однак це лише підказки, а не правила.
                 </p>
-                <NavLink to="/" className={css.link}>
+                <NavLink to="/quality-of-tea" className={css.link}>
                   <p className={css.usefulToKnowlink}>Читати далі </p>
                 </NavLink>
               </div>
@@ -123,7 +123,7 @@ export default function UsefulToKnow() {
                   POWDER, С.Т.С., УЛУН (OOLONG) - які таємниці приховують ці
                   назви?
                 </p>
-                <NavLink to="/" className={css.link}>
+                <NavLink to="/tea-leaf-standards" className={css.link}>
                   <p className={css.usefulToKnowlink}>Читати далі </p>
                 </NavLink>
               </div>
@@ -146,7 +146,7 @@ export default function UsefulToKnow() {
                   трапляються. Але коли знаєш про помилки при заварюванні чаю
                   заздалегідь, їх можна не допустити і отримати винятковий чай.
                 </p>
-                <NavLink to="/" className={css.link}>
+                <NavLink to="/7-mistakes" className={css.link}>
                   <p className={css.usefulToKnowlink}>Читати далі </p>
                 </NavLink>
               </div>

@@ -24,6 +24,12 @@ import BatikGoldCollection from "../../pages/BatikGoldCollection/BatikGoldCollec
 import NewsSection from "../../pages/News/NewsSection";
 import NewBatikInAtb from "../../pages/News/newBatikInAtb/newBatikInAtb";
 import NewCoffeArden from "../../pages/News/NewCoffeArden/NewCoffeArden";
+import FactsAboutCoffee from "../../pages/UsefulToKnow/FactsAboutCoffee/FactsAboutCoffee";
+import ArabicaOrRobusta from "../../pages/UsefulToKnow/ArabicaOrRobusta/ArabicaOrRobusta";
+import WhyIsTeaCalledTea from "../../pages/UsefulToKnow/WhyIsTeaCalledTea/WhyIsTeaCalledTea";
+import QualityOfTea from "../../pages/UsefulToKnow/QualityOfTea/QualityOfTea";
+import TeaLeafStandards from "../../pages/UsefulToKnow/TeaLeafStandards/TeaLeafStandards";
+import Mistakes7 from "../../pages/UsefulToKnow/7Mistakes/7Mistakes";
 
 export default function App() {
   return (
@@ -56,7 +62,14 @@ export default function App() {
           path="/batik-gold-collection"
           element={<BatikGoldCollection />}
         />
+
         <Route path="/made-in-ukraine" element={<NationalCashback />} />
+        <Route path="/facts-about-coffee" element={<FactsAboutCoffee />} />
+        <Route path="/arabica-or-robusta" element={<ArabicaOrRobusta />} />
+        <Route path="/why-is-tea-called-tea" element={<WhyIsTeaCalledTea />} />
+        <Route path="/quality-of-tea" element={<QualityOfTea />} />
+        <Route path="/tea-leaf-standards" element={<TeaLeafStandards />} />
+        <Route path="/7-mistakes" element={<Mistakes7 />} />
       </Routes>
     </Layout>
   );
