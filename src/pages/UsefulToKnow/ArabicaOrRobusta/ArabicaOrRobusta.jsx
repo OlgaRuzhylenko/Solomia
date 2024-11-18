@@ -16,16 +16,18 @@ export default function ArabicaOrRobusta() {
               className={css.arabicaOrRobustaImg}
             />
             <h1 className={css.arabicaOrRobustaTitle}>Арабіка чи Робуста?</h1>
-            <p className={css.arabicaOrRobustaText}>
-              Розкриваємо таємниці двох видів кавових зерен.
-            </p>
-            <p className={css.arabicaOrRobustaText}>
-              Кава – це не просто напій, а справжнє мистецтво, яке завоювало
-              серця мільйонів людей по всьому світу. Кожен любить каву за її
-              неповторний смак та аромат, але чи знаєте ви, що за цим стоїть?
-              Давайте поглянемо на два найпопулярніших види кавових зерен –
-              Арабіка і Робуста та розкриємо їхні таємниці.
-            </p>
+            <div className={css.arabicaOrRobustaWrap}>
+              <p className={css.arabicaOrRobustaText}>
+                Розкриваємо таємниці двох видів кавових зерен.
+              </p>
+              <p className={css.arabicaOrRobustaText}>
+                Кава – це не просто напій, а справжнє мистецтво, яке завоювало
+                серця мільйонів людей по всьому світу. Кожен любить каву за її
+                неповторний смак та аромат, але чи знаєте ви, що за цим стоїть?
+                Давайте поглянемо на два найпопулярніших види кавових зерен –
+                Арабіка і Робуста та розкриємо їхні таємниці.
+              </p>
+            </div>
             <ul className={css.arabicaOrRobustaList}>
               <li className={css.arabicaOrRobustaItem}>
                 <h2 className={css.arabicaOrRobustaSubTitle}>Арабіка:</h2>
