@@ -1,0 +1,144 @@
+.factsAboutCoffeeSection {
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .factsAboutCoffeeSection {
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .factsAboutCoffeeSection {
+        padding-top: 190px;
+    }
+}
+
+.factsAboutCoffeeArticle {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 1024px) {
+    .factsAboutCoffeeArticle {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .factsAboutCoffeeArticle::after {
+        content: "";
+        width: 100%;
+        border: 1px solid #ebeced;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .factsAboutCoffeeArticle::after {
+        margin-bottom: 100px;
+    }
+}
+.factsAboutCoffeeImg {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .factsAboutCoffeeImg {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .factsAboutCoffeeImg {
+        width: 115%;
+    }
+}
+.factsAboutCoffeeTitle {
+    color: #474249;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 1.2;
+    /* display: ruby; */
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .factsAboutCoffeeTitle {
+        font-size: 40px;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .factsAboutCoffeeTitle {
+        margin-bottom: 40px;
+        font-size: 48px;
+    }
+}
+.factsAboutCoffeeText {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+}
+
+@media only screen and (min-width: 768px) {
+    .factsAboutCoffeeText {
+        font-size: 18px;
+    }
+}
+
+.factsAboutCoffeeList {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-bottom: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+    .factsAboutCoffeeList {
+        margin-bottom: 100px;
+    }
+}
+.factsAboutCoffeeItem {
+    margin-bottom: 18px;
+}
+
+.factsAboutCoffeeItem:last-child {
+    margin-bottom: 0;
+}
+.factsAboutCoffeeSubtitle {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+}
+
+@media only screen and (min-width: 768px) {
+    .factsAboutCoffeeSubtitle {
+        font-size: 18px;
+    }
+}
+.factsAboutCoffeeDescription {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+
+    margin-bottom: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+    .factsAboutCoffeeDescription {
+        font-size: 18px;
+    }
+}
