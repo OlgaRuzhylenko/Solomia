@@ -1,0 +1,124 @@
+.arabicaOrRobustaSection {
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .arabicaOrRobustaSection {
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .arabicaOrRobustaSection {
+        padding-top: 190px;
+    }
+}
+.arabicaOrRobustaArticle {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 1024px) {
+    .arabicaOrRobustaArticle {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .arabicaOrRobustaArticle::after {
+        content: "";
+        width: 100%;
+        border: 1px solid #ebeced;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .arabicaOrRobustaArticle::after {
+        margin-bottom: 100px;
+    }
+}
+.arabicaOrRobustaImg {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .arabicaOrRobustaImg {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .arabicaOrRobustaImg {
+        width: 115%;
+    }
+}
+.arabicaOrRobustaTitle {
+    color: #474249;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 1.2;
+    /* display: ruby; */
+    text-align: center;
+
+    margin-bottom: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+    .arabicaOrRobustaTitle {
+        font-size: 40px;
+        text-align: left;
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .arabicaOrRobustaTitle {
+        margin-bottom: 40px;
+        font-size: 48px;
+    }
+}
+.arabicaOrRobustaText {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+
+    margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+    .arabicaOrRobustaText {
+        font-size: 18px;
+    }
+}
+.arabicaOrRobustaList {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-bottom: 18px;
+}
+.arabicaOrRobustaItem {
+    margin-bottom: 18px;
+}
+
+.arabicaOrRobustaItem:last-child {
+    margin-bottom: 0;
+}
+.arabicaOrRobustaSubTitle {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+}
+
+@media only screen and (min-width: 768px) {
+    .arabicaOrRobustaSubTitle {
+        font-size: 18px;
+    }
+}
