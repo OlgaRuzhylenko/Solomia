@@ -108,7 +108,7 @@ export default function FactsAboutCoffee() {
                 </p>
               </li>
             </ul>
-            <p className={css.factsAboutCoffeeText}>
+            <p className={css.factsAboutCoffeeText2}>
               Кава – це чудовий напій, який приносить насолоду та радість
               мільйонам людей. Вона є джерелом традицій та незабутніх моментів у
               нашому житті. Якщо ви ще не відчули усю магію кави, тоді саме час

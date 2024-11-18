@@ -72,6 +72,7 @@
     .factsAboutCoffeeTitle {
         font-size: 40px;
         text-align: left;
+        padding-left: 10px;
     }
 }
 
@@ -102,8 +103,23 @@
     margin-bottom: 18px;
 }
 
+.factsAboutCoffeeText2 {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+}
+
 @media only screen and (min-width: 768px) {
-    .factsAboutCoffeeList {
+    .factsAboutCoffeeText2 {
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .factsAboutCoffeeText2 {
         margin-bottom: 100px;
     }
 }
@@ -140,5 +156,7 @@
 @media only screen and (min-width: 768px) {
     .factsAboutCoffeeDescription {
         font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
