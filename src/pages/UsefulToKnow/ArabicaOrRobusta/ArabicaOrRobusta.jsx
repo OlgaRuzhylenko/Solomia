@@ -39,7 +39,7 @@ export default function ArabicaOrRobusta() {
                   сортів, кожен з яких характеризується своїми унікальними
                   смаковими властивостями.
                 </p>
-                <h3 className={css.arabicaOrRobustaSubTitle}>
+                <h3 className={css.arabicaOrRobustaSubTitle2}>
                   Особливості Арабіки:
                 </h3>
                 <ul>
@@ -71,7 +71,7 @@ export default function ArabicaOrRobusta() {
                   винайдена як більш стійкий вид кави до шкідливих факторів
                   середовища.
                 </p>
-                <h3 className={css.arabicaOrRobustaSubTitle}>
+                <h3 className={css.arabicaOrRobustaSubTitle2}>
                   Особливості Робусти:
                 </h3>
                 <ul>

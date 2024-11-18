@@ -66,6 +66,7 @@
     text-align: center;
 
     padding-left: 10px;
+    margin-bottom: 20px;
   }
 
 @media only screen and (min-width: 768px) {
@@ -114,17 +115,30 @@
 .arabicaOrRobustaSubTitle {
     text-align: justify;
     align-items: center;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
     color: #888888;
 }
 
 @media only screen and (min-width: 768px) {
     .arabicaOrRobustaSubTitle {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 .arabicaOrRobustaWrap {
     padding-left: 10px;
     padding-right: 10px;
+}
+.arabicaOrRobustaSubTitle2 {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+}
+
+@media only screen and (min-width: 768px) {
+    .arabicaOrRobustaSubTitle2 {
+        font-size: 18px;
+    }
 }
