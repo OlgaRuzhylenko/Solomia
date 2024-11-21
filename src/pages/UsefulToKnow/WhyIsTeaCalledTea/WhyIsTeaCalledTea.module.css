@@ -1,0 +1,139 @@
+.whyIsTeaCalledTeaSection {
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .whyIsTeaCalledTeaSection {
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .whyIsTeaCalledTeaSection {
+        padding-top: 190px;
+    }
+}
+.whyIsTeaCalledTeaArticle {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .whyIsTeaCalledTeaArticle {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .whyIsTeaCalledTeaArticle::after {
+        content: "";
+        width: 100%;
+        border: 1px solid #ebeced;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .whyIsTeaCalledTeaArticle::after {
+        margin-bottom: 100px;
+    }
+}
+.whyIsTeaCalledTeaImg {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .whyIsTeaCalledTeaImg {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .whyIsTeaCalledTeaImg {
+        width: 115%;
+    }
+}
+.whyIsTeaCalledTeaTitle {
+    color: #474249;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 1.2;
+    /* display: ruby; */
+    text-align: center;
+
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .whyIsTeaCalledTeaTitle {
+        font-size: 40px;
+        text-align: left;
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .whyIsTeaCalledTeaTitle {
+        margin-bottom: 40px;
+        font-size: 48px;
+    }
+}
+.whyIsTeaCalledTeaText {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+
+    margin-bottom: 16px;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .whyIsTeaCalledTeaText {
+        font-size: 18px;
+    }
+}
+.whyIsTeaCalledTeaDesc {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+
+    /* margin-bottom: 16px; */
+}
+
+@media only screen and (min-width: 768px) {
+    .whyIsTeaCalledTeaDesc {
+        font-size: 18px;
+    }
+}
+.whyIsTeaCalledTeaList {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-bottom: 18px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .whyIsTeaCalledTeaList {
+        margin-bottom: 100px;
+    }
+}
+.whyIsTeaCalledTeaItem {
+    /* margin-bottom: 18px; */
+    display: flex;
+}
+
+/* .whyIsTeaCalledTeaItem:last-child {
+    margin-bottom: 0;
+} */
+ .whyIsTeaCalledTeaSymb {
+    color: #888888;
+ }
