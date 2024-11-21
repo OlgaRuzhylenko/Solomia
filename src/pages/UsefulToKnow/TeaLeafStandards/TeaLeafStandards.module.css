@@ -99,8 +99,7 @@
 
 @media only screen and (min-width: 1024px) {
     .teaLeafStandardsSubtitle {
-        margin-bottom: 40px;
-        font-size: 48px;
+        margin-bottom: 40px;        
     }
 }
 .teaLeafStandardsDesc {
@@ -140,6 +139,12 @@
 
         padding-left: 10px;
         padding-right: 10px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .teaLeafStandardsMainList {
+        gap: 50px;
+        margin-bottom: 100px;
     }
 }
 @media only screen and (min-width: 768px) {
