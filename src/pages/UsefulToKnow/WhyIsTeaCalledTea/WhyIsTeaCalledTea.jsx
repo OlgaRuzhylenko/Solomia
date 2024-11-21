@@ -106,7 +106,7 @@ export default function WhyIsTeaCalledTea() {
               Не важливо говорите Ви «tea» або «чай», або якось середньо,
               улюблений багатьма напій зблизив країни і культури.
             </p>
-            <p className={css.whyIsTeaCalledTeaText}>
+            <p className={css.whyIsTeaCalledTeaText2}>
               Незалежно, чи п’єте Ви чай з пакетиків або листовий, з цукром або
               без, з молоком або без, Ви розділяєте любов до напою з мільярдами
               інших людей.
