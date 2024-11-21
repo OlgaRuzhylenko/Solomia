@@ -66,7 +66,10 @@ export default function TeaLeafStandards() {
                   </li>
 
                   <li className={css.teaLeafStandardsSecondItem}>
-                    <h3 className={css.teaLeafStandardsDesc}>УЛУН (OOLONG)</h3>
+                    <h3 className={css.teaLeafStandardsDesc}>
+                      УЛУН <br />
+                      (OOLONG)
+                    </h3>
                     <p className={css.teaLeafStandardstext}>
                       Улун – напівферментований чай. Ферментації піддається не
                       весь лист, а лише його край та частина поверхні. Улун
@@ -86,7 +89,8 @@ export default function TeaLeafStandards() {
                 <ul className={css.teaLeafStandardsSecondList}>
                   <li className={css.teaLeafStandardsSecondItem}>
                     <h3 className={css.teaLeafStandardsDesc}>
-                      В.О.P. (Broken Orange Pekoe)
+                      В.О.P. <br />
+                      (Broken Orange Pekoe)
                     </h3>
                     <p className={css.teaLeafStandardstext}>
                       Основний сорт дрібного різаного чаю. Ламане або різане
@@ -97,7 +101,8 @@ export default function TeaLeafStandards() {
 
                   <li className={css.teaLeafStandardsSecondItem}>
                     <h3 className={css.teaLeafStandardsDesc}>
-                      F.B.О.P. (Flowery Broken Orange Pekoe)
+                      F.B.О.P. <br />
+                      (Flowery Broken Orange Pekoe)
                     </h3>
                     <p className={css.teaLeafStandardstext}>
                       Чайний лист середнього розміру з чайними бруньками, що не
@@ -109,7 +114,8 @@ export default function TeaLeafStandards() {
 
                   <li className={css.teaLeafStandardsSecondItem}>
                     <h3 className={css.teaLeafStandardsDesc}>
-                      С.Т.С.(Сrushing, Tearning, Сurling)
+                      С.Т.С. <br />
+                      (Сrushing, Tearning, Сurling)
                     </h3>
                     <p className={css.teaLeafStandardstext}>
                       Гранули з подрібненого і скрученого чайного листа.
