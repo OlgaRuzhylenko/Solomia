@@ -1,0 +1,135 @@
+.teaLeafStandardsSection {
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .teaLeafStandardsSection {
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .teaLeafStandardsSection {
+        padding-top: 190px;
+    }
+}
+.teaLeafStandardsArticle {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .teaLeafStandardsArticle {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .teaLeafStandardsArticle::after {
+        content: "";
+        width: 100%;
+        border: 1px solid #ebeced;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .teaLeafStandardsArticle::after {
+        margin-bottom: 100px;
+    }
+}
+.teaLeafStandardsImg {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .teaLeafStandardsImg {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .teaLeafStandardsImg {
+        width: 115%;
+    }
+}
+.teaLeafStandardsTitle {
+    color: #474249;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 1.2;
+    /* display: ruby; */
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .teaLeafStandardsTitle {
+        font-size: 40px;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .teaLeafStandardsTitle {
+        margin-bottom: 40px;
+        font-size: 48px;
+    }
+}
+.teaLeafStandardsSubtitle {
+    color: #423930;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.4;
+
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+    .teaLeafStandardsSubtitle {
+        font-size: 40px;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .teaLeafStandardsSubtitle {
+        margin-bottom: 40px;
+        font-size: 48px;
+    }
+}
+.teaLeafStandardsDesc {
+    color: #777777;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 1.4;
+        font-style: italic;
+    
+        margin-bottom: 5px;
+        }
+
+.teaLeafStandardstext {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+
+    margin-bottom: 16px;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .teaLeafStandardstext {
+        font-size: 18px;
+    }
+}
+.teaLeafStandardsMainItem:not(:last-child) {
+    margin-bottom: 50px;
+}
