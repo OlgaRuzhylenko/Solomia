@@ -99,8 +99,13 @@
 
 @media only screen and (min-width: 1024px) {
     .teaLeafStandardsSubtitle {
-        margin-bottom: 40px;        
+        margin-bottom: 40px; 
     }
+}
+@media only screen and (min-width: 1440px) {
+    .teaLeafStandardsSubtitle {
+            font-size: 28px;
+        }
 }
 .teaLeafStandardsDesc {
     color: #777777;
@@ -111,7 +116,11 @@
     
         margin-bottom: 5px;
         }
-
+@media only screen and (min-width: 1440px) {
+    .teaLeafStandardsDesc {
+        font-size: 18px;
+    }
+}
 .teaLeafStandardstext {
     text-align: justify;
     align-items: center;
@@ -128,6 +137,7 @@
         font-size: 18px;
     }
 }
+
 .teaLeafStandardsMainItem:not(:last-child) {
     margin-bottom: 50px;
 }
@@ -151,4 +161,10 @@
     .teaStandardsImg {
         padding-top: 40px;
     }
+}
+@media only screen and (min-width: 1440px) {
+    .teaStandardsImg {
+        width: 80%;
+     }
+
 }
