@@ -93,7 +93,6 @@
 
 @media only screen and (min-width: 768px) {
     .teaLeafStandardsSubtitle {
-        font-size: 40px;
         text-align: left;
     }
 }
@@ -132,4 +131,19 @@
 }
 .teaLeafStandardsMainItem:not(:last-child) {
     margin-bottom: 50px;
+}
+@media only screen and (min-width: 768px) {
+    .teaLeafStandardsMainList {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .teaStandardsImg {
+        padding-top: 80px;
+    }
 }
