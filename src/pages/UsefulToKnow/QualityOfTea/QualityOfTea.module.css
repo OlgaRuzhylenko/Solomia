@@ -65,7 +65,6 @@
     /* display: ruby; */
     text-align: center;
 
-    padding-left: 10px;
     margin-bottom: 20px;
 }
 
@@ -135,4 +134,21 @@
 .qualityOfTeaItemsWrap {
     display: flex;
     gap: 3px;
+}
+@media only screen and (min-width: 768px) {
+.qualityOfTeaWrap {
+    display: flex;
+    align-items: center;
+}
+}
+@media only screen and (min-width: 768px) {
+    .qualityOfTeaItem {
+        flex-shrink: 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .qualityOfTeaItemImg {
+        margin-right: 20px;
+        width: 350px;
+    }
 }

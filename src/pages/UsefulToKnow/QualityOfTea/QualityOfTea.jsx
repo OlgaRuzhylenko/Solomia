@@ -1,6 +1,6 @@
 import Header from "../../../components/Header/Header";
 import qualityOfTeaImg from "../../../images/facts/factTea2Page.jpg";
-import handWithTeaImg from "../../../images/facts/factTea2HandPage.png";
+import handWithTeaImg from "../../../images/facts/factTea2HandPage.jpg";
 import css from "./QualityOfTea.module.css";
 import Footer from "../../../components/Footer/Footer";
 
@@ -49,40 +49,45 @@ export default function QualityOfTea() {
                   розгортатися.
                 </p>
               </li>
-              <li className={css.qualityOfTeaItem}>
-                <img
-                  src={handWithTeaImg}
-                  alt="поле зеленого кольору, де росте чай та рука, яка тримає гілочку чаю"
-                />
-              </li>
-              <li className={css.qualityOfTeaItem}>
-                <div className={css.qualityOfTeaItemsWrap}>
-                  <span className={css.qualityOfTeaSymb}>&#9658;</span>
-                  <h2 className={css.qualityOfTeaSubtitle}>Аромат:</h2>
+              <div className={css.qualityOfTeaWrap}>
+                <li className={css.qualityOfTeaItem}>
+                  <img
+                    src={handWithTeaImg}
+                    alt="поле зеленого кольору, де росте чай та рука, яка тримає гілочку чаю"
+                    className={css.qualityOfTeaItemImg}
+                  />
+                </li>
+                <div>
+                  <li className={css.qualityOfTeaItem}>
+                    <div className={css.qualityOfTeaItemsWrap}>
+                      <span className={css.qualityOfTeaSymb}>&#9658;</span>
+                      <h2 className={css.qualityOfTeaSubtitle}>Аромат:</h2>
+                    </div>
+                    <p className={css.qualityOfTeaText}>
+                      Незалежно від того, який сорт, високоякісний чай матиме
+                      виразний аромат. Аромат має бути чистим та приємним.
+                      Зелений чай повинен мати легкий, свіжий, заспокійливий
+                      аромат. Чорний чай повинен мати солодкий квітковий аромат.
+                      Аромат сухих улунів може варіюватися від персика до квіток
+                      османтуса. Білий чай може нагадувати про кукурудзу. При
+                      заварюванні аромат має залишатися.
+                    </p>
+                  </li>
+                  <li className={css.qualityOfTeaItem}>
+                    <div className={css.qualityOfTeaItemsWrap}>
+                      <span className={css.qualityOfTeaSymb}>&#9658;</span>
+                      <h2 className={css.qualityOfTeaSubtitle}>Дотик:</h2>
+                    </div>
+                    <p className={css.qualityOfTeaText}>
+                      Якісний розсипний чай не повинен кришитися або розпадатися
+                      при обережному поводженні. Чай повинен мати невелику вагу,
+                      але і не бути занадто легкий, що свідчитиме про
+                      пересушеність або старіння листа. Листя завареного чаю на
+                      дотик має бути слизьким та гладким.
+                    </p>
+                  </li>
                 </div>
-                <p className={css.qualityOfTeaText}>
-                  Незалежно від того, який сорт, високоякісний чай матиме
-                  виразний аромат. Аромат має бути чистим та приємним. Зелений
-                  чай повинен мати легкий, свіжий, заспокійливий аромат. Чорний
-                  чай повинен мати солодкий квітковий аромат. Аромат сухих
-                  улунів може варіюватися від персика до квіток османтуса. Білий
-                  чай може нагадувати про кукурудзу. При заварюванні аромат має
-                  залишатися.
-                </p>
-              </li>
-              <li className={css.qualityOfTeaItem}>
-                <div className={css.qualityOfTeaItemsWrap}>
-                  <span className={css.qualityOfTeaSymb}>&#9658;</span>
-                  <h2 className={css.qualityOfTeaSubtitle}>Дотик:</h2>
-                </div>
-                <p className={css.qualityOfTeaText}>
-                  Якісний розсипний чай не повинен кришитися або розпадатися при
-                  обережному поводженні. Чай повинен мати невелику вагу, але і
-                  не бути занадто легкий, що свідчитиме про пересушеність або
-                  старіння листа. Листя завареного чаю на дотик має бути
-                  слизьким та гладким.
-                </p>
-              </li>
+              </div>
             </ul>
           </article>
         </div>
