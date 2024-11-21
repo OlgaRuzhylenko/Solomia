@@ -1,0 +1,138 @@
+.qualityOfTeaSection {
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .qualityOfTeaSection {
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .qualityOfTeaSection {
+        padding-top: 190px;
+    }
+}
+.qualityOfTeaArticle {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .qualityOfTeaArticle {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .qualityOfTeaArticle::after {
+        content: "";
+        width: 100%;
+        border: 1px solid #ebeced;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .qualityOfTeaArticle::after {
+        margin-bottom: 100px;
+    }
+}
+.qualityOfTeaImg {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .qualityOfTeaImg {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .qualityOfTeaImg {
+        width: 115%;
+    }
+}
+.qualityOfTeaTitle {
+    color: #474249;
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 1.2;
+    /* display: ruby; */
+    text-align: center;
+
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .qualityOfTeaTitle {
+        font-size: 40px;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .qualityOfTeaTitle {
+        margin-bottom: 40px;
+        font-size: 48px;
+    }
+}
+.qualityOfTeaText {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+
+    margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+    .qualityOfTeaText {
+        font-size: 18px;
+    }
+}
+.qualityOfTeaList {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-bottom: 18px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .qualityOfTeaList {
+        margin-bottom: 100px;
+    }
+}
+.qualityOfTeaItem {
+    margin-bottom: 18px;
+}
+
+.qualityOfTeaItem:last-child {
+    margin-bottom: 0;
+}
+.qualityOfTeaSymb {
+    color: #888888;
+}
+.qualityOfTeaSubtitle {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+}
+
+@media only screen and (min-width: 768px) {
+    .qualityOfTeaSubtitle {
+        font-size: 18px;
+    }
+}
+.qualityOfTeaItemsWrap {
+    display: flex;
+    gap: 3px;
+}
