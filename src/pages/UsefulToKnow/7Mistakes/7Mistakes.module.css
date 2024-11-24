@@ -62,7 +62,6 @@
     font-size: 33px;
     font-weight: 400;
     line-height: 1.2;
-    /* display: ruby; */
     text-align: center;
 
     margin-bottom: 20px;
@@ -81,6 +80,17 @@
         font-size: 48px;
     }
 }
+.mistakesSubtitle {
+    color: #423930;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+
 .mistakesText {
     text-align: justify;
     align-items: center;
@@ -95,4 +105,44 @@
     .mistakesText {
         font-size: 18px;
     }
+}
+.mistakesList {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-bottom: 18px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .mistakesList {
+        margin-bottom: 100px;
+    }
+}
+.mistakesItem {
+    margin-bottom: 18px;
+}
+
+.mistakesItem:last-child {
+    margin-bottom: 0;
+}
+.mistakesListTitle {
+    text-align: justify;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #888888;
+}
+
+@media only screen and (min-width: 768px) {
+    .mistakesListTitle {
+        font-size: 18px;
+    }
+}
+.mistakesListItemsWrap {
+    display: flex;
+    gap: 3px;
+}
+.mistakesTextSpan {
+    font-size: 16px;
+    font-weight: 600;
 }
