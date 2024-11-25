@@ -2,6 +2,7 @@ import Header from "../../../components/Header/Header";
 import mistakesImg from "../../../images/facts/factTea4Page.jpg";
 import cupImg from "../../../images/facts/fact4CupOfTea.jpg";
 import css from "./7Mistakes.module.css";
+import Footer from "../../../components/Footer/Footer";
 
 export default function Mistakes7() {
   return (
@@ -27,10 +28,9 @@ export default function Mistakes7() {
             <ul className={css.mistakesList}>
               <li className={css.mistakesItem}>
                 <div className={css.mistakesListItemsWrap}>
-                  <span className={css.qualityOfTeaSymb}>&#9658;</span>
                   <h3 className={css.mistakesListTitle}>
-                    Використання водопровідної, підігрітої в мікрохвильовій печі
-                    або нагрітої повторно води.
+                    &#9658; Використання водопровідної, підігрітої в
+                    мікрохвильовій печі або нагрітої повторно води.
                   </h3>
                 </div>
                 <p className={css.mistakesText}>
@@ -43,9 +43,8 @@ export default function Mistakes7() {
 
               <li className={css.mistakesItem}>
                 <div className={css.mistakesListItemsWrap}>
-                  <span className={css.qualityOfTeaSymb}>&#9658;</span>
                   <h3 className={css.mistakesListTitle}>
-                    Використання води неправильної температури.
+                    &#9658; Використання води неправильної температури.
                   </h3>
                 </div>
                 <p className={css.mistakesText}>
@@ -58,9 +57,8 @@ export default function Mistakes7() {
 
               <li className={css.mistakesItem}>
                 <div className={css.mistakesListItemsWrap}>
-                  <span className={css.qualityOfTeaSymb}>&#9658;</span>
                   <h3 className={css.mistakesListTitle}>
-                    Додавання вершків до чаю.
+                    &#9658; Додавання вершків до чаю.
                   </h3>
                 </div>
                 <p className={css.mistakesText}>
@@ -72,9 +70,8 @@ export default function Mistakes7() {
 
               <li className={css.mistakesItem}>
                 <div className={css.mistakesListItemsWrap}>
-                  <span className={css.qualityOfTeaSymb}>&#9658;</span>
                   <h3 className={css.mistakesListTitle}>
-                    Занадто довге заварювання.
+                    &#9658; Занадто довге заварювання.
                   </h3>
                 </div>
                 <p className={css.mistakesText}>
@@ -88,9 +85,8 @@ export default function Mistakes7() {
 
               <li className={css.mistakesItem}>
                 <div className={css.mistakesListItemsWrap}>
-                  <span className={css.qualityOfTeaSymb}>&#9658;</span>
                   <h3 className={css.mistakesListTitle}>
-                    Використання зіпсованих чайних аксесуарів.
+                    &#9658; Використання зіпсованих чайних аксесуарів.
                   </h3>
                 </div>
                 <p className={css.mistakesText}>
@@ -100,54 +96,59 @@ export default function Mistakes7() {
                 </p>
               </li>
 
-              <li className={css.mistakesItem}>
-                <img
-                  src={cupImg}
-                  alt="прозора чашка із чаєм"
-                  className={css.mistakesListItemImg}
-                />
-              </li>
+              <div className={css.mistakesItemWrap}>
+                <li className={css.mistakesItem}>
+                  <img
+                    src={cupImg}
+                    alt="прозора чашка із чаєм"
+                    className={css.mistakesListItemImg}
+                  />
+                </li>
 
-              <li className={css.mistakesItem}>
-                <div className={css.mistakesListItemsWrap}>
-                  <span className={css.qualityOfTeaSymb}>&#9658;</span>
-                  <h3 className={css.mistakesListTitle}>
-                    «Викручування» чайного пакетика до останньої краплі.
-                  </h3>
-                </div>
-                <p className={css.mistakesText}>
-                  Коли стискаєте чайний пакетик, вивільняється дуже багато
-                  танінів з чайного листа в настій, що робить напій гірким і
-                  псує смак.
-                </p>
-              </li>
+                <div>
+                  <li className={css.mistakesItem}>
+                    <div className={css.mistakesListItemsWrap}>
+                      <h3 className={css.mistakesListTitle}>
+                        &#9658; «Викручування» чайного пакетика до останньої
+                        краплі.
+                      </h3>
+                    </div>
+                    <p className={css.mistakesText}>
+                      Коли стискаєте чайний пакетик, вивільняється дуже багато
+                      танінів з чайного листа в настій, що робить напій гірким і
+                      псує смак.
+                    </p>
+                  </li>
 
-              <li className={css.mistakesItem}>
-                <div className={css.mistakesListItemsWrap}>
-                  <span className={css.qualityOfTeaSymb}>&#9658;</span>
-                  <h3 className={css.mistakesListTitle}>
-                    Зберігання чаю в неправильних умовах.
-                  </h3>
+                  <li className={css.mistakesItem}>
+                    <div className={css.mistakesListItemsWrap}>
+                      <h3 className={css.mistakesListTitle}>
+                        &#9658; Зберігання чаю в неправильних умовах.
+                      </h3>
+                    </div>
+                    <p className={css.mistakesText}>
+                      Зберігати чай рекомендується в прохолодному, темному,
+                      сухому місці, подалі від спецій і ароматних продуктів. Не
+                      можна зберігати чай в холодильнику або близько до плити.
+                    </p>
+                  </li>
+                  <div className={css.mistakesListItemsWrap}>
+                    <p className={css.mistakesText}>
+                      <span className={css.mistakesTextSpan}>Резюмуємо: </span>
+                      Щоб кожного разу насолоджуватися улюбленим, ароматним
+                      напоєм, використовуйте холодну, свіжу, фільтровану воду.
+                      Заварюйте чай, який зберігався в правильних умовах, при
+                      рекомендованій для кожного виду чаю температурі води і
+                      часі заварювання.
+                    </p>
+                  </div>
                 </div>
-                <p className={css.mistakesText}>
-                  Зберігати чай рекомендується в прохолодному, темному, сухому
-                  місці, подалі від спецій і ароматних продуктів. Не можна
-                  зберігати чай в холодильнику або близько до плити.
-                </p>
-              </li>
-              <div className={css.mistakesListItemsWrap}>
-                <p className={css.mistakesText}>
-                  <span className={css.mistakesTextSpan}>Резюмуємо:</span>
-                  Щоб кожного разу насолоджуватися улюбленим, ароматним напоєм,
-                  використовуйте холодну, свіжу, фільтровану воду. Заварюйте
-                  чай, який зберігався в правильних умовах, при рекомендованій
-                  для кожного виду чаю температурі води і часі заварювання.
-                </p>
               </div>
             </ul>
           </article>
         </div>
       </section>
+      <div>{<Footer />}</div>
     </div>
   );
 }

@@ -85,11 +85,14 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 1.8;
-    text-align: center;
 
     margin-bottom: 20px;
 }
-
+ @media only screen and (min-width: 768px) {
+    .mistakesSubtitle {
+        font-size: 22px;
+    }
+ }
 
 .mistakesText {
     text-align: justify;
@@ -116,6 +119,7 @@
 @media only screen and (min-width: 1024px) {
     .mistakesList {
         margin-bottom: 100px;
+        padding-left: 0;
     }
 }
 .mistakesItem {
@@ -145,4 +149,26 @@
 .mistakesTextSpan {
     font-size: 16px;
     font-weight: 600;
+}
+@media only screen and (min-width: 768px) {
+    .mistakesItemWrap {
+        display: flex;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .mistakesItem {
+        flex-shrink: 0;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .mistakesListItemImg {
+        margin-right: 20px;
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .mistakesListItemImg {
+        width: 500px;
+    }
 }

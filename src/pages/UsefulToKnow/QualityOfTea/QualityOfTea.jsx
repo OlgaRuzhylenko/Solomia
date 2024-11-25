@@ -28,9 +28,8 @@ export default function QualityOfTea() {
             <ul className={css.qualityOfTeaList}>
               <li className={css.qualityOfTeaItem}>
                 <div className={css.qualityOfTeaItemsWrap}>
-                  <span className={css.qualityOfTeaSymb}>&#9658;</span>
                   <h2 className={css.qualityOfTeaSubtitle}>
-                    Зовнішній вигляд (форма та колір листа):
+                    &#9658; Зовнішній вигляд (форма та колір листа):
                   </h2>
                 </div>
                 <p className={css.qualityOfTeaText}>
@@ -57,11 +56,13 @@ export default function QualityOfTea() {
                     className={css.qualityOfTeaItemImg}
                   />
                 </li>
+
                 <div>
                   <li className={css.qualityOfTeaItem}>
                     <div className={css.qualityOfTeaItemsWrap}>
-                      <span className={css.qualityOfTeaSymb}>&#9658;</span>
-                      <h2 className={css.qualityOfTeaSubtitle}>Аромат:</h2>
+                      <h2 className={css.qualityOfTeaSubtitle}>
+                        &#9658; Аромат:
+                      </h2>
                     </div>
                     <p className={css.qualityOfTeaText}>
                       Незалежно від того, який сорт, високоякісний чай матиме
@@ -75,8 +76,9 @@ export default function QualityOfTea() {
                   </li>
                   <li className={css.qualityOfTeaItem}>
                     <div className={css.qualityOfTeaItemsWrap}>
-                      <span className={css.qualityOfTeaSymb}>&#9658;</span>
-                      <h2 className={css.qualityOfTeaSubtitle}>Дотик:</h2>
+                      <h2 className={css.qualityOfTeaSubtitle}>
+                        &#9658; Дотик:
+                      </h2>
                     </div>
                     <p className={css.qualityOfTeaText}>
                       Якісний розсипний чай не повинен кришитися або розпадатися
