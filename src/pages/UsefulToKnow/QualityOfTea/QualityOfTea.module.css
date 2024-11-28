@@ -156,3 +156,14 @@
             width: 500px;
         }
 }
+@media only screen and (min-width: 768px) {
+    .anotherQualityOfTeaItem {
+        margin-bottom: 35px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .anotherQualityOfTeaItem {
+        margin-bottom: 55px;
+    }
+}

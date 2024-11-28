@@ -26,7 +26,9 @@ export default function QualityOfTea() {
               оцінки чаю, який ви купуєте. Однак це лише підказки, а не правила.
             </p>
             <ul className={css.qualityOfTeaList}>
-              <li className={css.qualityOfTeaItem}>
+              <li
+                className={`${css.qualityOfTeaItem} ${css.anotherQualityOfTeaItem}`}
+              >
                 <div className={css.qualityOfTeaItemsWrap}>
                   <h2 className={css.qualityOfTeaSubtitle}>
                     &#9658; Зовнішній вигляд (форма та колір листа):
