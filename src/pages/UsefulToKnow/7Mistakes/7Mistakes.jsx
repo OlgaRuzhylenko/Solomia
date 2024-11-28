@@ -83,7 +83,7 @@ export default function Mistakes7() {
                 </p>
               </li>
 
-              <li className={css.mistakesItem}>
+              <li className={`${css.mistakesItem} ${css.anotherMistakesItem}`}>
                 <div className={css.mistakesListItemsWrap}>
                   <h3 className={css.mistakesListTitle}>
                     &#9658; Використання зіпсованих чайних аксесуарів.

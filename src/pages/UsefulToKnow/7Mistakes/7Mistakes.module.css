@@ -172,3 +172,8 @@
         width: 500px;
     }
 }
+@media only screen and (min-width: 768px) {
+.anotherMistakesItem {
+    margin-bottom: 35px;
+}
+}
