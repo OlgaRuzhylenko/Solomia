@@ -8,6 +8,7 @@
   }
     @media only screen and (min-width: 1440px) {
       .navigation {
+        margin-bottom: 50px;
         column-gap: 25px;
       }
     }
