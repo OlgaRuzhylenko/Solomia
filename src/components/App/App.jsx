@@ -30,6 +30,7 @@ import WhyIsTeaCalledTea from "../../pages/UsefulToKnow/WhyIsTeaCalledTea/WhyIsT
 import QualityOfTea from "../../pages/UsefulToKnow/QualityOfTea/QualityOfTea";
 import TeaLeafStandards from "../../pages/UsefulToKnow/TeaLeafStandards/TeaLeafStandards";
 import Mistakes7 from "../../pages/UsefulToKnow/7Mistakes/7Mistakes";
+import BatikPage2 from "../../pages/BatikPage/BatikPage2";
 
 export default function App() {
   return (
@@ -45,7 +46,7 @@ export default function App() {
         <Route path="/blog/:slug" element={<NewsDetails />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/history" element={<History />} />
-        <Route path="/batik" element={<BatikPage />} />
+        <Route path="/batik" element={<BatikPage2 />} />
         <Route path="/askold-emotion-collection" element={<AskoldPage />} />
         <Route path="/askold-noble-tea" element={<AskoldNoblePage />} />
         <Route path="/arden" element={<ArdenPage />} />

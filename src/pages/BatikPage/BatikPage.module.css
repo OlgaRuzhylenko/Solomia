@@ -287,6 +287,11 @@
         height: 705px;
     }
 }
+@media only screen and (min-width: 1440px) {
+    .batikCollectionImgBack {
+        height: 500px;
+    }
+}
 .batikGoldImgBack {
     background-image: url(../../images/batik/batik-gold-background.jpg);
     background-color: #2a2a2a;
