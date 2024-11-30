@@ -247,6 +247,7 @@
 }
 @media only screen and (min-width: 1024px) {
     .collectionWrapper {
+        align-items: center;
         flex-direction: row-reverse;
        max-height: 630px;
        gap: 0px;
