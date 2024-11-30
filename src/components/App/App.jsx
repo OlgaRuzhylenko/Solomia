@@ -1,5 +1,4 @@
 import AboutUs from "../../pages/AboutUs/AboutUs";
-import BatikPage from "../../pages/BatikPage/BatikPage";
 import Brands from "../../pages/Brands/Brands";
 import Contacts from "../../pages/Contacts/Contacts";
 import History from "../../pages/History/History";
@@ -30,7 +29,7 @@ import WhyIsTeaCalledTea from "../../pages/UsefulToKnow/WhyIsTeaCalledTea/WhyIsT
 import QualityOfTea from "../../pages/UsefulToKnow/QualityOfTea/QualityOfTea";
 import TeaLeafStandards from "../../pages/UsefulToKnow/TeaLeafStandards/TeaLeafStandards";
 import Mistakes7 from "../../pages/UsefulToKnow/7Mistakes/7Mistakes";
-import BatikPage2 from "../../pages/BatikPage/BatikPage2";
+import BatikPage from "../../pages/BatikPage/BatikPage";
 
 export default function App() {
   return (
@@ -46,7 +45,7 @@ export default function App() {
         <Route path="/blog/:slug" element={<NewsDetails />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/history" element={<History />} />
-        <Route path="/batik" element={<BatikPage2 />} />
+        <Route path="/batik" element={<BatikPage />} />
         <Route path="/askold-emotion-collection" element={<AskoldPage />} />
         <Route path="/askold-noble-tea" element={<AskoldNoblePage />} />
         <Route path="/arden" element={<ArdenPage />} />
