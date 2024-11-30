@@ -246,5 +246,6 @@
     .collectionImg{
         max-height: 620px;
         margin-bottom: 0;
+        object-fit: contain;
     }
 }
