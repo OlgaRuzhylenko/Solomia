@@ -214,6 +214,12 @@
         justify-content: center;
         gap: 10px;
     }
+    .goldCollectionWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        }
 
     .collectionImg {
         flex: 1;
@@ -230,4 +236,15 @@
             flex: 1;
         }
 
+}
+@media only screen and (min-width: 1024px) {
+    .collectionWrapper {
+        flex-direction: row-reverse;
+       
+    }
+
+    .collectionImg{
+        max-height: 600px;
+        margin-bottom: 0;
+    }
 }

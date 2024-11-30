@@ -61,7 +61,7 @@ export default function BatikPage2() {
           </div>
         </div>
 
-        <div className={css.collectionWrapper}>
+        <div className={css.goldCollectionWrapper}>
           <img
             src={goldCollectionImg}
             alt="золота мандала на червоному на фоні якої розміщений золотий напис Batik Gold Collection"
