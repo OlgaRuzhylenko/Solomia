@@ -241,8 +241,11 @@
     .collectionWrapper {
         flex-direction: row-reverse;
        max-height: 630px;
+       gap: 0px;
     }
-
+.goldCollectionWrapper {
+    gap: 0px;
+}
     .collectionImg{
         max-height: 630px;
         margin-bottom: 0;
