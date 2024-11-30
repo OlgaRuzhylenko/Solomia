@@ -240,12 +240,11 @@
 @media only screen and (min-width: 1024px) {
     .collectionWrapper {
         flex-direction: row-reverse;
-       
+       max-height: 630px;
     }
 
     .collectionImg{
-        max-height: 620px;
+        max-height: 630px;
         margin-bottom: 0;
-        object-fit: contain;
     }
 }
