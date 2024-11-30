@@ -283,6 +283,7 @@
 }
 @media only screen and (min-width: 1024px) {
     .batikCollectionImgBack {
+        width: 86%;
         height: 705px;
     }
 }
@@ -305,5 +306,6 @@
 @media only screen and (min-width: 1024px) {
     .batikGoldImgBack {
         height: 705px;
+        width: 86%;
     }
 }

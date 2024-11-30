@@ -229,7 +229,9 @@ margin-bottom: 50px;
 
 .uaSvg {
     width: 14px;
+    margin-left: 5px;
 }
 .uaTitleSvg {
     width: 21px;
+    margin-right: 5px;
 }
