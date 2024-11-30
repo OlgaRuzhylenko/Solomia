@@ -39,43 +39,47 @@ export default function BatikPage2() {
           </div>
         </div>
 
-        <img
-          src={collectionImg}
-          alt="рожева мандала на фоні якої розміщений золотий напис Batik Collection"
-          className={css.collectionImg}
-        ></img>
-        <div className={css.batikCollectionSectionWrapper}>
-          <h2 className={css.batikTitle}>Batik Collection</h2>
-          <p className={css.batikDescription}>
-            У Batik Collection зібрані як класичні стандарти добірних
-            цейлонських чаїв для поціновувачів міцності та терпкості, так і
-            вишукані купажовані композиції з різних чайних плантацій світу та
-            яскраві ягідно-фруктові з вибуховими смаками. Знайдіть час на
-            чаювання з «Batik»! Переведіть подих, вгамуйте напругу та відчуйте
-            себе!
-          </p>
-          <NavLink to="/batik-classic-collection" className={css.batikBtn}>
-            Ознайомитись
-          </NavLink>
+        <div className={css.collectionWrapper}>
+          <img
+            src={collectionImg}
+            alt="рожева мандала на фоні якої розміщений золотий напис Batik Collection"
+            className={css.collectionImg}
+          ></img>
+          <div className={css.batikCollectionSectionWrapper}>
+            <h2 className={css.batikTitle}>Batik Collection</h2>
+            <p className={css.batikDescription}>
+              У Batik Collection зібрані як класичні стандарти добірних
+              цейлонських чаїв для поціновувачів міцності та терпкості, так і
+              вишукані купажовані композиції з різних чайних плантацій світу та
+              яскраві ягідно-фруктові з вибуховими смаками. Знайдіть час на
+              чаювання з «Batik»! Переведіть подих, вгамуйте напругу та відчуйте
+              себе!
+            </p>
+            <NavLink to="/batik-classic-collection" className={css.batikBtn}>
+              Ознайомитись
+            </NavLink>
+          </div>
         </div>
 
-        <img
-          src={goldCollectionImg}
-          alt="золота мандала на червоному на фоні якої розміщений золотий напис Batik Gold Collection"
-          className={css.goldCollectionImg}
-        ></img>
-        <div className={css.batikGoldSectionWrapper}>
-          <h2 className={css.batikTitle}>Batik Gold Collection</h2>
-          <p className={css.batikDescription}>
-            Gold Collection – це справжнє чайне золото. Відбірні преміальні
-            стандарти улюбленого насиченого смаку, міцності, терпкості та
-            сонячної енергії Цейлону у Вашій чашці, що дарують тепло і затишок з
-            кожним ковтком ароматного чаю. Знайдіть час на чаювання з «Batik»!
-            Переведіть подих, вгамуйте напругу та відчуйте себе!
-          </p>
-          <NavLink to="/batik-gold-collection" className={css.batikBtn}>
-            Ознайомитись
-          </NavLink>
+        <div className={css.collectionWrapper}>
+          <img
+            src={goldCollectionImg}
+            alt="золота мандала на червоному на фоні якої розміщений золотий напис Batik Gold Collection"
+            className={css.collectionImg}
+          ></img>
+          <div className={css.batikGoldSectionWrapper}>
+            <h2 className={css.batikTitle}>Batik Gold Collection</h2>
+            <p className={css.batikDescription}>
+              Gold Collection – це справжнє чайне золото. Відбірні преміальні
+              стандарти улюбленого насиченого смаку, міцності, терпкості та
+              сонячної енергії Цейлону у Вашій чашці, що дарують тепло і затишок
+              з кожним ковтком ароматного чаю. Знайдіть час на чаювання з
+              «Batik»! Переведіть подих, вгамуйте напругу та відчуйте себе!
+            </p>
+            <NavLink to="/batik-gold-collection" className={css.batikBtn}>
+              Ознайомитись
+            </NavLink>
+          </div>
         </div>
       </section>
       <div>{<Footer />}</div>

@@ -207,3 +207,27 @@
 
     margin-bottom: 120px;
 }
+@media only screen and (min-width: 768px) {
+    .collectionWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .collectionImg {
+        flex: 1;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        max-height: 400px;
+    }
+
+    .batikCollectionSectionWrapper {
+        flex: 1;
+    }
+        .batikGoldSectionWrapper {
+            flex: 1;
+        }
+
+}
