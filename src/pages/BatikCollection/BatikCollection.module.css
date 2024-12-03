@@ -10,31 +10,31 @@
     }
 }
 .mainBatikCollectionSection {
-    background-image: url(../../images/batik/batik-main-background.jpg);
+    background-image: url(../../images/batik/batik-classic-bgd.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
     margin-top: 30px;
     padding-bottom: 92px;
-    margin-bottom: 40px;
+    margin-bottom: 75px;
 }
 .batikCollectionMainTitle {
     font-size: 43px;
-    line-height: 1;
+    line-height: 1.1;
     color: #FFFFFF;
     font-weight: 400;
 
     margin-bottom: 40px;
+    padding-left: 30px;
 }
 .batikCollectionText {
-    text-align: justify;
+    /* text-align: justify; */
     font-size: 16px;
-    line-height: 1.4;
+    line-height: 2.06;
     color: #FFFFFF;
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 
-    margin-bottom: 16px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -43,5 +43,4 @@
     flex-direction: column;
     align-items: center;
     padding-top: 80px;
-    padding-bottom: 50px;
 }
