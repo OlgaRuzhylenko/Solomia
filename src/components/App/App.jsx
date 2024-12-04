@@ -30,6 +30,12 @@ import QualityOfTea from "../../pages/UsefulToKnow/QualityOfTea/QualityOfTea";
 import TeaLeafStandards from "../../pages/UsefulToKnow/TeaLeafStandards/TeaLeafStandards";
 import Mistakes7 from "../../pages/UsefulToKnow/7Mistakes/7Mistakes";
 import BatikPage from "../../pages/BatikPage/BatikPage";
+import YahidnyiTsilunok from "../../pages/BatikCollection/YahidnyiTsilunok/YahidnyiTsilunok";
+import ZChornoiuSmorodynoiu from "../../pages/BatikCollection/ZChornoiuSmorodynoui/ZChornoiuSmorodynoiu";
+import ErlHrei from "../../pages/BatikCollection/ErlHrei/ErlHrei";
+import HranulovanyiSTS250mu from "../../pages/BatikCollection/HranulovanyiSTS250mu/HranulovanyiSTS250mu";
+import HranulovanyiSTS100mu from "../../pages/BatikCollection/HranulovanyiSTS100mu/HranulovanyiSTS100mu";
+import HranulovanyiSTS100ku from "../../pages/BatikCollection/HranulovanyiSTS100ku/HranulovanyiSTS100ku";
 
 export default function App() {
   return (
@@ -62,7 +68,6 @@ export default function App() {
           path="/batik-gold-collection"
           element={<BatikGoldCollection />}
         />
-
         <Route path="/made-in-ukraine" element={<NationalCashback />} />
         <Route path="/facts-about-coffee" element={<FactsAboutCoffee />} />
         <Route path="/arabica-or-robusta" element={<ArabicaOrRobusta />} />
@@ -70,6 +75,24 @@ export default function App() {
         <Route path="/quality-of-tea" element={<QualityOfTea />} />
         <Route path="/tea-leaf-standards" element={<TeaLeafStandards />} />
         <Route path="/7-mistakes" element={<Mistakes7 />} />
+        <Route path="/batik-yahidnyi-tsilunok" element={<YahidnyiTsilunok />} />
+        <Route
+          path="/batik-z-chornoiu-smorodynoui"
+          element={<ZChornoiuSmorodynoiu />}
+        />
+        <Route path="/batik-erl-hrei" element={<ErlHrei />} />
+        <Route
+          path="/batik-hranulovanyi-sts-250"
+          element={<HranulovanyiSTS250mu />}
+        />
+        <Route
+          path="/batik-hranulovanyi-sts-100-m-u"
+          element={<HranulovanyiSTS100mu />}
+        />
+        <Route
+          path="/batik-hranulovanyi-sts-100"
+          element={<HranulovanyiSTS100ku />}
+        />
       </Routes>
     </Layout>
   );

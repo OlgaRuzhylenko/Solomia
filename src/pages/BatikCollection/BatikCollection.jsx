@@ -49,7 +49,7 @@ export default function BatikCollection() {
           <ul className={css.batikCollectionList}>
             <li className={css.batikCollectionItem}>
               <div className={css.batikCollectionOverlayWrap}>
-                <NavLink to="/">
+                <NavLink to="/batik-yahidnyi-tsilunok">
                   <img
                     src={batikClassicImg1}
                     alt="пачка чаю Батік Ягідний Цілунок"
@@ -61,51 +61,82 @@ export default function BatikCollection() {
                 </NavLink>
               </div>
             </li>
+
             <li className={css.batikCollectionItem}>
-              <NavLink to="/">
-                <img
-                  src={batikClassicImg2}
-                  alt="пачка чаю Батік з чорною смородиною"
-                  className={css.batikCollectionImg}
-                />
-              </NavLink>
+              <div className={css.batikCollectionOverlayWrap}>
+                <NavLink to="/batik-z-chornoiu-smorodynoui">
+                  <img
+                    src={batikClassicImg2}
+                    alt="пачка чаю Батік з чорною смородиною"
+                    className={css.batikCollectionImg}
+                  />
+                  <div className={css.overlay}>
+                    <p>Batik з ЧОРНОЮ СМОРОДИНОЮ 37.5 г, 25 пакетиків </p>
+                  </div>
+                </NavLink>
+              </div>
             </li>
+
             <li className={css.batikCollectionItem}>
-              <NavLink to="/">
-                <img
-                  src={batikClassicImg3}
-                  alt="пачка чаю Батік Ерл Грей"
-                  className={css.batikCollectionImg}
-                />
-              </NavLink>
+              <div className={css.batikCollectionOverlayWrap}>
+                <NavLink to="/batik-erl-hrei">
+                  <img
+                    src={batikClassicImg3}
+                    alt="пачка чаю Батік Ерл Грей"
+                    className={css.batikCollectionImg}
+                  />
+                  <div className={css.overlay}>
+                    <p>Batik з ЕРЛ ГРЕЙ 37.5 г, 25 пакетиків </p>
+                  </div>
+                </NavLink>
+              </div>
             </li>
+
             <li className={css.batikCollectionItem}>
-              <NavLink to="/">
-                <img
-                  src={batikClassicImg4}
-                  alt="пачка чаю Батік гранульований стандарт С.Т.С. 250 грам в м'якій упаковці"
-                  className={css.batikCollectionImg}
-                />
-              </NavLink>
+              <div className={css.batikCollectionOverlayWrap}>
+                <NavLink to="/batik-hranulovanyi-sts-250">
+                  <img
+                    src={batikClassicImg4}
+                    alt="пачка чаю Батік гранульований стандарт С.Т.С. 250 грам в м'якій упаковці"
+                    className={css.batikCollectionImg}
+                  />
+                  <div className={css.overlay}>
+                    <p>Batik ГРАНУЛЬОВАНИЙ (С.Т.С) 250 г, м/у</p>
+                  </div>
+                </NavLink>
+              </div>
             </li>
+
             <li className={css.batikCollectionItem}>
-              <NavLink to="/">
-                <img
-                  src={batikClassicImg5}
-                  alt="пачка чаю Батік гранульований стандарт С.Т.С. 100 грам в м'якій упаковц"
-                  className={css.batikCollectionImg}
-                />
-              </NavLink>
+              <div className={css.batikCollectionOverlayWrap}>
+                <NavLink to="/batik-hranulovanyi-sts-100-m-u">
+                  <img
+                    src={batikClassicImg5}
+                    alt="пачка чаю Батік гранульований стандарт С.Т.С. 100 грам в м'якій упаковц"
+                    className={css.batikCollectionImg}
+                  />
+                  <div className={css.overlay}>
+                    <p>Batik ГРАНУЛЬОВАНИЙ (С.Т.С) 100 г, м/у</p>
+                  </div>
+                </NavLink>
+              </div>
             </li>
+
             <li className={css.batikCollectionItem}>
-              <NavLink to="/">
-                <img
-                  src={batikClassicImg6}
-                  alt="пачка чаю Батік гранульований стандарт С.Т.С. 100 грам в картонній упаковці"
-                  className={css.batikCollectionImg}
-                />
-              </NavLink>
+              <div className={css.batikCollectionOverlayWrap}>
+                <NavLink to="/batik-hranulovanyi-sts-100">
+                  <img
+                    src={batikClassicImg6}
+                    alt="пачка чаю Батік гранульований стандарт С.Т.С. 100 грам в картонній упаковці"
+                    className={css.batikCollectionImg}
+                  />
+                  <div className={css.overlay}>
+                    <p>Batik ГРАНУЛЬОВАНИЙ (С.Т.С) 100 г</p>
+                  </div>
+                </NavLink>
+              </div>
             </li>
+
             <li className={css.batikCollectionItem}>
               <NavLink to="/">
                 <img
