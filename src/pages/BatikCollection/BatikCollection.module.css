@@ -15,7 +15,7 @@
     background-size: cover;
     background-position: center;
 
-    margin-top: 30px;
+    margin-top: 50px;
     padding-bottom: 92px;
     margin-bottom: 75px;
 }
@@ -43,4 +43,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 80px;
+}
+.batikCollectionItem {
+    padding: 15px;
 }
