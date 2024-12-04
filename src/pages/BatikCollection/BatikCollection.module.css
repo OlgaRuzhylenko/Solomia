@@ -47,3 +47,34 @@
 .batikCollectionItem {
     padding: 15px;
 }
+.batikCollectionOverlayWrap {
+    position: relative;
+    overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #E6E6E6D9;
+    color: #646464;
+    
+    padding: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    
+    overflow: auto;
+    
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.batikCollectionOverlayWrap:hover .overlay {
+    transform: translateY(0);
+}

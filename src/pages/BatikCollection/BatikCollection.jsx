@@ -48,13 +48,18 @@ export default function BatikCollection() {
         <div className="container">
           <ul className={css.batikCollectionList}>
             <li className={css.batikCollectionItem}>
-              <NavLink to="/">
-                <img
-                  src={batikClassicImg1}
-                  alt="пачка чаю Батік Ягідний Цілунок"
-                  className={css.batikCollectionImg}
-                />
-              </NavLink>
+              <div className={css.batikCollectionOverlayWrap}>
+                <NavLink to="/">
+                  <img
+                    src={batikClassicImg1}
+                    alt="пачка чаю Батік Ягідний Цілунок"
+                    className={css.batikCollectionImg}
+                  />
+                  <div className={css.overlay}>
+                    <p>Batik ЯГІДНИЙ ЦІЛУНОК 37.5 г, 25 пакетиків </p>
+                  </div>
+                </NavLink>
+              </div>
             </li>
             <li className={css.batikCollectionItem}>
               <NavLink to="/">
