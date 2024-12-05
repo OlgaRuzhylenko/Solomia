@@ -143,9 +143,9 @@
 }
 @media only screen and (min-width: 1024px) {
     .batikMandala {
-        bottom: -200px;
-        right: -45px;
-        width: 80%;
+        bottom: -280px;
+        right: -190px;
+        width: 70%;
     }
 }
 @media only screen and (min-width: 768px) {
