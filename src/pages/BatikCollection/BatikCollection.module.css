@@ -143,7 +143,7 @@
 }
 @media only screen and (min-width: 1024px) {
     .batikCollectionTitleWpap {
-            width: 600px;
+            width: 100%;
             padding-left: 22px;
         }
 }
