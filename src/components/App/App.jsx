@@ -36,6 +36,21 @@ import ErlHrei from "../../pages/BatikCollection/ErlHrei/ErlHrei";
 import HranulovanyiSTS250mu from "../../pages/BatikCollection/HranulovanyiSTS250mu/HranulovanyiSTS250mu";
 import HranulovanyiSTS100mu from "../../pages/BatikCollection/HranulovanyiSTS100mu/HranulovanyiSTS100mu";
 import HranulovanyiSTS100ku from "../../pages/BatikCollection/HranulovanyiSTS100ku/HranulovanyiSTS100ku";
+import Vysokohirnyi250mu from "../../pages/BatikCollection/Vysokohirnyi250mu/Vysokohirnyi250mu";
+import Vysokohirnyi100 from "../../pages/BatikCollection/Vysokohirnyi100/Vysokohirnyi100";
+import Serednolystovyi from "../../pages/BatikCollection/Serednolystovyi/Serednolystovyi";
+import ChornyiBarkhat120h from "../../pages/BatikCollection/ChornyiBarkhat120h/ChornyiBarkhat120h";
+import ChornyiBarkhat90 from "../../pages/BatikCollection/ChornyiBarkhat90/ChornyiBarkhat90";
+import Krupnolystovyi150 from "../../pages/BatikCollection/Krupnolystovyi150/Krupnolystovyi150";
+import ZelenyiOstriv90 from "../../pages/BatikCollection/ZelenyiOstriv90/ZelenyiOstriv90";
+import BadoryiLymon from "../../pages/BatikCollection/BadoryiLymon/BadoryiLymon";
+import Indiiskyi150 from "../../pages/BatikCollection/Indiiskyi150/Indiiskyi150";
+import Indiiskyi25TB from "../../pages/BatikCollection/Indiiskyi25TB/Indiiskyi25TB";
+import Keniiskyi25TB from "../../pages/BatikCollection/Keniiskyi25TB/Keniiskyi25TB";
+import Keniiskyi85 from "../../pages/BatikCollection/Keniiskyi85/Keniiskyi85";
+import KorolivskyiStandart100TB from "../../pages/BatikCollection/KorolivskyiStandart100TB/KorolivskyiStandart100TB";
+import KorolivskyiStandart85 from "../../pages/BatikCollection/KorolivskyiStandart85/KorolivskyiStandart85";
+import KorolivskyiStandart25TB from "../../pages/BatikCollection/KorolivskyiStandart25TB/KorolivskyiStandart25TB";
 
 export default function App() {
   return (
@@ -92,6 +107,65 @@ export default function App() {
         <Route
           path="/batik-hranulovanyi-sts-100"
           element={<HranulovanyiSTS100ku />}
+        />
+        <Route
+          path="/batik-vysokohirnyi-250-m-u"
+          element={<Vysokohirnyi250mu />}
+        />
+        <Route path="/batik-vysokohirnyi-100" element={<Vysokohirnyi100 />} />
+        <Route
+          path="/batik-serednolystovyi-100"
+          element={<Serednolystovyi />}
+        />
+        <Route
+          path="/batik-chornyi-barkhat-120-hram-60-paketykiv"
+          element={<ChornyiBarkhat120h />}
+        />
+        <Route
+          path="/batik-chornyi-barkhat-90"
+          element={<ChornyiBarkhat90 />}
+        />
+        <Route
+          path="/batik-chornyi-barkhat-50-hram-25-paketykiv"
+          element={<ChornyiBarkhat90 />}
+        />
+        <Route
+          path="/batik-krupnolystovyi-150-m-u"
+          element={<Krupnolystovyi150 />}
+        />
+        <Route path="/batik-zelenyi-ostriv-90" element={<ZelenyiOstriv90 />} />
+        <Route
+          path="/batik-badoryi-lymon-37-5-hram-25-paketykiv"
+          element={<BadoryiLymon />}
+        />
+        <Route
+          path="/batik-indiiskyi-150-hram-100-paketykiv"
+          element={<Indiiskyi150 />}
+        />
+        <Route
+          path="/batik-indiiskyi-37-5-hram-25-paketykiv"
+          element={<Indiiskyi25TB />}
+        />
+        <Route
+          path="/batik-keniiskyi-50-hram-25-paketykiv"
+          element={<Keniiskyi25TB />}
+        />
+        <Route path="/batik-keniiskyi-85" element={<Keniiskyi85 />} />
+        <Route
+          path="/batik-korolivskyi-standart-200-hram-100-paketykiv"
+          element={<KorolivskyiStandart100TB />}
+        />
+        <Route
+          path="/batik-korolivskyi-standart-85"
+          element={<KorolivskyiStandart85 />}
+        />
+        <Route
+          path="/batik-korolivskyi-standart-50-hram-25-paketykiv"
+          element={<KorolivskyiStandart25TB />}
+        />
+        <Route
+          path="/batik-zelenyi-mokhito-37-5-hram-25-paketykiv"
+          element={<KorolivskyiStandart25TB />}
         />
       </Routes>
     </Layout>
