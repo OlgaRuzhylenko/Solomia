@@ -12,6 +12,11 @@
         margin-top: 210px;
     }
 }
+@media only screen and (min-width: 1440px) {
+    .batikCollectionSection {
+        margin-bottom: 250px;
+    }
+}
 .mainBatikCollectionSection {
     background-image: url(../../images/batik/batik-classic-bgd.jpg);
     background-repeat: no-repeat;
