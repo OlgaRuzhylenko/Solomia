@@ -22,6 +22,14 @@
     padding-bottom: 92px;
     margin-bottom: 75px;
 }
+@media only screen and (min-width: 768px) {
+    .mainBatikCollectionSection {
+        padding-top: 30px;
+        padding-bottom: 100px;
+
+        margin-bottom: 150px;
+    }
+}
 .batikCollectionMainTitle {
     font-size: 43px;
     line-height: 1.1;
@@ -30,6 +38,11 @@
 
     margin-bottom: 40px;
     padding-left: 30px;
+}
+@media only screen and (min-width: 768px) {
+    .batikCollectionMainTitle {
+        font-size: 53px;
+    }
 }
 .batikCollectionText {
     /* text-align: justify; */
@@ -41,6 +54,11 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+@media only screen and (min-width: 768px) {
+    .batikCollectionText {
+        text-align: justify;
+    }
+}
 .batikCollectionHeroWpap {
     display: flex;
     flex-direction: column;
@@ -49,7 +67,8 @@
 }
 @media only screen and (min-width: 768px) {
     .batikCollectionHeroWpap {
-        display: flex;
+        align-items: start;
+        position: relative; 
     }
 }
 .batikCollectionItem {
@@ -61,6 +80,11 @@
 }
 .batikCollectionItem:not(:last-child) {
     margin-bottom: 50px
+}
+@media only screen and (min-width: 768px) {
+    .batikCollectionItem {
+        width: 345px;
+    }
 }
 .batikCollectionOverlayWrap {
     position: relative;
@@ -99,7 +123,26 @@
     }
 }
 @media only screen and (min-width: 768px) {
-.batikCollectionTitleWpap {
-    width: 460px;
+.batikMandala {
+    position: absolute;
+    width: 444px;
+    bottom: -120px;
+    right: -150px;
 }
+}
+@media only screen and (min-width: 768px) {
+.batikCollectionTitleWpap {
+    width: 440px;
+}
+}
+@media only screen and (min-width: 768px) {
+    .batikCollectionList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+
+        align-items: center;
+        justify-content: center;
+    }
 }
