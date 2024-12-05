@@ -9,7 +9,7 @@
 
 @media only screen and (min-width: 1024px) {
     .batikCollectionSection {
-        margin-top: 240px;
+        margin-top: 210px;
     }
 }
 .mainBatikCollectionSection {
@@ -130,10 +130,22 @@
     right: -150px;
 }
 }
+@media only screen and (min-width: 1024px) {
+    .batikMandala {
+        bottom: -200px;
+        right: -45px;
+    }
+}
 @media only screen and (min-width: 768px) {
 .batikCollectionTitleWpap {
     width: 440px;
 }
+}
+@media only screen and (min-width: 1024px) {
+    .batikCollectionTitleWpap {
+            width: 600px;
+            padding-left: 22px;
+        }
 }
 @media only screen and (min-width: 768px) {
     .batikCollectionList {
