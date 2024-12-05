@@ -24,6 +24,7 @@ import batikClassicImg22 from "../../images/batik/classic/22.png";
 import batikClassicImg23 from "../../images/batik/classic/23.png";
 import { NavLink } from "react-router-dom";
 import css from "./BatikCollection.module.css";
+import Footer from "../../components/Footer/Footer";
 
 export default function BatikCollection() {
   return (
@@ -394,6 +395,7 @@ export default function BatikCollection() {
           </ul>
         </div>
       </section>
+      <div>{<Footer />}</div>
     </div>
   );
 }

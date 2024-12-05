@@ -1,3 +1,6 @@
+.batikCollectionSection {
+    margin-bottom: 100px;
+}
 @media only screen and (min-width: 768px) {
     .batikCollectionSection {
         margin-top: 190px;
@@ -46,6 +49,13 @@
 }
 .batikCollectionItem {
     padding: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.batikCollectionItem:not(:last-child) {
+    margin-bottom: 50px
 }
 .batikCollectionOverlayWrap {
     position: relative;
