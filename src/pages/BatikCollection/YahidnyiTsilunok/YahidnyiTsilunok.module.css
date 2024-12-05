@@ -1,6 +1,11 @@
 .yahidnyiTsilunokSection{
     margin-bottom: 45px;
 }
+@media only screen and (min-width: 1024px) {
+    .yahidnyiTsilunokSection {
+            margin-bottom: 100px;
+        }
+}
 @media only screen and (min-width: 768px) {
     .yahidnyiTsilunokSection {
         margin-top: 150px;
@@ -10,7 +15,11 @@
     width: 384px;
 margin-top: 30px;
 }
-
+@media only screen and (min-width: 1024px) {
+    .yahidnyiTsilunokImg {
+        width: 512px;
+    }
+}
 .yahidnyiTsilunokTitle {
     font-size: 22px;
     color: #474249;
@@ -73,6 +82,11 @@ margin-top: 30px;
 .yahidnyiTsilunokWrapper {
     width: 384px;
 }
+}
+@media only screen and (min-width: 1024px) {
+.yahidnyiTsilunokWrapper {
+        width: 500px;
+    }
 }
 @media only screen and (min-width: 768px) {
     .yahidnyiTsilunokSectionBox {
