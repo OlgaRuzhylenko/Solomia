@@ -1,0 +1,81 @@
+.yahidnyiTsilunokSection{
+    margin-bottom: 45px;
+}
+@media only screen and (min-width: 768px) {
+    .yahidnyiTsilunokSection {
+        margin-top: 150px;
+    }
+}
+.yahidnyiTsilunokImg {
+    width: 384px;
+margin-top: 30px;
+}
+
+.yahidnyiTsilunokTitle {
+    font-size: 22px;
+    color: #474249;
+    font-weight: 400;
+    line-height: 1.1;
+
+    margin-bottom: 20px;  
+}
+@media only screen and (min-width: 768px) {
+    .yahidnyiTsilunokTitle {
+        font-size: 34px;
+    }
+}
+.yahidnyiTsilunokSubtitle {
+    font-size: 17px;
+    color: #474249;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1;
+
+    margin-bottom: 20px;
+}
+.yahidnyiTsilunokText {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #888888;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+
+    margin-bottom: 15px;
+}
+@media only screen and (min-width: 768px) {
+    .yahidnyiTsilunokText {
+        font-size: 16px;
+
+        margin-bottom: 16px;
+    }
+}
+.yahidnyiTsilunokItemText {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #888888;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+}
+@media only screen and (min-width: 768px) {
+    .yahidnyiTsilunokItemText {
+        font-size: 16px;
+    }
+}
+.yahidnyiTsilunokItem:not(:last-child) {
+    margin-bottom: 15px;
+}
+@media only screen and (min-width: 768px) {
+.yahidnyiTsilunokItem:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (min-width: 768px) {
+.yahidnyiTsilunokWrapper {
+    width: 384px;
+}
+}
+@media only screen and (min-width: 768px) {
+    .yahidnyiTsilunokSectionBox {
+        display: flex;
+    }
+}
