@@ -22,6 +22,7 @@ import batikClassicImg20 from "../../images/batik/classic/20.png";
 import batikClassicImg21 from "../../images/batik/classic/21.png";
 import batikClassicImg22 from "../../images/batik/classic/22.png";
 import batikClassicImg23 from "../../images/batik/classic/23.png";
+import mandala from "../../images/batik/classic/mandala.png";
 import { NavLink } from "react-router-dom";
 import css from "./BatikCollection.module.css";
 import Footer from "../../components/Footer/Footer";
@@ -34,15 +35,24 @@ export default function BatikCollection() {
         <div className={css.mainBatikCollectionSection}>
           <div className="container">
             <div className={css.batikCollectionHeroWpap}>
-              <h1 className={css.batikCollectionMainTitle}>Batik Collection</h1>
-              <p className={css.batikCollectionText}>
-                У Batik Collection зібрані як класичні стандарти добірних
-                цейлонських чаїв для поціновувачів міцності та терпкості, так і
-                вишукані купажовані композиції з різних чайних плантацій світу
-                та яскраві ягідно-фруктові з вибуховими смаками. Знайдіть час на
-                чаювання з «Batik»! Переведіть подих, вгамуйте напругу та
-                відчуйте себе!
-              </p>
+              <div className={css.batikCollectionTitleWpap}>
+                <h1 className={css.batikCollectionMainTitle}>
+                  Batik Collection
+                </h1>
+                <p className={css.batikCollectionText}>
+                  У Batik Collection зібрані як класичні стандарти добірних
+                  цейлонських чаїв для поціновувачів міцності та терпкості, так
+                  і вишукані купажовані композиції з різних чайних плантацій
+                  світу та яскраві ягідно-фруктові з вибуховими смаками.
+                  Знайдіть час на чаювання з «Batik»! Переведіть подих, вгамуйте
+                  напругу та відчуйте себе!
+                </p>
+              </div>
+              <img
+                src={mandala}
+                alt="мандала в червоних та фіолетових кольорах"
+                className={css.batikMandala}
+              />
             </div>
           </div>
         </div>

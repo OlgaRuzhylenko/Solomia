@@ -47,6 +47,11 @@
     align-items: center;
     padding-top: 80px;
 }
+@media only screen and (min-width: 768px) {
+    .batikCollectionHeroWpap {
+        display: flex;
+    }
+}
 .batikCollectionItem {
     padding: 15px;
 
@@ -87,4 +92,14 @@
 
 .batikCollectionOverlayWrap:hover .overlay {
     transform: translateY(0);
+}
+@media only screen and (max-width: 767px) {
+    .batikMandala {
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) {
+.batikCollectionTitleWpap {
+    width: 460px;
+}
 }
