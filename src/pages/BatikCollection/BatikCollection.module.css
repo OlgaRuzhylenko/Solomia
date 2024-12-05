@@ -65,6 +65,11 @@
         text-align: justify;
     }
 }
+@media only screen and (min-width: 1024px) {
+    batikCollectionText {
+        font-size: 20px;
+    }
+}
 .batikCollectionHeroWpap {
     display: flex;
     flex-direction: column;
