@@ -20,6 +20,11 @@ margin-top: 30px;
         width: 512px;
     }
 }
+@media only screen and (min-width: 1440px) {
+    .yahidnyiTsilunokImg {
+        width: 550px;
+    }
+}
 .yahidnyiTsilunokTitle {
     font-size: 22px;
     color: #474249;
@@ -33,6 +38,11 @@ margin-top: 30px;
         font-size: 34px;
     }
 }
+@media only screen and (min-width: 1440px) {
+    .yahidnyiTsilunokTitle {
+        font-size: 36px;
+    }
+}
 .yahidnyiTsilunokSubtitle {
     font-size: 17px;
     color: #474249;
@@ -41,6 +51,11 @@ margin-top: 30px;
     line-height: 1;
 
     margin-bottom: 20px;
+}
+@media only screen and (min-width: 1440px) {
+    .yahidnyiTsilunokSubtitle {
+font-size: 22px;
+    }
 }
 .yahidnyiTsilunokText {
     text-align: justify;
@@ -58,6 +73,11 @@ margin-top: 30px;
         margin-bottom: 16px;
     }
 }
+@media only screen and (min-width: 1440px) {
+    .yahidnyiTsilunokText {
+        font-size: 21px;
+    }
+}
 .yahidnyiTsilunokItemText {
     text-align: justify;
     font-size: 15px;
@@ -69,6 +89,11 @@ margin-top: 30px;
     .yahidnyiTsilunokItemText {
         font-size: 16px;
     }
+}
+@media only screen and (min-width: 1440px) {
+    .yahidnyiTsilunokItemText {
+            font-size: 21px;
+        }
 }
 .yahidnyiTsilunokItem:not(:last-child) {
     margin-bottom: 15px;
@@ -86,6 +111,11 @@ margin-top: 30px;
 @media only screen and (min-width: 1024px) {
 .yahidnyiTsilunokWrapper {
         width: 500px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .yahidnyiTsilunokWrapper {
+        width: 100%;
     }
 }
 @media only screen and (min-width: 768px) {
