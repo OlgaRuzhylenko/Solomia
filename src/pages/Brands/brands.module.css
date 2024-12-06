@@ -17,6 +17,7 @@
         margin-bottom: 50px;
     }
 }
+
 @media only screen and (min-width: 1024px) {
     .brandsSection {
         background-image: url(../../images/brandsBG.jpg);
@@ -27,6 +28,7 @@
 
         padding-top: 70px;
         padding-bottom: 70px;
+        margin-bottom: 0;
     }
 }
 @media only screen and (min-width: 1024px) {
@@ -76,6 +78,11 @@
     .brandsBgd {
         padding-top: 70px;
         padding-bottom: 70px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .brandsBgd {
+        margin-bottom: 0;
     }
 }
 .brandsTitle {
