@@ -7,6 +7,7 @@ import missionLogo from "../../images/missionLogo.png";
 import Mission from "../Mission/Mission";
 import Footer from "../../components/Footer/Footer";
 import { useMediaQuery } from "react-responsive";
+import BrandsComponent from "../../components/BrandsComponent/BrandsComponent";
 
 export default function AboutUs() {
   const isMobileOrLess = useMediaQuery({ query: "(max-width: 767px)" });
@@ -44,7 +45,7 @@ export default function AboutUs() {
           // </div>
         )}
       </section>
-      <div className={css.brandsSection}>{<Brands />}</div>
+      <div className={css.brandsSection}>{<BrandsComponent />}</div>
       {<Mission />}
       <div>{<Footer />}</div>
     </div>

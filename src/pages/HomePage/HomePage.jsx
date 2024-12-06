@@ -19,6 +19,7 @@ import "./flickity.css";
 import "flickity/css/flickity.css";
 import AboutUsInformation from "../../components/AboutUsInformation/AboutUsInformation";
 import css from "./HomePage.module.css";
+import BrandsComponent from "../../components/BrandsComponent/BrandsComponent";
 
 export default function HomePage() {
   const isTabletOrLarger = useMediaQuery({ query: "(min-width: 768px)" });
@@ -89,7 +90,8 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className={css.brendsLink}>{<Brands />}</div>
+        {/* <div className={css.brendsLink}>{<Brands />}</div> */}
+        <div className={css.brendsLink}>{<BrandsComponent />}</div>
         <section className={css.mission}>
           <NavLink to="/mission-and-values">
             <img
