@@ -22,7 +22,8 @@ export default function YahidnyiTsilunok() {
               </h1>
               <h2 className={css.yahidnyiTsilunokSubtitle}>
                 Чай чорний купажований дрібний ароматизований з полуницею,
-                малиною та чорною смородиною, 25 пакетиків
+                малиною та чорною смородиною, <br />
+                25 пакетиків
               </h2>
               <p className={css.yahidnyiTsilunokText}>
                 Улюблені та найцінніші смакові характеристики чаїв з найкращих

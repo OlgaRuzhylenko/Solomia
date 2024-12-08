@@ -1,11 +1,6 @@
 .yahidnyiTsilunokSection{
     margin-bottom: 45px;
 }
-@media only screen and (min-width: 1024px) {
-    .yahidnyiTsilunokSection {
-            margin-bottom: 100px;
-        }
-}
 @media only screen and (min-width: 768px) {
     .yahidnyiTsilunokSection {
         margin-top: 150px;
@@ -14,6 +9,7 @@
 @media only screen and (min-width: 1024px) {
     .yahidnyiTsilunokSection {
         margin-top: 180px;
+        margin-bottom: 100px;
     }
 }
 @media only screen and (min-width: 1440px) {
@@ -25,6 +21,7 @@
 .yahidnyiTsilunokImg {
     width: 384px;
 margin-top: 30px;
+margin-bottom: 50px;
 }
 @media only screen and (min-width: 1024px) {
     .yahidnyiTsilunokImg {
