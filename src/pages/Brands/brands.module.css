@@ -8,7 +8,7 @@
 }
 @media only screen and (min-width: 1024px) {
     .mainBrandsSection {
-            margin-top: 250px;
+            margin-top: 210px;
         }
 }
 .brandsSection{
@@ -87,7 +87,7 @@
 }
 @media only screen and (min-width: 1024px) {
     .brandsBgd {
-        padding-top: 200px;
+        padding-top: 240px;
         padding-bottom: 200px;
         margin-bottom: 0;
     }
