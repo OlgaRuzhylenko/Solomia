@@ -86,7 +86,7 @@ font-size: 22px;
 }
 @media only screen and (min-width: 1024px) {
     .yahidnyiTsilunokText {
-        font-size: 18px;
+        font-size: 19px;
     }
 }
 @media only screen and (min-width: 1440px) {
@@ -104,6 +104,11 @@ font-size: 22px;
 @media only screen and (min-width: 768px) {
     .yahidnyiTsilunokItemText {
         font-size: 16px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .yahidnyiTsilunokItemText {
+        font-size: 19px;
     }
 }
 @media only screen and (min-width: 1440px) {
