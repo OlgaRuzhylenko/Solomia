@@ -16,6 +16,12 @@
         margin-top: 180px;
     }
 }
+@media only screen and (min-width: 1440px) {
+    .yahidnyiTsilunokSection {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+}
 .yahidnyiTsilunokImg {
     width: 384px;
 margin-top: 30px;
@@ -29,6 +35,7 @@ margin-top: 30px;
 @media only screen and (min-width: 1440px) {
     .yahidnyiTsilunokImg {
         width: 550px;
+        margin-right: 120px;
     }
 }
 .yahidnyiTsilunokTitle {
@@ -142,5 +149,10 @@ font-size: 22px;
 @media only screen and (min-width: 768px) {
     .yahidnyiTsilunokSectionBox {
         display: flex;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    .yahidnyiTsilunokSectionBox {
+        padding-left: 60px;
     }
 }
