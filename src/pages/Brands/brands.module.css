@@ -82,6 +82,8 @@
 }
 @media only screen and (min-width: 1024px) {
     .brandsBgd {
+        padding-top: 120px;
+        padding-bottom: 120px;
         margin-bottom: 0;
     }
 }
@@ -135,11 +137,5 @@ margin-bottom: 32px;
     .brandsTitleWrap {
         padding-left: 50px;
         padding-right: 50px;
-    }
-}
-@media only screen and (min-width: 1024px) {
-.brandsTitleWrap {
-        padding-left: 150px;
-        padding-right: 150px;
     }
 }
