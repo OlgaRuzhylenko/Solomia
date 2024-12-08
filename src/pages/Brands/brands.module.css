@@ -6,6 +6,11 @@
         margin-top: 170px;
     }
 }
+@media only screen and (min-width: 1024px) {
+    .mainBrandsSection {
+            margin-top: 250px;
+        }
+}
 .brandsSection{
     display: flex;
     flex-direction: column;
