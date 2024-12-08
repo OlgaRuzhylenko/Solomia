@@ -94,6 +94,11 @@ font-style: italic;
 
 margin-bottom: 32px;
 }
+@media only screen and (min-width: 1024px) {
+    .brandsTitle {
+        font-size: 24px;
+    }
+}
 .catalogBtn {
     font-size: 16px;
     font-weight: 300;
@@ -130,5 +135,11 @@ margin-bottom: 32px;
     .brandsTitleWrap {
         padding-left: 50px;
         padding-right: 50px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+.brandsTitleWrap {
+        padding-left: 150px;
+        padding-right: 150px;
     }
 }
