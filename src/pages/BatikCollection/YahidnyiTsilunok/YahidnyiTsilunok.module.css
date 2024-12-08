@@ -11,6 +11,11 @@
         margin-top: 150px;
     }
 }
+@media only screen and (min-width: 1024px) {
+    .yahidnyiTsilunokSection {
+        margin-top: 180px;
+    }
+}
 .yahidnyiTsilunokImg {
     width: 384px;
 margin-top: 30px;
@@ -18,6 +23,7 @@ margin-top: 30px;
 @media only screen and (min-width: 1024px) {
     .yahidnyiTsilunokImg {
         width: 512px;
+        margin-right: 50px;
     }
 }
 @media only screen and (min-width: 1440px) {
@@ -52,6 +58,11 @@ margin-top: 30px;
 
     margin-bottom: 20px;
 }
+@media only screen and (min-width: 1024px) {
+    .yahidnyiTsilunokSubtitle {
+        font-size: 20px;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .yahidnyiTsilunokSubtitle {
 font-size: 22px;
@@ -71,6 +82,11 @@ font-size: 22px;
         font-size: 16px;
 
         margin-bottom: 16px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .yahidnyiTsilunokText {
+        font-size: 18px;
     }
 }
 @media only screen and (min-width: 1440px) {
