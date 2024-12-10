@@ -123,7 +123,7 @@ export default function BatikCollection() {
                 <NavLink to="/batik-hranulovanyi-sts-100-m-u">
                   <img
                     src={batikClassicImg5}
-                    alt="пачка чаю Батік гранульований стандарт С.Т.С. 100 грам в м'якій упаковц"
+                    alt="пачка чаю Батік гранульований стандарт С.Т.С. 100 грам в м'якій упаковці"
                     className={css.batikCollectionImg}
                   />
                   <div className={css.overlay}>
