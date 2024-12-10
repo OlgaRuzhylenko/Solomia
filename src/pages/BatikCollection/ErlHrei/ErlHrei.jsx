@@ -33,7 +33,7 @@ export default function ErlHrei() {
               </p>
               <ul className={css.erlHreiList}>
                 <li className={css.erlHreiItem}>
-                  <p className={css.erlHreiText}>
+                  <p className={css.erlHreiItemText}>
                     Різновид чаю: чорний ароматизований
                   </p>
                 </li>
@@ -41,22 +41,22 @@ export default function ErlHrei() {
                   <p className={css.erlHreiText}>Маса нетто: 37,5 г</p>
                 </li>
                 <li className={css.erlHreiItem}>
-                  <p className={css.erlHreiText}>
+                  <p className={css.erlHreiItemText}>
                     Кількість пакетиків: 25 штук
                   </p>
                 </li>
                 <li className={css.erlHreiItem}>
-                  <p className={css.erlHreiText}>
+                  <p className={css.erlHreiItemText}>
                     Країна походження: Індія, Шрі-Ланка (о. Цейлон)
                   </p>
                 </li>
                 <li className={css.erlHreiItem}>
-                  <p className={css.erlHreiText}>
+                  <p className={css.erlHreiItemText}>
                     Форма випуску: пакетований з ярликом
                   </p>
                 </li>
                 <li className={css.erlHreiItem}>
-                  <p className={css.erlHreiText}>Тип упаковки: картонна</p>
+                  <p className={css.erlHreiItemText}>Тип упаковки: картонна</p>
                 </li>
               </ul>
             </div>

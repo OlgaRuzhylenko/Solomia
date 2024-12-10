@@ -128,7 +128,7 @@
         margin-bottom: 5px;
     }
 }
-.erlHreiText {
+.erlHreiItemText {
     text-align: justify;
     font-size: 15px;
     line-height: 1.4;
@@ -137,19 +137,19 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .erlHreiText {
+    .erlHreiItemText {
         font-size: 16px;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .erlHreiText {
+    .erlHreiItemText {
         font-size: 19px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .erlHreiText {
+    .erlHreiItemText {
         font-size: 21px;
     }
 }
