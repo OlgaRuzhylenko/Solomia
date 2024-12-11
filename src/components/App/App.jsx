@@ -51,6 +51,7 @@ import Keniiskyi85 from "../../pages/BatikCollection/Keniiskyi85/Keniiskyi85";
 import KorolivskyiStandart100TB from "../../pages/BatikCollection/KorolivskyiStandart100TB/KorolivskyiStandart100TB";
 import KorolivskyiStandart85 from "../../pages/BatikCollection/KorolivskyiStandart85/KorolivskyiStandart85";
 import KorolivskyiStandart25TB from "../../pages/BatikCollection/KorolivskyiStandart25TB/KorolivskyiStandart25TB";
+import ChornyiBarkhat50 from "../../pages/BatikCollection/ChornyiBarkhat50/ChornyiBarkhat50";
 
 export default function App() {
   return (
@@ -127,7 +128,7 @@ export default function App() {
         />
         <Route
           path="/batik-chornyi-barkhat-50-hram-25-paketykiv"
-          element={<ChornyiBarkhat90 />}
+          element={<ChornyiBarkhat50 />}
         />
         <Route
           path="/batik-krupnolystovyi-150-m-u"
