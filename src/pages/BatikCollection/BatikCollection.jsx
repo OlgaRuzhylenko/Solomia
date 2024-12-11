@@ -156,10 +156,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік високогірний стандарт B.O.P. 250 грам в м'якій упаковці"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik ВИСОКОГІРНИЙ (B.O.P) 250 г, м/у</p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik ВИСОКОГІРНИЙ (B.O.P) 250 г, м/у</p>
-                </div>
               </div>
             </li>
 
@@ -171,10 +172,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік високогірний стандарт B.O.P. 100 грам в картонній упаковці"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik ВИСОКОГІРНИЙ (B.O.P) 100 г</p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik ВИСОКОГІРНИЙ (B.O.P) 100 г</p>
-                </div>
               </div>
             </li>
 
@@ -186,10 +188,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік середньолистовий стандарт F.B.O.P. 100 грам в картонній упаковці"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik СЕРЕДНЬОЛИСТОВИЙ (F.B.O.P) 100 г</p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik СЕРЕДНЬОЛИСТОВИЙ (F.B.O.P) 100 г</p>
-                </div>
               </div>
             </li>
 
@@ -201,10 +204,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік Чорний Бархат 50+10 пакетиків"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik Чорний Бархат 120 г, 60 пакетиків</p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik Чорний Бархат 120 г, 60 пакетиків</p>
-                </div>
               </div>
             </li>
 
@@ -216,10 +220,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік Чорний Бархат 90 грам в картонній упаковці"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik Чорний Бархат 90 г</p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik Чорний Бархат 90 г</p>
-                </div>
               </div>
             </li>
 
@@ -231,10 +236,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік Чорний Бархат 25 пакетиків"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik Чорний Бархат 50 г, 25 пакетиків</p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik Чорний Бархат 50 г, 25 пакетиків</p>
-                </div>
               </div>
             </li>
 
@@ -246,10 +252,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік крупнолистовий стандарт O.P.A. 150 грам в м'якій упаковці"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik КРУПНОЛИСТОВИЙ (О.Р.А) 150 г, м/у </p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik КРУПНОЛИСТОВИЙ (О.Р.А) 150 г, м/у </p>
-                </div>
               </div>
             </li>
 
@@ -261,10 +268,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік Зелений Острів 90 грам в картонній упаковці"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik ЗЕЛЕНИЙ ОСТРІВ 90 г</p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik ЗЕЛЕНИЙ ОСТРІВ 90 г</p>
-                </div>
               </div>
             </li>
 
@@ -276,10 +284,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік Бадьорий Лимон 25 пакетиків"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik БАДЬОРИЙ ЛИМОН 37.5 г, 25 пакетиків</p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik БАДЬОРИЙ ЛИМОН 37.5 г, 25 пакетиків</p>
-                </div>
               </div>
             </li>
 
@@ -291,10 +300,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік Індійський чай 100 пакетиків"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik ІНДІЙСЬКИЙ ЧАЙ 150 г, 100 пакетиків</p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik ІНДІЙСЬКИЙ ЧАЙ 150 г, 100 пакетиків</p>
-                </div>
               </div>
             </li>
 
@@ -306,10 +316,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік Індійський чай 25 пакетиків"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik ІНДІЙСЬКИЙ ЧАЙ 37.5 г, 25 пакетиків</p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik ІНДІЙСЬКИЙ ЧАЙ 37.5 г, 25 пакетиків</p>
-                </div>
               </div>
             </li>
 
@@ -321,10 +332,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік Кенійський чай 25 пакетиків"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik КЕНІЙСЬКИЙ ЧАЙ, 25 пакетиків </p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik КЕНІЙСЬКИЙ ЧАЙ, 25 пакетиків </p>
-                </div>
               </div>
             </li>
 
@@ -336,10 +348,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік Кенійський чай 85 грам в картонній упаковці"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik КЕНІЙСЬКИЙ ЧАЙ 85 </p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik КЕНІЙСЬКИЙ ЧАЙ 85 </p>
-                </div>
               </div>
             </li>
 
@@ -351,10 +364,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік Королівський Стандарт 100 пакетиків"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik КОРОЛІВСЬКИЙ СТАНДАРТ 200 г, 100 пакетиків</p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik КОРОЛІВСЬКИЙ СТАНДАРТ 200 г, 100 пакетиків</p>
-                </div>
               </div>
             </li>
 
@@ -366,10 +380,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік Королівський Стандарт 85 грам в картонній упаковці"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik КОРОЛІВСЬКИЙ СТАНДАРТ 85</p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik КОРОЛІВСЬКИЙ СТАНДАРТ 85</p>
-                </div>
               </div>
             </li>
 
@@ -381,10 +396,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік Королівський Стандарт 25 пакетиків"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p>Batik КОРОЛІВСЬКИЙ СТАНДАРТ 50 г, 25 пакетиків</p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p>Batik КОРОЛІВСЬКИЙ СТАНДАРТ 50 г, 25 пакетиків</p>
-                </div>
               </div>
             </li>
 
@@ -396,10 +412,11 @@ export default function BatikCollection() {
                     alt="пачка чаю Батік Зелений Мохіто 25 пакетиків"
                     className={css.batikCollectionImg}
                   />
+
+                  <div className={css.overlay}>
+                    <p> Batik ЗЕЛЕНИЙ МОХІТТО, 37.5 г, 25 пакетиків </p>
+                  </div>
                 </NavLink>
-                <div className={css.overlay}>
-                  <p> Batik ЗЕЛЕНИЙ МОХІТТО, 37.5 г, 25 пакетиків </p>
-                </div>
               </div>
             </li>
           </ul>
