@@ -182,7 +182,7 @@ export default function BatikCollection() {
 
             <li className={css.batikCollectionItem}>
               <div className={css.batikCollectionOverlayWrap}>
-                <NavLink to="/">
+                <NavLink to="/batik-serednolystovyi-100">
                   <img
                     src={batikClassicImg9}
                     alt="пачка чаю Батік середньолистовий стандарт F.B.O.P. 100 грам в картонній упаковці"

@@ -44,7 +44,7 @@ export default function Vysokohirnyi100() {
                 </li>
                 <li className={css.vysokohirnyi100Item}>
                   <p className={css.vysokohirnyi100ItemText}>
-                    Маса нетто: 250 г
+                    Маса нетто: 100 г
                   </p>
                 </li>
                 <li className={css.vysokohirnyi100Item}>
@@ -59,7 +59,7 @@ export default function Vysokohirnyi100() {
                 </li>
                 <li className={css.vysokohirnyi100Item}>
                   <p className={css.vysokohirnyi100ItemText}>
-                    Тип упаковки: м’яка упаковка
+                    Тип упаковки: картонна
                   </p>
                 </li>
               </ul>
@@ -67,6 +67,7 @@ export default function Vysokohirnyi100() {
           </div>
         </div>
       </section>
+      <div>{<Footer />}</div>
     </div>
   );
 }
