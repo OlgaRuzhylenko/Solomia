@@ -25,7 +25,7 @@ export default function Indiiskyi25TB() {
                 <br />
                 25 пакетиків
               </h2>
-              <p className={css.indiisky150Text}>
+              <p className={css.indiiskyi50Text}>
                 Справжній індійський чай з найкращих чайних садів Індії з
                 унікальними смако-ароматичними властивостями, що цінуються в
                 усьому світі. Він дивним чином поєднує в собі терпкість і
@@ -33,7 +33,7 @@ export default function Indiiskyi25TB() {
                 приємним післясмаком. А легкий і свіжий аромат одночасно повний
                 і насичений.
               </p>
-              <p className={css.indiisky150Text}>
+              <p className={css.indiiskyi50Text}>
                 Насичений, пікантно – кислуватий смак з фруктово – карамельними
                 відтінками.
               </p>
