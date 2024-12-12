@@ -1,0 +1,238 @@
+.batikGoldCollectionSection {
+    margin-bottom: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+    .batikGoldCollectionSection {
+        margin-top: 190px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .batikGoldCollectionSection {
+        margin-top: 210px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .batikGoldCollectionSection {
+        margin-bottom: 250px;
+    }
+}
+.mainBatikGoldCollectionSection {
+    background-image: url(../../images/batik/batik-gold-bgd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 50px;
+    padding-bottom: 92px;
+    margin-bottom: 75px;
+}
+
+@media only screen and (min-width: 768px) {
+    .mainBatikGoldCollectionSection {
+        padding-top: 30px;
+        padding-bottom: 100px;
+
+        margin-bottom: 150px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .mainBatikGoldCollectionSection {
+        padding-top: 40px;
+        padding-bottom: 130px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .mainBatikGoldCollectionSection {
+        padding-top: 150px;
+        padding-bottom: 250px;
+    }
+}
+.batikGoldCollectionHeroWpap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+    .batikGoldCollectionHeroWpap {
+        align-items: start;
+        position: relative;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .batikGoldCollectionTitleWpap {
+        width: 440px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .batikGoldCollectionTitleWpap {
+        width: 600px;
+        padding-left: 22px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .batikGoldCollectionTitleWpap {
+        padding-left: 150px;
+        width: 820px;
+    }
+}
+.batikGoldCollectionMainTitle {
+    font-size: 43px;
+    line-height: 1.1;
+    color: #FFFFFF;
+    font-weight: 400;
+
+    margin-bottom: 40px;
+    padding-left: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .batikGoldCollectionMainTitle {
+        font-size: 53px;
+    }
+}
+.batikGoldCollectionText {
+    /* text-align: justify; */
+    font-size: 16px;
+    line-height: 2.06;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .batikGoldCollectionText {
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .batikGoldCollectionText {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .batikGoldMandala {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .batikGoldMandala {
+        position: absolute;
+        width: 444px;
+        bottom: -120px;
+        right: -150px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .batikGoldMandala {
+        bottom: -280px;
+        right: -260px;
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .batikGoldMandala {
+        width: 65%;
+        bottom: -420px;
+        right: -270px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .batikGoldCollectionList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+
+        align-items: center;
+        justify-content: center;
+    }
+}
+.batikGoldCollectionItem {
+    padding: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.batikGoldCollectionItem:not(:last-child) {
+    margin-bottom: 50px
+}
+
+@media only screen and (min-width: 768px) {
+    .batikGoldCollectionItem {
+        width: 345px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .batikGoldCollectionItem {
+        width: 310px;
+        margin-bottom: 0;
+    }
+
+    .batikGoldCollectionItem:not(:last-child) {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .batikGoldCollectionItem {
+        width: 450px;
+    }
+}
+.batikGoldCollectionOverlayWrap {
+    position: relative;
+    overflow: hidden;
+}
+.batikGoldCollectionOverlayWrap:hover .overlay {
+    transform: translateY(0);
+}
+.batikGoldCollectionOverlayWrap {
+    width: 100%;
+}
+.batikGoldCollectionImg {
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #E6E6E6D9;
+    color: #646464;
+
+    padding: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.batikCollectionOverlayWrap:hover .overlay {
+    transform: translateY(0);
+}

@@ -53,6 +53,13 @@ import KorolivskyiStandart85 from "../../pages/BatikCollection/KorolivskyiStanda
 import KorolivskyiStandart25TB from "../../pages/BatikCollection/KorolivskyiStandart25TB/KorolivskyiStandart25TB";
 import ChornyiBarkhat50 from "../../pages/BatikCollection/ChornyiBarkhat50/ChornyiBarkhat50";
 import ZelenyiMokhito from "../../pages/BatikCollection/ZelenyiMokhito/ZelenyiMokhito";
+import KrupnyiLystBerhamotovyi from "../../pages/BatikGoldCollection/KrupnyiLystBerhamotovyi/KrupnyiLystBerhamotovyi";
+import KrupnyiLystOPA from "../../pages/BatikGoldCollection/KrupnyiLystOPA/KrupnyiLystOPA";
+import SmarahdovyiOstriv from "../../pages/BatikGoldCollection/SmarahdovyiOstriv/SmarahdovyiOstriv";
+import RubinovaNich from "../../pages/BatikGoldCollection/RubinovaNich/RubinovaNich";
+import BerhamotovyiBuket from "../../pages/BatikGoldCollection/BerhamotovyiBuket/BerhamotovyiBuket";
+import TseilonskeSontse from "../../pages/BatikGoldCollection/TseilonskeSontse/TseilonskeSontse";
+import TseilonskyiVysokohirnyi from "../../pages/BatikGoldCollection/TseilonskyiVysokohirnyi/TseilonskyiVysokohirnyi";
 
 export default function App() {
   return (
@@ -169,6 +176,32 @@ export default function App() {
           path="/batik-zelenyi-mokhito-37-5-hram-25-paketykiv"
           element={<ZelenyiMokhito />}
         />
+        <Route
+          path="/batik-gold-krupnyi-lyst-berhamotovyi-100"
+          element={<KrupnyiLystBerhamotovyi />}
+        />
+        <Route
+          path="/batik-gold-krupnyi-lyst-opa-100"
+          element={<KrupnyiLystOPA />}
+        />
+        <Route
+          path="/batik-gold-smarahdovyi-ostriv"
+          element={<SmarahdovyiOstriv />}
+        />
+        <Route path="/batik-gold-rubinova-nich" element={<RubinovaNich />} />
+        <Route
+          path="/batik-gold-berhamotovyi-buket"
+          element={<BerhamotovyiBuket />}
+        />
+        <Route
+          path="/batik-gold-tseilonske-sontse"
+          element={<TseilonskeSontse />}
+        />
+        <Route
+          path="/batik-gold-tseilonskyi-vysokohirnyi"
+          element={<TseilonskyiVysokohirnyi />}
+        />
+        <Route path="/batik-gold-erl-hrei" element={<ErlHrei />} />
       </Routes>
     </Layout>
   );
