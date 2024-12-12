@@ -52,6 +52,7 @@ import KorolivskyiStandart100TB from "../../pages/BatikCollection/KorolivskyiSta
 import KorolivskyiStandart85 from "../../pages/BatikCollection/KorolivskyiStandart85/KorolivskyiStandart85";
 import KorolivskyiStandart25TB from "../../pages/BatikCollection/KorolivskyiStandart25TB/KorolivskyiStandart25TB";
 import ChornyiBarkhat50 from "../../pages/BatikCollection/ChornyiBarkhat50/ChornyiBarkhat50";
+import ZelenyiMokhito from "../../pages/BatikCollection/ZelenyiMokhito/ZelenyiMokhito";
 
 export default function App() {
   return (
@@ -166,7 +167,7 @@ export default function App() {
         />
         <Route
           path="/batik-zelenyi-mokhito-37-5-hram-25-paketykiv"
-          element={<KorolivskyiStandart25TB />}
+          element={<ZelenyiMokhito />}
         />
       </Routes>
     </Layout>
