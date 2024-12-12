@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import zelenyiOstriv90 from "../../../images/batik/classic/14.png";
+import zelenyiOstriv90Img from "../../../images/batik/classic/14.png";
 import css from "./ZelenyiOstriv90.module.css";
 
 export default function ZelenyiOstriv90() {
@@ -11,7 +11,7 @@ export default function ZelenyiOstriv90() {
         <div className="container">
           <div className={css.zelenyiOstriv90Box}>
             <img
-              src={zelenyiOstriv90}
+              src={zelenyiOstriv90Img}
               alt="пачка чаю Батік Зелений Острів 90 грам в картонній упаковці"
               className={css.zelenyiOstriv90Img}
             />

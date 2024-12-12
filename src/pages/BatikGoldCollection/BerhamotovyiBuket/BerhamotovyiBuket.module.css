@@ -1,0 +1,23 @@
+.berhamotovyiBuketSection {
+    margin-bottom: 45px;
+}
+
+@media only screen and (min-width: 768px) {
+    .berhamotovyiBuketSection {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .berhamotovyiBuketSection {
+        margin-top: 180px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .berhamotovyiBuketSection {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+}
