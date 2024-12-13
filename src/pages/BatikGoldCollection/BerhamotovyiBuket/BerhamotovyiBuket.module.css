@@ -21,3 +21,154 @@
         margin-bottom: 200px;
     }
 }
+@media only screen and (min-width: 768px) {
+    .berhamotovyiBuketBox {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .berhamotovyiBuketBox {
+        padding-left: 60px;
+    }
+}
+.berhamotovyiBuketImg {
+    width: 384px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .berhamotovyiBuketImg {
+        width: 512px;
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .berhamotovyiBuketImg {
+        width: 550px;
+        margin-right: 120px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .berhamotovyiBuketWrapper {
+        width: 384px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .berhamotovyiBuketWrapper {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .berhamotovyiBuketWrapper {
+        width: 100%;
+    }
+}
+.berhamotovyiBuketTitle {
+    font-size: 22px;
+    color: #474249;
+    font-weight: 400;
+    line-height: 1.1;
+
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .berhamotovyiBuketTitle {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .berhamotovyiBuketTitle {
+        font-size: 36px;
+    }
+}
+.berhamotovyiBuketSubtitle {
+    font-size: 17px;
+    color: #474249;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1;
+
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .berhamotovyiBuketSubtitle {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .berhamotovyiBuketSubtitle {
+        font-size: 22px;
+    }
+}
+.berhamotovyiBuketText {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #888888;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .berhamotovyiBuketText {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .berhamotovyiBuketText {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .berhamotovyiBuketText {
+        font-size: 21px;
+    }
+}
+.berhamotovyiBuketItem:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .berhamotovyiBuketItem:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}
+
+.berhamotovyiBuketItemText {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #888888;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (min-width: 768px) {
+    .berhamotovyiBuketItemText {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .berhamotovyiBuketItemText {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .berhamotovyiBuketItemText {
+        font-size: 21px;
+    }
+}
