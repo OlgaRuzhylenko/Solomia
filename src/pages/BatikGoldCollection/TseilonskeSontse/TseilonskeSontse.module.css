@@ -1,0 +1,174 @@
+.tseilonskeSontseSection {
+    margin-bottom: 45px;
+}
+
+@media only screen and (min-width: 768px) {
+    .tseilonskeSontseSection {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .tseilonskeSontseSection {
+        margin-top: 180px;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .tseilonskeSontseSection {
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .tseilonskeSontseBox {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .tseilonskeSontseBox {
+        padding-left: 60px;
+    }
+}
+.tseilonskeSontseImg {
+    width: 384px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .tseilonskeSontseImg {
+        width: 512px;
+        margin-right: 50px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .tseilonskeSontseImg {
+        width: 550px;
+        margin-right: 120px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .tseilonskeSontseWrapper {
+        width: 384px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .tseilonskeSontseWrapper {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .tseilonskeSontseWrapper {
+        width: 100%;
+    }
+}
+.tseilonskeSontseTitle {
+    font-size: 22px;
+    color: #474249;
+    font-weight: 400;
+    line-height: 1.1;
+
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .tseilonskeSontseTitle {
+        font-size: 34px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .tseilonskeSontseTitle {
+        font-size: 36px;
+    }
+}
+.tseilonskeSontseSubtitle {
+    font-size: 17px;
+    color: #474249;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1;
+
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .tseilonskeSontseSubtitle {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .tseilonskeSontseSubtitle {
+        font-size: 22px;
+    }
+}
+.tseilonskeSontseText {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #888888;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .tseilonskeSontseText {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .tseilonskeSontseText {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .tseilonskeSontseText {
+        font-size: 21px;
+    }
+}
+.tseilonskeSontseItem:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    .tseilonskeSontseItem:not(:last-child) {
+        margin-bottom: 5px;
+    }
+}
+
+.tseilonskeSontseItemText {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #888888;
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (min-width: 768px) {
+    .tseilonskeSontseItemText {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .tseilonskeSontseItemText {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .tseilonskeSontseItemText {
+        font-size: 21px;
+    }
+}
