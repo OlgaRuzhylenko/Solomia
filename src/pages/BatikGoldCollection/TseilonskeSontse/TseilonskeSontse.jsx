@@ -69,6 +69,7 @@ export default function TseilonskeSontse() {
           </div>
         </div>
       </section>
+      <div>{<Footer />}</div>
     </div>
   );
 }
