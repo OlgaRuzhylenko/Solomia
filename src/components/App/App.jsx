@@ -60,6 +60,7 @@ import RubinovaNich from "../../pages/BatikGoldCollection/RubinovaNich/RubinovaN
 import BerhamotovyiBuket from "../../pages/BatikGoldCollection/BerhamotovyiBuket/BerhamotovyiBuket";
 import TseilonskeSontse from "../../pages/BatikGoldCollection/TseilonskeSontse/TseilonskeSontse";
 import TseilonskyiVysokohirnyi from "../../pages/BatikGoldCollection/TseilonskyiVysokohirnyi/TseilonskyiVysokohirnyi";
+import GoldErlHrei from "../../pages/BatikGoldCollection/GoldErlHrei/GoldErlHrei";
 
 export default function App() {
   return (
@@ -201,7 +202,7 @@ export default function App() {
           path="/batik-gold-tseilonskyi-vysokohirnyi"
           element={<TseilonskyiVysokohirnyi />}
         />
-        <Route path="/batik-gold-erl-hrei" element={<ErlHrei />} />
+        <Route path="/batik-gold-erl-hrei" element={<GoldErlHrei />} />
       </Routes>
     </Layout>
   );
