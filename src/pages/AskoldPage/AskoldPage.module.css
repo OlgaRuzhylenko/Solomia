@@ -67,6 +67,12 @@
 
     margin-bottom: 18px;
 }
+@media only screen and (min-width: 1024px) {
+    .askoldText {
+        font-size: 22px;
+    }
+}
+
 .askoldList {
     margin-bottom: 150px;
 }
@@ -155,4 +161,10 @@
     margin-left: 270px;
     margin-right: 10px;
 }
+}
+@media only screen and (min-width: 1024px) {
+    .askoldTextWrap {
+        margin-left: 350px;
+        margin-right: 10px;
+    }
 }
