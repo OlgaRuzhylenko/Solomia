@@ -61,6 +61,14 @@ import BerhamotovyiBuket from "../../pages/BatikGoldCollection/BerhamotovyiBuket
 import TseilonskeSontse from "../../pages/BatikGoldCollection/TseilonskeSontse/TseilonskeSontse";
 import TseilonskyiVysokohirnyi from "../../pages/BatikGoldCollection/TseilonskyiVysokohirnyi/TseilonskyiVysokohirnyi";
 import GoldErlHrei from "../../pages/BatikGoldCollection/GoldErlHrei/GoldErlHrei";
+import SweetBerry from "../../pages/AskoldPage/SweetBerry/SweetBerry";
+import LovelyMelissa from "../../pages/AskoldPage/LovelyMelissa/LovelyMelissa";
+import LippyFruit from "../../pages/AskoldPage/LippyFruit/LippyFruit";
+import ChampagneSpills from "../../pages/AskoldPage/ChampagneSpills/ChampagneSpills";
+import EmotionEarlGray from "../../pages/AskoldPage/EmotionEarlGray/EmotionEarlGray";
+import BrightNight from "../../pages/AskoldPage/BrightNight/BrightNight";
+import HotGinger from "../../pages/AskoldPage/HotGinger/HotGinger";
+import EmotionBlackTea from "../../pages/AskoldPage/EmotionBlackTea/EmotionBlackTea";
 
 export default function App() {
   return (
@@ -203,6 +211,20 @@ export default function App() {
           element={<TseilonskyiVysokohirnyi />}
         />
         <Route path="/batik-gold-erl-hrei" element={<GoldErlHrei />} />
+        <Route path="/askold-emotion-sweet-berry" element={<SweetBerry />} />
+        <Route
+          path="/askold-emotion-lovely-melissa"
+          element={<LovelyMelissa />}
+        />
+        <Route path="/askold-emotion-lippy-fruit" element={<LippyFruit />} />
+        <Route
+          path="/askold-emotion-champagne-spills"
+          element={<ChampagneSpills />}
+        />
+        <Route path="/askold-emotion-earl-gray" element={<EmotionEarlGray />} />
+        <Route path="/askold-emotion-bright-night" element={<BrightNight />} />
+        <Route path="/askold-emotion-hot-ginger" element={<HotGinger />} />
+        <Route path="/askold-emotion-black-tea" element={<EmotionBlackTea />} />
       </Routes>
     </Layout>
   );
