@@ -38,7 +38,11 @@
     left: 0;
 }
 }
-
+@media only screen and (min-width: 1024px) {
+    .askoldLogoImg {
+        width: 350px;       
+    }
+}
 @media only screen and (min-width: 1024px) {
     .mainAskoldSection {
         padding-top: 120px;
@@ -98,7 +102,7 @@
 
 @media only screen and (min-width: 1024px) {
     .askoldItem {
-        width: 310px;
+        width: 450px;
         margin-bottom: 0;
     }
 
