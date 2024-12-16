@@ -12,7 +12,7 @@ export default function LovelyMelissa() {
           <div className={css.lovelyMelissaBox}>
             <img
               src={lovelyMelissaImg}
-              alt="пачка чаю Askold Emotion Sweet Berry 20 конвертів"
+              alt="пачка чаю Askold Emotion Lovely Melissa 20 конвертів"
               className={css.lovelyMelissaImg}
             />
             <div className={css.lovelyMelissaWrapper}>
