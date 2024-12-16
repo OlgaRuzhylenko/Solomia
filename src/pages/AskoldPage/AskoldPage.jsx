@@ -45,7 +45,7 @@ export default function AskoldPage() {
                 <NavLink to="/askold-emotion-sweet-berry">
                   <img
                     src={askoldEmotionImg1}
-                    alt="пачка чаю Askold Emotion Sweet Berry"
+                    alt="пачка чаю Askold Emotion Sweet Berry 20 конвертів"
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
@@ -59,7 +59,7 @@ export default function AskoldPage() {
                 <NavLink to="/askold-emotion-lovely-melissa">
                   <img
                     src={askoldEmotionImg2}
-                    alt="пачка чаю Askold Emotion Lovely Melissa"
+                    alt="пачка чаю Askold Emotion Lovely Melissa 20 конвертів"
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
@@ -73,7 +73,7 @@ export default function AskoldPage() {
                 <NavLink to="/askold-emotion-lippy-fruit">
                   <img
                     src={askoldEmotionImg3}
-                    alt="пачка чаю Askold Emotion Lippy Fruit"
+                    alt="пачка чаю Askold Emotion Lippy Fruit 20 конвертів"
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
@@ -87,7 +87,7 @@ export default function AskoldPage() {
                 <NavLink to="/askold-emotion-champagne-spills">
                   <img
                     src={askoldEmotionImg4}
-                    alt="пачка чаю Askold Emotion Champagne Spills"
+                    alt="пачка чаю Askold Emotion Champagne Spills 20 конвертів"
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
@@ -101,7 +101,7 @@ export default function AskoldPage() {
                 <NavLink to="/askold-emotion-earl-gray">
                   <img
                     src={askoldEmotionImg5}
-                    alt="пачка чаю Askold Emotion Earl Gray"
+                    alt="пачка чаю Askold Emotion Earl Gray 20 конвертів"
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
@@ -115,7 +115,7 @@ export default function AskoldPage() {
                 <NavLink to="/askold-emotion-bright-night">
                   <img
                     src={askoldEmotionImg6}
-                    alt="пачка чаю Askold Emotion Bright Night"
+                    alt="пачка чаю Askold Emotion Bright Night 20 конвертів"
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
@@ -129,7 +129,7 @@ export default function AskoldPage() {
                 <NavLink to="/askold-emotion-hot-ginger">
                   <img
                     src={askoldEmotionImg7}
-                    alt="пачка чаю Askold Emotion Hot Ginger"
+                    alt="пачка чаю Askold Emotion Hot Ginger 20 конвертів"
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
@@ -143,7 +143,7 @@ export default function AskoldPage() {
                 <NavLink to="/askold-emotion-black-tea">
                   <img
                     src={askoldEmotionImg8}
-                    alt="пачка чаю Askold Emotion Black Tea"
+                    alt="пачка чаю Askold Emotion Black Tea 20 конвертів"
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
