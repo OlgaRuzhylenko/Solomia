@@ -38,11 +38,11 @@ export default function LippyFruit() {
                   </p>
                 </li>
                 <li className={css.lippyFruitItem}>
-                  <p className={css.lippyFruitItemText}>Маса нетто: 30 г</p>
+                  <p className={css.lippyFruitItemText}>Маса нетто: 40 г</p>
                 </li>
                 <li className={css.lippyFruitItem}>
                   <p className={css.lippyFruitItemText}>
-                    Кількість пакетиків: 40 штук
+                    Кількість пакетиків: 20 штук
                   </p>
                 </li>
 
