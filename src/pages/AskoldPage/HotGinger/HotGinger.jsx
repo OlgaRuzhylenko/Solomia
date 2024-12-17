@@ -12,7 +12,7 @@ export default function HotGinger() {
           <div className={css.hotGingerBox}>
             <img
               src={hotGingerImg}
-              alt="пачка чаю Askold Emotion Bright Night 20 конвертів"
+              alt="пачка чаю Askold Emotion Hot Ginger 20 конвертів"
               className={css.hotGingerImg}
             />
             <div className={css.hotGingerWrapper}>
