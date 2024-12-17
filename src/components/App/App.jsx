@@ -69,6 +69,16 @@ import EmotionEarlGray from "../../pages/AskoldPage/EmotionEarlGray/EmotionEarlG
 import BrightNight from "../../pages/AskoldPage/BrightNight/BrightNight";
 import HotGinger from "../../pages/AskoldPage/HotGinger/HotGinger";
 import EmotionBlackTea from "../../pages/AskoldPage/EmotionBlackTea/EmotionBlackTea";
+import AskoldNobleGreenTea from "../../pages/AskoldNoblePage/AskoldNobleGreenTea/AskoldNobleGreenTea";
+import AskoldNobleEarlGray25TB from "../../pages/AskoldNoblePage/AskoldNobleEarlGray25TB/AskoldNobleEarlGray25TB";
+import AskoldNobleBlack25TB from "../../pages/AskoldNoblePage/AskoldNobleBlack25TB/AskoldNobleBlack25TB";
+import AskoldNobleEarlGray90 from "../../pages/AskoldNoblePage/AskoldNobleEarlGray90/AskoldNobleEarlGray90";
+import AskoldNobleFbop90 from "../../pages/AskoldNoblePage/AskoldNobleFbop90/AskoldNobleFbop90";
+import AskoldNoblePekoe90 from "../../pages/AskoldNoblePage/AskoldNoblePekoe90/AskoldNoblePekoe90";
+import AskoldNobleOPA90 from "../../pages/AskoldNoblePage/AskoldNobleOPA90/AskoldNobleOPA90";
+import AskoldNobleFbop180mu from "../../pages/AskoldNoblePage/AskoldNobleFbop180mu/AskoldNobleFbop180mu";
+import AskoldNoblePekoe180mu from "../../pages/AskoldNoblePage/AskoldNoblePekoe180mu/AskoldNoblePekoe180mu";
+import AskoldNobleOPA180mu from "../../pages/AskoldNoblePage/AskoldNobleOPA180mu/AskoldNobleOPA180mu";
 
 export default function App() {
   return (
@@ -225,6 +235,40 @@ export default function App() {
         <Route path="/askold-emotion-bright-night" element={<BrightNight />} />
         <Route path="/askold-emotion-hot-ginger" element={<HotGinger />} />
         <Route path="/askold-emotion-black-tea" element={<EmotionBlackTea />} />
+        <Route
+          path="/askold-noble-green-tea-25-paketykiv"
+          element={<AskoldNobleGreenTea />}
+        />
+        <Route
+          path="/askold-noble-earl-gray-tea-25-paketykiv"
+          element={<AskoldNobleEarlGray25TB />}
+        />
+        <Route
+          path="/askold-noble-black-tea-25-paketykiv"
+          element={<AskoldNobleBlack25TB />}
+        />
+        <Route
+          path="/askold-noble-earl-gray-tea-90"
+          element={<AskoldNobleEarlGray90 />}
+        />
+        <Route
+          path="/askold-noble-medium-FBOP-90"
+          element={<AskoldNobleFbop90 />}
+        />
+        <Route path="/askold-noble-pekoe-90" element={<AskoldNoblePekoe90 />} />
+        <Route path="/askold-noble-OPA-90" element={<AskoldNobleOPA90 />} />
+        <Route
+          path="/askold-noble-medium-FBOP-180-mu"
+          element={<AskoldNobleFbop180mu />}
+        />
+        <Route
+          path="/askold-noble-pekoe-180-mu"
+          element={<AskoldNoblePekoe180mu />}
+        />
+        <Route
+          path="/askold-noble-OPA-180-mu"
+          element={<AskoldNobleOPA180mu />}
+        />
       </Routes>
     </Layout>
   );

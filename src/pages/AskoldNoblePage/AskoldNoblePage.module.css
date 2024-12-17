@@ -1,0 +1,157 @@
+@media only screen and (min-width: 768px) {
+    .askoldNobleSection {
+        margin-top: 190px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .askoldNobleSection {
+        margin-top: 240px;
+    }
+}
+.mainAskoldNobleSection {
+    background-image: url(../../images/askold/askoldNoble/askold_noble_back_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 75px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .mainAskoldNobleSection {
+        position: relative;
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+}
+.askoldNobleMainTitle {
+    display: none;
+}
+.askoldNobleItemText {
+    font-size: 19px;
+    line-height: 1.3;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 1024px) {
+    .askoldNobleItemText {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+}
+.askoldNobleTextListItem:not(:last-child) {
+    margin-bottom: 19px;
+}
+.askoldNobleTextList {
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+@media only screen and (min-width: 768px) {
+    .askoldNobleTextList {
+        margin-left: 270px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .askoldNobleTextList {
+        margin-left: 350px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .askoldNobleTextList {
+        margin-left: 550px;
+        margin-right: 110px;
+    }
+}
+.askoldNobleList {
+    margin-bottom: 150px;
+}
+@media only screen and (min-width: 768px) {
+    .askoldNobleList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+
+        align-items: center;
+        justify-content: center;
+    }
+}
+.askoldNobleItem {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.askoldNobleItem:not(:last-child) {
+    margin-bottom: 50px
+}
+
+@media only screen and (min-width: 768px) {
+    .askoldNobleItem {
+        width: 345px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .askoldNobleItem {
+        width: 310px;
+        margin-bottom: 0;
+    }
+
+    .askoldNobleItem:not(:last-child) {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .askoldNobleItem {
+        width: 455px;
+    }
+}
+.askoldNobleOverlayWrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.askoldNobleOverlayWrap:hover .overlay {
+    transform: translateY(0);
+}
+
+.askoldNobleOverlayWrap {
+    width: 100%;
+}
+.askoldNobleImg {
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #E6E6E6D9;
+    color: #646464;
+
+    padding: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

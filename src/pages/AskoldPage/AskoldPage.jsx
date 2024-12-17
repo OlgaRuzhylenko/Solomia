@@ -22,7 +22,7 @@ export default function AskoldPage() {
             <h1 className={css.askoldMainTitle}>ASKOLD – Смакуй кожну мить!</h1>
             <img
               src={askoldLogo}
-              alt="логотип Askol"
+              alt="логотип Askold"
               className={css.askoldLogoImg}
             ></img>
             <div className={css.askoldTextWrap}>
