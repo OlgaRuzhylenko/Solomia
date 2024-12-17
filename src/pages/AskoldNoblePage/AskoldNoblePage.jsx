@@ -24,33 +24,35 @@ export default function AskoldNoblePage() {
             <h1 className={css.askoldNobleMainTitle}>
               ASKOLD – Смакуй кожну мить!
             </h1>
-            <img
-              src={askoldNobleLogo}
-              alt="логотип Askold Noble"
-              className={css.askoldLogoImg}
-            ></img>
-            <ul className={css.askoldNobleTextList}>
-              <li className={css.askoldNobleTextListItem}>
-                <p className={css.askoldNobleItemText}>
-                  Чай «ASKOLD» уперше з’явився в Україні в 1998 році. Асортимент
-                  чайних позицій був розроблений для України на основі світового
-                  досвіду з оптимальною адаптацією до смаку українського
-                  споживача.
-                </p>
-              </li>
-              <li className={css.askoldNobleTextListItem}>
-                <p className={css.askoldNobleItemText}>
-                  Відмінна особливість чаю «ASKOLD NOBLE TEA» – це витончена
-                  терпкість та класичне поєднання смаку і вишуканого аромату,
-                  які не залишать байдужим жодного поціновувача чаю.
-                </p>
-              </li>
-              <li className={css.askoldNobleTextListItem}>
-                <p className={css.askoldNobleItemText}>
-                  ASKOLD – Смакуй кожну мить!
-                </p>
-              </li>
-            </ul>
+            <div className={css.askoldNobleHeroWrap}>
+              <img
+                src={askoldNobleLogo}
+                alt="логотип Askold Noble"
+                className={css.askoldNobleLogoImg}
+              ></img>
+              <ul className={css.askoldNobleTextList}>
+                <li className={css.askoldNobleTextListItem}>
+                  <p className={css.askoldNobleItemText}>
+                    Чай «ASKOLD» уперше з’явився в Україні в 1998 році.
+                    Асортимент чайних позицій був розроблений для України на
+                    основі світового досвіду з оптимальною адаптацією до смаку
+                    українського споживача.
+                  </p>
+                </li>
+                <li className={css.askoldNobleTextListItem}>
+                  <p className={css.askoldNobleItemText}>
+                    Відмінна особливість чаю «ASKOLD NOBLE TEA» – це витончена
+                    терпкість та класичне поєднання смаку і вишуканого аромату,
+                    які не залишать байдужим жодного поціновувача чаю.
+                  </p>
+                </li>
+                <li className={css.askoldNobleTextListItem}>
+                  <p className={css.askoldNobleItemText}>
+                    ASKOLD – Смакуй кожну мить!
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="container">
