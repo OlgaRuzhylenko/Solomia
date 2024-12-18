@@ -23,7 +23,6 @@
 
 @media only screen and (min-width: 768px) {
     .mainAskoldNobleSection {
-        /* position: relative; */
         padding-top: 70px;
         padding-bottom: 100px;
         background-position: center left;
@@ -58,14 +57,12 @@
 }
 @media only screen and (min-width: 768px) {
     .askoldNobleTextList {
-        /* margin-left: 270px; */
         margin-right: 10px;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .askoldNobleTextList {
-        margin-left: 350px;
         margin-right: 10px;
     }
 }
@@ -167,7 +164,6 @@
 @media only screen and (min-width: 768px) {
     .askoldNobleLogoImg {
         width: 261px;
-        /* position: absolute; */
         top: 0;
         left: 0;
     }
