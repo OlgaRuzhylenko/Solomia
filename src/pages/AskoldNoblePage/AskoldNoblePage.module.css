@@ -28,6 +28,12 @@
         background-position: center left;
     }
 }
+@media only screen and (min-width: 1024px) {
+    .mainAskoldNobleSection {
+            padding-top: 170px;
+            padding-bottom: 170px;
+        }
+}
 .askoldNobleMainTitle {
     display: none;
 }
@@ -69,7 +75,6 @@
 
 @media only screen and (min-width: 1440px) {
     .askoldNobleTextList {
-        margin-left: 550px;
         margin-right: 110px;
     }
 }
@@ -163,9 +168,7 @@
 
 @media only screen and (min-width: 768px) {
     .askoldNobleLogoImg {
-        width: 261px;
-        top: 0;
-        left: 0;
+        width: 261px;        
     }
 }
 
@@ -177,7 +180,8 @@
 
 @media only screen and (min-width: 1440px) {
     .askoldNobleLogoImg {
-        left: 150px;
+       margin-left: 50px;
+       margin-right: 40px;
     }
 }
 @media only screen and (min-width: 768px) {
