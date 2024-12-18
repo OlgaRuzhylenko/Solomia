@@ -62,7 +62,7 @@ export default function AskoldNoblePage() {
                 <NavLink to="/askold-noble-green-tea-25-paketykiv">
                   <img
                     src={askoldNobleImg1}
-                    alt="пачка чаю Askold Noble Tea зелений чай, 25 пакетиків		"
+                    alt="пачка чаю Askold Noble Tea зелений чай, 25 пакетиків"
                     className={css.askoldNobleImg}
                   />
                   <div className={css.overlay}>
