@@ -79,6 +79,15 @@ import AskoldNobleOPA90 from "../../pages/AskoldNoblePage/AskoldNobleOPA90/Askol
 import AskoldNobleFbop180mu from "../../pages/AskoldNoblePage/AskoldNobleFbop180mu/AskoldNobleFbop180mu";
 import AskoldNoblePekoe180mu from "../../pages/AskoldNoblePage/AskoldNoblePekoe180mu/AskoldNoblePekoe180mu";
 import AskoldNobleOPA150mu from "../../pages/AskoldNoblePage/AskoldNobleOPA150mu/AskoldNobleOPA150mu";
+import ArdenCaramel250 from "../../pages/ArdenPage/ArdenCaramel250/ArdenCaramel250";
+import ArdenIrishCream250 from "../../pages/ArdenPage/ArdenIrishCream250/ArdenIrishCream250";
+import ArdenArabica250 from "../../pages/ArdenPage/ArdenArabica250/ArdenArabica250";
+import ArdenCrema250 from "../../pages/ArdenPage/ArdenCrema250/ArdenCrema250";
+import ArdenEspresso250 from "../../pages/ArdenPage/ArdenEspresso250/ArdenEspresso250";
+import ArdenIrishCream1kg from "../../pages/ArdenPage/ArdenIrishCream1kg/ArdenIrishCream1kg";
+import ArdenEspresso1kg from "../../pages/ArdenPage/ArdenEspresso1kg/ArdenEspresso1kg";
+import ArdenArabica1kg from "../../pages/ArdenPage/ArdenArabica1kg/ArdenArabica1kg";
+import ArdenCrema1kg from "../../pages/ArdenPage/ArdenCrema1kg/ArdenCrema1kg";
 
 export default function App() {
   return (
@@ -269,6 +278,18 @@ export default function App() {
           path="/askold-noble-OPA-150-mu"
           element={<AskoldNobleOPA150mu />}
         />
+        <Route path="/arden-caramel-250" element={<ArdenCaramel250 />} />
+        <Route path="/arden-irish-cream-250" element={<ArdenIrishCream250 />} />
+        <Route path="/arden-arabica-250" element={<ArdenArabica250 />} />
+        <Route path="/arden-crema-250" element={<ArdenCrema250 />} />
+        <Route path="/arden-espresso-250" element={<ArdenEspresso250 />} />
+        <Route
+          path="/arden-irish-cream-1-kg"
+          element={<ArdenIrishCream1kg />}
+        />
+        <Route path="/arden-arabica-1-kg" element={<ArdenArabica1kg />} />
+        <Route path="/arden-espresso-1-kg" element={<ArdenEspresso1kg />} />
+        <Route path="/arden-crema-1-kg" element={<ArdenCrema1kg />} />
       </Routes>
     </Layout>
   );

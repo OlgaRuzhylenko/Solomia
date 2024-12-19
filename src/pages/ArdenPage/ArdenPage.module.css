@@ -1,0 +1,177 @@
+@media only screen and (min-width: 768px) {
+    .ardenPageSection {
+        margin-top: 190px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .ardenPageSection {
+        margin-top: 240px;
+    }
+}
+.mainArdenPageSection {
+    background-image: url(../../images/arden/arden_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 75px;
+    padding-top: 31px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+    .mainArdenPageSection {
+        padding-top: 70px;
+        padding-bottom: 100px;
+        background-position: center left;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .mainArdenPageSection {
+        padding-top: 170px;
+        padding-bottom: 170px;
+    }
+}
+.ardenPageMainTitle {
+    display: none;
+}
+@media only screen and (min-width: 768px) {
+    .ardenPageHeroWrap {
+        display: flex;
+        align-items: center;
+    }
+}
+.ardenPageLogoImg {
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .ardenPageLogoImg {
+        width: 261px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .ardenPageLogoImg {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .ardenPageLogoImg {
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+}
+.ardenPageText {
+    font-size: 19px;
+    line-height: 1.3;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 768px) {
+    .ardenPageText {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .ardenPageText {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+}
+.ardenPageTextWrap {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.ardenPageList {
+    margin-bottom: 150px;
+}
+
+@media only screen and (min-width: 768px) {
+    .ardenPageList {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+
+        align-items: center;
+        justify-content: center;
+    }
+}
+.ardenPageItem {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ardenPageItem:not(:last-child) {
+    margin-bottom: 50px
+}
+
+@media only screen and (min-width: 768px) {
+    .ardenPageItem {
+        width: 345px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .ardenPageItem {
+        width: 310px;
+        margin-bottom: 0;
+    }
+
+    .ardenPageItem:not(:last-child) {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .ardenPageItem {
+        width: 455px;
+    }
+}
+.ardenPageOverlayWrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.ardenPageOverlayWrap:hover .overlay {
+    transform: translateY(0);
+}
+
+.ardenPageOverlayWrap {
+    width: 100%;
+}
+
+.ardenPageImg {
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #E6E6E6D9;
+    color: #646464;
+
+    padding: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
