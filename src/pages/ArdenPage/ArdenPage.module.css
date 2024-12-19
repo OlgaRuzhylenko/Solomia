@@ -44,13 +44,15 @@
         align-items: center;
     }
 }
-.ardenPageLogoImg {
+.ardenPageLogoImg {   
+    width: 275px;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 768px) {
     .ardenPageLogoImg {
-        width: 261px;
+        /* width: 261px; */
     }
 }
 
