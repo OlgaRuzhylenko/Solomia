@@ -88,6 +88,8 @@ import ArdenIrishCream1kg from "../../pages/ArdenPage/ArdenIrishCream1kg/ArdenIr
 import ArdenEspresso1kg from "../../pages/ArdenPage/ArdenEspresso1kg/ArdenEspresso1kg";
 import ArdenArabica1kg from "../../pages/ArdenPage/ArdenArabica1kg/ArdenArabica1kg";
 import ArdenCrema1kg from "../../pages/ArdenPage/ArdenCrema1kg/ArdenCrema1kg";
+import DomashniiChaiMitsnyi90 from "../../pages/DomashniyPages/DomashniiChaiMitsnyi90/DomashniiChaiMitsnyi90";
+import DomashniiChaiMitsnyi40PB from "../../pages/DomashniyPages/DomashniiChaiMitsnyi40PB/DomashniiChaiMitsnyi40PB";
 
 export default function App() {
   return (
@@ -290,6 +292,14 @@ export default function App() {
         <Route path="/arden-arabica-1-kg" element={<ArdenArabica1kg />} />
         <Route path="/arden-espresso-1-kg" element={<ArdenEspresso1kg />} />
         <Route path="/arden-crema-1-kg" element={<ArdenCrema1kg />} />
+        <Route
+          path="/domashnii-chai-mitsnyi-90"
+          element={<DomashniiChaiMitsnyi90 />}
+        />
+        <Route
+          path="/domashnii-chai-mitsnyi-40-g-20-paketykiv"
+          element={<DomashniiChaiMitsnyi40PB />}
+        />
       </Routes>
     </Layout>
   );
