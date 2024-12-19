@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import askoldNobleFbop90 from "../../../images/askold/askoldNoble/5.png";
+import askoldNobleFbop90Img from "../../../images/askold/askoldNoble/5.png";
 import css from "./AskoldNobleFbop90.module.css";
 
 export default function AskoldNobleFbop90() {
@@ -11,7 +11,7 @@ export default function AskoldNobleFbop90() {
         <div className="container">
           <div className={css.askoldNobleFbop90Box}>
             <img
-              src={askoldNobleFbop90}
+              src={askoldNobleFbop90Img}
               alt="пачка чаю Askold Noble Tea FBOP, 90 г"
               className={css.askoldNobleFbop90Img}
             />
