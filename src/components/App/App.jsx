@@ -78,7 +78,7 @@ import AskoldNoblePekoe90 from "../../pages/AskoldNoblePage/AskoldNoblePekoe90/A
 import AskoldNobleOPA90 from "../../pages/AskoldNoblePage/AskoldNobleOPA90/AskoldNobleOPA90";
 import AskoldNobleFbop180mu from "../../pages/AskoldNoblePage/AskoldNobleFbop180mu/AskoldNobleFbop180mu";
 import AskoldNoblePekoe180mu from "../../pages/AskoldNoblePage/AskoldNoblePekoe180mu/AskoldNoblePekoe180mu";
-import AskoldNobleOPA180mu from "../../pages/AskoldNoblePage/AskoldNobleOPA180mu/AskoldNobleOPA180mu";
+import AskoldNobleOPA150mu from "../../pages/AskoldNoblePage/AskoldNobleOPA150mu/AskoldNobleOPA150mu";
 
 export default function App() {
   return (
@@ -266,8 +266,8 @@ export default function App() {
           element={<AskoldNoblePekoe180mu />}
         />
         <Route
-          path="/askold-noble-OPA-180-mu"
-          element={<AskoldNobleOPA180mu />}
+          path="/askold-noble-OPA-150-mu"
+          element={<AskoldNobleOPA150mu />}
         />
       </Routes>
     </Layout>

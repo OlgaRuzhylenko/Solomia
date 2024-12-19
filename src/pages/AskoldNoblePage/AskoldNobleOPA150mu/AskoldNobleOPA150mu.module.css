@@ -1,78 +1,78 @@
-.askoldNobleOPA90Section {
+.askoldNobleOPA150muSection {
     margin-bottom: 45px;
 }
 
 @media only screen and (min-width: 768px) {
-    .askoldNobleOPA90Section {
+    .askoldNobleOPA150muSection {
         margin-top: 150px;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .askoldNobleOPA90Section {
+    .askoldNobleOPA150muSection {
         margin-top: 180px;
         margin-bottom: 100px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .askoldNobleOPA90Section {
+    .askoldNobleOPA150muSection {
         margin-top: 200px;
         margin-bottom: 200px;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .askoldNobleOPA90Box {
+    .askoldNobleOPA150muBox {
         display: flex;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .askoldNobleOPA90Box {
+    .askoldNobleOPA150muBox {
         padding-left: 60px;
     }
 }
 
-.askoldNobleOPA90Img {
+.askoldNobleOPA150muImg {
     width: 384px;
     margin-top: 30px;
     margin-bottom: 50px;
 }
 
 @media only screen and (min-width: 1024px) {
-    .askoldNobleOPA90Img {
+    .askoldNobleOPA150muImg {
         width: 512px;
         margin-right: 50px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .askoldNobleOPA90Img {
+    .askoldNobleOPA150muImg {
         width: 550px;
         margin-right: 120px;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .askoldNobleOPA90Wrapper {
+    .askoldNobleOPA150muWrapper {
         width: 384px;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .askoldNobleOPA90Wrapper {
+    .askoldNobleOPA150muWrapper {
         width: 500px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .askoldNobleOPA90Wrapper {
+    .askoldNobleOPA150muWrapper {
         width: 100%;
     }
 }
 
-.askoldNobleOPA90Title {
+.askoldNobleOPA150muTitle {
     font-size: 22px;
     color: #474249;
     font-weight: 400;
@@ -82,18 +82,18 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .askoldNobleOPA90Title {
+    .askoldNobleOPA150muTitle {
         font-size: 34px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .askoldNobleOPA90Title {
+    .askoldNobleOPA150muTitle {
         font-size: 36px;
     }
 }
 
-.askoldNobleOPA90Subtitle {
+.askoldNobleOPA150muSubtitle {
     font-size: 17px;
     color: #474249;
     font-style: italic;
@@ -104,18 +104,18 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    .askoldNobleOPA90Subtitle {
+    .askoldNobleOPA150muSubtitle {
         font-size: 20px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .askoldNobleOPA90Subtitle {
+    .askoldNobleOPA150muSubtitle {
         font-size: 22px;
     }
 }
 
-.askoldNobleOPA90Text {
+.askoldNobleOPA150muText {
     text-align: justify;
     font-size: 15px;
     line-height: 1.4;
@@ -126,35 +126,35 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .askoldNobleOPA90Text {
+    .askoldNobleOPA150muText {
         font-size: 16px;
         margin-bottom: 16px;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .askoldNobleOPA90Text {
+    .askoldNobleOPA150muText {
         font-size: 19px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .askoldNobleOPA90Text {
+    .askoldNobleOPA150muText {
         font-size: 21px;
     }
 }
 
-.askoldNobleOPA90Item:not(:last-child) {
+.askoldNobleOPA150muItem:not(:last-child) {
     margin-bottom: 15px;
 }
 
 @media only screen and (min-width: 768px) {
-    .askoldNobleOPA90Item:not(:last-child) {
+    .askoldNobleOPA150muItem:not(:last-child) {
         margin-bottom: 5px;
     }
 }
 
-.askoldNobleOPA90ItemText {
+.askoldNobleOPA150muItemText {
     text-align: justify;
     font-size: 15px;
     line-height: 1.4;
@@ -163,19 +163,19 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .askoldNobleOPA90ItemText {
+    .askoldNobleOPA150muItemText {
         font-size: 16px;
     }
 }
 
 @media only screen and (min-width: 1024px) {
-    .askoldNobleOPA90ItemText {
+    .askoldNobleOPA150muItemText {
         font-size: 19px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .askoldNobleOPA90ItemText {
+    .askoldNobleOPA150muItemText {
         font-size: 21px;
     }
 }

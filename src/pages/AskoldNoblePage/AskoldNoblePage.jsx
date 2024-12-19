@@ -185,10 +185,10 @@ export default function AskoldNoblePage() {
             </li>
             <li className={css.askoldNobleItem}>
               <div className={css.askoldNobleOverlayWrap}>
-                <NavLink to="/askold-noble-OPA-180-mu">
+                <NavLink to="/askold-noble-OPA-150-mu">
                   <img
                     src={askoldNobleImg10}
-                    alt="пачка чаю Askold Noble Tea OPA, 180 г"
+                    alt="пачка чаю Askold Noble Tea OPA, 150 г"
                     className={css.askoldNobleImg}
                   />
                   <div className={css.overlay}>
