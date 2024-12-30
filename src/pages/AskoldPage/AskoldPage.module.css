@@ -115,6 +115,8 @@
 
 @media only screen and (min-width: 1024px) {
     .askoldItem {
+        padding: 0px;
+        
         width: 310px;
         margin-bottom: 0;
     }

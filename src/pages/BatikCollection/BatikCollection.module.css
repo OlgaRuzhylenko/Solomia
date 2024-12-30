@@ -215,7 +215,11 @@
 .batikCollectionImg {
     width: 100%;
 }
-
+@media only screen and (min-width: 1440px) {
+    .batikClassicImg {
+        max-width: 900px;
+    }
+}
 .batikCollectionOverlayWrap {
     width: 100%;
 }
