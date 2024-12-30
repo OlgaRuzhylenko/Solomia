@@ -116,7 +116,7 @@
 .batikCollectionItem {
     padding: 0px;
 
-    width: 310px;
+    width: 410px;
     margin-bottom: 0;
     }
     .batikCollectionItem:not(:last-child) {
@@ -125,7 +125,7 @@
 }
 @media only screen and (min-width: 1440px) {
     .batikCollectionItem {
-        width: 450px;
+        width: 550px;
     }
 }
 .batikCollectionOverlayWrap {
