@@ -218,6 +218,13 @@
     width: 100%;
     height: auto;
 }
+@media only screen and (min-width: 1024px) {
+    .batikClassicImg {
+        width: 100%;
+        max-width: 900px;
+        height: auto;
+    }
+}
 @media only screen and (min-width: 1440px) {
     .batikClassicImg {
         width: 100%;
