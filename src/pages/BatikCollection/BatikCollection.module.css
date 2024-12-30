@@ -116,7 +116,7 @@
 .batikCollectionItem {
     padding: 0px;
 
-    width: 410px;
+    width: 350px;
     margin-bottom: 0;
     }
     .batikCollectionItem:not(:last-child) {
