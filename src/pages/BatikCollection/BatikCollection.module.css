@@ -213,6 +213,15 @@
 .batikCollectionImg {
     width: 100%;
 }
+@media only screen and (min-width: 1024px) {
+.batikCollectionImg {
+        width: 130%;
+    }
+      
+}
 .batikCollectionOverlayWrap {
     width: 100%;
+}
+.overlayText {
+    text-align: center;
 }

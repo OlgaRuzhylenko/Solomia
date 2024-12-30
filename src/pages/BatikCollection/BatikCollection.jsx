@@ -67,7 +67,9 @@ export default function BatikCollection() {
                     className={css.batikCollectionImg}
                   />
                   <div className={css.overlay}>
-                    <p>Batik ЯГІДНИЙ ЦІЛУНОК 37.5 г, 25 пакетиків </p>
+                    <p className={css.overlayText}>
+                      Batik ЯГІДНИЙ ЦІЛУНОК 37.5 г, 25 пакетиків{" "}
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -82,7 +84,9 @@ export default function BatikCollection() {
                     className={css.batikCollectionImg}
                   />
                   <div className={css.overlay}>
-                    <p>Batik з ЧОРНОЮ СМОРОДИНОЮ 37.5 г, 25 пакетиків </p>
+                    <p className={css.overlayText}>
+                      Batik з ЧОРНОЮ СМОРОДИНОЮ 37.5 г, 25 пакетиків{" "}
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -97,7 +101,9 @@ export default function BatikCollection() {
                     className={css.batikCollectionImg}
                   />
                   <div className={css.overlay}>
-                    <p>Batik з ЕРЛ ГРЕЙ 37.5 г, 25 пакетиків </p>
+                    <p className={css.overlayText}>
+                      Batik з ЕРЛ ГРЕЙ 37.5 г, 25 пакетиків{" "}
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -112,7 +118,9 @@ export default function BatikCollection() {
                     className={css.batikCollectionImg}
                   />
                   <div className={css.overlay}>
-                    <p>Batik ГРАНУЛЬОВАНИЙ (С.Т.С) 250 г, м/у</p>
+                    <p className={css.overlayText}>
+                      Batik ГРАНУЛЬОВАНИЙ (С.Т.С) 250 г, м/у
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -127,7 +135,9 @@ export default function BatikCollection() {
                     className={css.batikCollectionImg}
                   />
                   <div className={css.overlay}>
-                    <p>Batik ГРАНУЛЬОВАНИЙ (С.Т.С) 100 г, м/у</p>
+                    <p className={css.overlayText}>
+                      Batik ГРАНУЛЬОВАНИЙ (С.Т.С) 100 г, м/у
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -142,7 +152,9 @@ export default function BatikCollection() {
                     className={css.batikCollectionImg}
                   />
                   <div className={css.overlay}>
-                    <p>Batik ГРАНУЛЬОВАНИЙ (С.Т.С) 100 г</p>
+                    <p className={css.overlayText}>
+                      Batik ГРАНУЛЬОВАНИЙ (С.Т.С) 100 г
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -158,7 +170,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik ВИСОКОГІРНИЙ (B.O.P) 250 г, м/у</p>
+                    <p className={css.overlayText}>
+                      Batik ВИСОКОГІРНИЙ (B.O.P) 250 г, м/у
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -174,7 +188,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik ВИСОКОГІРНИЙ (B.O.P) 100 г</p>
+                    <p className={css.overlayText}>
+                      Batik ВИСОКОГІРНИЙ (B.O.P) 100 г
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -190,7 +206,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik СЕРЕДНЬОЛИСТОВИЙ (F.B.O.P) 100 г</p>
+                    <p className={css.overlayText}>
+                      Batik СЕРЕДНЬОЛИСТОВИЙ (F.B.O.P) 100 г
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -206,7 +224,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik Чорний Бархат 120 г, 60 пакетиків</p>
+                    <p className={css.overlayText}>
+                      Batik Чорний Бархат 120 г, 60 пакетиків
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -222,7 +242,7 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik Чорний Бархат 90 г</p>
+                    <p className={css.overlayText}>Batik Чорний Бархат 90 г</p>
                   </div>
                 </NavLink>
               </div>
@@ -238,7 +258,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik Чорний Бархат 50 г, 25 пакетиків</p>
+                    <p className={css.overlayText}>
+                      Batik Чорний Бархат 50 г, 25 пакетиків
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -254,7 +276,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik КРУПНОЛИСТОВИЙ (О.Р.А) 150 г, м/у </p>
+                    <p className={css.overlayText}>
+                      Batik КРУПНОЛИСТОВИЙ (О.Р.А) 150 г, м/у{" "}
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -270,7 +294,7 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik ЗЕЛЕНИЙ ОСТРІВ 90 г</p>
+                    <p className={css.overlayText}>Batik ЗЕЛЕНИЙ ОСТРІВ 90 г</p>
                   </div>
                 </NavLink>
               </div>
@@ -286,7 +310,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik БАДЬОРИЙ ЛИМОН 37.5 г, 25 пакетиків</p>
+                    <p className={css.overlayText}>
+                      Batik БАДЬОРИЙ ЛИМОН 37.5 г, 25 пакетиків
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -302,7 +328,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik ІНДІЙСЬКИЙ ЧАЙ 150 г, 100 пакетиків</p>
+                    <p className={css.overlayText}>
+                      Batik ІНДІЙСЬКИЙ ЧАЙ 150 г, 100 пакетиків
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -318,7 +346,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik ІНДІЙСЬКИЙ ЧАЙ 37.5 г, 25 пакетиків</p>
+                    <p className={css.overlayText}>
+                      Batik ІНДІЙСЬКИЙ ЧАЙ 37.5 г, 25 пакетиків
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -334,7 +364,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik КЕНІЙСЬКИЙ ЧАЙ, 25 пакетиків </p>
+                    <p className={css.overlayText}>
+                      Batik КЕНІЙСЬКИЙ ЧАЙ, 25 пакетиків{" "}
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -350,7 +382,7 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik КЕНІЙСЬКИЙ ЧАЙ 85 </p>
+                    <p className={css.overlayText}>Batik КЕНІЙСЬКИЙ ЧАЙ 85 </p>
                   </div>
                 </NavLink>
               </div>
@@ -366,7 +398,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik КОРОЛІВСЬКИЙ СТАНДАРТ 200 г, 100 пакетиків</p>
+                    <p className={css.overlayText}>
+                      Batik КОРОЛІВСЬКИЙ СТАНДАРТ 200 г, 100 пакетиків
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -382,7 +416,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik КОРОЛІВСЬКИЙ СТАНДАРТ 85</p>
+                    <p className={css.overlayText}>
+                      Batik КОРОЛІВСЬКИЙ СТАНДАРТ 85
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -398,7 +434,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p>Batik КОРОЛІВСЬКИЙ СТАНДАРТ 50 г, 25 пакетиків</p>
+                    <p className={css.overlayText}>
+                      Batik КОРОЛІВСЬКИЙ СТАНДАРТ 50 г, 25 пакетиків
+                    </p>
                   </div>
                 </NavLink>
               </div>
@@ -414,7 +452,9 @@ export default function BatikCollection() {
                   />
 
                   <div className={css.overlay}>
-                    <p> Batik ЗЕЛЕНИЙ МОХІТТО, 37.5 г, 25 пакетиків </p>
+                    <p className={css.overlayText}>
+                      Batik ЗЕЛЕНИЙ МОХІТТО, 37.5 г, 25 пакетиків{" "}
+                    </p>
                   </div>
                 </NavLink>
               </div>
