@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import erlHreiImg from "../../../images/batik/classic/3.png";
+import erlHreiImg from "../../../images/batik/classic/3.jpg";
 import css from "./ErlHrei.module.css";
 
 export default function ErlHrei() {

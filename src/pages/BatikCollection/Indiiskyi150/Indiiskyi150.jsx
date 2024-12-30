@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import indiiskyi150 from "../../../images/batik/classic/16.png";
+import indiiskyi150 from "../../../images/batik/classic/16.jpg";
 import css from "./Indiiskyi150.module.css";
 
 export default function Indiiskyi150() {

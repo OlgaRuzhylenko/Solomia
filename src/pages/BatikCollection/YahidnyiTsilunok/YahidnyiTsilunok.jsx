@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import YahidnyiTsilunokImg from "../../../images/batik/classic/1.png";
+import YahidnyiTsilunokImg from "../../../images/batik/classic/1.jpg";
 import css from "./YahidnyiTsilunok.module.css";
 
 export default function YahidnyiTsilunok() {

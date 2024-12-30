@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import vysokohirnyi100 from "../../../images/batik/classic/8.png";
+import vysokohirnyi100 from "../../../images/batik/classic/8.jpg";
 import css from "./Vysokohirnyi100.module.css";
 
 export default function Vysokohirnyi100() {

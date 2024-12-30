@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import serednolystovyi from "../../../images/batik/classic/9.png";
+import serednolystovyi from "../../../images/batik/classic/9.jpg";
 import css from "./Serednolystovyi.module.css";
 
 export default function Serednolystovyi() {

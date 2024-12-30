@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import chornyiBarkhat120h from "../../../images/batik/classic/10.png";
+import chornyiBarkhat120h from "../../../images/batik/classic/10.jpg";
 import css from "./ChornyiBarkhat120h.module.css";
 
 export default function ChornyiBarkhat120h() {

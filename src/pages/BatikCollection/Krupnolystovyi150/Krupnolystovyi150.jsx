@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import krupnolystovyi150 from "../../../images/batik/classic/13.png";
+import krupnolystovyi150 from "../../../images/batik/classic/13.jpg";
 import css from "./Krupnolystovyi150.module.css";
 
 export default function Krupnolystovyi150() {

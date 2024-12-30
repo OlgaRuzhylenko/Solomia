@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import keniiskyi25TB from "../../../images/batik/classic/18.png";
+import keniiskyi25TB from "../../../images/batik/classic/18.jpg";
 import css from "./Keniiskyi25TB.module.css";
 
 export default function Keniiskyi25TB() {

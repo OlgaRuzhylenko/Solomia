@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import zelenyiOstriv90Img from "../../../images/batik/classic/14.png";
+import zelenyiOstriv90Img from "../../../images/batik/classic/14.jpg";
 import css from "./ZelenyiOstriv90.module.css";
 
 export default function ZelenyiOstriv90() {

@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import hranulovanyiSTS250mu from "../../../images/batik/classic/4.png";
+import hranulovanyiSTS250mu from "../../../images/batik/classic/4.jpg";
 import css from "./HranulovanyiSTS250mu.module.css";
 
 export default function HranulovanyiSTS250mu() {

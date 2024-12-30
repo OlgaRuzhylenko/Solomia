@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import zelenyiMokhitoImg from "../../../images/batik/classic/23.png";
+import zelenyiMokhitoImg from "../../../images/batik/classic/23.jpg";
 import css from "./ZelenyiMokhito.module.css";
 
 export default function ZelenyiMokhito() {

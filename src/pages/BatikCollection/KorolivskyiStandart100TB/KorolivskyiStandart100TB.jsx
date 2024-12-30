@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import korolivskyiStandart100TBImg from "../../../images/batik/classic/20.png";
+import korolivskyiStandart100TBImg from "../../../images/batik/classic/20.jpg";
 import css from "./KorolivskyiStandart100TB.module.css";
 
 export default function KorolivskyiStandart100TB() {

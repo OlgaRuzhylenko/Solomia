@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import zChornoiuSmorodynoiuImg from "../../../images/batik/classic/2.png";
+import zChornoiuSmorodynoiuImg from "../../../images/batik/classic/2.jpg";
 import css from "./ZChornoiuSmorodynoiu.module.css";
 
 export default function ZChornoiuSmorodynoiu() {
