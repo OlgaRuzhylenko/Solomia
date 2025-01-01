@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import askoldNobleBlack50 from "../../../images/askold/askoldNoble/3.png";
+import askoldNobleBlack50 from "../../../images/askold/askoldNoble/3.jpg";
 import css from "./AskoldNobleBlack25TB.module.css";
 
 export default function AskoldNobleBlack25TB() {

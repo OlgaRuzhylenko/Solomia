@@ -90,6 +90,7 @@ import ArdenArabica1kg from "../../pages/ArdenPage/ArdenArabica1kg/ArdenArabica1
 import ArdenCrema1kg from "../../pages/ArdenPage/ArdenCrema1kg/ArdenCrema1kg";
 import DomashniiChaiMitsnyi90 from "../../pages/DomashniyPages/DomashniiChaiMitsnyi90/DomashniiChaiMitsnyi90";
 import DomashniiChaiMitsnyi40PB from "../../pages/DomashniyPages/DomashniiChaiMitsnyi40PB/DomashniiChaiMitsnyi40PB";
+import AskoldNobleBlack100TB from "../../pages/AskoldNoblePage/AskoldNobleBlack100TB/AskoldNobleBlack100TB";
 
 export default function App() {
   return (
@@ -257,6 +258,10 @@ export default function App() {
         <Route
           path="/askold-noble-black-tea-25-paketykiv"
           element={<AskoldNobleBlack25TB />}
+        />
+        <Route
+          path="/askold-noble-black-tea-100-paketykiv"
+          element={<AskoldNobleBlack100TB />}
         />
         <Route
           path="/askold-noble-earl-gray-tea-90"

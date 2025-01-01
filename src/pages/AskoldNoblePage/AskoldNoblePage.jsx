@@ -1,13 +1,14 @@
 import { NavLink } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import askoldNobleLogo from "../../images/askold/askoldNoble/logo_askold_noble.png";
-import askoldNobleImg1 from "../../images/askold/askoldNoble/1.png";
-import askoldNobleImg2 from "../../images/askold/askoldNoble/2.png";
-import askoldNobleImg3 from "../../images/askold/askoldNoble/3.png";
-import askoldNobleImg4 from "../../images/askold/askoldNoble/4.png";
-import askoldNobleImg5 from "../../images/askold/askoldNoble/5.png";
-import askoldNobleImg6 from "../../images/askold/askoldNoble/6.png";
-import askoldNobleImg7 from "../../images/askold/askoldNoble/7.png";
+import askoldNobleImg1 from "../../images/askold/askoldNoble/1.jpg";
+import askoldNobleImg2 from "../../images/askold/askoldNoble/2.jpg";
+import askoldNobleImg3 from "../../images/askold/askoldNoble/3.jpg";
+import askoldNobleImg31 from "../../images/askold/askoldNoble/3.1.jpg";
+import askoldNobleImg4 from "../../images/askold/askoldNoble/4.jpg";
+import askoldNobleImg5 from "../../images/askold/askoldNoble/5.jpg";
+import askoldNobleImg6 from "../../images/askold/askoldNoble/6.jpg";
+import askoldNobleImg7 from "../../images/askold/askoldNoble/7.jpg";
 import askoldNobleImg8 from "../../images/askold/askoldNoble/8.png";
 import askoldNobleImg9 from "../../images/askold/askoldNoble/9.png";
 import askoldNobleImg10 from "../../images/askold/askoldNoble/10.png";
@@ -91,6 +92,20 @@ export default function AskoldNoblePage() {
                   <img
                     src={askoldNobleImg3}
                     alt="пачка чаю Askold Noble Tea чорний чай, 25 пакетиків"
+                    className={css.askoldNobleImg}
+                  />
+                  <div className={css.overlay}>
+                    <p> Askold Noble Tea Чорний чай, 25 пакетиків</p>
+                  </div>
+                </NavLink>
+              </div>
+            </li>
+            <li className={css.askoldNobleItem}>
+              <div className={css.askoldNobleOverlayWrap}>
+                <NavLink to="/askold-noble-black-tea-100-paketykiv">
+                  <img
+                    src={askoldNobleImg31}
+                    alt="пачка чаю Askold Noble Tea чорний чай, 100 пакетиків"
                     className={css.askoldNobleImg}
                   />
                   <div className={css.overlay}>

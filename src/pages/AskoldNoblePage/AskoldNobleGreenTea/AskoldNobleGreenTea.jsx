@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import askoldNobleGreenTea50 from "../../../images/askold/askoldNoble/1.png";
+import askoldNobleGreenTea50 from "../../../images/askold/askoldNoble/1.jpg";
 import css from "./AskoldNobleGreenTea.module.css";
 
 export default function AskoldNobleGreenTea() {
