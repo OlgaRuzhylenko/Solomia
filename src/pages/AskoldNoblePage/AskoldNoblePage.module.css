@@ -115,12 +115,7 @@
 @media only screen and (min-width: 1024px) {
     .askoldNobleItem {
         padding: 0px;
-        width: 310px;
-        margin-bottom: 0;
-    }
-
-    .askoldNobleItem:not(:last-child) {
-        margin-bottom: 0;
+        width: 320px;
     }
 }
 

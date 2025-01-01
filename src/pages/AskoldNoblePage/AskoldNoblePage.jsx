@@ -56,164 +56,164 @@ export default function AskoldNoblePage() {
             </div>
           </div>
         </div>
-        <div className="container">
-          <ul className={css.askoldNobleList}>
-            <li className={css.askoldNobleItem}>
-              <div className={css.askoldNobleOverlayWrap}>
-                <NavLink to="/askold-noble-green-tea-25-paketykiv">
-                  <img
-                    src={askoldNobleImg1}
-                    alt="пачка чаю Askold Noble Tea зелений чай, 25 пакетиків"
-                    className={css.askoldNobleImg}
-                  />
-                  <div className={css.overlay}>
-                    <p> Askold Noble Tea Зелений чай, 25 пакетиків</p>
-                  </div>
-                </NavLink>
-              </div>
-            </li>
-            <li className={css.askoldNobleItem}>
-              <div className={css.askoldNobleOverlayWrap}>
-                <NavLink to="/askold-noble-earl-gray-tea-25-paketykiv">
-                  <img
-                    src={askoldNobleImg2}
-                    alt="пачка чаю Askold Noble Tea Ерл Грей, 25 пакетиків"
-                    className={css.askoldNobleImg}
-                  />
-                  <div className={css.overlay}>
-                    <p> Askold Noble Tea Ерл Грей, 25 пакетиків</p>
-                  </div>
-                </NavLink>
-              </div>
-            </li>
-            <li className={css.askoldNobleItem}>
-              <div className={css.askoldNobleOverlayWrap}>
-                <NavLink to="/askold-noble-black-tea-25-paketykiv">
-                  <img
-                    src={askoldNobleImg3}
-                    alt="пачка чаю Askold Noble Tea чорний чай, 25 пакетиків"
-                    className={css.askoldNobleImg}
-                  />
-                  <div className={css.overlay}>
-                    <p> Askold Noble Tea Чорний чай, 25 пакетиків</p>
-                  </div>
-                </NavLink>
-              </div>
-            </li>
-            <li className={css.askoldNobleItem}>
-              <div className={css.askoldNobleOverlayWrap}>
-                <NavLink to="/askold-noble-black-tea-100-paketykiv">
-                  <img
-                    src={askoldNobleImg31}
-                    alt="пачка чаю Askold Noble Tea чорний чай, 100 пакетиків"
-                    className={css.askoldNobleImg}
-                  />
-                  <div className={css.overlay}>
-                    <p> Askold Noble Tea Чорний чай, 25 пакетиків</p>
-                  </div>
-                </NavLink>
-              </div>
-            </li>
-            <li className={css.askoldNobleItem}>
-              <div className={css.askoldNobleOverlayWrap}>
-                <NavLink to="/askold-noble-earl-gray-tea-90">
-                  <img
-                    src={askoldNobleImg4}
-                    alt="пачка чаю Askold Noble Tea Ерл Грей, 90 г"
-                    className={css.askoldNobleImg}
-                  />
-                  <div className={css.overlay}>
-                    <p> Askold Noble Tea Ерл Грей, 90 г</p>
-                  </div>
-                </NavLink>
-              </div>
-            </li>
-            <li className={css.askoldNobleItem}>
-              <div className={css.askoldNobleOverlayWrap}>
-                <NavLink to="/askold-noble-medium-FBOP-90">
-                  <img
-                    src={askoldNobleImg5}
-                    alt="пачка чаю Askold Noble Tea FBOP, 90 г"
-                    className={css.askoldNobleImg}
-                  />
-                  <div className={css.overlay}>
-                    <p>Askold Noble Tea CЕРЕДНІЙ ЛИСТ (F.B.O.P.) 90 г </p>
-                  </div>
-                </NavLink>
-              </div>
-            </li>
-            <li className={css.askoldNobleItem}>
-              <div className={css.askoldNobleOverlayWrap}>
-                <NavLink to="/askold-noble-pekoe-90">
-                  <img
-                    src={askoldNobleImg6}
-                    alt="пачка чаю Askold Noble Tea pekoe, 90 г"
-                    className={css.askoldNobleImg}
-                  />
-                  <div className={css.overlay}>
-                    <p>Askold Noble Tea ПЕКОЕ ГОЛД (PEKOE GOLD) 90 г </p>
-                  </div>
-                </NavLink>
-              </div>
-            </li>
-            <li className={css.askoldNobleItem}>
-              <div className={css.askoldNobleOverlayWrap}>
-                <NavLink to="/askold-noble-OPA-90">
-                  <img
-                    src={askoldNobleImg7}
-                    alt="пачка чаю Askold Noble Tea OPA, 90 г"
-                    className={css.askoldNobleImg}
-                  />
-                  <div className={css.overlay}>
-                    <p>Askold Noble Tea Крупний Лист (O.P.А.) 90 г </p>
-                  </div>
-                </NavLink>
-              </div>
-            </li>
-            <li className={css.askoldNobleItem}>
-              <div className={css.askoldNobleOverlayWrap}>
-                <NavLink to="/askold-noble-medium-FBOP-180-mu">
-                  <img
-                    src={askoldNobleImg8}
-                    alt="пачка чаю Askold Noble Tea FBOP, 180 г"
-                    className={css.askoldNobleImg}
-                  />
-                  <div className={css.overlay}>
-                    <p>Askold Noble Tea CЕРЕДНІЙ ЛИСТ (F.B.O.P.) 180 г, м/у </p>
-                  </div>
-                </NavLink>
-              </div>
-            </li>
-            <li className={css.askoldNobleItem}>
-              <div className={css.askoldNobleOverlayWrap}>
-                <NavLink to="/askold-noble-pekoe-180-mu">
-                  <img
-                    src={askoldNobleImg9}
-                    alt="пачка чаю Askold Noble Tea pekoe, 180 г"
-                    className={css.askoldNobleImg}
-                  />
-                  <div className={css.overlay}>
-                    <p>Askold Noble Tea ПЕКОЕ ГОЛД (PEKOE GOLD) 180 г, м/у </p>
-                  </div>
-                </NavLink>
-              </div>
-            </li>
-            <li className={css.askoldNobleItem}>
-              <div className={css.askoldNobleOverlayWrap}>
-                <NavLink to="/askold-noble-OPA-150-mu">
-                  <img
-                    src={askoldNobleImg10}
-                    alt="пачка чаю Askold Noble Tea OPA, 150 г"
-                    className={css.askoldNobleImg}
-                  />
-                  <div className={css.overlay}>
-                    <p>Askold Noble Tea Крупний Лист (O.P.А.), м/у </p>
-                  </div>
-                </NavLink>
-              </div>
-            </li>
-          </ul>
-        </div>
+        {/* <div className="container"> */}
+        <ul className={css.askoldNobleList}>
+          <li className={css.askoldNobleItem}>
+            <div className={css.askoldNobleOverlayWrap}>
+              <NavLink to="/askold-noble-green-tea-25-paketykiv">
+                <img
+                  src={askoldNobleImg1}
+                  alt="пачка чаю Askold Noble Tea зелений чай, 25 пакетиків"
+                  className={css.askoldNobleImg}
+                />
+                <div className={css.overlay}>
+                  <p> Askold Noble Tea Зелений чай, 25 пакетиків</p>
+                </div>
+              </NavLink>
+            </div>
+          </li>
+          <li className={css.askoldNobleItem}>
+            <div className={css.askoldNobleOverlayWrap}>
+              <NavLink to="/askold-noble-earl-gray-tea-25-paketykiv">
+                <img
+                  src={askoldNobleImg2}
+                  alt="пачка чаю Askold Noble Tea Ерл Грей, 25 пакетиків"
+                  className={css.askoldNobleImg}
+                />
+                <div className={css.overlay}>
+                  <p> Askold Noble Tea Ерл Грей, 25 пакетиків</p>
+                </div>
+              </NavLink>
+            </div>
+          </li>
+          <li className={css.askoldNobleItem}>
+            <div className={css.askoldNobleOverlayWrap}>
+              <NavLink to="/askold-noble-black-tea-25-paketykiv">
+                <img
+                  src={askoldNobleImg3}
+                  alt="пачка чаю Askold Noble Tea чорний чай, 25 пакетиків"
+                  className={css.askoldNobleImg}
+                />
+                <div className={css.overlay}>
+                  <p> Askold Noble Tea Чорний чай, 25 пакетиків</p>
+                </div>
+              </NavLink>
+            </div>
+          </li>
+          <li className={css.askoldNobleItem}>
+            <div className={css.askoldNobleOverlayWrap}>
+              <NavLink to="/askold-noble-black-tea-100-paketykiv">
+                <img
+                  src={askoldNobleImg31}
+                  alt="пачка чаю Askold Noble Tea чорний чай, 100 пакетиків"
+                  className={css.askoldNobleImg}
+                />
+                <div className={css.overlay}>
+                  <p> Askold Noble Tea Чорний чай, 25 пакетиків</p>
+                </div>
+              </NavLink>
+            </div>
+          </li>
+          <li className={css.askoldNobleItem}>
+            <div className={css.askoldNobleOverlayWrap}>
+              <NavLink to="/askold-noble-earl-gray-tea-90">
+                <img
+                  src={askoldNobleImg4}
+                  alt="пачка чаю Askold Noble Tea Ерл Грей, 90 г"
+                  className={css.askoldNobleImg}
+                />
+                <div className={css.overlay}>
+                  <p> Askold Noble Tea Ерл Грей, 90 г</p>
+                </div>
+              </NavLink>
+            </div>
+          </li>
+          <li className={css.askoldNobleItem}>
+            <div className={css.askoldNobleOverlayWrap}>
+              <NavLink to="/askold-noble-medium-FBOP-90">
+                <img
+                  src={askoldNobleImg5}
+                  alt="пачка чаю Askold Noble Tea FBOP, 90 г"
+                  className={css.askoldNobleImg}
+                />
+                <div className={css.overlay}>
+                  <p>Askold Noble Tea CЕРЕДНІЙ ЛИСТ (F.B.O.P.) 90 г </p>
+                </div>
+              </NavLink>
+            </div>
+          </li>
+          <li className={css.askoldNobleItem}>
+            <div className={css.askoldNobleOverlayWrap}>
+              <NavLink to="/askold-noble-pekoe-90">
+                <img
+                  src={askoldNobleImg6}
+                  alt="пачка чаю Askold Noble Tea pekoe, 90 г"
+                  className={css.askoldNobleImg}
+                />
+                <div className={css.overlay}>
+                  <p>Askold Noble Tea ПЕКОЕ ГОЛД (PEKOE GOLD) 90 г </p>
+                </div>
+              </NavLink>
+            </div>
+          </li>
+          <li className={css.askoldNobleItem}>
+            <div className={css.askoldNobleOverlayWrap}>
+              <NavLink to="/askold-noble-OPA-90">
+                <img
+                  src={askoldNobleImg7}
+                  alt="пачка чаю Askold Noble Tea OPA, 90 г"
+                  className={css.askoldNobleImg}
+                />
+                <div className={css.overlay}>
+                  <p>Askold Noble Tea Крупний Лист (O.P.А.) 90 г </p>
+                </div>
+              </NavLink>
+            </div>
+          </li>
+          <li className={css.askoldNobleItem}>
+            <div className={css.askoldNobleOverlayWrap}>
+              <NavLink to="/askold-noble-medium-FBOP-180-mu">
+                <img
+                  src={askoldNobleImg8}
+                  alt="пачка чаю Askold Noble Tea FBOP, 180 г"
+                  className={css.askoldNobleImg}
+                />
+                <div className={css.overlay}>
+                  <p>Askold Noble Tea CЕРЕДНІЙ ЛИСТ (F.B.O.P.) 180 г, м/у </p>
+                </div>
+              </NavLink>
+            </div>
+          </li>
+          <li className={css.askoldNobleItem}>
+            <div className={css.askoldNobleOverlayWrap}>
+              <NavLink to="/askold-noble-pekoe-180-mu">
+                <img
+                  src={askoldNobleImg9}
+                  alt="пачка чаю Askold Noble Tea pekoe, 180 г"
+                  className={css.askoldNobleImg}
+                />
+                <div className={css.overlay}>
+                  <p>Askold Noble Tea ПЕКОЕ ГОЛД (PEKOE GOLD) 180 г, м/у </p>
+                </div>
+              </NavLink>
+            </div>
+          </li>
+          <li className={css.askoldNobleItem}>
+            <div className={css.askoldNobleOverlayWrap}>
+              <NavLink to="/askold-noble-OPA-150-mu">
+                <img
+                  src={askoldNobleImg10}
+                  alt="пачка чаю Askold Noble Tea OPA, 150 г"
+                  className={css.askoldNobleImg}
+                />
+                <div className={css.overlay}>
+                  <p>Askold Noble Tea Крупний Лист (O.P.А.), м/у </p>
+                </div>
+              </NavLink>
+            </div>
+          </li>
+        </ul>
+        {/* </div> */}
       </section>
       <div>{<Footer />}</div>
     </div>
