@@ -107,7 +107,9 @@
     .askoldNobleItem {
         width: 345px;
     }
-
+.askoldNobleItem:not(:last-child) {
+    margin-bottom: 0px;
+}
 }
 
 @media only screen and (min-width: 1024px) {
