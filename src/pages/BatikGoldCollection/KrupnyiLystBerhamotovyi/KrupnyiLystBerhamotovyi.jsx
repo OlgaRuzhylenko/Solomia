@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import krupnyiLystBerhamotovyiImg from "../../../images/batik/batik-gold/1.png";
+import krupnyiLystBerhamotovyiImg from "../../../images/batik/batik-gold/1.jpg";
 import css from "./KrupnyiLystBerhamotovyi.module.css";
 
 export default function KrupnyiLystBerhamotovyi() {

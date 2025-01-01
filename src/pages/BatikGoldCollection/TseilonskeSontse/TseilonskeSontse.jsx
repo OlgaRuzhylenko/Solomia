@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import tseilonskeSontseImg from "../../../images/batik/batik-gold/6.png";
+import tseilonskeSontseImg from "../../../images/batik/batik-gold/6.jpg";
 import css from "./TseilonskeSontse.module.css";
 
 export default function TseilonskeSontse() {

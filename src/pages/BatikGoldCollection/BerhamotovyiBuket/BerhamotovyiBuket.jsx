@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import berhamotovyiBuketImg from "../../../images/batik/batik-gold/5.png";
+import berhamotovyiBuketImg from "../../../images/batik/batik-gold/5.jpg";
 import css from "./BerhamotovyiBuket.module.css";
 
 export default function BerhamotovyiBuket() {

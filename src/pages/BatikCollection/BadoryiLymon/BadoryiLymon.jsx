@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import badoryiLymon from "../../../images/batik/classic/15.png";
+import badoryiLymon from "../../../images/batik/classic/15.jpg";
 import css from "./BadoryiLymon.module.css";
 
 export default function BadoryiLymon() {

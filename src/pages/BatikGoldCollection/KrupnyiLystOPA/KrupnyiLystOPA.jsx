@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import krupnyiLystOPAImg from "../../../images/batik/batik-gold/2.png";
+import krupnyiLystOPAImg from "../../../images/batik/batik-gold/2.jpg";
 import css from "./KrupnyiLystOPA.module.css";
 
 export default function KrupnyiLystOPA() {

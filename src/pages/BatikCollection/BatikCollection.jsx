@@ -13,7 +13,7 @@ import batikClassicImg11 from "../../images/batik/classic/11.jpg";
 import batikClassicImg12 from "../../images/batik/classic/12.jpg";
 import batikClassicImg13 from "../../images/batik/classic/13.jpg";
 import batikClassicImg14 from "../../images/batik/classic/14.jpg";
-import batikClassicImg15 from "../../images/batik/classic/15.png";
+import batikClassicImg15 from "../../images/batik/classic/15.jpg";
 import batikClassicImg16 from "../../images/batik/classic/16.jpg";
 import batikClassicImg17 from "../../images/batik/classic/17.jpg";
 import batikClassicImg18 from "../../images/batik/classic/18.jpg";

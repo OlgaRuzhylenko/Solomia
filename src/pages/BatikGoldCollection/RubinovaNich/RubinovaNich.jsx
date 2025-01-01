@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import rubinovaNichImg from "../../../images/batik/batik-gold/4.png";
+import rubinovaNichImg from "../../../images/batik/batik-gold/4.jpg";
 import css from "./RubinovaNich.module.css";
 
 export default function RubinovaNich() {
