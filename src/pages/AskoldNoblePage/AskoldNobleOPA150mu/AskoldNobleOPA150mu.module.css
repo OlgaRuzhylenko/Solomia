@@ -37,20 +37,19 @@
 .askoldNobleOPA150muImg {
     width: 384px;
     margin-top: 30px;
-    margin-bottom: 50px;
 }
 
 @media only screen and (min-width: 1024px) {
     .askoldNobleOPA150muImg {
         width: 512px;
-        margin-right: 50px;
+        margin-right: 30px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
     .askoldNobleOPA150muImg {
         width: 550px;
-        margin-right: 120px;
+        margin-left: 30px;
     }
 }
 
