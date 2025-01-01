@@ -166,11 +166,17 @@
 }
 @media only screen and (min-width: 1024px) {
     .batikGoldCollectionList {
-        gap: 45px;
+        gap: 35px;
         justify-content: space-around;
     }
 }
-
+@media only screen and (min-width: 1440px) {
+    .batikGoldCollectionList {
+        row-gap: 25px;
+        column-gap: 45px;
+        justify-content: center;
+    }
+}
 .batikGoldCollectionItem {
     padding: 15px;
 
@@ -201,7 +207,7 @@
 
 @media only screen and (min-width: 1440px) {
     .batikGoldCollectionItem {
-        width: 450px;
+        width: 630px;
     }
 }
 .batikGoldCollectionOverlayWrap {
