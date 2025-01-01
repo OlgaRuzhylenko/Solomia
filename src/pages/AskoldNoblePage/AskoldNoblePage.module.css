@@ -92,6 +92,11 @@
         justify-content: center;
     }
 }
+@media only screen and (min-width: 1024px) {
+    .askoldNobleList {
+        justify-content: space-around;
+    }
+}
 .askoldNobleItem {
     padding: 15px;
     display: flex;
@@ -115,7 +120,7 @@
 @media only screen and (min-width: 1024px) {
     .askoldNobleItem {
         padding: 0px;
-        width: 320px;
+        width: 350px;
     }
 }
 
