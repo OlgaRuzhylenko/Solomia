@@ -183,20 +183,17 @@
 
 @media only screen and (min-width: 768px) {
     .batikGoldCollectionItem {
-        width: 345px;
+        width: 370px;
     }
-
+.batikGoldCollectionItem:not(:last-child) {
+    margin-bottom: 0px
+}
 }
 
 @media only screen and (min-width: 1024px) {    
     .batikGoldCollectionItem {
         padding: 0px;
         width: 400px;
-        margin-bottom: 0;
-    }
-
-    .batikGoldCollectionItem:not(:last-child) {
-        margin-bottom: 0;
     }
 }
 
