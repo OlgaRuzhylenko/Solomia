@@ -91,6 +91,12 @@ import ArdenCrema1kg from "../../pages/ArdenPage/ArdenCrema1kg/ArdenCrema1kg";
 import DomashniiChaiMitsnyi90 from "../../pages/DomashniyPages/DomashniiChaiMitsnyi90/DomashniiChaiMitsnyi90";
 import DomashniiChaiMitsnyi40PB from "../../pages/DomashniyPages/DomashniiChaiMitsnyi40PB/DomashniiChaiMitsnyi40PB";
 import AskoldNobleBlack100TB from "../../pages/AskoldNoblePage/AskoldNobleBlack100TB/AskoldNobleBlack100TB";
+import DomashniiChaiMalynovyi30PB from "../../pages/DomashniyPages/DomashniiChaiMalynovyi30PB/DomashniiChaiMalynovyi30PB";
+import DomashniiChaiLymonnyi30PB from "../../pages/DomashniyPages/DomashniiChaiLymonnyi30PB/DomashniiChaiLymonnyi30PB";
+import DomashniiChaiYahidnyi30PB from "../../pages/DomashniyPages/DomashniiChaiYahidnyi30PB/DomashniiChaiYahidnyi30PB";
+import DomashniiChaiTropik30PB from "../../pages/DomashniyPages/DomashniiChaiTropik30PB/DomashniiChaiTropik30PB";
+import DomashniiChaiPolunychnyi30PB from "../../pages/DomashniyPages/DomashniiChaiPolunychnyi30PB/DomashniiChaiPolunychnyi30PB";
+import DomashniiChaiBerhamotovyi30PB from "../../pages/DomashniyPages/DomashniiChaiBerhamotovyi30PB/DomashniiChaiBerhamotovyi30PB";
 
 export default function App() {
   return (
@@ -304,6 +310,30 @@ export default function App() {
         <Route
           path="/domashnii-chai-mitsnyi-40-g-20-paketykiv"
           element={<DomashniiChaiMitsnyi40PB />}
+        />
+        <Route
+          path="/domashnii-chai-malynovyi-30-g-20-paketykiv"
+          element={<DomashniiChaiMalynovyi30PB />}
+        />
+        <Route
+          path="/domashnii-chai-lymonnyi-30-g-20-paketykiv"
+          element={<DomashniiChaiLymonnyi30PB />}
+        />
+        <Route
+          path="/domashnii-chai-yahidnyi-30-g-20-paketykiv"
+          element={<DomashniiChaiYahidnyi30PB />}
+        />
+        <Route
+          path="/domashnii-chai-tropik-30-g-20-paketykiv"
+          element={<DomashniiChaiTropik30PB />}
+        />
+        <Route
+          path="/domashnii-chai-polunychnyi-30-g-20-paketykiv"
+          element={<DomashniiChaiPolunychnyi30PB />}
+        />
+        <Route
+          path="/domashnii-chai-berhamotovyi-30-g-20-paketykiv"
+          element={<DomashniiChaiBerhamotovyi30PB />}
         />
       </Routes>
     </Layout>
