@@ -27,7 +27,7 @@ font-size: 14px;
 }
 @media only screen and (min-width: 1024px) {
     .subtitleList {       
-        left: 85px;
+        left: 200px;
     }
 }
 @media only screen and (min-width: 1440px) {
