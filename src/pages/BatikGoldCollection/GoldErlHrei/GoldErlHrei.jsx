@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import goldErlHreiImg from "../../../images/batik/batik-gold/8.png";
+import goldErlHreiImg from "../../../images/batik/batik-gold/8.jpg";
 import css from "./GoldErlHrei.module.css";
 
 export default function GoldErlHrei() {

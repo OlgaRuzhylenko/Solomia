@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import tseilonskyiVysokohirnyiImg from "../../../images/batik/batik-gold/7.png";
+import tseilonskyiVysokohirnyiImg from "../../../images/batik/batik-gold/7.jpg";
 import css from "./TseilonskyiVysokohirnyi.module.css";
 
 export default function TseilonskyiVysokohirnyi() {

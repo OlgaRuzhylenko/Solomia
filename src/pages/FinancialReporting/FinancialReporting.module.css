@@ -1,0 +1,90 @@
+.financialReportingSection {
+    padding-top: 23px;
+    margin-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+    .financialReportingSection {
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .financialReportingSection {
+        padding-top: 230px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .financialReportingSection {
+        padding-top: 250px;
+    }
+}
+.financialReportingImg {
+    background-image: url(../../images/financialRep/finance.jpg);
+    background-color: #2a2a2a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 35px;
+
+    margin-bottom: 45px;
+}
+
+@media only screen and (min-width: 768px) {
+    .financialReportingImg {
+        margin-bottom: 25px;
+        padding: 70px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .financialReportingImg {
+        padding: 100px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .financialReportingImg {
+        padding: 150px;
+        margin-bottom: 40px;
+    }
+}
+.financialReportingTitle {
+    font-size: 15px;
+    line-height: 2;
+    color: #888888;
+
+    margin-bottom: 35px;
+}
+.financialReportingBox {
+    padding: 11px 20px;
+
+    border: 1px solid #000000;
+    box-shadow: 3px 3px 0px 0px #000000;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+.financialReportingLink {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 1.6px;
+  
+
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+}
+.financialReportingList {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.financialReportingItem {
+    width: 100%;
+}
+    
