@@ -67,6 +67,7 @@
 @media only screen and (min-width: 1024px) {
     .financialReportingTitle {
         font-size: 20px;
+        margin-left: 0px;
     }
 }
 .financialReportingBox {
@@ -83,12 +84,11 @@
 
    @media only screen and (min-width: 768px) {
     .financialReportingBox {
-        max-width: 520px;
+        display: inline-block;
     }
    }
 @media only screen and (min-width: 1024px) {
     .financialReportingBox {
-        display: inline-block;
         justify-content: start;
     }
 }
