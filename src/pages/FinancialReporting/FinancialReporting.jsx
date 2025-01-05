@@ -13,6 +13,7 @@ export default function FinancialReporting() {
           <h1 className={css.financialReportingTitle}>
             2022 Фінансова звітність
           </h1>
+
           <ul className={css.financialReportingList}>
             <li className={css.financialReportingItem}>
               <div className={css.financialReportingBox}>
