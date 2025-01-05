@@ -1,0 +1,25 @@
+.storesSection {
+    padding-top: 23px;
+    margin-bottom: 55px;
+}
+
+@media only screen and (min-width: 768px) {
+    .storesSection {
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .storesSection {
+        padding-top: 230px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .storesSection {
+        padding-top: 250px;
+    }
+}
+.storesMainTitle {
+    display: none;
+}
