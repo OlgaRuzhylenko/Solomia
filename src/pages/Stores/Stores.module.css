@@ -53,6 +53,7 @@ margin-bottom: 50px;
 @media only screen and (min-width: 1024px) {
     .storesListOnline {
         margin-bottom: 50px;
+        justify-content: space-between;
     }
 }
 .storesListOfline {
@@ -69,7 +70,7 @@ margin-bottom: 50px;
 }
 @media only screen and (min-width: 1024px) {
     .storesListOfline {
-        gap: 40px;
+       justify-content: space-around;
     }
 }
 @media only screen and (min-width: 768px) {
