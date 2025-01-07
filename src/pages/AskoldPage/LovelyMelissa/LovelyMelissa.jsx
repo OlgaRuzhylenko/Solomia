@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import lovelyMelissaImg from "../../../images/askold/askoldEmotion/2.png";
+import lovelyMelissaImg from "../../../images/askold/askoldEmotion/2.jpg";
 import css from "./LovelyMelissa.module.css";
 
 export default function LovelyMelissa() {

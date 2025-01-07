@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import lippyFruitImg from "../../../images/askold/askoldEmotion/3.png";
+import lippyFruitImg from "../../../images/askold/askoldEmotion/3.jpg";
 import css from "./LippyFruit.module.css";
 
 export default function LippyFruit() {

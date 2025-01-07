@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import emotionBlackTeaImg from "../../../images/askold/askoldEmotion/8.png";
+import emotionBlackTeaImg from "../../../images/askold/askoldEmotion/8.jpg";
 import css from "./EmotionBlackTea.module.css";
 
 export default function EmotionBlackTea() {

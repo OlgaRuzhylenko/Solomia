@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import emotionEarlGrayImg from "../../../images/askold/askoldEmotion/5.png";
+import emotionEarlGrayImg from "../../../images/askold/askoldEmotion/5.jpg";
 import css from "./EmotionEarlGray.module.css";
 
 export default function EmotionEarlGray() {

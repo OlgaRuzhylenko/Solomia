@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import champagneSpillsImg from "../../../images/askold/askoldEmotion/4.png";
+import champagneSpillsImg from "../../../images/askold/askoldEmotion/4.jpg";
 import css from "./ChampagneSpills.module.css";
 
 export default function ChampagneSpills() {

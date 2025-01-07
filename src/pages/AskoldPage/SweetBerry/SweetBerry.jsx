@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import sweetBerryImg from "../../../images/askold/askoldEmotion/1.png";
+import sweetBerryImg from "../../../images/askold/askoldEmotion/1.jpg";
 import css from "./SweetBerry.module.css";
 
 export default function SweetBerry() {

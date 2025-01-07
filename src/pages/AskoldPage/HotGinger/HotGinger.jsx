@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import hotGingerImg from "../../../images/askold/askoldEmotion/7.png";
+import hotGingerImg from "../../../images/askold/askoldEmotion/7.jpg";
 import css from "./HotGinger.module.css";
 
 export default function HotGinger() {

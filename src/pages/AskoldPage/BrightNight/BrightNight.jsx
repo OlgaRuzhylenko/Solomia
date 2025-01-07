@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import brightNightImg from "../../../images/askold/askoldEmotion/6.png";
+import brightNightImg from "../../../images/askold/askoldEmotion/6.jpg";
 import css from "./BrightNight.module.css";
 
 export default function BrightNight() {
