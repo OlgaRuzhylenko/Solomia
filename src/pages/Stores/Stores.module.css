@@ -62,8 +62,18 @@ margin-bottom: 50px;
         width: 180px;
     }
 }
+@media only screen and (min-width: 1024px) {
+    .storesOflineImg {
+            width: 100%;
+        }
+}
 @media only screen and (min-width: 768px) {
     .storesOnlineImg {
         width: 180px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .storesOnlineImg {
+        width: 100%;
     }
 }
