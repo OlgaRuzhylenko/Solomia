@@ -52,7 +52,6 @@ margin-bottom: 50px;
 }
 @media only screen and (min-width: 1024px) {
     .storesListOnline {
-        gap: 40px;
         margin-bottom: 50px;
     }
 }
@@ -90,6 +89,6 @@ margin-bottom: 50px;
 }
 @media only screen and (min-width: 1024px) {
     .storesOnlineImg {
-        width: 250px;
+        width: 200px;
     }
 }
