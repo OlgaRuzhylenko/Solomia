@@ -35,7 +35,7 @@ export default function Stores() {
                 <img
                   src={atbImg}
                   alt="логотип магазину АТБ"
-                  className={css.storesImg}
+                  className={css.storesOnlineImg}
                 />
               </NavLink>
             </li>
@@ -49,7 +49,7 @@ export default function Stores() {
                 <img
                   src={rozetkaImg}
                   alt="логотип магазину Розетка"
-                  className={css.storesImg}
+                  className={css.storesOnlineImg}
                 />
               </NavLink>
             </li>
@@ -63,7 +63,7 @@ export default function Stores() {
                 <img
                   src={epitsentrImg}
                   alt="логотип магазину Епіцентр"
-                  className={css.storesImg}
+                  className={css.storesOnlineImg}
                 />
               </NavLink>
             </li>
@@ -77,7 +77,7 @@ export default function Stores() {
                 <img
                   src={silpoImg}
                   alt="логотип магазину Сільпо"
-                  className={css.storesImg}
+                  className={css.storesOnlineImg}
                 />
               </NavLink>
             </li>
@@ -91,7 +91,7 @@ export default function Stores() {
                 <img
                   src={tavriaImg}
                   alt="логотип магазину Таврія"
-                  className={css.storesImg}
+                  className={css.storesOnlineImg}
                 />
               </NavLink>
             </li>
@@ -102,63 +102,63 @@ export default function Stores() {
               <img
                 src={atbImg}
                 alt="логотип магазину Таврія"
-                className={css.storesImg}
+                className={css.storesOflineImg}
               />
             </li>
             <li>
               <img
                 src={tavriaImg}
                 alt="логотип магазину Таврія"
-                className={css.storesImg}
+                className={css.storesOflineImg}
               />
             </li>
             <li>
               <img
                 src={epitsentrImg}
                 alt="логотип магазину Епіцентр"
-                className={css.storesImg}
+                className={css.storesOflineImg}
               />
             </li>
             <li>
               <img
                 src={velmartImg}
                 alt="логотип магазину Велмарт"
-                className={css.storesImg}
+                className={css.storesOflineImg}
               />
             </li>
             <li>
               <img
                 src={ekoImg}
                 alt="логотип магазину Екомаркет"
-                className={css.storesImg}
+                className={css.storesOflineImg}
               />
             </li>
             <li>
               <img
                 src={kopiikaImg}
                 alt="логотип магазину Копійка"
-                className={css.storesImg}
+                className={css.storesOflineImg}
               />
             </li>
             <li>
               <img
                 src={silpoImg}
                 alt="логотип магазину Сільпо"
-                className={css.storesImg}
+                className={css.storesOflineImg}
               />
             </li>
             <li>
               <img
                 src={rostImg}
                 alt="логотип магазину супермаркет Рост"
-                className={css.storesImg}
+                className={css.storesOflineImg}
               />
             </li>
             <li>
               <img
                 src={delviImg}
                 alt="логотип магазину супермаркет Делві"
-                className={css.storesImg}
+                className={css.storesOflineImg}
               />
             </li>
           </ul>

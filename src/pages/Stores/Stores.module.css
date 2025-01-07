@@ -1,13 +1,12 @@
 .storesSection {
     padding-top: 50px;
-    margin-bottom: 55px;
-
-    
+    margin-bottom: 55px;    
 }
 
 @media only screen and (min-width: 768px) {
     .storesSection {
-        padding-top: 170px;
+        padding-top: 170px;   
+        margin-bottom: 100px;
     }
 }
 
@@ -40,9 +39,31 @@ margin-bottom: 50px;
     align-items: center;
     justify-content: center;
 }
+@media only screen and (min-width: 768px) {
+    .storesListOnline {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
 .storesListOfline {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+    .storesListOfline {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .storesOflineImg {
+        width: 180px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .storesOnlineImg {
+        width: 180px;
+    }
 }
