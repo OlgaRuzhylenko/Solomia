@@ -73,6 +73,7 @@ margin-bottom: 50px;
        justify-content: space-around;
     }
 }
+
 @media only screen and (min-width: 768px) {
     .storesOflineImg {
         width: 180px;
@@ -82,6 +83,11 @@ margin-bottom: 50px;
     .storesOflineImg {
             width: 250px;
         }
+}
+@media only screen and (min-width: 1440px) {
+    .storesOflineImg {
+        width: 280px;
+    }
 }
 @media only screen and (min-width: 768px) {
     .storesOnlineImg {
