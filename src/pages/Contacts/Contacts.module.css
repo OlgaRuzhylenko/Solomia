@@ -1,0 +1,36 @@
+.contactsSection {
+    padding-top: 23px;
+    margin-bottom: 80px;
+}
+
+@media only screen and (min-width: 768px) {
+    .contactsSection {
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .contactsSection {
+        padding-top: 230px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .contactsSection {
+        padding-top: 250px;
+    }
+}
+.contactsMainTitle {
+    display: none;
+}
+.contactsSeparatorFirst {
+    display: block;
+    width: 40px;
+    border-block-start: 4px solid black;
+    margin-bottom: 5px;
+}
+.contactsSeparatorSecond {
+    display: block;
+    width: 40px;
+    border-block-start: 1px solid black;
+}
