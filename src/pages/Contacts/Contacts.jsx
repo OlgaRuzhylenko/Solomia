@@ -2,6 +2,7 @@ import Footer from "../../components/Footer/Footer";
 import { useId } from "react";
 import * as Yup from "yup";
 import { ErrorMessage } from "formik";
+import emailjs from "emailjs-com";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import Header from "../../components/Header/Header";
@@ -22,7 +23,21 @@ export default function Contacts() {
   const msgFieldId = useId();
 
   const handleSubmit = (values, actions) => {
-    // console.log(values);
+    const serviceID = "service_e3wpv4k"; // ID сервісу
+    const templateID = "template_m2qe71f"; // ID шаблону
+    const userID = "e12MnpZ3x5N8mVDc9"; // Ваш публічний ключ користувача (User ID)
+
+    emailjs.send(serviceID, templateID, values, userID).then(
+      (response) => {
+        console.log("Email sent successfully!", response.status, response.text);
+        alert("Ваше повідомлення успішно надіслано!");
+        actions.resetForm();
+      },
+      (error) => {
+        console.error("Error sending email:", error);
+        alert("Сталася помилка при надсиланні повідомлення. Спробуйте ще раз.");
+      }
+    );
     actions.resetForm();
   };
   const FeedbackSchema = Yup.object().shape({
