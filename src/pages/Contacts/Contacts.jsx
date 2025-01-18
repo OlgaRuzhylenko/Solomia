@@ -1,10 +1,47 @@
 import Footer from "../../components/Footer/Footer";
+import { useId } from "react";
+import * as Yup from "yup";
+import { ErrorMessage } from "formik";
 import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import Header from "../../components/Header/Header";
+import { Formik, Form, Field } from "formik";
+
 import css from "./Contacts.module.css";
 
 export default function Contacts() {
+  const initialValues = {
+    username: "",
+    tel: "",
+    email: "",
+    message: "",
+  };
+  const nameFieldId = useId();
+  const emailFieldId = useId();
+  const telFieldId = useId();
+  const msgFieldId = useId();
+
+  const handleSubmit = (values, actions) => {
+    // console.log(values);
+    actions.resetForm();
+  };
+  const FeedbackSchema = Yup.object().shape({
+    username: Yup.string()
+      .min(2, "Занадто коротке ім'я")
+      .max(50, "Занадто довге ім'я")
+      .required("Обов'язкове поле"),
+    tel: Yup.string()
+      .matches(/^[+0-9]+$/, "Неправильний номер телефону")
+      .required("Обов'язкове поле"),
+    email: Yup.string()
+      .email("Неправильний email!")
+      .required("Обов'язкове поле"),
+    message: Yup.string()
+      .min(3, "Занадто коротке повідомлення")
+      .max(256, "Занадто довге повідомлення")
+      .required("Обов'язкове поле"),
+  });
+
   return (
     <div>
       <div>{<Header />}</div>
@@ -64,7 +101,75 @@ export default function Contacts() {
         <h2 className={css.contactsTitle}>Напишіть нам</h2>
         <div className={css.contactsSeparatorFirst}></div>
         <div className={css.contactsSeparatorSecond}></div>
+        <Formik
+          initialValues={initialValues}
+          onSubmit={handleSubmit}
+          validationSchema={FeedbackSchema}
+        >
+          <Form className={css.contactsForm}>
+            <label htmlFor={nameFieldId}></label>
+            <Field
+              type="text"
+              name="username"
+              className={css.contactsField}
+              id={nameFieldId}
+              placeholder="Ваше ім'я"
+            />
+            <ErrorMessage
+              name="username"
+              component="div"
+              className={css.errorMessage}
+            />
+
+            <label htmlFor={telFieldId}></label>
+            <Field
+              type="tel"
+              name="tel"
+              className={css.contactsField}
+              id={telFieldId}
+              placeholder="Ваш телефон"
+            />
+            <ErrorMessage
+              name="tel"
+              component="div"
+              className={css.errorMessage}
+              pattern="[0-9]{10}"
+            />
+
+            <label htmlFor={emailFieldId}></label>
+            <Field
+              type="email"
+              name="email"
+              className={css.contactsField}
+              id={emailFieldId}
+              placeholder="Ваш email"
+            />
+            <ErrorMessage
+              name="email"
+              component="div"
+              className={css.errorMessage}
+            />
+
+            <label htmlFor={msgFieldId}></label>
+            <Field
+              type="text"
+              name="message"
+              className={css.contactsField}
+              id={msgFieldId}
+              placeholder="Повідомлення"
+            />
+            <ErrorMessage
+              name="message"
+              component="div"
+              className={css.errorMessage}
+            />
+            <button type="submit" className={css.contactsBtn}>
+              Відправити
+            </button>
+          </Form>
+        </Formik>
       </section>
+      <div>{<Footer />}</div>
     </div>
   );
 }
