@@ -24,10 +24,17 @@ export default function Contacts() {
 
   const handleSubmit = (values, actions) => {
     const serviceID = "service_e3wpv4k"; // ID сервісу
-    const templateID = "template_m2qe71f"; // ID шаблону
+    const templateID = "template_vzsra6n"; // ID шаблону
     const userID = "e12MnpZ3x5N8mVDc9"; // Ваш публічний ключ користувача (User ID)
 
-    emailjs.send(serviceID, templateID, values, userID).then(
+    const templateParams = {
+      to_name: "Соломія", // Можна замінити на конкретне ім'я
+      from_name: values.username, // Ім'я користувача з форми
+      message: values.message, // Повідомлення з форми
+      reply_to: values.email, // Email для відповіді
+    };
+
+    emailjs.send(serviceID, templateID, templateParams, userID).then(
       (response) => {
         console.log("Email sent successfully!", response.status, response.text);
         alert("Ваше повідомлення успішно надіслано!");
