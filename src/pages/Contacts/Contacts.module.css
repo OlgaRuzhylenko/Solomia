@@ -150,6 +150,11 @@
     height: 230px;  
     margin-bottom: 30px;
 }
+@media only screen and (min-width: 1440px) {
+    .contactsTextArea {
+        margin-bottom: 50px;
+    }
+}
 .contactsBtn {
     letter-spacing: 2.56px;
     text-transform: uppercase;
