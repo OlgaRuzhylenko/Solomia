@@ -133,73 +133,77 @@ export default function Contacts() {
           <h2 className={css.contactsTitle}>Напишіть нам</h2>
           <div className={css.contactsSeparatorFirst}></div>
           <div className={css.contactsSeparatorSecond}></div>
-          <Formik
-            initialValues={initialValues}
-            onSubmit={handleSubmit}
-            validationSchema={FeedbackSchema}
-          >
-            <Form className={css.contactsForm}>
-              <label htmlFor={nameFieldId}></label>
-              <Field
-                type="text"
-                name="username"
-                className={css.contactsField}
-                id={nameFieldId}
-                placeholder="Ваше ім'я"
-              />
-              <ErrorMessage
-                name="username"
-                component="div"
-                className={css.errorMessage}
-              />
 
-              <label htmlFor={telFieldId}></label>
-              <Field
-                type="tel"
-                name="tel"
-                className={css.contactsField}
-                id={telFieldId}
-                placeholder="Ваш телефон"
-              />
-              <ErrorMessage
-                name="tel"
-                component="div"
-                className={css.errorMessage}
-                pattern="[0-9]{10}"
-              />
+          <div className={css.contactsFormBox}>
+            <Formik
+              initialValues={initialValues}
+              onSubmit={handleSubmit}
+              validationSchema={FeedbackSchema}
+            >
+              <Form className={css.contactsForm}>
+                <label htmlFor={nameFieldId}></label>
+                <Field
+                  type="text"
+                  name="username"
+                  className={css.contactsField}
+                  id={nameFieldId}
+                  placeholder="Ваше ім'я"
+                />
+                <ErrorMessage
+                  name="username"
+                  component="div"
+                  className={css.errorMessage}
+                />
 
-              <label htmlFor={emailFieldId}></label>
-              <Field
-                type="email"
-                name="email"
-                className={css.contactsField}
-                id={emailFieldId}
-                placeholder="Ваш email"
-              />
-              <ErrorMessage
-                name="email"
-                component="div"
-                className={css.errorMessage}
-              />
+                <label htmlFor={telFieldId}></label>
+                <Field
+                  type="tel"
+                  name="tel"
+                  className={css.contactsField}
+                  id={telFieldId}
+                  placeholder="Ваш телефон"
+                />
+                <ErrorMessage
+                  name="tel"
+                  component="div"
+                  className={css.errorMessage}
+                  pattern="[0-9]{10}"
+                />
 
-              <label htmlFor={msgFieldId}></label>
-              <Field
-                type="text"
-                name="message"
-                className={css.contactsField}
-                id={msgFieldId}
-                placeholder="Повідомлення"
-              />
-              <ErrorMessage
-                name="message"
-                component="div"
-                className={css.errorMessage}
-              />
-              <button type="submit" className={css.contactsBtn}>
-                Відправити
-              </button>
-            </Form>
-          </Formik>
+                <label htmlFor={emailFieldId}></label>
+                <Field
+                  type="email"
+                  name="email"
+                  className={css.contactsField}
+                  id={emailFieldId}
+                  placeholder="Ваш e-mail"
+                />
+                <ErrorMessage
+                  name="email"
+                  component="div"
+                  className={css.errorMessage}
+                />
+
+                <label htmlFor={msgFieldId}></label>
+                <Field
+                  as="textarea"
+                  type="text"
+                  name="message"
+                  className={`${css.contactsField} ${css.contactsTextArea}`}
+                  id={msgFieldId}
+                  placeholder="Повідомлення"
+                />
+                <ErrorMessage
+                  name="message"
+                  component="div"
+                  className={css.errorMessage}
+                />
+                <button type="submit" className={css.contactsBtn}>
+                  Відправити
+                </button>
+              </Form>
+            </Formik>
+          </div>
         </div>
       </section>
       <div>{<Footer />}</div>
