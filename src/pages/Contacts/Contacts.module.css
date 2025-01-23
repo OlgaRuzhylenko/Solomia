@@ -55,8 +55,18 @@
     font-weight: 400;
     line-height: 1.6;
     font-style: normal;
-    margin-bottom: 19px;
+    margin-bottom: 20px;
     text-decoration: none;
+}
+.contactsTel {
+    font-size: 19px;
+    color: #888888;
+    font-weight: 400;
+    line-height: 1.6;
+    font-style: normal;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 .contactsSpanAddress {
     color: #000000;

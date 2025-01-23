@@ -91,7 +91,7 @@ export default function Contacts() {
               Фактична адреса: <br />
               м.Київ, вул. Мрії, 12-М
             </p>
-            <a href="tel:+380664540330" className={css.contactsAddress}>
+            <a href="tel:+380664540330" className={css.contactsTel}>
               тел:
               <span className={css.contactsSpanAddress}>
                 +38 (066) 454 03 30
