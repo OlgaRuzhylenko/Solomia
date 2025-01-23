@@ -6,6 +6,7 @@
 @media only screen and (min-width: 768px) {
     .contactsSection {
         padding-top: 170px;
+        margin-bottom: 100px;
     }
 }
 
@@ -40,6 +41,7 @@
 .contactsMap {
     margin-bottom: 100px;
 }
+
 .contactsTitle {
     font-size: 37px;
     line-height: 1.4;
@@ -86,7 +88,11 @@
 
     margin-bottom: 40px;
 }
-
+@media only screen and (min-width: 768px) {
+    .contactsSocialMediaList {
+        justify-content: flex-start;
+    }
+}
 .contactsSocialMediaItem {
     width: 25px;
     height: 25px;
@@ -125,6 +131,11 @@
     
     margin-bottom: 100px;
 }
+@media only screen and (min-width: 768px) {
+    .contactsFormBox {
+        margin-bottom: 0;
+    }
+}
 .contactsTextArea {
     height: 230px;  
     margin-bottom: 30px;
@@ -141,4 +152,17 @@
     
     display: flex;
     
+}
+@media only screen and (min-width: 768px) {
+    .contactsBox {
+        display: flex;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .contactsBoxFirstElement,
+        .contactsBoxSecondElement {
+            flex: 1;            
+        }
 }

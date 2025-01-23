@@ -79,130 +79,136 @@ export default function Contacts() {
           ></iframe>
         </div>
         <div className="container">
-          <h2 className={css.contactsTitle}>Контакти</h2>
-          <div className={css.contactsSeparatorFirst}></div>
-          <div className={css.contactsSeparatorSecond}></div>
-          <address className={css.contactsAddressSection}>
-            <p className={css.contactsAddress}>
-              Юридична адреса:
-              <br /> м.Київ, вул. Берковецька, 6-A
-            </p>
-            <p className={css.contactsAddress}>
-              Фактична адреса: <br />
-              м.Київ, вул. Мрії, 12-М
-            </p>
-            <a href="tel:+380664540330" className={css.contactsTel}>
-              тел:
-              <span className={css.contactsSpanAddress}>
-                +38 (066) 454 03 30
-              </span>
-            </a>
-            <br />
-            <a
-              href="mailto:info@solomia.com.ua"
-              className={css.contactsAddress}
-            >
-              e-mail:
-              <span className={css.contactsSpanAddress}>
-                info@solomia.com.ua
-              </span>
-            </a>
-          </address>
-          <ul className={css.contactsSocialMediaList}>
-            <li className={css.contactsSocialMediaItem}>
-              <a
-                href="https://www.facebook.com/solomia.ukraine/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={css.socialMediaLink}
-              >
-                {<BsFacebook className={css.socialMediaSvg} />}
-              </a>
-            </li>
-            <li className={css.contactsSocialMediaItem}>
-              <a
-                href="https://www.instagram.com/solomia.com.ua/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={css.socialMediaLink}
-              >
-                {<BsInstagram className={css.socialMediaSvg} />}
-              </a>
-            </li>
-          </ul>
-          <h2 className={css.contactsTitle}>Напишіть нам</h2>
-          <div className={css.contactsSeparatorFirst}></div>
-          <div className={css.contactsSeparatorSecond}></div>
+          <div className={css.contactsBox}>
+            <div className={css.contactsBoxFirstElement}>
+              <h2 className={css.contactsTitle}>Контакти</h2>
+              <div className={css.contactsSeparatorFirst}></div>
+              <div className={css.contactsSeparatorSecond}></div>
+              <address className={css.contactsAddressSection}>
+                <p className={css.contactsAddress}>
+                  Юридична адреса:
+                  <br /> м.Київ, вул. Берковецька, 6-A
+                </p>
+                <p className={css.contactsAddress}>
+                  Фактична адреса: <br />
+                  м.Київ, вул. Мрії, 12-М
+                </p>
+                <a href="tel:+380664540330" className={css.contactsTel}>
+                  тел:
+                  <span className={css.contactsSpanAddress}>
+                    +38 (066) 454 03 30
+                  </span>
+                </a>
+                <br />
+                <a
+                  href="mailto:info@solomia.com.ua"
+                  className={css.contactsAddress}
+                >
+                  e-mail:
+                  <span className={css.contactsSpanAddress}>
+                    info@solomia.com.ua
+                  </span>
+                </a>
+              </address>
+              <ul className={css.contactsSocialMediaList}>
+                <li className={css.contactsSocialMediaItem}>
+                  <a
+                    href="https://www.facebook.com/solomia.ukraine/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={css.socialMediaLink}
+                  >
+                    {<BsFacebook className={css.socialMediaSvg} />}
+                  </a>
+                </li>
+                <li className={css.contactsSocialMediaItem}>
+                  <a
+                    href="https://www.instagram.com/solomia.com.ua/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={css.socialMediaLink}
+                  >
+                    {<BsInstagram className={css.socialMediaSvg} />}
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className={css.contactsBoxSecondElement}>
+              <h2 className={css.contactsTitle}>Напишіть нам</h2>
+              <div className={css.contactsSeparatorFirst}></div>
+              <div className={css.contactsSeparatorSecond}></div>
 
-          <div className={css.contactsFormBox}>
-            <Formik
-              initialValues={initialValues}
-              onSubmit={handleSubmit}
-              validationSchema={FeedbackSchema}
-            >
-              <Form className={css.contactsForm}>
-                <label htmlFor={nameFieldId}></label>
-                <Field
-                  type="text"
-                  name="username"
-                  className={css.contactsField}
-                  id={nameFieldId}
-                  placeholder="Ваше ім'я"
-                />
-                <ErrorMessage
-                  name="username"
-                  component="div"
-                  className={css.errorMessage}
-                />
+              <div className={css.contactsFormBox}>
+                <Formik
+                  initialValues={initialValues}
+                  onSubmit={handleSubmit}
+                  validationSchema={FeedbackSchema}
+                >
+                  <Form className={css.contactsForm}>
+                    <label htmlFor={nameFieldId}></label>
+                    <Field
+                      type="text"
+                      name="username"
+                      className={css.contactsField}
+                      id={nameFieldId}
+                      placeholder="Ваше ім'я"
+                    />
+                    <ErrorMessage
+                      name="username"
+                      component="div"
+                      className={css.errorMessage}
+                    />
 
-                <label htmlFor={telFieldId}></label>
-                <Field
-                  type="tel"
-                  name="tel"
-                  className={css.contactsField}
-                  id={telFieldId}
-                  placeholder="Ваш телефон"
-                />
-                <ErrorMessage
-                  name="tel"
-                  component="div"
-                  className={css.errorMessage}
-                  pattern="[0-9]{10}"
-                />
+                    <label htmlFor={telFieldId}></label>
+                    <Field
+                      type="tel"
+                      name="tel"
+                      className={css.contactsField}
+                      id={telFieldId}
+                      placeholder="Ваш телефон"
+                    />
+                    <ErrorMessage
+                      name="tel"
+                      component="div"
+                      className={css.errorMessage}
+                      pattern="[0-9]{10}"
+                    />
 
-                <label htmlFor={emailFieldId}></label>
-                <Field
-                  type="email"
-                  name="email"
-                  className={css.contactsField}
-                  id={emailFieldId}
-                  placeholder="Ваш e-mail"
-                />
-                <ErrorMessage
-                  name="email"
-                  component="div"
-                  className={css.errorMessage}
-                />
+                    <label htmlFor={emailFieldId}></label>
+                    <Field
+                      type="email"
+                      name="email"
+                      className={css.contactsField}
+                      id={emailFieldId}
+                      placeholder="Ваш e-mail"
+                    />
+                    <ErrorMessage
+                      name="email"
+                      component="div"
+                      className={css.errorMessage}
+                    />
 
-                <label htmlFor={msgFieldId}></label>
-                <Field
-                  as="textarea"
-                  type="text"
-                  name="message"
-                  className={`${css.contactsField} ${css.contactsTextArea}`}
-                  id={msgFieldId}
-                  placeholder="Повідомлення"
-                />
-                <ErrorMessage
-                  name="message"
-                  component="div"
-                  className={css.errorMessage}
-                />
-                <button type="submit" className={css.contactsBtn}>
-                  Відправити
-                </button>
-              </Form>
-            </Formik>
+                    <label htmlFor={msgFieldId}></label>
+                    <Field
+                      as="textarea"
+                      type="text"
+                      name="message"
+                      className={`${css.contactsField} ${css.contactsTextArea}`}
+                      id={msgFieldId}
+                      placeholder="Повідомлення"
+                    />
+                    <ErrorMessage
+                      name="message"
+                      component="div"
+                      className={css.errorMessage}
+                    />
+                    <button type="submit" className={css.contactsBtn}>
+                      Відправити
+                    </button>
+                  </Form>
+                </Formik>
+              </div>
+            </div>
           </div>
         </div>
       </section>
