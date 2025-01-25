@@ -58,18 +58,3 @@
     }
 }
 
-@keyframes slideIn {
-    from {
-        transform: translateX(-100%);
-        /* Початкове положення за межами екрану */
-        opacity: 0;
-        /* Непрозорість на початку */
-    }
-
-    to {
-        transform: translateX(0);
-        /* Кінцеве положення */
-        opacity: 1;
-        /* Повна прозорість */
-    }
-}
