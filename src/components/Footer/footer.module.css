@@ -101,6 +101,24 @@ margin-bottom: 30px;
     line-height: 1;
     font-weight: 400;
     color: #FFFFFF;
+
+    position: relative;
+}
+
+.footerNavLink::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color:#474249;
+    transition: width 0.3s ease;
+}
+
+.footerNavLink:hover::after,
+.footerNavLink:focus::after {
+    width: 100%;
 }
 .footerCopy{
     text-align: center;

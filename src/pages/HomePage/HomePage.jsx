@@ -90,7 +90,6 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* <div className={css.brendsLink}>{<Brands />}</div> */}
         <div className={css.brendsLink}>{<BrandsComponent />}</div>
         <section className={css.mission}>
           <NavLink to="/mission-and-values">

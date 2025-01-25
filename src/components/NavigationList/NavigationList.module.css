@@ -12,14 +12,36 @@
         column-gap: 25px;
       }
     }
+
+
   .navigationItem {
     font-size: 16px;
     letter-spacing: 2.5px;
     text-transform: uppercase;
     line-height: 1.6;
     color: #FFFFFF;
-    text-decoration: none;
+    text-decoration: none;  
+    
+    position: relative;
   }
+  
+     .navigationItem::after {
+       content: "";
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       width: 0;
+       height: 1px;
+       background-color: #FFFFFF;
+       transition: width 0.3s ease;
+     }
+  
+     .navigationItem:hover::after,
+     .navigationItem:focus::after {
+       width: 100%;
+     }
+
+
     @media only screen and (min-width: 1440px) {
       .navigationItem {
         font-size: 20px;

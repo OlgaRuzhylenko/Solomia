@@ -5,6 +5,7 @@ export default function SubMenuBrands({ onNavigate }) {
   const handleLinkClick = () => {
     onNavigate();
   };
+
   return (
     <div className={css.subtitleList}>
       <NavLink

@@ -47,6 +47,7 @@
 @media only screen and (min-width: 768px) {
     .brandsList {
         display: flex;
+        animation: slideIn 1.25s ease-in-out;
     }
 }
 
@@ -57,7 +58,18 @@
     }
 }
 
-/* .brandsItem {
-    animation-name: 
-    animation-duration: 1.25s;
-} */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        /* Початкове положення за межами екрану */
+        opacity: 0;
+        /* Непрозорість на початку */
+    }
+
+    to {
+        transform: translateX(0);
+        /* Кінцеве положення */
+        opacity: 1;
+        /* Повна прозорість */
+    }
+}
