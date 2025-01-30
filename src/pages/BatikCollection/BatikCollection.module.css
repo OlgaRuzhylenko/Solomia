@@ -19,6 +19,7 @@
 }
 .mainBatikCollectionSection {
     background-image: url(../../images/batik/batik-classic-bgd.jpg);
+    background-color: #61362f;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

@@ -1,14 +1,14 @@
 import { NavLink } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import domashniyLogo from "../../images/domashniyChai/logo_dom.png";
-import domashniyImg1 from "../../images/domashniyChai/1.png";
-import domashniyImg2 from "../../images/domashniyChai/2.png";
-import domashniyImg3 from "../../images/domashniyChai/3.png";
-import domashniyImg4 from "../../images/domashniyChai/4.png";
-import domashniyImg5 from "../../images/domashniyChai/5.png";
-import domashniyImg6 from "../../images/domashniyChai/6.png";
-import domashniyImg7 from "../../images/domashniyChai/7.png";
-import domashniyImg8 from "../../images/domashniyChai/8.png";
+import domashniyImg1 from "../../images/domashniyChai/1.jpg";
+import domashniyImg2 from "../../images/domashniyChai/2.jpg";
+import domashniyImg3 from "../../images/domashniyChai/3.jpg";
+import domashniyImg4 from "../../images/domashniyChai/4.jpg";
+import domashniyImg5 from "../../images/domashniyChai/5.jpg";
+import domashniyImg6 from "../../images/domashniyChai/6.jpg";
+import domashniyImg7 from "../../images/domashniyChai/7.jpg";
+import domashniyImg8 from "../../images/domashniyChai/8.jpg";
 import Footer from "../../components/Footer/Footer";
 import css from "./DomashniyPages.module.css";
 

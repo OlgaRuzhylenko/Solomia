@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import ardenCrema250Img from "../../../images/arden/4.png";
+import ardenCrema250Img from "../../../images/arden/4.jpg";
 import css from "./ArdenCrema250.module.css";
 
 export default function ArdenCrema250() {

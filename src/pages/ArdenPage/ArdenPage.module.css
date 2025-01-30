@@ -11,6 +11,7 @@
 }
 .mainArdenPageSection {
     background-image: url(../../images/arden/arden_back.jpg);
+    background-color: #6e6259;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

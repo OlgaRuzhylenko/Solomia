@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import askoldNobleFbop180mu from "../../../images/askold/askoldNoble/8.png";
+import askoldNobleFbop180mu from "../../../images/askold/askoldNoble/8.jpg";
 import css from "./AskoldNobleFbop180mu.module.css";
 
 export default function AskoldNobleFbop180mu() {

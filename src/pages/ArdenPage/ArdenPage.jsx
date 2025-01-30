@@ -1,15 +1,15 @@
 import { NavLink } from "react-router-dom";
 import Header from "../../components/Header/Header";
 import ardenLogo from "../../images/arden/logo_arden.png";
-import ardenImg1 from "../../images/arden/1.png";
-import ardenImg2 from "../../images/arden/2.png";
-import ardenImg3 from "../../images/arden/3.png";
-import ardenImg4 from "../../images/arden/4.png";
-import ardenImg5 from "../../images/arden/5.png";
-import ardenImg6 from "../../images/arden/6.png";
-import ardenImg7 from "../../images/arden/7.png";
-import ardenImg8 from "../../images/arden/8.png";
-import ardenImg9 from "../../images/arden/9.png";
+import ardenImg1 from "../../images/arden/1.jpg";
+import ardenImg2 from "../../images/arden/2.jpg";
+import ardenImg3 from "../../images/arden/3.jpg";
+import ardenImg4 from "../../images/arden/4.jpg";
+import ardenImg5 from "../../images/arden/5.jpg";
+import ardenImg6 from "../../images/arden/6.jpg";
+import ardenImg7 from "../../images/arden/7.jpg";
+import ardenImg8 from "../../images/arden/8.jpg";
+import ardenImg9 from "../../images/arden/9.jpg";
 import Footer from "../../components/Footer/Footer";
 import css from "./ArdenPage.module.css";
 

@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import askoldNobleOPA150mu from "../../../images/askold/askoldNoble/10.png";
+import askoldNobleOPA150mu from "../../../images/askold/askoldNoble/10.jpg";
 import css from "./AskoldNobleOPA150mu.module.css";
 
 export default function AskoldNobleOPA150mu() {

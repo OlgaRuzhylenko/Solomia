@@ -11,6 +11,7 @@
 }
 .mainDomashniySection {
     background-image: url(../../images/domashniyChai/domashniy_back.jpg);
+    background-color: #a20000;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

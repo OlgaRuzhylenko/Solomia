@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import ardenArabica250Img from "../../../images/arden/3.png";
+import ardenArabica250Img from "../../../images/arden/3.jpg";
 import css from "./ArdenArabica250.module.css";
 
 export default function ArdenArabica250() {

@@ -22,6 +22,7 @@
 }
 .mainBatikGoldCollectionSection {
     background-image: url(../../images/batik/batik-gold-bgd.jpg);
+    background-color: #900000;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

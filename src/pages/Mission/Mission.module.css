@@ -16,7 +16,7 @@
 }
 .mission {
     background-image: url(../../images/mission.jpg);
-    background-color: #2a2a2a;
+    background-color: #533b35;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -164,6 +164,7 @@
 @media only screen and (min-width: 1024px) {
     .firstMissionListWrap {
     background-image: url(../../images/hands.jpg);
+    background-color: #fff;
     background-repeat: no-repeat;
     background-size: 130%;
     background-position: right;
@@ -194,6 +195,7 @@
 @media only screen and (min-width: 1024px) {
     .secondMissionListWrap {
     background-image: url(../../images/aboutUs/aboutUsCup.jpg);
+    background-color: #fff;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;

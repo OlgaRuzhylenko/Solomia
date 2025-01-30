@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import domashniiChaiLymonnyi30PBImg from "../../../images/domashniyChai/4.png";
+import domashniiChaiLymonnyi30PBImg from "../../../images/domashniyChai/4.jpg";
 import css from "./DomashniiChaiLymonnyi30PB.module.css";
 
 export default function DomashniiChaiLymonnyi30PB() {

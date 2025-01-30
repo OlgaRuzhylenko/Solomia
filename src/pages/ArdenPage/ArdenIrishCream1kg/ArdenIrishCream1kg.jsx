@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import ardenIrishCream1kgImg from "../../../images/arden/6.png";
+import ardenIrishCream1kgImg from "../../../images/arden/6.jpg";
 import css from "./ArdenIrishCream1kg.module.css";
 
 export default function ArdenIrishCream1kg() {

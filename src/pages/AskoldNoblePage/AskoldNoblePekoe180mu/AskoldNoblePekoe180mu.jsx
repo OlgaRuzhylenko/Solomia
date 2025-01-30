@@ -1,6 +1,6 @@
 import Footer from "../../../components/Footer/Footer";
 import Header from "../../../components/Header/Header";
-import askoldNoblePekoe180mu from "../../../images/askold/askoldNoble/9.png";
+import askoldNoblePekoe180mu from "../../../images/askold/askoldNoble/9.jpg";
 import css from "./AskoldNoblePekoe180mu.module.css";
 
 export default function AskoldNoblePekoe180mu() {

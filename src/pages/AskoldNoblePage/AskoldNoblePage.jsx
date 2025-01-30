@@ -9,9 +9,9 @@ import askoldNobleImg4 from "../../images/askold/askoldNoble/4.jpg";
 import askoldNobleImg5 from "../../images/askold/askoldNoble/5.jpg";
 import askoldNobleImg6 from "../../images/askold/askoldNoble/6.jpg";
 import askoldNobleImg7 from "../../images/askold/askoldNoble/7.jpg";
-import askoldNobleImg8 from "../../images/askold/askoldNoble/8.png";
-import askoldNobleImg9 from "../../images/askold/askoldNoble/9.png";
-import askoldNobleImg10 from "../../images/askold/askoldNoble/10.png";
+import askoldNobleImg8 from "../../images/askold/askoldNoble/8.jpg";
+import askoldNobleImg9 from "../../images/askold/askoldNoble/9.jpg";
+import askoldNobleImg10 from "../../images/askold/askoldNoble/10.jpg";
 import css from "./AskoldNoblePage.module.css";
 import Footer from "../../components/Footer/Footer";
 
