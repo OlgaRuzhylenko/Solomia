@@ -140,6 +140,7 @@
     justify-content: center;  
     
     margin-bottom: 100px;
+    
 }
 @media only screen and (min-width: 768px) {
     .contactsFormBox {
@@ -187,4 +188,7 @@
         .contactsBoxSecondElement {
             flex: 1;            
         }
+}
+.contactsForm {
+    width: 100%;
 }
