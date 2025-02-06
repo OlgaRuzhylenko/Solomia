@@ -25,6 +25,7 @@
 @media only screen and (min-width: 768px) {
     .askoldNobleGreenTea50Box {
         display: flex;
+        align-items: center;
     }
 }
 
@@ -43,6 +44,7 @@
     .askoldNobleGreenTea50Img {
         width: 512px;
         margin-right: 30px;
+        margin-top: 0px;
     }
 }
 

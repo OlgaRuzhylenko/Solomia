@@ -26,6 +26,7 @@
 @media only screen and (min-width: 768px) {
     .askoldNobleEarlGray50Box {
         display: flex;
+        align-items: center;
     }
 }
 
@@ -44,6 +45,7 @@
     .askoldNobleEarlGray50Img {
         width: 512px;
         margin-right: 30px;
+        margin-top: 0px;
     }
 }
 
