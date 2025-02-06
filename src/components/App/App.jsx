@@ -315,7 +315,7 @@ export default function App() {
   return (
     // <Layout className="container">
     <Layout>
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about-us" element={<AboutUs />} />
