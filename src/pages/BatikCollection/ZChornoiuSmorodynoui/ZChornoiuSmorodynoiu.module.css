@@ -24,9 +24,9 @@
 @media only screen and (min-width: 768px) {
     .zChornoiuSmorodynoiuBox {
         display: flex;
+        align-items: center;
     }
 }
-
 @media only screen and (min-width: 1440px) {
     .zChornoiuSmorodynoiuBox {
         padding-left: 60px;
@@ -41,13 +41,14 @@
     .zChornoiuSmorodynoiuImg {
         width: 512px;
         margin-right: 30px;
+        margin-top: 0;
     }
 }
 
 @media only screen and (min-width: 1440px) {
     .zChornoiuSmorodynoiuImg {
         width: 550px;
-        margin-left: 40px;
+        margin-left: 40px;        
     }
 }
 @media only screen and (min-width: 768px) {

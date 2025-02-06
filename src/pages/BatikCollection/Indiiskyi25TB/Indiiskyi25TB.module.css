@@ -24,6 +24,7 @@
 @media only screen and (min-width: 768px) {
     .indiiskyi50Box {
         display: flex;
+        align-items: center;
     }
 }
 
@@ -41,6 +42,7 @@
     .indiiskyi50Img {
         width: 512px;
         margin-right: 30px;
+        margin-top: 0px;
     }
 }
 

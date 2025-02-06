@@ -24,6 +24,7 @@
 @media only screen and (min-width: 768px) {
     .vysokohirnyi100Box {
         display: flex;
+        align-items: center;
     }
 }
 
@@ -162,6 +163,7 @@
     .vysokohirnyi100Img {
         width: 512px;
         margin-right: 30px;
+        margin-top: 0px;
     }
 }
 
