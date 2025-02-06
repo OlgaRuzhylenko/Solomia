@@ -24,6 +24,7 @@
     "react-lazy-load": "^4.0.1",
     "react-responsive": "^10.0.0",
     "react-router-dom": "^6.26.2",
+    "react-spring": "^9.7.5",
     "swiper": "^11.1.14",
     "yup": "^1.6.1"
   },

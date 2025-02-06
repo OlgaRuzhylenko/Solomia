@@ -55,6 +55,9 @@
     .brandsImg {
         display: block;
         width: 1200px;
+        transition: transform 0.3s ease-in-out;
     }
 }
-
+.brandsItem:hover .brandsImg {
+    transform: scale(1.1);
+}

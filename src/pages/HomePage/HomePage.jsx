@@ -3,8 +3,6 @@ import mainLogo from "../../images/mainLogo.png";
 import achievImg from "../../images/vybirKrainy.jpg";
 import nationalCashbackImg from "../../images/nationalCashBack.jpg";
 import missionLogo from "../../images/missionLogo.png";
-import AboutUs from "../AboutUs/AboutUs";
-import Brands from "../Brands/Brands";
 import News from "../News/News";
 import Footer from "../../components/Footer/Footer";
 import NavigationList from "../../components/NavigationList/NavigationList";
@@ -91,6 +89,7 @@ export default function HomePage() {
         </div>
 
         <div className={css.brendsLink}>{<BrandsComponent />}</div>
+
         <section className={css.mission}>
           <NavLink to="/mission-and-values">
             <img
