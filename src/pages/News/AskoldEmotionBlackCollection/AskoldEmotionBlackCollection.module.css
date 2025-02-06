@@ -1,0 +1,142 @@
+.askoldEmBlackCollSection {
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+    .askoldEmBlackCollSection {
+        padding-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .askoldEmBlackCollSection {
+        padding-top: 190px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .askoldEmBlackCollArticle {
+        padding-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .askoldEmBlackCollArticle::after {
+        content: "";
+        width: 100%;
+        border: 1px solid #ebeced;
+        margin-bottom: 30px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .askoldEmBlackCollArticle::after {
+        margin-bottom: 100px;
+    }
+}
+.askoldEmBlackCollMainTitle {
+    color: #474249;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .askoldEmBlackCollMainTitle {
+        font-size: 40px;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .askoldEmBlackCollMainTitle {
+        margin-bottom: 40px;
+        font-size: 48px;
+    }
+}
+.askoldEmBlackCollImg {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .askoldEmBlackCollImg {
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .askoldEmBlackCollImg {
+        width: 115%;
+    }
+}
+.askoldEmBlackCollDesc {
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: justify;
+    color: #888888;
+
+    margin-bottom: 18px;
+}
+.askoldEmBlackCollList {
+    margin-bottom: 18px;
+}
+@media only screen and (min-width: 768px) {
+    .askoldEmBlackCollList {
+        margin-bottom: 100px;
+    }
+}
+.askoldEmBlackCollItem {
+    margin-bottom: 18px;
+}
+
+.askoldEmBlackCollItem:last-child {
+    margin-bottom: 0;
+}
+.askoldEmBlackCollItemCircle1 {
+    background-color: rgba(71, 3, 3, 0.795);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+.askoldEmBlackCollItemCircle2 {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+}
+.askoldEmBlackCollItemCircle3 {
+    background-color: rgb(233, 230, 42);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+.askoldEmBlackCollItemCircle4 {
+    background-color: rgba(134, 33, 216, 0.822);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+.askoldEmBlackCollText {
+    text-align: justify;
+    align-items: center;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #888888;
+    display: ruby;
+
+    margin-bottom: 18px;
+}
+@media only screen and (min-width: 1024px) {
+    .askoldEmBlackCollText {
+        font-size: 18px;
+    }
+}

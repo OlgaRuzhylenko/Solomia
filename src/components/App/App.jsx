@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
+import AskoldEmotionBlackCollection from "../../pages/News/AskoldEmotionBlackCollection/AskoldEmotionBlackCollection";
 
 const AboutUs = lazy(() => import("../../pages/AboutUs/AboutUs"));
 const Brands = lazy(() => import("../../pages/Brands/Brands"));
@@ -344,6 +345,10 @@ export default function App() {
           <Route
             path="/batik-gold-collection"
             element={<BatikGoldCollection />}
+          />
+          <Route
+            path="/askold-emotion-black-collection"
+            element={<AskoldEmotionBlackCollection />}
           />
           <Route path="/made-in-ukraine" element={<NationalCashback />} />
           <Route path="/facts-about-coffee" element={<FactsAboutCoffee />} />

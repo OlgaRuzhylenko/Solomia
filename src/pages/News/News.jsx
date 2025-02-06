@@ -5,6 +5,7 @@ import coffe375 from "../../images/news/arden375.jpg";
 import coffe1054 from "../../images/news/arden1054.jpg";
 import madeInUkraine375 from "../../images/news/made-ua375.jpg";
 import madeInUkraine1054 from "../../images/news/news-ua1054.jpg";
+import asortiBlack from "../../images/news/asortie_black.jpg";
 import uaSvg from "../../images/svg/ua02.svg";
 import css from "./News.module.css";
 
@@ -15,6 +16,46 @@ export default function News() {
         <div className={css.newsWrapper}>
           {/* <h2 className={css.title}>Новини</h2> */}
           <ul className={css.list}>
+            <li className={css.item}>
+              <picture>
+                <source
+                  srcSet={`${asortiBlack} 1x`}
+                  media="(min-width: 1440px)"
+                  type="image/jpeg"
+                />
+                <source
+                  srcSet={`${asortiBlack} 1x`}
+                  media="(min-width: 768px)"
+                  type="image/jpeg"
+                />
+                <source srcSet={`${asortiBlack} 1x`} type="image/jpeg" />
+                <img
+                  src={asortiBlack}
+                  alt="зображення пачки чаю Аскольд Emotion Black Collection"
+                  className={css.img}
+                ></img>
+              </picture>
+              <div className={css.descriptionWrap}>
+                <h3 className={css.description}>
+                  Нова чайна колекція для поціновувачів чорного чаю та вишуканих
+                  композицій на основі чорного чаю Askold Emotion “Black tea
+                  Collection”
+                </h3>
+                <p className={css.text}>
+                  Вже у продажі 4 улюблені смаки в одній пачці!
+                </p>
+                <NavLink
+                  to="/askold-emotion-black-collection"
+                  className={css.link}
+                >
+                  <p className={css.linkText}>Детальніше</p>
+                </NavLink>
+              </div>
+              <div className={css.date}>
+                <time datetime="2025-01-31">31 Січня, 2025</time>
+              </div>
+            </li>
+
             <li className={css.item}>
               <picture>
                 <source
@@ -30,7 +71,7 @@ export default function News() {
                 <source srcSet={`${madeInUkraine375} 1x`} type="image/jpeg" />
                 <img
                   src={madeInUkraine375}
-                  alt="забраження пачок чаю Батік, Аскольд та Аскольд Нобл і штрихкоду зроблено в Україні"
+                  alt="зображення пачок чаю Батік, Аскольд та Аскольд Нобл і штрихкоду зроблено в Україні"
                   className={css.img}
                 ></img>
               </picture>
@@ -76,7 +117,7 @@ export default function News() {
                 <source srcSet={`${batikAtb375} 1x`} type="image/jpeg" />
                 <img
                   src={batikAtb375}
-                  alt="забраження двох пачок чаю Батік із емблемобю магазину АТБ"
+                  alt="зображення двох пачок чаю Батік із емблемобю магазину АТБ"
                   className={css.img}
                 ></img>
               </picture>
@@ -114,7 +155,7 @@ export default function News() {
                 <source srcSet={`${coffe375} 1x`} type="image/jpeg" />
                 <img
                   src={coffe375}
-                  alt="забраження двох пачок чаю Батік із емблемобю магазину АТБ"
+                  alt="зображення двох пачок чаю Батік із емблемобю магазину АТБ"
                   className={css.img}
                 ></img>
               </picture>
