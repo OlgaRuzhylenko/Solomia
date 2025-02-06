@@ -11,7 +11,7 @@ export default function AskoldEmotionBlackCollection() {
         <div className="container">
           <article className={css.askoldEmBlackCollArticle}>
             <h1 className={css.askoldEmBlackCollMainTitle}>
-              Усі в плюсі, коли купуєш і продаєш українське!
+              Вже у продажі 4 улюблені смаки в одній пачці!
             </h1>
             <img
               src={asortiBlack}
