@@ -60,7 +60,7 @@ export default function AskoldEmotionBlackCollection() {
               Цей набір створений для тих, хто любить відкривати нові смаки та
               насолоджуватися вишуканим та смачним чаєм!
             </p>
-            <p className={css.askoldEmBlackCollDesc}>
+            <p className={css.askoldEmBlackCollLastDesc}>
               Askold Emotion – смакуйте кожну мить!
             </p>
           </article>
