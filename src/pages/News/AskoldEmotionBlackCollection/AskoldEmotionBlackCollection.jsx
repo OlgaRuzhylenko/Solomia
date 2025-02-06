@@ -11,9 +11,7 @@ export default function AskoldEmotionBlackCollection() {
         <div className="container">
           <article className={css.askoldEmBlackCollArticle}>
             <h1 className={css.askoldEmBlackCollMainTitle}>
-              Нова чайна колекція для поціновувачів чорного чаю та вишуканих
-              композицій на основі чорного чаю Askold Emotion "Black tea
-              Collection"
+              Усі в плюсі, коли купуєш і продаєш українське!
             </h1>
             <img
               src={asortiBlack}
