@@ -81,7 +81,7 @@ export default function Contacts() {
         <div className="container">
           <div className={css.contactsBox}>
             <div className={css.contactsBoxFirstElement}>
-              <h2 className={css.contactsTitle}>Контакти</h2>
+              <h2 className={css.contactsTitleFirst}>Контакти</h2>
               {/* <div className={css.contactsSeparatorFirst}></div> */}
               {/* <div className={css.contactsSeparatorSecond}></div> */}
               <address className={css.contactsAddressSection}>
@@ -134,7 +134,7 @@ export default function Contacts() {
               </ul>
             </div>
             <div className={css.contactsBoxSecondElement}>
-              <h2 className={css.contactsTitle}>Напишіть нам</h2>
+              <h2 className={css.contactsTitleSecond}>Напишіть нам</h2>
               {/* <div className={css.contactsSeparatorFirst}></div> */}
               {/* <div className={css.contactsSeparatorSecond}></div> */}
 

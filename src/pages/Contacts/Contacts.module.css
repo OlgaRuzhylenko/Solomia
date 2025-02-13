@@ -42,7 +42,16 @@
     margin-bottom: 100px;
 }
 
-.contactsTitle {
+.contactsTitleFirst {
+    font-size: 37px;
+    line-height: 1.4;
+    letter-spacing: 1.7px;
+    color: #423930;
+    font-weight: 400;
+
+    margin-bottom: 10px;
+}
+.contactsTitleSecond {
     font-size: 37px;
     line-height: 1.4;
     letter-spacing: 1.7px;
