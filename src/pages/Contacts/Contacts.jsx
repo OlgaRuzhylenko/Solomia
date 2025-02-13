@@ -82,8 +82,8 @@ export default function Contacts() {
           <div className={css.contactsBox}>
             <div className={css.contactsBoxFirstElement}>
               <h2 className={css.contactsTitle}>Контакти</h2>
-              <div className={css.contactsSeparatorFirst}></div>
-              <div className={css.contactsSeparatorSecond}></div>
+              {/* <div className={css.contactsSeparatorFirst}></div> */}
+              {/* <div className={css.contactsSeparatorSecond}></div> */}
               <address className={css.contactsAddressSection}>
                 <p className={css.contactsAddress}>
                   Юридична адреса:
@@ -135,8 +135,8 @@ export default function Contacts() {
             </div>
             <div className={css.contactsBoxSecondElement}>
               <h2 className={css.contactsTitle}>Напишіть нам</h2>
-              <div className={css.contactsSeparatorFirst}></div>
-              <div className={css.contactsSeparatorSecond}></div>
+              {/* <div className={css.contactsSeparatorFirst}></div> */}
+              {/* <div className={css.contactsSeparatorSecond}></div> */}
 
               <div className={css.contactsFormBox}>
                 <Formik

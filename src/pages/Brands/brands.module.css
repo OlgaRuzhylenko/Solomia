@@ -106,6 +106,7 @@ margin-bottom: 32px;
 @media only screen and (min-width: 1024px) {
     .brandsTitle {
         font-size: 20px;
+        text-align: center;
     }
 }
 @media only screen and (min-width: 1440px) {
