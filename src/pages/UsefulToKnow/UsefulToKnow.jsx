@@ -35,7 +35,8 @@ export default function UsefulToKnow() {
                   нами.
                 </p>
                 <NavLink to="/facts-about-coffee" className={css.link}>
-                  <p className={css.usefulToKnowlink}>Читати далі </p>
+                  {/* <p className={css.usefulToKnowlink}>Читати далі </p> */}
+                  <p className={css.linkText}>Детальніше</p>
                 </NavLink>
               </div>
             </li>
@@ -56,7 +57,8 @@ export default function UsefulToKnow() {
                   зерен – Арабіка і Робуста та розкриємо їхні таємниці.
                 </p>
                 <NavLink to="/arabica-or-robusta" className={css.link}>
-                  <p className={css.usefulToKnowlink}>Читати далі </p>
+                  {/* <p className={css.usefulToKnowlink}>Читати далі </p> */}
+                  <p className={css.linkText}>Детальніше</p>
                 </NavLink>
               </div>
             </li>
@@ -79,7 +81,8 @@ export default function UsefulToKnow() {
                   – час і привід зібратися разом.
                 </p>
                 <NavLink to="/why-is-tea-called-tea" className={css.link}>
-                  <p className={css.usefulToKnowlink}>Читати далі </p>
+                  {/* <p className={css.usefulToKnowlink}>Читати далі </p> */}
+                  <p className={css.linkText}>Детальніше</p>
                 </NavLink>
               </div>
             </li>
@@ -101,7 +104,8 @@ export default function UsefulToKnow() {
                   чаю, який ви купуєте. Однак це лише підказки, а не правила.
                 </p>
                 <NavLink to="/quality-of-tea" className={css.link}>
-                  <p className={css.usefulToKnowlink}>Читати далі </p>
+                  {/* <p className={css.usefulToKnowlink}>Читати далі </p> */}
+                  <p className={css.linkText}>Детальніше</p>
                 </NavLink>
               </div>
             </li>
@@ -124,7 +128,8 @@ export default function UsefulToKnow() {
                   назви?
                 </p>
                 <NavLink to="/tea-leaf-standards" className={css.link}>
-                  <p className={css.usefulToKnowlink}>Читати далі </p>
+                  {/* <p className={css.usefulToKnowlink}>Читати далі </p> */}
+                  <p className={css.linkText}>Детальніше</p>
                 </NavLink>
               </div>
             </li>
@@ -147,7 +152,8 @@ export default function UsefulToKnow() {
                   заздалегідь, їх можна не допустити і отримати винятковий чай.
                 </p>
                 <NavLink to="/7-mistakes" className={css.link}>
-                  <p className={css.usefulToKnowlink}>Читати далі </p>
+                  {/* <p className={css.usefulToKnowlink}>Читати далі </p> */}
+                  <p className={css.linkText}>Детальніше</p>
                 </NavLink>
               </div>
             </li>
