@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
+import ScrollToTop from "../../ScrollToTop";
 import AskoldEmotionBlackCollection from "../../pages/News/AskoldEmotionBlackCollection/AskoldEmotionBlackCollection";
 import BlackTeaCollection from "../../pages/AskoldPage/BlackTeaCollection/BlackTeaCollection";
 
@@ -317,6 +318,7 @@ export default function App() {
     // <Layout className="container">
     <Layout>
       <Suspense>
+        {<ScrollToTop />}
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about-us" element={<AboutUs />} />
