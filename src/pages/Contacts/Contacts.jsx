@@ -87,11 +87,11 @@ export default function Contacts() {
               <address className={css.contactsAddressSection}>
                 <p className={css.contactsAddress}>
                   Юридична адреса:
-                  <br /> м.Київ, вул. Берковецька, 6-A
+                  <br /> м.Київ, вул. Берковецька, 6 A
                 </p>
                 <p className={css.contactsAddress}>
                   Фактична адреса: <br />
-                  м.Київ, вул. Мрії, 12-М
+                  м.Київ, вул. Мрії, 12 М
                 </p>
                 <a href="tel:+380664540330" className={css.contactsTel}>
                   тел:
