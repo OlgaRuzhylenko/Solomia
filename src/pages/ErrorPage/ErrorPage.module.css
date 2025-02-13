@@ -1,0 +1,15 @@
+.errorPageSection {
+    margin-top: 70px;
+}
+
+@media only screen and (min-width: 768px) {
+    .errorPageSection {
+        margin-top: 170px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .errorPageSection {
+        margin-top: 210px;
+    }
+}

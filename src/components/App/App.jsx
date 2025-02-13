@@ -316,6 +316,7 @@ const DomashniiChaiBerhamotovyi30PB = lazy(() =>
     "../../pages/DomashniyPages/DomashniiChaiBerhamotovyi30PB/DomashniiChaiBerhamotovyi30PB"
   )
 );
+const ErrorPage = lazy(() => import("../../pages/ErrorPage/ErrorPage"));
 
 export default function App() {
   return (
@@ -591,6 +592,7 @@ export default function App() {
             path="/domashnii-chai-berhamotovyi-30-g-20-paketykiv"
             element={<DomashniiChaiBerhamotovyi30PB />}
           />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
       </Suspense>
     </Layout>
