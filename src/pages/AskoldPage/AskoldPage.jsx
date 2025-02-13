@@ -8,6 +8,7 @@ import askoldEmotionImg5 from "../../images/askold/askoldEmotion/5.jpg";
 import askoldEmotionImg6 from "../../images/askold/askoldEmotion/6.jpg";
 import askoldEmotionImg7 from "../../images/askold/askoldEmotion/7.jpg";
 import askoldEmotionImg8 from "../../images/askold/askoldEmotion/8.jpg";
+import askoldEmotionImg9 from "../../images/askold/askoldEmotion/9.jpg";
 import askoldLogo from "../../images/askold/askoldEmotion/logo_askold.png";
 import css from "./AskoldPage.module.css";
 import Footer from "../../components/Footer/Footer";
@@ -42,6 +43,22 @@ export default function AskoldPage() {
           <ul className={css.askoldList}>
             <li className={css.askoldItem}>
               <div className={css.askoldOverlayWrap}>
+                <NavLink to="/askold-emotion-black-tea-collection">
+                  <img
+                    src={askoldEmotionImg9}
+                    alt="пачка чаю Askold Emotion Black tea collection 20 конвертів"
+                    className={css.askoldImg}
+                  />
+                  <div className={css.overlay}>
+                    <p>
+                      Askold Emotion Black Tea Collection 40 г, 20 конвертів
+                    </p>
+                  </div>
+                </NavLink>
+              </div>
+            </li>
+            <li className={css.askoldItem}>
+              <div className={css.askoldOverlayWrap}>
                 <NavLink to="/askold-emotion-sweet-berry">
                   <img
                     src={askoldEmotionImg1}
@@ -49,7 +66,7 @@ export default function AskoldPage() {
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
-                    <p> Askold Emotion Sweet Berry 36г, 20 конвертів </p>
+                    <p> Askold Emotion Sweet Berry 36 г, 20 конвертів </p>
                   </div>
                 </NavLink>
               </div>
@@ -63,7 +80,7 @@ export default function AskoldPage() {
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
-                    <p> Askold Emotion Lovely Melissa 30г, 20 конвертів </p>
+                    <p> Askold Emotion Lovely Melissa 30 г, 20 конвертів </p>
                   </div>
                 </NavLink>
               </div>
@@ -77,7 +94,7 @@ export default function AskoldPage() {
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
-                    <p> Askold Emotion Lippy Fruit 40г, 20 конвертів </p>
+                    <p> Askold Emotion Lippy Fruit 40 г, 20 конвертів </p>
                   </div>
                 </NavLink>
               </div>
@@ -91,7 +108,7 @@ export default function AskoldPage() {
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
-                    <p> Askold Emotion Champagne Spills 40г, 20 конвертів </p>
+                    <p> Askold Emotion Champagne Spills 40 г, 20 конвертів </p>
                   </div>
                 </NavLink>
               </div>
@@ -105,7 +122,7 @@ export default function AskoldPage() {
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
-                    <p> Askold Emotion Earl Gray 40г, 20 конвертів </p>
+                    <p> Askold Emotion Earl Gray 40 г, 20 конвертів </p>
                   </div>
                 </NavLink>
               </div>
@@ -119,7 +136,7 @@ export default function AskoldPage() {
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
-                    <p> Askold Emotion Bright Night 40г, 20 конвертів </p>
+                    <p> Askold Emotion Bright Night 40 г, 20 конвертів </p>
                   </div>
                 </NavLink>
               </div>
@@ -133,7 +150,7 @@ export default function AskoldPage() {
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
-                    <p> Askold Emotion Hot Ginger 40г, 20 конвертів </p>
+                    <p> Askold Emotion Hot Ginger 40 г, 20 конвертів </p>
                   </div>
                 </NavLink>
               </div>
@@ -147,7 +164,7 @@ export default function AskoldPage() {
                     className={css.askoldImg}
                   />
                   <div className={css.overlay}>
-                    <p> Askold Emotion Black Tea 40г, 20 конвертів </p>
+                    <p> Askold Emotion Black Tea 40 г, 20 конвертів </p>
                   </div>
                 </NavLink>
               </div>
