@@ -1,8 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { lazy, Suspense } from "react";
 import ScrollToTop from "../../ScrollToTop";
-import AskoldEmotionBlackCollection from "../../pages/News/AskoldEmotionBlackCollection/AskoldEmotionBlackCollection";
-import BlackTeaCollection from "../../pages/AskoldPage/BlackTeaCollection/BlackTeaCollection";
 
 const AboutUs = lazy(() => import("../../pages/AboutUs/AboutUs"));
 const Brands = lazy(() => import("../../pages/Brands/Brands"));
@@ -178,6 +176,12 @@ const GoldErlHrei = lazy(() =>
 );
 const SweetBerry = lazy(() =>
   import("../../pages/AskoldPage/SweetBerry/SweetBerry")
+);
+const BlackTeaCollection = lazy(() =>
+  import("../../pages/AskoldPage/BlackTeaCollection/BlackTeaCollection")
+);
+const AskoldEmotionBlackCollection = lazy(() =>
+  import("../../pages/AskoldPage/BlackTeaCollection/BlackTeaCollection")
 );
 const LovelyMelissa = lazy(() =>
   import("../../pages/AskoldPage/LovelyMelissa/LovelyMelissa")
