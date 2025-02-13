@@ -7,7 +7,8 @@ import { BsFacebook } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import Header from "../../components/Header/Header";
 import { Formik, Form, Field } from "formik";
-
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import css from "./Contacts.module.css";
 
 export default function Contacts() {
@@ -36,13 +37,17 @@ export default function Contacts() {
 
     emailjs.send(serviceID, templateID, templateParams, userID).then(
       (response) => {
-        console.log("Email sent successfully!", response.status, response.text);
-        alert("Ваше повідомлення успішно надіслано!");
+        toast.success("Ваше повідомлення успішно надіслано!", {
+          position: "top-right",
+          autoClose: 3000,
+        });
         actions.resetForm();
       },
       (error) => {
-        console.error("Error sending email:", error);
-        alert("Сталася помилка при надсиланні повідомлення. Спробуйте ще раз.");
+        toast.error("Помилка при надсиланні повідомлення!", {
+          position: "top-right",
+          autoClose: 3000,
+        });
       }
     );
     actions.resetForm();
@@ -66,6 +71,7 @@ export default function Contacts() {
 
   return (
     <div>
+      <ToastContainer />
       <div>{<Header />}</div>
       <section className={css.contactsSection}>
         <h1 className={css.contactsMainTitle}>Контакти компанії 'Соломія'</h1>
